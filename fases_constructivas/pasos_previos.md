@@ -184,8 +184,7 @@ Antes de pasar a la cimentación, verificar que se han completado correctamente 
 - [ ] Cada esquina ha sido comprobada con el método 3-4-5.
 - [ ] Las dos diagonales son iguales.
 - [ ] La posición de las puertas está marcada con estacas.
-se ha hecho un cambio 
-<!-- TODO: ampliar la lista con cosas nuevas que puedan faltar -->
+
 ---
 
 ## Notas para el equipo investigador
