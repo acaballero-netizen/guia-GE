@@ -59,14 +59,14 @@ Se necesitará además:
 - Pala de punta para cavar alrededor del tocón y extraer las raíces profundas.
 - Palanca para ayudar con las raíces resistentes o piedras grandes.
 
-> ⚠️ **Importante:** No se puede construir sobre un tocón enterrado. La madera podrida crea huecos que pueden ceder con el peso de la casa.
+> ⚠️ **Importante:** No se puede construir sobre un tocón enterrado. La madera podrida crea huecos que pueden ceder con el peso de la construcción.
 
 ---
 
 ## Paso 2 · Nivelación del terreno
 
 ### ¿Para qué sirve?
-Para asegurarse de que la base de la casa quede en un plano horizontal. En Guinea Ecuatorial, los terrenos suelen tener pendientes, irregularidades y zonas blandas. Un suelo bien nivelado garantiza que la estructura se asiente de forma uniforme.
+Para asegurarse de que la base de la casa quede en un plano horizontal. Los terrenos suelen tener pendientes, irregularidades y zonas blandas. Un suelo bien nivelado garantiza que la estructura se asiente de forma uniforme.
 
 ### El nivel de manguera: método accesible y preciso
 
@@ -185,6 +185,7 @@ Antes de pasar a la cimentación, verificar que se han completado correctamente 
 - [ ] Las dos diagonales son iguales.
 - [ ] La posición de las puertas está marcada con estacas.
 
+<!-- TODO: ampliar la lista con cosas nuevas que puedan faltar -->
 ---
 
 ## Notas para el equipo investigador
@@ -193,6 +194,7 @@ Antes de pasar a la cimentación, verificar que se han completado correctamente 
 - La disponibilidad local de manguera transparente y cordel no elástico debe verificarse en campo. En caso de escasez, conviene identificar sustitutos locales fiables o incluir estos materiales en los kits de herramientas del proyecto.
 - El pisón manual fabricado localmente es una buena práctica a documentar con fotografías y medidas para incorporar a la guía.
 - Todas las recomendaciones estructurales de esta sección deben ser validadas por el equipo técnico antes de su incorporación a la versión definitiva de la guía.
+- Añadir una tabla para hacer una comprobacion de los suelos sencillas, con la prueba de la mano o de los vasos.
 
 ---
 
