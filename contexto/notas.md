@@ -1,0 +1,1 @@
+hay que añadir un documento en el que se especifique el tono de la guia asi como una explicacion mas basica de como tiene que ser los textos asi como el publico objetivo
