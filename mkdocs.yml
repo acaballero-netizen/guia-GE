@@ -1,0 +1,7 @@
+site_name: Guía autoconstrucción Guinea Ecuatorial
+theme:
+  name: material
+  palette:
+    primary: white
+  features:
+    - navigation.tabs
