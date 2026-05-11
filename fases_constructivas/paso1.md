@@ -1,7 +1,7 @@
 # CIMENTACIÓN
 ### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN · IP: Begoña Serrano Lanzarote*
--<!-- TODO: mejorar la estructura del encabezado, creo que tiene que haber links al resto de paginas -->
+-<!-- TODO: mejorar la estructura del encabezado, creo que tiene que haber links al resto de paginas, y no es necesario que se incluya lo de IP Begoña... -->
 ---
 
 > **¿Por qué es tan importante la cimentación?**
@@ -22,7 +22,7 @@ Estos dos elementos trabajan juntos y son la transición entre el terreno y la e
 
 # PARTE 1: ZAPATA CORRIDA
 
-## Materiales necesarios
+## Materiales necesarios <!-- TODO: siempre que se añadan materiales hay que tener en cuenta que el contexto puede que no haya ningun tipo de recursos, por lo tanto hay que adaptarlos a las posibilidades  -->
 
 ### Para la excavación y nivelación
 - Pico y pala de punta
@@ -74,12 +74,13 @@ Antes de excavar, hay que saber sobre qué tipo de suelo se está construyendo. 
 Una vez completado el replanteo (con los cordeles marcando la cara exterior del futuro muro), se procede a excavar la zanja de cimentación.
 
 **Dimensiones de la zanja:**
-- **Anchura total:** 40 cm (27,5 cm hacia el interior de la vivienda + 12,5 cm hacia el exterior, medidos desde el cordel de replanteo que marca la cara exterior del muro)
+- **Anchura total:** 40 cm (27,5 cm hacia el interior de la vivienda + 12,5 cm hacia el exterior, medidos desde el cordel de replanteo que marca la cara exterior del muro) <!-- DEL: mejor no incluir medidas tan precisas, se puede dar unas orientaciones en funcion de unas tablas, si hay medidas mejor incluir unos dibujos acompañando a la explicacion -->
 - **Profundidad mínima:** 60 cm en suelo firme (añadir 10 cm extra si se usa hormigón de limpieza)
 
 **Cómo excavar:**
 1. Usa el pico para romper el terreno y la pala de punta para sacar la tierra.
-2. Guíate por los cordeles del replanteo: recuerda que el cordel marca el **borde exterior** del muro, no el centro de la zanja.
+2. Guíate por los cordeles del replanteo: recuerda que el cordel marca el **borde exterior** del muro, no el centro de la zanja. --
+
 3. Mantén las paredes de la zanja verticales y el fondo lo más plano posible.
 4. Retira toda la tierra extraída alejándola del borde para que no caiga de nuevo.
 5. Guarda la grava o piedra que aparezca: puede reutilizarse en el hormigón si está limpia.
@@ -131,6 +132,8 @@ La armadura de hierro es la que da resistencia a tracción al hormigón. Sin ell
 
 ### PASO 5 — Colocación de las esperas verticales
 
+<!-- TODO: este es un paso compliado asi que mejor explicarlo tambien en el replanteo pues todo el trabajo se tiene que hacer en este para que el muro y estas armaduras esten en el sitio correcto -->
+
 Las esperas son las varillas de hierro que sobresalen verticalmente de la zapata y que, más adelante, conectarán con el zócalo (y con los pilares de madera a través del durmiente).
 
 **Posición de las esperas:**
@@ -161,7 +164,7 @@ Esta es una dosificación estándar resistente (aproximadamente HM-20). En condi
 4. La consistencia correcta: al coger un puñado y apretarlo, debe mantener la forma pero no debe chorrear agua. Si chorrea agua, tiene demasiada: debilita el hormigón.
 
 > ⚠️ **En clima ecuatorial:** Amasa solo la cantidad que puedas verter en 30–45 minutos. El calor y la humedad aceleran el fraguado.
-
+<!-- TODO: algo que queriamos pensar es como se puede abaratar la construccion del hormigon, ya que este tiende a ser de muy mala calidad asi como ser muy caro, se puede añadir piedras para hacerlo ciclopeo o hacer la dosifiacion con mas tierrra para que sea mas barato hacer la composicion general -->
 ---
 
 ### PASO 7 — Vertido del hormigón
@@ -183,7 +186,7 @@ Esta es una dosificación estándar resistente (aproximadamente HM-20). En condi
 ---
 
 ## Resumen visual de la zapata
-
+<!-- DEL: este dibujo sobra totalmente, no se debe hacer esto, lse deben de incluir dibujos para que cada paso este bien explicado asi que igual hay que hacer. -->
 ```
      CARA EXTERIOR          CARA INTERIOR
          |← 12,5 cm →|← 27,5 cm →|

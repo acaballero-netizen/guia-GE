@@ -1,0 +1,5 @@
+* [Inicio](README.md)
+* [Paso 0: Pasos previos](paso0.md)
+* [Paso 1: Cimentación](paso1.md)
+* [Paso 2: Estructura](paso2.md)
+* [Paso 3: Cubierta](paso3.md)
