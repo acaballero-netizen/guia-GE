@@ -1,7 +1,6 @@
-# 01. Pasos previos: Limpieza, nivelación y replanteo
-
-> **Proyecto:** Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial  
-> **Cátedra MADERAMEN · UPV · ADSIDEO Cooperación 2024**  
+# Pasos previos
+### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
+*UPV · Cátedra MADERAMEN*
 
 ---
 

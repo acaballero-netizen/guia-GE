@@ -37,18 +37,18 @@ Estos dos elementos trabajan juntos y son la transición entre el terreno y la e
 - Martillo
 
 ### Para el hormigón
-- Cemento Portland
+- Cemento 
 - Arena limpia, sin barro ni sales
 - Grava o piedra machacada *(puede reutilizarse la extraída de la propia excavación si está limpia y libre de barro)*
 - Agua dulce y limpia — nunca agua salada ni de río con barro visible
 - *Alternativa si no hay grava:* piedras de mano de tamaño puño para hormigón ciclópeo (ver Paso 6)
 
 ### Para las armaduras
-- Barras de acero corrugado de diámetro 10 mm o 12 mm
+- Barras de acero corrugado de diámetro 10 mm o 12 mm <!-- TODO: que pasa cuando el acero corrugado que hay no es el que se especifica aqui, es posible que sean diamentros inferior, afecta esto a la zapata, como se puede economizar en acero -->
 - Alambre de amarrar fino, de 1 a 1,5 mm de diámetro
 - Cizalla o sierra para metales
 - Tubo metálico hueco, para doblar las varillas en forma de "L" haciendo palanca
-
+<!-- NEW: habria que hacer diferentes niveles dl uso de armado, pueden dejarse solo las armaduras longitudinales sin las de atado transversal o esto puede ser un problema si no se incluyen, que criterios seguir si se quiere economizar en acero -->
 ---
 
 ## Paso a paso
@@ -81,7 +81,7 @@ Las dimensiones de la zanja dependen del tipo de suelo y de las cargas de la viv
 
 <!-- TODO: incluir una tabla de orientación de dimensiones de zanja en función del tipo de suelo y las cargas del prototipo de la UNGE, sustituyendo las medidas precisas actuales por rangos orientativos con dibujo de sección -->
 
-<!-- PROMPT: Esta imagen tiene que representar la sección transversal de la zanja de cimentación excavada en el terreno. Se ve el cordel de replanteo en la parte superior marcando la cara exterior del muro, la anchura total de la zanja y la profundidad. Las paredes son verticales y el fondo es plano. La referencia del cordel y las cotas de anchura y profundidad están remarcadas en rojo. Dibujo técnico a mano alzada, escala de grises. -->
+<!-- PROMPT: Esta imagen tiene que representar la sección transversal de la zanja de cimentación excavada en el terreno. Se ve el cordel de replanteo en la parte superior marcando la cara exterior del muro (en la misma direccion que la zapata, pero no estrá en el centro de al zanja ya que este cordel representa la parte exterior del muro), la anchura total de la zanja y la profundidad. Las paredes son verticales y el fondo es plano. Dibujo técnico a mano alzada, escala de grises. -->
 
 **Cómo excavar:**
 1. Se usa el pico para romper el terreno y la pala de punta para sacar la tierra.
@@ -90,7 +90,7 @@ Las dimensiones de la zanja dependen del tipo de suelo y de las cargas de la viv
 4. La tierra extraída se retira alejándola del borde para que no caiga de nuevo a la zanja.
 5. La grava o piedra que aparezca durante la excavación se guarda aparte: puede reutilizarse en el hormigón si está limpia.
 
-> ✅ **A tener en cuenta:** La zanja se excava el mismo día que se va a hormigonar, o se cubre con plástico si hay que esperar. En Guinea Ecuatorial, una lluvia nocturna puede inundar o desmoronar una zanja abierta.
+> ✅ **A tener en cuenta:** La zanja se excava el mismo día que se va a hormigonar, o se cubre con plástico si hay que esperar. En Guinea Ecuatorial, una lluvia nocturna puede inundar o desmoronar una zanja abierta. <!-- TODO: es muy probable que la zanja se quede abierta durante mucho tiempo ya que los procesos de construccion pueden pararse repentinamente, que hacer en estos casos cuales pueden ser buenas practicas -->
 
 ---
 
@@ -98,7 +98,7 @@ Las dimensiones de la zanja dependen del tipo de suelo y de las cargas de la viv
 
 El fondo de la zanja necesita una capa de protección antes de colocar las armaduras. Esta capa aísla el hierro de la humedad del suelo.
 
-**Antes de colocar cualquier material:**
+**Antes de colocar cualquier material:** <!-- TODO: homogeneizar los titulos de los apartados -->
 - Se elimina toda el agua estancada en el fondo sacándola con un cubo.
 - Se retira el barro suelto del fondo con la pala.
 - Si se usan piedras locales, se lavan antes de usarlas: el barro impide que el cemento se adhiera a la piedra y debilita el conjunto.
@@ -113,10 +113,14 @@ Se vierte una capa de unos 10 cm de hormigón pobre —1 parte de cemento, 3 de 
 
 Si el hormigón de limpieza no está disponible, se extiende una lámina de plástico grueso en el fondo de la excavación, solapando los bordes un mínimo de 20 cm. Es menos eficaz pero mucho mejor que no poner nada.
 
+<!-- NEW: tambien habria que hacer una imagen del este paso **Opción B (alternativa): Lámina plástica**, que probablemente seria poner bolsas de plastico directamente contra el terreno -->
+
+<!-- TODO: que pasa cuando no se hace ninguna de estas opciones, se puede poner la zapata directamente contra el terreno, que consideraciones hay que tener en cuenta -->
+
 ---
 
 ### Paso 4 — Colocación de la parrilla inferior (armadura horizontal)
-
+<!-- TODO: entrar mas en detalle sobre las caracteristicas de este armado, hacer la parrilal entera es muy complejo, ademas de hacer las Varillas en L es algo que esta fuera de los criterios locales, como se puede hacer para que esté más de acuerdo con el entorno -->
 La armadura de hierro es la que da resistencia a tracción al hormigón. Sin ella, la zapata puede agrietarse.
 
 **Corte de las barras:**
@@ -137,6 +141,7 @@ Se introduce el extremo de la barra dentro del tubo metálico hueco y se usa el 
 
 <!-- PROMPT: Esta imagen tiene que representar la vista en sección y en perspectiva de las dos barras horizontales de armadura colocadas sobre los calzos en el fondo de la zanja. Se distinguen los calzos de bloque que las elevan del fondo, la separación entre las dos barras paralelas y el alambre de atado en las intersecciones. Los calzos y la separación entre barras están remarcados en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
+<!-- TODO: puesto los recursos son limitados se deberia de hacer un orden de casos desde los que tengan mas recursos y materiales, donde se hacen todas las cuestiones profesionales hasta las formas mas simples yendo a los minimos de la armadura por ejemplo, que puede ser solo con las longitudinales sin las armaduras trasversales, no? -->
 ---
 
 ### Paso 5 — Colocación de las esperas verticales
@@ -190,7 +195,7 @@ Cuando la disponibilidad de áridos es limitada o el coste es un factor crítico
 
 ### Paso 7 — Vertido del hormigón
 
-1. Se hormigona toda la zapata el mismo día. Las juntas de hormigonado son puntos débiles: si se para a mitad y se continúa al día siguiente, se crea una junta fría que puede fallar.
+1. Se hormigona toda la zapata el mismo día. Las juntas de hormigonado son puntos débiles: si se para a mitad y se continúa al día siguiente, se crea una junta fría que puede fallar. <!-- TODO: lo mas probable es que no se pueda hormigonar todo en el mismo dia, como hay que proceder en este caso -->
 2. Se comienza por una esquina y se avanza de forma continua y constante.
 3. El hormigón no se deja caer desde más de 1 metro de altura: el impacto puede mover las armaduras o segregar los áridos.
 4. **Compactación sin vibrador mecánico:** se usa un palo robusto o una barra de hierro para introducirla repetidamente en el hormigón fresco con fuerza, según se vierte. El objetivo es eliminar las burbujas de aire y que el hormigón rodee completamente todas las varillas.
@@ -271,7 +276,9 @@ Los bloques estándar de hormigón tienen dos o tres huecos interiores. En los p
 ---
 
 ### Paso 4 — El zuncho (viga de atado superior del zócalo)
-
+ <!-- NEW: añadir otra opcion que es la que estamos planteando en el prototipo que es un zuncho horizontal de madera que recorre todo el perimetro. Aesta pieza de madera se le hace una serie de agujeros por los que se introduce una especie de varilla, que se quedan por debajo dentro del heuco del bloque de hormigon, en el interior del bloque se pondra hormigon, asi el zuncho de madera se queda afianzado con el zocalo de hormigon.
+    el proceso puede ser primero poner los agujeros en la madera, comprobar donde caen los anclajes y rellenar de hormigon esos huecos, una vez llenos colocar el zuncho encima.
+    esta puede ser otra version en la que no se hace el zuncho de hormigon y se va directamente al durmiente. -->
 El zuncho es una viga de hormigón armado que remata la parte superior del zócalo y une todo el perímetro en una sola pieza continua. Sin zuncho, los muros pueden separarse con los movimientos del terreno o con el peso de la cubierta.
 
 **Construcción del encofrado:**
@@ -298,7 +305,7 @@ El durmiente es la pieza de madera que conecta el zócalo con la estructura de m
 
 **Preparación del durmiente:**
 
-Se usa madera de alta resistencia a la humedad y a los insectos: preferiblemente maderas locales densas como azobé, bilinga u otras maderas duras disponibles en la zona. Antes de colocarlo, se aplica tratamiento preventivo contra termitas e insectos en toda su superficie —especialmente en la cara inferior que contacta con el hormigón— con alguno de los productos siguientes:
+Se usa madera de alta resistencia a la humedad y a los insectos: preferiblemente maderas locales densas como <!-- TODO: confirmar estas maderas --> azobé, bilinga u otras maderas duras disponibles en la zona. Antes de colocarlo, se aplica tratamiento preventivo contra termitas e insectos en toda su superficie —especialmente en la cara inferior que contacta con el hormigón— con alguno de los productos siguientes:
 
 - Alquitrán mineral o brea, si está disponible.
 - Aceite de motor usado, económico y eficaz como preventivo.
@@ -318,6 +325,7 @@ Se marcan en el durmiente los puntos donde deben abrirse los huecos que coincidi
 
 > ⚠️ Las esperas que suben desde la zapata no deben sobresalir por encima del zócalo más de lo necesario para anclar el durmiente. Una espera demasiado larga interfiere con la colocación del durmiente y de los pilares.
 
+<!-- TODO: definir como se ancla estas armaduras que suben con el durmiente, ahora mismo no hay como -->
 ---
 
 ## Recomendaciones específicas para el contexto de Guinea Ecuatorial
@@ -379,6 +387,4 @@ Una vez terminado el zócalo y con el zuncho perfectamente nivelado, se procede 
 
 ---
 
-*Guía elaborada para el proyecto ADSIDEO Cooperación 2024 — "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial"*
-*UPV · Cátedra MADERAMEN*
-*Versión de trabajo — pendiente de validación técnica y revisión de campo*
+*Borrador — Proyecto ADSIDEO Cooperación 2024 · v.2*
