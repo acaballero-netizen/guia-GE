@@ -1,4 +1,8 @@
-# Cerramiento · Paramentos verticales de madera
+# Cerramiento
+### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
+*UPV · Cátedra MADERAMEN*
+
+[← 02. Cimentación](paso1_cimentacion.md) | [04. Cubierta →](paso3_cubierta.md)
 
 El cerramiento es el conjunto de paredes que cierra la vivienda. En este sistema constructivo, las paredes no son de bloque de hormigón: están formadas por una estructura de pilares de madera que soportan el peso de la cubierta, y por tablas horizontales de madera que cierran el espacio entre ellos. Cada elemento cumple una función distinta: los pilares trabajan en vertical aguantando cargas, las tablas trabajan en horizontal cerrando y arriostran lateralmente la estructura.
 

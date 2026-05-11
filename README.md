@@ -33,7 +33,7 @@ Esto tiene una consecuencia directa en todo el contenido: **la claridad siempre 
     criterio_grafico.md     → cómo se ilustra: paleta, estilo, prompt base
 
 /docs
-    paso0.md                → Pasos previos: limpieza, nivelación y replanteo
+    paso0_pasos_previos.md  → Pasos previos: limpieza, nivelación y replanteo
     paso1.md                → Cimentación: zapata corrida y zócalo
     paso2.md                → Cerramiento: paramentos verticales de madera
     [resto de secciones en desarrollo]

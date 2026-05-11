@@ -1,8 +1,9 @@
-# Cimentación
+# 02. Cimentación
 ### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
-<!-- TODO: añadir navegación entre páginas de la guía (links a paso0 y paso2) -->
+[← 01. Pasos previos](paso0_pasos_previos.md) | [03. Cerramiento de madera →](paso2_cerramiento.md)
+
 
 ---
 
@@ -170,7 +171,7 @@ Cada espera se coloca de forma que quede centrada dentro del hueco interior del 
 
 **Dosificación recomendada para la zapata:**
 
-> 1 parte de cemento : 2 partes de arena : 3 partes de grava + agua
+> 1 parte de cemento : 2 partes de arena : 3 partes de grava + agua  <!-- TODO: añadir unas escalas mucho mas del terreno, por ejemplo cubos, mejorar la explicacion de la dosificacion -->
 
 Esta dosificación estándar (aproximadamente HM-20) es adecuada para condiciones tropicales con alta humedad. No se debe reducir la cantidad de cemento.
 
@@ -382,8 +383,8 @@ La familia debe conocer cómo inspeccionar visualmente el zócalo con regularida
 ## Siguiente paso: estructura de madera
 
 Una vez terminado el zócalo y con el zuncho perfectamente nivelado, se procede a la colocación de los durmientes y pilares de madera, que son los primeros elementos de la estructura vertical de la vivienda.
-
-<!-- TODO: añadir link a la sección de cerramiento / paramentos verticales -->
+<!-- TODO: incluir un checklist de como tiene que ser la comprobacion de todos los pasos hechos asi como de los posibles errores -->
+[← 01. Pasos previos](paso0_pasos_previos.md) | [03. Cerramiento de madera →](paso2_cerramiento.md)
 
 ---
 
