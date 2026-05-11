@@ -2,7 +2,6 @@
 
 > **Proyecto:** Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial  
 > **Cátedra MADERAMEN · UPV · ADSIDEO Cooperación 2024**  
-> **IP:** Begoña Serrano Lanzarote
 
 ---
 
