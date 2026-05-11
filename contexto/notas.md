@@ -1,9 +1,0 @@
-la idea de esta guia es que sea un documento que pueda servir como una especie de manual o catalogo de como hacer una construccion en guiena ecuatorial, siguiendo la referencia de los manuales de Ikea o algo asi que de una manera muy visual y simple son cvapaces de explciar como hacer un mueble o cualquier tipo de elemntos, osea que las imagenes ahn de ser las reales protagonistas aunque es inevitable que haya unos textos adicionales sobre los que apoyarse si se quiere saber mas inofrmaicon.
-en la carpeta de contexto hay una serie de documentos apra que sirva como referencias de como se ah de actur en los diferrentes casos.
-    documento_diagnostico, es el documento de resumen, de una puvlicacion que se ha hecho como diagnostico de la investigacion de las difrentes tecnicas constructivas que se han observado en guinea ecuatorial, por lo tanto es una revision que se ha hecho del contexto
-    memoria_ADSIDEO, es el resumen de la memoria del proyecto de investigacion para que tengas el contexto de cual es el objetivo de este proyecto.
-    tono_estilo,e s donde se ha definido comot iene que ser estas respuestas, asi como los textos el estilo que se quiere obtener, cual es el publico objetivo y como tendrian que ser la documentacion que se vaya generando de aqui en adelante, asi como la estructura de los mismo.
-    outline, es el guion que se ha de seguir para la generación de contenido, asi como los pasos que ha de seguir la guia para saber tambien la cantidad de imagenes que hace falta hacer.
-    criterio_grafico, el ultimo documento que tiene es donde se define el estilo de las imagenes que hay que hacer, se ha de mantener este estilo siempre que se vaya a genera u promp para una imagen.
-Lo que falta por hacer es este documento que sea para centralizar todo la informacion y una guia de como tiene que actuar la IA en funcion de la solicitud que se le ha hehco en cada momento.
-    
