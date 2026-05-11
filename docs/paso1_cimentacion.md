@@ -1,7 +1,9 @@
-# CIMENTACIÓN
+# Cimentación
 ### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
-*UPV · Cátedra MADERAMEN · IP: Begoña Serrano Lanzarote*
--<!-- TODO: mejorar la estructura del encabezado, creo que tiene que haber links al resto de paginas, y no es necesario que se incluya lo de IP Begoña... -->
+*UPV · Cátedra MADERAMEN*
+
+<!-- TODO: añadir navegación entre páginas de la guía (links a paso0 y paso2) -->
+
 ---
 
 > **¿Por qué es tan importante la cimentación?**
@@ -9,384 +11,371 @@
 
 ---
 
-## ESTRUCTURA GENERAL DE LA CIMENTACIÓN
+## Estructura general
 
-Esta guía cubre dos elementos consecutivos:
+Esta sección cubre dos elementos consecutivos:
 
-1. **ZAPATA CORRIDA** — La base enterrada de hormigón armado que reparte el peso sobre el terreno. <!-- NEW: añadir algun tipo de tabulación en función del terreno para tener una idea de como tiene que ser minimamente esta zapata -->
-2. **ZÓCALO** — El muro de bloques de hormigón sobre la zapata, que eleva la estructura de madera por encima del nivel del suelo.
+1. **Zapata corrida** — la base enterrada de hormigón armado que reparte el peso sobre el terreno.
+2. **Zócalo** — el muro de bloques de hormigón construido sobre la zapata, que eleva la estructura de madera por encima del nivel del suelo.
 
 Estos dos elementos trabajan juntos y son la transición entre el terreno y la estructura de madera de la vivienda.
 
 ---
 
-# PARTE 1: ZAPATA CORRIDA
+# Parte 1: Zapata corrida
 
-## Materiales necesarios <!-- TODO: siempre que se añadan materiales hay que tener en cuenta que el contexto puede que no haya ningun tipo de recursos, por lo tanto hay que adaptarlos a las posibilidades  -->
+## Materiales
 
 ### Para la excavación y nivelación
 - Pico y pala de punta
 - Cinta métrica
-- Mazo de madera o pisón manual
+- Mazo de madera o pisón manual *(puede fabricarse con un tronco pesado y dos palos como mangos)*
 
 ### Para las esperas y guías
-- Listón de madera
+- Listón de madera o bambú
 - Clavos
 - Martillo
 
 ### Para el hormigón
 - Cemento Portland
-- Arena limpia (sin barro ni sales)
-- Grava o piedra machacada (se puede reutilizar la extraída de la propia excavación si está limpia)
-- Agua dulce (nunca agua salada ni de río con barro)
-- *Alternativa si no hay grava:* piedras de mano para encachado
+- Arena limpia, sin barro ni sales
+- Grava o piedra machacada *(puede reutilizarse la extraída de la propia excavación si está limpia y libre de barro)*
+- Agua dulce y limpia — nunca agua salada ni de río con barro visible
+- *Alternativa si no hay grava:* piedras de mano de tamaño puño para hormigón ciclópeo (ver Paso 6)
 
-### Para las armaduras (hierro)
-- Barras de acero corrugado: **diámetro 10 mm o 12 mm**
-- Alambre de amarrar (fino, de unos 1–1,5 mm)
+### Para las armaduras
+- Barras de acero corrugado de diámetro 10 mm o 12 mm
+- Alambre de amarrar fino, de 1 a 1,5 mm de diámetro
 - Cizalla o sierra para metales
-- Tubo metálico hueco: para hacer palanca y doblar las varillas en "L" con facilidad
+- Tubo metálico hueco, para doblar las varillas en forma de "L" haciendo palanca
 
 ---
 
 ## Paso a paso
 
-### PASO 1 — Reconocimiento del terreno
+### Paso 1 — Reconocimiento del terreno
 
-Antes de excavar, hay que saber sobre qué tipo de suelo se está construyendo. No todos los terrenos son iguales.
+El reconocimiento del terreno es el punto de partida de esta fase. Este paso debe haberse iniciado ya durante el replanteo (ver sección de pasos previos), donde se describen también las pruebas manuales de campo para identificar el tipo de suelo.
 
-**Cómo reconocer el terreno:**
+Los tipos de suelo más frecuentes en la región del litoral y la zona fang, y las profundidades mínimas de excavación que requieren, son los siguientes:
 
-| Tipo de suelo | Cómo se reconoce | Qué hacer |
+| Tipo de suelo | Cómo se reconoce | Profundidad mínima |
 |---|---|---|
-| Roca o grava compacta | Duro, no se deforma al pisar | Excelente. Profundidad mínima de 40 cm |
-| Arena o tierra firme | Compacto, no cede al pisarlo | Bueno. Profundidad estándar de 60 cm |
-| Arcilla o tierra blanda | Se deforma al pisarlo, se agrieta al secarse | Requiere más profundidad: 80–100 cm |
-| Tierra negra u orgánica | Color oscuro, olor a tierra húmeda | **Retirar completamente. No construir sobre ella.** |
-| Terreno muy húmedo o con agua | Aparece agua al cavar | Consultar con técnico antes de continuar |
+| Roca o grava compacta | Duro, no se deforma al pisar | 40 cm |
+| Arena o tierra firme | Compacto, no cede al pisarlo | 60 cm |
+| Arcilla o tierra blanda | Se deforma al pisarlo; se agrieta al secarse | 80–100 cm |
+| Tierra negra u orgánica | Color oscuro, olor a tierra húmeda | **No construir. Retirar completamente.** |
+| Terreno muy húmedo o con agua | Aparece agua al cavar | Consultar con el equipo técnico antes de continuar |
 
-> ⚠️ **LAGUNA DE INFORMACIÓN A VERIFICAR EN CAMPO:** El repositorio del proyecto aún no contiene un diagnóstico detallado de los tipos de suelo predominantes en las áreas de intervención (litoral / zona fang interior). Se recomienda que el equipo técnico realice al menos una prueba de campo sencilla (cata manual) en cada parcela antes de confirmar profundidades de excavación.
--<!-- TODO: se deberá de añadir una tabla o una explicacion de como determinar si un suelo es valido o no, esto tiene que ser por medio de las comprobaciones manuales que se pueden hacer en el sitio asi como con la tabulacion que existe en algunas normativas, esto probablemente deberia de ir en los pasos previos -->
+<!-- TODO: completar con la tabla de pruebas manuales de campo (prueba del vaso, prueba de la mano) que debe incluirse en los pasos previos y referenciarse aquí -->
+
+> ⚠️ **Nota:** El diagnóstico detallado de los tipos de suelo predominantes en las áreas de intervención (litoral / zona fang interior) está pendiente de trabajo de campo. El equipo técnico debe realizar al menos una cata manual en cada parcela antes de confirmar las profundidades de excavación.
+
 ---
 
-### PASO 2 — Excavación de la zanja
+### Paso 2 — Excavación de la zanja
 
 Una vez completado el replanteo (con los cordeles marcando la cara exterior del futuro muro), se procede a excavar la zanja de cimentación.
 
-**Dimensiones de la zanja:**
-- **Anchura total:** 40 cm (27,5 cm hacia el interior de la vivienda + 12,5 cm hacia el exterior, medidos desde el cordel de replanteo que marca la cara exterior del muro) <!-- DEL: mejor no incluir medidas tan precisas, se puede dar unas orientaciones en funcion de unas tablas, si hay medidas mejor incluir unos dibujos acompañando a la explicacion -->
-- **Profundidad mínima:** 60 cm en suelo firme (añadir 10 cm extra si se usa hormigón de limpieza)
+Las dimensiones de la zanja dependen del tipo de suelo y de las cargas de la vivienda. Como orientación general: la anchura total de la zanja debe ser mayor que la anchura del muro que va a apoyar sobre ella, dejando espacio suficiente para colocar la armadura con el recubrimiento mínimo necesario. El equipo técnico debe validar las dimensiones definitivas para cada caso.
+
+<!-- TODO: incluir una tabla de orientación de dimensiones de zanja en función del tipo de suelo y las cargas del prototipo de la UNGE, sustituyendo las medidas precisas actuales por rangos orientativos con dibujo de sección -->
+
+<!-- PROMPT: Esta imagen tiene que representar la sección transversal de la zanja de cimentación excavada en el terreno. Se ve el cordel de replanteo en la parte superior marcando la cara exterior del muro, la anchura total de la zanja y la profundidad. Las paredes son verticales y el fondo es plano. La referencia del cordel y las cotas de anchura y profundidad están remarcadas en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
 **Cómo excavar:**
-1. Usa el pico para romper el terreno y la pala de punta para sacar la tierra.
-2. Guíate por los cordeles del replanteo: recuerda que el cordel marca el **borde exterior** del muro, no el centro de la zanja. --
+1. Se usa el pico para romper el terreno y la pala de punta para sacar la tierra.
+2. El cordel de replanteo marca el borde exterior del muro, no el centro de la zanja. La excavación se desarrolla hacia el interior de la huella de la vivienda a partir de esa referencia.
+3. Las paredes de la zanja se mantienen verticales y el fondo lo más plano posible.
+4. La tierra extraída se retira alejándola del borde para que no caiga de nuevo a la zanja.
+5. La grava o piedra que aparezca durante la excavación se guarda aparte: puede reutilizarse en el hormigón si está limpia.
 
-3. Mantén las paredes de la zanja verticales y el fondo lo más plano posible.
-4. Retira toda la tierra extraída alejándola del borde para que no caiga de nuevo.
-5. Guarda la grava o piedra que aparezca: puede reutilizarse en el hormigón si está limpia.
-
-> ✅ **A tener en cuenta:** Excava solo el día que vayas a hormigonar, o cubre la zanja con plástico si debes esperar. En Guinea Ecuatorial, una lluvia nocturna puede inundar o desmoronar una zanja abierta.
+> ✅ **A tener en cuenta:** La zanja se excava el mismo día que se va a hormigonar, o se cubre con plástico si hay que esperar. En Guinea Ecuatorial, una lluvia nocturna puede inundar o desmoronar una zanja abierta.
 
 ---
 
-### PASO 3 — Hormigón de limpieza o lámina de protección
+### Paso 3 — Hormigón de limpieza o lámina de protección
 
-El fondo de la zanja necesita protección antes de colocar las armaduras.
+El fondo de la zanja necesita una capa de protección antes de colocar las armaduras. Esta capa aísla el hierro de la humedad del suelo.
+
+**Antes de colocar cualquier material:**
+- Se elimina toda el agua estancada en el fondo sacándola con un cubo.
+- Se retira el barro suelto del fondo con la pala.
+- Si se usan piedras locales, se lavan antes de usarlas: el barro impide que el cemento se adhiera a la piedra y debilita el conjunto.
 
 **Opción A (recomendada): Hormigón de limpieza**
-- Vierte una capa de unos **10 cm de hormigón pobre** (1 parte de cemento : 3 de arena : 6 de grava, con agua suficiente para que quede trabajable pero no líquido).
-- Deja endurecer al menos **12 horas** antes de colocar la armadura encima.
-- Esta capa protege el hierro de la humedad del suelo y crea una base limpia y plana.
+
+Se vierte una capa de unos 10 cm de hormigón pobre —1 parte de cemento, 3 de arena y 6 de grava— con agua suficiente para que quede trabajable pero sin chorrear. Se deja endurecer al menos 12 horas antes de colocar la armadura encima.
+
+<!-- PROMPT: Esta imagen tiene que representar la sección transversal de la zanja con la capa de hormigón de limpieza ya vertida en el fondo. Se distingue claramente el suelo, la capa de hormigón pobre de 10 cm de espesor, y el espacio libre que queda encima para la armadura. El espesor de la capa está remarcado en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
 **Opción B (alternativa): Lámina plástica**
-- Si no es posible el hormigón de limpieza, extiende una lámina de plástico grueso en el fondo de la excavación, solapando los bordes mínimo 20 cm.
-- Es menos efectivo pero mucho mejor que nada.
 
-**¡IMPORTANTE antes de verter cualquier cosa:**
-- Elimina toda el agua estancada en el fondo (si hay agua, sácala con un cubo).
-- Elimina el barro suelto del fondo con la pala.
-- Si usas piedras locales, lávalas si tienen barro: el barro impide que el cemento se adhiera a la piedra y debilita la base.
+Si el hormigón de limpieza no está disponible, se extiende una lámina de plástico grueso en el fondo de la excavación, solapando los bordes un mínimo de 20 cm. Es menos eficaz pero mucho mejor que no poner nada.
 
 ---
 
-### PASO 4 — Colocación de la parrilla inferior (armadura horizontal)
+### Paso 4 — Colocación de la parrilla inferior (armadura horizontal)
 
 La armadura de hierro es la que da resistencia a tracción al hormigón. Sin ella, la zapata puede agrietarse.
 
 **Corte de las barras:**
-1. Corta las barras de acero corrugado (Ø 10 o 12 mm) a la longitud de cada tramo de pared, **restando 5 cm en cada extremo** para que no asomen por fuera del hormigón.
-2. **En las esquinas, NO cortes la barra justo al llegar.** En su lugar, dobla el extremo en forma de "L" con unos **40 cm de doblado** para que "abrace" la barra perpendicular de la pared contigua. Esto crea un nudo resistente en las esquinas.
+
+Las barras de acero corrugado (Ø 10 o 12 mm) se cortan a la longitud de cada tramo de pared, dejando unos 5 cm de retranqueo en cada extremo para que no asomen por fuera del hormigón. En las esquinas, la barra no se corta al llegar al encuentro: se dobla el extremo en forma de "L" con unos 40 cm de doblado para que abrace la barra perpendicular de la pared contigua, creando un nudo resistente.
 
 **Cómo doblar las varillas en L:**
-- Introduce el extremo de la barra en el tubo metálico hueco.
-- Usa el tubo como palanca para doblar la barra con fuerza controlada.
-- El ángulo debe ser lo más próximo a 90° posible.
+
+Se introduce el extremo de la barra dentro del tubo metálico hueco y se usa el tubo como palanca para doblar la barra con fuerza controlada hasta conseguir un ángulo lo más cercano a 90° posible.
+
+<!-- PROMPT: Esta imagen tiene que representar la operación de doblar una varilla de acero corrugado en forma de "L" usando un tubo metálico hueco como palanca. Se ven las manos sujetando el tubo, la varilla atravesándolo y el ángulo de 90° resultante. El tubo y el ángulo formado están remarcados en rojo. Vista en perspectiva, dibujo técnico a mano alzada, escala de grises. -->
 
 **Colocación:**
-1. Coloca las barras sobre pequeños calzos (trozos de bloque o mortero fresco) que las eleven **mínimo 5 cm** sobre la base de limpieza.
-   > ⚠️ **NUNCA uses madera como calzo:** con el tiempo, la madera se pudre, deja huecos, y el agua penetra corroyendo las armaduras.
-2. Coloca **dos barras paralelas** a lo largo de toda la zanja, separadas entre sí **15–20 cm**.
-3. **Ata las barras** en los cruces de esquinas y cada ciertos metros a lo largo de la excavación usando alambre delgado. El objetivo es que no se muevan cuando se vierta el hormigón.
+
+1. Las barras se colocan sobre pequeños calzos —trozos de bloque o mortero fresco— que las eleven un mínimo de 5 cm sobre la base de limpieza. La madera no es apta como calzo: con el tiempo se pudre, deja huecos y el agua penetra corroyendo las armaduras.
+2. Se colocan dos barras paralelas a lo largo de toda la zanja, separadas entre sí entre 15 y 20 cm.
+3. Las barras se atan en los cruces de esquinas y a intervalos regulares a lo largo de la excavación con alambre fino, para que no se muevan al verter el hormigón.
+
+<!-- PROMPT: Esta imagen tiene que representar la vista en sección y en perspectiva de las dos barras horizontales de armadura colocadas sobre los calzos en el fondo de la zanja. Se distinguen los calzos de bloque que las elevan del fondo, la separación entre las dos barras paralelas y el alambre de atado en las intersecciones. Los calzos y la separación entre barras están remarcados en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
 ---
 
-### PASO 5 — Colocación de las esperas verticales
+### Paso 5 — Colocación de las esperas verticales
 
-<!-- TODO: este es un paso compliado asi que mejor explicarlo tambien en el replanteo pues todo el trabajo se tiene que hacer en este para que el muro y estas armaduras esten en el sitio correcto -->
+Las esperas son las varillas de hierro que sobresalen verticalmente de la zapata y que conectarán con el zócalo de bloques y, a través del durmiente, con los pilares de madera. Su posición correcta debe planificarse durante el replanteo, ya que deben coincidir exactamente con el hueco interior de los bloques del zócalo.
 
-Las esperas son las varillas de hierro que sobresalen verticalmente de la zapata y que, más adelante, conectarán con el zócalo (y con los pilares de madera a través del durmiente).
+<!-- TODO: ampliar la explicación de la posición de las esperas en la sección de replanteo (paso0), donde se puede trabajar con los cordeles de referencia antes de excavar -->
 
 **Posición de las esperas:**
-- Usa los cordeles del replanteo como guía: la espera debe quedar a una distancia fija del cordel para que coincida exactamente con el hueco interior del bloque de hormigón del zócalo.
-- La espera debe quedar **centrada dentro del futuro bloque**, no pegada a los bordes.
+
+Cada espera se coloca de forma que quede centrada dentro del hueco interior del futuro bloque de hormigón del zócalo, sin rozar las paredes. Los cordeles del replanteo sirven de referencia para comprobar que la posición es correcta.
 
 **Colocación:**
-1. Ata la base de cada espera vertical a la parrilla horizontal inferior con alambre.
-2. Mantén la espera perfectamente vertical. Para ello, construye una guía sencilla: dos trozos de bambú o madera atados formando una "V" que sujete la espera en posición.
-3. Comprueba que todas las esperas están verticales y alineadas antes de hormigonar.
 
-> ✅ **Prueba de comprobación:** Antes de que el hormigón endurezca, toma un bloque de hormigón y preséntalo sobre la zanja (sin apoyarlo en el hormigón fresco). Las esperas deben pasar por el hueco interior del bloque con holgura, sin rozar las paredes. Si rozan, hay que ajustar la posición.
+1. La base de cada espera vertical se ata a la parrilla horizontal inferior con alambre.
+2. La espera se mantiene perfectamente vertical mediante una guía sencilla: dos trozos de bambú o madera atados formando una "V" que la sujeten en posición hasta que el hormigón endurezca.
+3. Antes de hormigonar, se verifica que todas las esperas están verticales y alineadas.
+
+<!-- PROMPT: Esta imagen tiene que representar la sección transversal de la zanja con la parrilla horizontal inferior ya colocada y las esperas verticales saliendo de ella hacia arriba. Se ve la guía en "V" de bambú sujetando una de las esperas en posición vertical. En la parte superior, un bloque de hormigón se presenta sobre la zanja (sin apoyar) para mostrar cómo la espera debe pasar por el hueco interior con holgura. La espera y la guía en "V" están remarcadas en rojo. Dibujo técnico a mano alzada, escala de grises. -->
+
+> ✅ **Prueba de comprobación:** Antes de verter el hormigón, se presenta un bloque de hormigón sobre la zanja sin apoyarlo en el hormigón fresco. Las esperas deben pasar por el hueco interior del bloque con holgura, sin rozar las paredes. Si rozan, se ajusta la posición.
 
 ---
 
-### PASO 6 — Preparación y dosificación del hormigón
+### Paso 6 — Preparación y dosificación del hormigón
 
 **Dosificación recomendada para la zapata:**
 
 > 1 parte de cemento : 2 partes de arena : 3 partes de grava + agua
 
-Esta es una dosificación estándar resistente (aproximadamente HM-20). En condiciones tropicales con alta humedad, conviene ser conservador y no reducir el cemento.
+Esta dosificación estándar (aproximadamente HM-20) es adecuada para condiciones tropicales con alta humedad. No se debe reducir la cantidad de cemento.
+
+**Alternativa de menor coste: hormigón ciclópeo**
+
+Cuando la disponibilidad de áridos es limitada o el coste es un factor crítico, puede emplearse hormigón ciclópeo: se vierten piedras limpias de tamaño puño directamente en la masa de hormigón fresco según se vierte, ocupando hasta un tercio del volumen total. Las piedras deben estar limpias de barro y quedar completamente rodeadas de hormigón, sin formar racimos. Esta técnica reduce la cantidad de cemento y áridos necesarios sin comprometer significativamente la resistencia si se ejecuta correctamente.
+
+<!-- TODO: verificar con el equipo técnico el límite de uso del hormigón ciclópeo para este prototipo y definir si aplica también al zócalo o solo a la zapata -->
 
 **Cómo mezclar sin hormigonera:**
-1. Extiende la arena y la grava sobre una superficie plana y limpia (o en un cubo grande).
-2. Añade el cemento encima y mezcla en seco hasta obtener un color uniforme.
-3. Abre un hueco en el centro y añade el agua poco a poco, mezclando desde fuera hacia dentro.
-4. La consistencia correcta: al coger un puñado y apretarlo, debe mantener la forma pero no debe chorrear agua. Si chorrea agua, tiene demasiada: debilita el hormigón.
 
-> ⚠️ **En clima ecuatorial:** Amasa solo la cantidad que puedas verter en 30–45 minutos. El calor y la humedad aceleran el fraguado.
-<!-- TODO: algo que queriamos pensar es como se puede abaratar la construccion del hormigon, ya que este tiende a ser de muy mala calidad asi como ser muy caro, se puede añadir piedras para hacerlo ciclopeo o hacer la dosifiacion con mas tierrra para que sea mas barato hacer la composicion general -->
+1. Se extiende la arena y la grava sobre una superficie plana y limpia, o en un recipiente grande.
+2. Se añade el cemento encima y se mezcla en seco hasta obtener un color uniforme.
+3. Se abre un hueco en el centro y se añade el agua poco a poco, mezclando desde fuera hacia dentro.
+4. La consistencia correcta: al coger un puñado y apretarlo, debe mantener la forma sin chorrear agua. Si chorrea, la mezcla tiene demasiada agua y el hormigón quedará débil.
+
+<!-- PROMPT: Esta imagen tiene que representar la operación de mezcla manual del hormigón en el suelo. Se ven los áridos y el cemento extendidos en seco, el hueco central donde se añade el agua y la mezcla circular con la pala. El hueco central y la dirección de mezcla están remarcados en rojo. Dibujo técnico a mano alzada, escala de grises. -->
+
+> ⚠️ **En clima ecuatorial:** Solo se amasa la cantidad que pueda verterse en 30–45 minutos. El calor y la humedad aceleran el fraguado.
+
 ---
 
-### PASO 7 — Vertido del hormigón
+### Paso 7 — Vertido del hormigón
 
-1. **Hormigona toda la zapata el mismo día.** Las juntas de hormigonado son puntos débiles: si paras a mitad y continúas al día siguiente, se crea una junta fría que puede fallar.
-2. Empieza por una esquina y avanza de forma continua y constante.
-3. **No dejes caer el hormigón desde más de 1 metro de altura**: el impacto puede mover las armaduras o segregar los áridos.
-4. **Compactación sin vibrador mecánico:** usa un palo robusto o una barra de hierro para "picar" el hormigón con fuerza según lo viertes. Introduce el palo repetidamente en el hormigón fresco. El objetivo es eliminar las burbujas de aire y que el hormigón rodee completamente todas las varillas.
-5. **Nivelar la superficie:** cuando termines de verter, usa un tablón de madera recto (regla) para igualar la superficie.
+1. Se hormigona toda la zapata el mismo día. Las juntas de hormigonado son puntos débiles: si se para a mitad y se continúa al día siguiente, se crea una junta fría que puede fallar.
+2. Se comienza por una esquina y se avanza de forma continua y constante.
+3. El hormigón no se deja caer desde más de 1 metro de altura: el impacto puede mover las armaduras o segregar los áridos.
+4. **Compactación sin vibrador mecánico:** se usa un palo robusto o una barra de hierro para introducirla repetidamente en el hormigón fresco con fuerza, según se vierte. El objetivo es eliminar las burbujas de aire y que el hormigón rodee completamente todas las varillas.
+5. Al terminar de verter, se usa un tablón de madera recto para igualar la superficie. La superficie de la zapata se deja ligeramente rugosa —no lisa como un espejo— para que el mortero de la primera hilada de bloques del zócalo adhiera mejor.
 
-> ✅ **Truco importante:** No dejes la superficie de la zapata perfectamente lisa como un espejo. Es mejor dejarla **ligeramente rugosa**: así el mortero de la primera hilada de bloques del zócalo agarra mucho mejor.
+<!-- PROMPT: Esta imagen tiene que representar el vertido del hormigón en la zanja y la operación de compactación manual con un palo. Se ve la persona introduciendo el palo verticalmente en el hormigón fresco para eliminar burbujas, y al fondo otro operario mezclando. El palo de compactación y el hormigón en la zanja están remarcados en rojo. Vista en perspectiva, dibujo técnico a mano alzada, escala de grises. -->
 
 **Curado (protección del hormigón tras el vertido):**
-- Cubre la zapata con sacos, hojas de plátano, cartones o plástico durante al menos **7 días**.
-- Mójalo una o dos veces al día para que no se seque demasiado rápido. El hormigón no fragua bien si se seca muy rápido con el calor.
-- En Guinea Ecuatorial, evita hormigonar bajo la lluvia intensa: el agua de lluvia puede lavar el cemento.
-- **No cargues peso sobre la zapata antes de 24 horas; no construyas el zócalo antes de 3–7 días.**
+
+La zapata se cubre con sacos, hojas de plátano, cartones o plástico durante al menos 7 días, y se moja una o dos veces al día para que no se seque demasiado rápido. El hormigón no desarrolla su resistencia si se seca con el calor. No se debe cargar peso sobre la zapata antes de 24 horas; el zócalo no se construye antes de 3–7 días.
+
+> ⚠️ No se hormigona bajo lluvia intensa: el agua de lluvia puede lavar el cemento de la mezcla fresca.
 
 ---
 
-## Resumen visual de la zapata
-<!-- DEL: este dibujo sobra totalmente, no se debe hacer esto, lse deben de incluir dibujos para que cada paso este bien explicado asi que igual hay que hacer. -->
-```
-     CARA EXTERIOR          CARA INTERIOR
-         |← 12,5 cm →|← 27,5 cm →|
-         |                         |
-cordel ──┤                         |
-         |  ┌─────────────────┐    |
-         |  │  espera vertical│    |
-         |  │       ↕         │    |
-         |  │  ══════════════ │ ← 2 barras horizontales (Ø10-12mm)
-         |  │                 │    |
-         |  │ ▒▒▒▒▒▒▒▒▒▒▒▒▒ │ ← hormigón de limpieza (10cm)
-         |  └─────────────────┘    |
-         |      SUELO FIRME        |
-         |← —— 40 cm total —— →|
-```
+# Parte 2: Zócalo
+
+El zócalo es el muro de bloques de hormigón que se construye sobre la zapata. Su función es elevar la estructura de madera al menos 40 cm por encima del nivel del suelo terminado, protegiéndola de la humedad, las inundaciones y los insectos xilófagos —termitas y otros que atacan la madera desde el suelo.
+
+> 💡 **Por qué es crítico elevar la madera en Guinea Ecuatorial:** El contacto directo de la madera con el suelo húmedo acelera la pudrición y facilita el ataque de termitas, que representan un problema grave en la región. El zócalo es la principal barrera de protección de toda la estructura de madera.
+
+<!-- PROMPT: Esta imagen tiene que representar el alzado de la vivienda mostrando la relación entre el nivel del suelo, el zócalo de bloques de hormigón y la estructura de madera que arranca desde el durmiente. Se ve claramente la cota de altura mínima del zócalo (40 cm) entre el suelo terminado y la cara inferior del durmiente. La cota de 40 cm y el durmiente están remarcados en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
 ---
 
-# PARTE 2: ZÓCALO
+## Materiales
 
-El zócalo es el muro de bloques de hormigón que se construye sobre la zapata. Su función es elevar la estructura de madera **al menos 30–40 cm por encima del nivel del suelo**, protegiéndola de la humedad, las inundaciones y los insectos xilófagos (termitas y otros).
-
-> 💡 **¿Por qué es tan importante elevar la madera en Guinea Ecuatorial?**
-> El contacto directo de la madera con el suelo húmedo acelera la pudrición y facilita el ataque de termitas, que son un problema grave en la región. El zócalo es la principal barrera de protección de toda la estructura de madera.
-
----
-
-## Materiales necesarios
-
-- Bloques de hormigón (suficientes para 2–3 hiladas perimetrales)
-- Mortero (cemento : arena, proporción 1:3 o 1:4)
+- Bloques de hormigón en cantidad suficiente para 2–4 hiladas perimetrales
+- Mortero de cemento y arena en proporción 1:3 o 1:4
 - Paleta de albañil
 - Nivel de burbuja
 - Plomada
-- Varillas de hierro corrugado Ø 8–10 mm (para el zuncho)
+- Varillas de acero corrugado Ø 8–10 mm para el zuncho
 - Alambre de amarrar
-- Tablas de madera (para el encofrado del zuncho)
+- Tablas de madera para el encofrado del zuncho
 - Clavos y martillo
 
 ---
 
 ## Paso a paso
 
-### PASO 1 — Esperar el curado de la zapata
+### Paso 1 — Esperar el curado de la zapata
 
-- **Mínimo 24 horas** antes de empezar a colocar bloques.
-- **Óptimo: 3–7 días** para mayor resistencia.
-- Limpia la superficie de la zapata con un cepillo o paño húmedo para retirar polvo y restos sueltos. El mortero del primer bloque debe adherirse a una superficie limpia y ligeramente húmeda (no encharcada).
+El zócalo no se comienza antes de que la zapata haya curado el tiempo mínimo necesario.
 
----
+- Mínimo 24 horas antes de empezar a colocar bloques.
+- Óptimo: 3–7 días para mayor resistencia.
 
-### PASO 2 — Preparación de los bloques
-
-Los bloques estándar de hormigón tienen dos o tres huecos interiores. En los puntos donde las esperas verticales de la zapata sobresalen, es necesario preparar los bloques de manera especial:
-
-1. **Bloque base (primera hilada sobre la espera):** rompe la base del bloque en el punto donde pasará la espera, para que la varilla pueda introducirse por el hueco. Hazlo con cuidado usando un martillo y un cincel (o la punta del pico).
-2. Los bloques que no coincidan con esperas se colocan normalmente.
+La superficie de la zapata se limpia con un cepillo o paño húmedo para retirar polvo y restos sueltos antes de colocar el primer bloque. El mortero adhiere mejor sobre una superficie limpia y ligeramente húmeda, no encharcada.
 
 ---
 
-### PASO 3 — Colocación de hiladas de bloques (trabadas)
+### Paso 2 — Preparación de los bloques
 
-**Regla fundamental del trabado:** Las juntas verticales entre bloques de una hilada NO deben coincidir con las juntas de la hilada inferior. El bloque superior debe quedar centrado sobre la junta de los dos bloques de abajo (unión en "T"). Esto distribuye las cargas y da resistencia al muro.
+Los bloques estándar de hormigón tienen dos o tres huecos interiores. En los puntos donde las esperas verticales de la zapata sobresalen, los bloques necesitan una preparación especial: se rompe la base del bloque en el punto donde pasará la espera, para que la varilla pueda introducirse por el hueco. Se hace con cuidado usando un martillo y un cincel, o la punta del pico.
+
+<!-- PROMPT: Esta imagen tiene que representar el detalle de un bloque de hormigón con la base perforada para dejar pasar una espera vertical. Se ve el bloque en sección con el hueco interior y el punto de la base donde se ha practicado la apertura. La apertura y la espera que pasa a través del bloque están remarcadas en rojo. Dibujo técnico a mano alzada, escala de grises. -->
+
+---
+
+### Paso 3 — Colocación de las hiladas de bloques
+
+**Regla fundamental del trabado:** Las juntas verticales entre bloques de una hilada no deben coincidir con las juntas de la hilada inferior. El bloque superior queda centrado sobre la junta de los dos bloques de abajo. Esta disposición en "T" distribuye las cargas y da resistencia al muro.
+
+<!-- PROMPT: Esta imagen tiene que representar la vista en alzado de dos hiladas de bloques de hormigón trabadas. Se ve claramente cómo las juntas verticales de la hilada superior no coinciden con las de la hilada inferior, y cómo el bloque superior queda centrado sobre la junta de los dos bloques de abajo. Las juntas y el trabado están remarcados en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
 **Procedimiento:**
-1. Prepara el mortero: 1 parte de cemento por 3–4 de arena, con agua suficiente para que sea manejable pero no líquido.
-2. Extiende una capa de mortero de unos 1–1,5 cm sobre la zapata.
-3. Coloca el primer bloque de la esquina. Nivela en todas direcciones con el nivel de burbuja.
-4. Avanza a lo largo del muro, colocando bloque a bloque, comprobando nivel y aplomo con la plomada en cada hilada.
-5. En las esquinas, alterna la dirección del bloque de esquina entre hiladas para crear el trabado.
-6. Construye **2 o 3 hiladas** de bloques (aproximadamente 40–60 cm de altura de zócalo).
 
-> ✅ **En las juntas:** La junta entre bloques debe ser de aproximadamente **1 cm** de mortero. Ni más (debilita) ni menos (no adhiere).
+1. Se prepara el mortero: 1 parte de cemento por 3–4 de arena, con agua suficiente para que sea manejable pero no líquido.
+2. Se extiende una capa de mortero de 1 a 1,5 cm sobre la zapata.
+3. Se coloca el primer bloque de la esquina y se nivela en todas direcciones con el nivel de burbuja.
+4. Se avanza a lo largo del muro, bloque a bloque, comprobando nivel y aplomo con la plomada en cada hilada.
+5. En las esquinas, se alterna la dirección del bloque de esquina entre hiladas para crear el trabado.
+6. Se construyen 2–4 hiladas de bloques, hasta alcanzar al menos 40 cm de altura de zócalo sobre el nivel del suelo terminado.
+
+> ✅ La junta de mortero entre bloques debe ser de aproximadamente 1 cm. Más de esa medida debilita el conjunto; menos impide la adhesión.
 
 ---
 
-### PASO 4 — El zuncho (viga de atado superior del zócalo)
+### Paso 4 — El zuncho (viga de atado superior del zócalo)
 
-El zuncho es una viga de hormigón armado que remata la parte superior del zócalo y "ata" todo el perímetro en una sola pieza continua. Es fundamental: sin zuncho, los muros pueden separarse con los movimientos del terreno o con el peso de la cubierta.
+El zuncho es una viga de hormigón armado que remata la parte superior del zócalo y une todo el perímetro en una sola pieza continua. Sin zuncho, los muros pueden separarse con los movimientos del terreno o con el peso de la cubierta.
 
 **Construcción del encofrado:**
-1. Una vez terminadas las 2–3 hiladas de bloques, coloca tablas de madera a ambos lados del muro, sobresaliendo **10–15 cm por encima del último bloque**. Las tablas hacen de molde para el hormigón del zuncho.
-2. Sujeta las tablas con alambre pasado de lado a lado del muro para que no se abran cuando se vierta el hormigón.
+
+Una vez terminadas las hiladas de bloques, se colocan tablas de madera a ambos lados del muro, sobresaliendo 10–15 cm por encima del último bloque. Las tablas hacen de molde para el hormigón del zuncho y se sujetan con alambre pasado de lado a lado del muro para que no se abran al verter.
+
+<!-- PROMPT: Esta imagen tiene que representar la sección transversal del extremo superior del zócalo de bloques con el encofrado de madera colocado a ambos lados, sobresaliendo por encima de la última hilada. Se ve el alambre que sujeta las tablas y el espacio interior donde se verterá el hormigón del zuncho. Las tablas de encofrado y el alambre de sujeción están remarcados en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
 **Armadura del zuncho:**
-1. Coloca al menos **2 varillas horizontales** dentro del encofrado (una a cada lado), a lo largo de todo el perímetro.
-2. En cada tramo de madera (donde irá anclado el durmiente), coloca una varilla adicional de espera que sobresalga hacia arriba para el anclaje del durmiente. Como mínimo: al inicio, en el centro y al final de cada sección de muro.
-3. Dobla las varillas en "L" en las esquinas para continuidad.
+
+1. Se colocan al menos 2 varillas horizontales dentro del encofrado, una a cada lado, a lo largo de todo el perímetro.
+2. En los puntos donde irán los pilares de madera, se coloca una varilla adicional de espera que sobresalga hacia arriba para el anclaje del durmiente.
+3. Las varillas se doblan en "L" en las esquinas para dar continuidad a la armadura.
 
 **Vertido del zuncho:**
-1. Usa la misma dosificación que para la zapata (1:2:3).
-2. Vierte el hormigón y compácta con el palo.
-3. Nivela la superficie: **esta sí debe quedar perfectamente plana**, ya que sobre ella apoyará el durmiente de madera.
+
+Se usa la misma dosificación que para la zapata (1:2:3). Se vierte el hormigón y se compacta con el palo. La superficie del zuncho se nivela con cuidado: **debe quedar perfectamente plana**, ya que sobre ella apoyará el durmiente de madera.
 
 ---
 
-### PASO 5 — Anclaje del durmiente de madera
+### Paso 5 — Anclaje del durmiente de madera
 
-El durmiente es la pieza de madera que conecta el zócalo con la estructura de madera (pilares y estructura de cubierta). Es la transición entre el sistema de hormigón y el sistema de madera.
+El durmiente es la pieza de madera que conecta el zócalo con la estructura de madera —pilares y estructura de cubierta. Es la transición entre el sistema de hormigón y el sistema de madera.
 
 **Preparación del durmiente:**
-1. Usa madera de alta resistencia a la humedad y a los insectos (preferiblemente maderas locales densas: okumé tratado, azobé, bilinga u otras maderas duras disponibles localmente). **Verificar disponibilidad con carpinteros locales.**
-2. Marca en el durmiente la posición de los huecos que coincidirán con las esperas del zuncho. Los huecos deben hacerse con una broca o un escoplo de diámetro ligeramente mayor que la varilla.
-3. Aplica **tratamiento preventivo** contra termitas e insectos en toda la madera antes de colocarla (aceite de motor quemado, alquitrán, o productos locales tradicionales si están disponibles).
+
+Se usa madera de alta resistencia a la humedad y a los insectos: preferiblemente maderas locales densas como azobé, bilinga u otras maderas duras disponibles en la zona. Antes de colocarlo, se aplica tratamiento preventivo contra termitas e insectos en toda su superficie —especialmente en la cara inferior que contacta con el hormigón— con alguno de los productos siguientes:
+
+- Alquitrán mineral o brea, si está disponible.
+- Aceite de motor usado, económico y eficaz como preventivo.
+- Pinturas de fondo asfálticas, si están disponibles en el mercado local.
+
+<!-- TODO: el equipo de campo debe documentar los productos de tratamiento de la madera disponibles en el mercado local de Bata y Ebebiyín (nombre, precio, disponibilidad) para incorporarlos a la versión definitiva de la guía -->
+
+Se marcan en el durmiente los puntos donde deben abrirse los huecos que coincidirán con las esperas del zuncho. Los huecos se abren con una broca o un escoplo de diámetro ligeramente mayor que la varilla.
 
 **Colocación:**
-1. El durmiente se coloca **a ras de la cara exterior del muro**, de manera que en el interior quede un espacio entre el durmiente y el interior de los bloques.
-2. Introduce las esperas del zuncho por los huecos del durmiente.
-3. Vierte hormigón fluido en los huecos de los bloques que rodean las esperas, para que el durmiente quede solidario con el muro de hormigón.
 
-> ⚠️ **Importante:** Las varillas de espera que suben desde la zapata **NO deben sobresalir por encima del zócalo más de lo previsto**. Deben quedar a una altura que permita que el durmiente se coloque sin interferencias, pero con suficiente longitud para sujetarlo.
+1. El durmiente se coloca a ras de la cara exterior del muro, de manera que en el interior quede un espacio entre el borde del durmiente y el interior de los bloques.
+2. Las esperas del zuncho se introducen por los huecos del durmiente.
+3. Se vierte hormigón fluido en los huecos de los bloques que rodean las esperas, para que el durmiente quede solidario con el muro de hormigón.
 
----
+<!-- PROMPT: Esta imagen tiene que representar la sección transversal del encuentro entre el zuncho de hormigón, las esperas verticales y el durmiente de madera colocado encima. Se ve el hueco abierto en el durmiente por donde pasa la espera, y el hormigón fluido en el hueco interior del bloque que fija el conjunto. La espera, el hueco en el durmiente y el hormigón de relleno están remarcados en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
-## 🌿 TIPS ESPECÍFICOS PARA EL CONTEXTO DE GUINEA ECUATORIAL
-
-Estos consejos abordan los problemas más frecuentes en la región y complementan el proceso técnico general.
+> ⚠️ Las esperas que suben desde la zapata no deben sobresalir por encima del zócalo más de lo necesario para anclar el durmiente. Una espera demasiado larga interfiere con la colocación del durmiente y de los pilares.
 
 ---
+
+## Recomendaciones específicas para el contexto de Guinea Ecuatorial
 
 ### Sobre el suelo y el agua
 
-**1. El mayor enemigo: la arcilla expansiva**
-Los suelos arcillosos típicos de la región fang y el litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento puede agrietar la cimentación a lo largo del tiempo. Cuanto mayor sea la profundidad de la zapata, más estable será el comportamiento. Nunca construir sobre la capa superficial orgánica negra.
+**Arcilla expansiva**
+Los suelos arcillosos típicos de la región fang y el litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento puede agrietar la cimentación a lo largo del tiempo. Cuanto mayor sea la profundidad de la zapata, más estable será el comportamiento. Nunca se construye sobre la capa superficial orgánica de color negro.
 
-**2. Nivel freático alto en la estación lluviosa**
-Si al excavar aparece agua a menos de 80 cm de profundidad, es señal de que el nivel freático es alto. En este caso:
-- Aumenta la impermeabilización de la base (lámina plástica doble o hormigón de limpieza más grueso).
-- Considera elevar más el zócalo (4 hiladas en lugar de 2–3).
-- Consulta con el equipo técnico del proyecto antes de continuar.
+**Nivel freático alto**
+Si al excavar aparece agua a menos de 80 cm de profundidad, es señal de nivel freático alto. En ese caso: se aumenta la impermeabilización de la base (lámina plástica doble o hormigón de limpieza más grueso), se considera elevar el zócalo a 4 hiladas en lugar de 2–3, y se consulta con el equipo técnico antes de continuar.
 
-**3. Aprovechar la grava del terreno**
-La grava extraída de la excavación puede reutilizarse en el hormigón si está limpia y libre de barro. Esto reduce costes. Antes de usarla, lávala: echa agua sobre la pila de grava y remuévela, repitiendo hasta que el agua salga clara.
-
----
+**Reutilización de la grava de la excavación**
+La grava extraída de la excavación puede reutilizarse en el hormigón si está limpia y libre de barro. Esto reduce costes. Antes de usarla, se lava: se echa agua sobre la pila de grava y se remueve, repitiendo hasta que el agua salga clara.
 
 ### Sobre los materiales
 
-**4. El cemento se daña con la humedad**
-En Guinea Ecuatorial, el cemento absorbido humedad del ambiente puede endurecerse dentro del saco antes de usarse. Almacena siempre el cemento:
-- En lugar cubierto y ventilado.
-- Sobre tarimas de madera (nunca directamente sobre el suelo).
-- Nunca más de 3–4 semanas sin usar.
-- Si al abrir un saco el cemento tiene grumos duros, ya no sirve.
+**Almacenamiento del cemento**
+En Guinea Ecuatorial, el cemento absorbe humedad del ambiente y puede endurecerse dentro del saco antes de usarse. Se almacena siempre en lugar cubierto y ventilado, sobre tarimas de madera (nunca directamente sobre el suelo), y no más de 3–4 semanas sin usar. Si al abrir un saco el cemento tiene grumos duros que no se deshacen al presionarlos, ya no sirve.
 
-**5. El agua para el hormigón**
-Usa siempre agua dulce y limpia. El agua de lluvia recogida en depósito limpio es perfectamente válida. Nunca agua de mar, ni de ríos con barro visible, ni agua de pozo salino.
+**El agua para el hormigón**
+Se usa siempre agua dulce y limpia. El agua de lluvia recogida en depósito limpio es perfectamente válida. Nunca agua de mar, ni de ríos con barro visible, ni de pozo salino.
 
-**6. El hierro corrugado**
-Si el hierro está oxidado con una capa fina de óxido rojizo (herrumbre superficial), puede usarse: la pequeña rugosidad adicional mejora incluso la adherencia con el hormigón. Si está muy oxidado con capas que se desprenden o el hierro se ha adelgazado visiblemente, no usar.
-
----
+**El hierro corrugado con óxido superficial**
+Si el hierro tiene una capa fina de óxido rojizo superficial (herrumbre), puede usarse: la rugosidad adicional mejora incluso la adherencia con el hormigón. Si el óxido forma capas que se desprenden o la barra se ha adelgazado visiblemente, no debe usarse.
 
 ### Sobre el proceso constructivo
 
-**7. Nunca hormigonar bajo la lluvia intensa**
-Una lluvia fuerte mientras el hormigón está fresco puede lavar el cemento y debilitar gravemente la mezcla. Observa el cielo antes de empezar a verter. Si empieza a llover, cubre urgentemente con plástico o cartones.
+**Nunca hormigonar bajo lluvia intensa**
+Una lluvia fuerte mientras el hormigón está fresco puede lavar el cemento y debilitar gravemente la mezcla. Si empieza a llover durante el vertido, se cubre urgentemente con plástico o cartones.
 
-**8. El fraguado en clima ecuatorial**
-El calor y la humedad aceleran el fraguado. En días muy calurosos, el hormigón puede empezar a endurecer en 20–30 minutos. Prepara solo la cantidad que puedas colocar en ese tiempo.
+**Horario de trabajo**
+Para las faenas de hormigonado, el horario recomendado es de madrugada o primera hora de la mañana (6–10 h), para evitar el calor máximo del mediodía. Esto da más tiempo de trabajo con el hormigón fresco y reduce el riesgo de secado rápido.
 
-**9. Horario de trabajo recomendado**
-Para faenas de hormigonado, trabaja preferiblemente de madrugada o a primera hora de la mañana (6–10 h) para evitar el calor máximo del mediodía. Esto da más tiempo de trabajo con el hormigón fresco y reduce el riesgo de secado rápido.
+**Curado en clima ecuatorial**
+El hormigón necesita humedad para desarrollar su resistencia. En zona ecuatorial, el curado húmedo es especialmente importante: se cubre y se moja durante un mínimo de 7 días. El calor no sustituye al curado: el hormigón caliente y seco no fragua bien.
 
-**10. Curado prolongado**
-En zona ecuatorial, el curado húmedo del hormigón es especialmente importante. No confundas "caliente y seco" con "fraguado": el hormigón necesita humedad para desarrollar su resistencia. Cúbrelo y mójalo durante 7 días mínimo.
+**Trabajo en equipo para el vertido**
+El hormigonado de la zapata requiere continuidad sin interrupciones. Para una vivienda estándar se necesitan al menos 3–4 personas trabajando simultáneamente: una mezclando, una acarreando, una vertiendo y compactando. El equipo se organiza antes de comenzar.
 
----
+**Jornadas comunitarias**
+En la cultura fang, el trabajo colectivo —similar a las mingas en otras culturas— es una práctica habitual. El hormigonado de la zapata es una tarea que se beneficia especialmente de organizarse como jornada comunitaria, dado el volumen de trabajo manual que debe completarse en un solo día.
 
 ### Sobre la protección contra termitas y humedad
 
-**11. El zócalo como barrera de protección**
-El zócalo no es solo estructura: es la barrera principal contra el ataque de termitas a la madera. Cuanto más alto sea el zócalo (mayor distancia entre el suelo y la madera), más difícil será el acceso de las termitas. **Altura mínima recomendada: 40 cm sobre el nivel de suelo terminado.**
+**El zócalo como barrera**
+El zócalo no es solo estructura: es la barrera principal contra el ataque de termitas a la madera. Cuanto mayor sea la altura del zócalo —es decir, cuanto mayor sea la distancia entre el suelo y la madera—, más difícil será el acceso de las termitas. La altura mínima recomendada es de 40 cm sobre el nivel del suelo terminado.
 
-**12. Inspección visual periódica del zócalo**
-Instruye a la familia sobre cómo inspeccionar visualmente el zócalo cada cierto tiempo: buscar galerías de tierra (caminos de termitas), grietas o eflorescencias (manchas blancas de sal). La detección temprana permite actuar antes de que haya daño en la madera.
-
-**13. Tratamiento de la madera del durmiente**
-Antes de colocar el durmiente, aplica en toda su superficie (especialmente en la cara inferior que contacta con el hormigón):
-- Alquitrán mineral o brea (si disponible).
-- Aceite de motor usado (económico y efectivo como preventivo).
-- Pinturas de fondo asfálticas (si disponibles en mercado local).
-
-> ⚠️ **LAGUNA A COMPLETAR:** El repositorio no contiene aún información específica sobre productos de tratamiento de la madera disponibles en el mercado local de Guinea Ecuatorial (Bata, Ebebiyín). Se recomienda al equipo de campo documentar los productos disponibles y sus precios en la próxima misión.
+**Inspección periódica**
+La familia debe conocer cómo inspeccionar visualmente el zócalo con regularidad: buscar galerías de tierra (caminos de termitas que ascienden por el exterior del muro), grietas o eflorescencias (manchas blancas de sal). La detección temprana permite actuar antes de que haya daño en la madera.
 
 ---
 
-### Sobre la participación y la gestión de la obra
+## Siguiente paso: estructura de madera
 
-**14. Trabajo en equipo para el vertido**
-El hormigonado de la zapata requiere trabajar con continuidad y sin parar. Para una vivienda estándar, se necesitan al menos 3–4 personas simultáneamente: una mezclando, una acarreando, una vertiendo y compactando. Organiza el equipo antes de empezar.
+Una vez terminado el zócalo y con el zuncho perfectamente nivelado, se procede a la colocación de los durmientes y pilares de madera, que son los primeros elementos de la estructura vertical de la vivienda.
 
-**15. Aprovechar las jornadas comunitarias (mingas)**
-En la cultura fang, las jornadas de trabajo colectivo (similares a las mingas en otras culturas) son una práctica habitual. El hormigonado de la zapata es una tarea que se beneficia especialmente de organizarse como jornada comunitaria, dado el volumen de trabajo manual en un solo día.
-
----
-
-## ⏭️ SIGUIENTE PASO: ESTRUCTURA DE MADERA
-
-Una vez terminado el zócalo y con el zuncho perfectamente nivelado, se procederá a la colocación de los **durmientes y pilares de madera**, que son los primeros elementos de la estructura vertical de la vivienda.
+<!-- TODO: añadir link a la sección de cerramiento / paramentos verticales -->
 
 ---
 
