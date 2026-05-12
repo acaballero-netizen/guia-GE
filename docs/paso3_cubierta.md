@@ -2,107 +2,345 @@
 ### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
-## Introducción
+---
 
-La cubierta es el elemento más expuesto de la vivienda. Su función principal es proteger la estructura y el interior frente a las condiciones extremas del clima ecuatorial: lluvias torrenciales constantes y una radiación solar muy elevada. 
-
-El sistema se compone de una estructura principal de madera (las cerchas) y una cubrición de chapa metálica. Aunque la chapa metálica de zinc o galvanizada es el material más accesible y duradero actualmente en la región, presenta dos grandes problemas: transmite mucho calor al interior y genera mucho ruido durante las tormentas. Por ello, el diseño de la cubierta incluye estrategias específicas de ventilación, aleros largos y la incorporación de un falso techo.
+> **¿Por qué es tan importante la cubierta?**
+> La cubierta es la principal barrera entre el interior de la vivienda y el clima exterior. En Guinea Ecuatorial, las lluvias intensas, el calor extremo y la humedad constante hacen de esta fase uno de los momentos más críticos de la construcción. Una cubierta mal resuelta deteriora rápidamente toda la estructura de madera que hay debajo.
 
 ---
 
-## Materiales
+## ESTRUCTURA GENERAL DE LA CUBIERTA
 
-- Madera aserrada de alta densidad (como el palo rojo) para las cerchas estructurales.
-- Listones de madera ligera (como el okume) para las correas.
-- Chapa metálica ondulada o grecada (galvanizada, de zinc o prelacada).
-- Clavos de madera de diferentes longitudes.
-- Tornillos autopercutantes o clavos de gancho con arandela de goma (imprescindibles para evitar goteras).
-- Pletinas metálicas perforadas y tirafondos *(alternativa local: uniones tradicionales de madera con tacos o cartabones de contrachapado)*.
-- Esteras vegetales (nipa, bambú) o tablillas finas para el falso techo.
-- Cordel, cinta métrica, plomada y nivel.
+Esta guía cubre los elementos que componen el sistema de cubierta:
 
----
+1. **CERCHA** — La estructura triangulada de madera que salva la luz entre pilares y soporta el peso del techo.
+2. **RASTRELES** — Los listones secundarios que apoyan sobre las cerchas y reciben directamente la chapa.
+3. **CHAPA DE ZINC** — El material de cobertura. Cierra el techo frente al agua y la lluvia.
+4. **FALSO TECHO** — La capa interior que reduce la irradiación de calor de la chapa hacia el espacio habitable.
 
-## 04.1 · Qué es una cercha
-
-La cercha es una estructura formada por vigas de madera dispuestas en forma de triángulos. La triangulación es el principio estructural fundamental: el triángulo es la única figura geométrica que no se deforma bajo presión. Esto permite a la cercha salvar toda la anchura de la vivienda soportando el peso de la cubierta sin hundirse, y sin necesidad de colocar pilares en el centro de las habitaciones.
-
-## 04.2 · Piezas de la cercha
-
-Cada elemento de la cercha tiene un nombre y una función específica:
-
-1. **Tirante:** La pieza horizontal inferior. Evita que la cercha se abra hacia los lados por el peso.
-2. **Pares (o cordones superiores):** Las piezas inclinadas que forman la pendiente del tejado y sobre las que apoyará la chapa.
-3. **Montante (o pendolón):** La pieza vertical que va desde el centro del tirante hasta la cumbrera.
-4. **Tornapuntas:** Las piezas diagonales interiores que conectan el montante o el tirante con los pares, reduciendo su deformación.
-
-## 04.3 · Fabricación de la cercha en el suelo
-
-Fabricar las cerchas directamente en su posición definitiva en el aire es peligroso y genera errores de medida. Se deben fabricar todas en el suelo para garantizar que sean idénticas.
-
-1. Se dibuja la forma exacta de la cercha a tamaño real sobre una superficie plana y limpia (o utilizando estacas y cordeles como plantilla).
-2. Se cortan todas las piezas de madera siguiendo las medidas de la plantilla.
-3. Se presentan todas las piezas planas sobre el suelo, ajustando los cortes para que encajen perfectamente antes de fijarlas.
-
-## 04.4 · Uniones de la cercha
-
-El punto débil de cualquier cercha no es la madera en sí, sino los nudos (las conexiones entre las piezas). Un clavo simple actuando como bisagra no es suficiente.
-
-1. En los nudos donde se encuentran el tirante, los pares y las tornapuntas, las piezas deben quedar fuertemente unidas.
-2. Se utilizan pletinas metálicas perforadas atornilladas a ambas caras de la madera.
-3. Si no hay pletinas metálicas disponibles, se utilizan cartabones: recortes de tablero contrachapado grueso o de madera maciza clavados fuertemente a ambos lados del nudo, creando un "sándwich" estructural.
-
-## 04.5 · Izado y colocación de la cercha
-
-Una regla fundamental de este sistema es que **las cerchas siempre deben apoyar directamente sobre los pilares de madera**, nunca sobre las tablas de cerramiento ni sobre paramentos intermedios. Esto asegura que el peso baje limpiamente hasta la cimentación.
-
-1. Se levanta la cercha manualmente con la ayuda de varias personas, utilizando cuerdas si es necesario.
-2. Se apoya cada extremo de la cercha (el nudo entre par y tirante) exactamente sobre la cabeza de un pilar de la fachada.
-3. Se aploma la cercha con el nivel para garantizar que esté perfectamente vertical.
-4. Se fija la cercha al pilar mediante escuadras metálicas o listones laterales de arriostramiento temporal hasta colocar las correas.
-
-## 04.6 · Correas
-
-Las correas son las piezas largas horizontales que cruzan perpendicularmente las cerchas y sirven de base para fijar las chapas.
-
-1. Se clavan las correas sobre los pares de las cerchas, separadas entre sí a la distancia que exija el tipo de chapa metálica (generalmente entre 60 cm y 90 cm).
-2. Las correas "atan" todas las cerchas entre sí, dando estabilidad tridimensional a todo el tejado.
-
-## 04.7 · Colocación de la chapa metálica
-
-La colocación correcta de la chapa evita la entrada de agua impulsada por el fuerte viento tropical.
-
-1. Se instalan las chapas empezando siempre por la parte más baja (el alero) y subiendo hacia la cumbrera.
-2. La dirección de colocación horizontal debe ser siempre opuesta a la dirección de los vientos dominantes.
-3. El solape lateral entre chapas debe ser de al menos una onda y media. El solape vertical (entre la chapa de abajo y la de arriba) debe ser de mínimo 20 cm.
-4. La fijación se realiza siempre en la parte alta de la onda (la "cresta"), nunca en el valle, utilizando tornillos con arandela de goma para impermeabilizar el agujero.
-
-## 04.8 · Alero
-
-El alero es la parte del tejado que sobresale por fuera de la línea de la fachada. En Guinea Ecuatorial, los aleros cortos son responsables de la pudrición de los muros de madera y la erosión de los zócalos, debido a la lluvia oblicua.
-
-1. Los pares de la cercha y la chapa deben prolongarse hacia el exterior un mínimo de 60 a 80 cm.
-2. Este vuelo garantiza que el agua de lluvia caiga lejos de la fachada y genera una zona de sombra permanente que ayuda a refrigerar la vivienda.
-
-## 04.9 · Cumbrera
-
-La cumbrera es el remate de la línea más alta de la cubierta, donde se encuentran las dos pendientes del tejado.
-
-1. Se coloca una chapa especial doblada (caballete) que cabalga sobre ambas vertientes.
-2. Se solapa generosamente sobre las chapas laterales y se atornilla firmemente en las crestas superiores para evitar filtraciones y desprendimientos por el viento.
-
-## 04.10 · Falso techo (Gestión de radiación y ruido)
-
-Para contrarrestar el intenso calor que irradia la chapa metálica y amortiguar el sonido ensordecedor de la lluvia, se debe crear una cámara de aire mediante la instalación de un falso techo.
-
-1. Se colocan listones o marcos secundarios fijados sobre la cara inferior de los tirantes de la cercha.
-2. Sobre este marco se extienden materiales ligeros y aislantes. Se recomiendan soluciones locales como esteras de bambú trenzado, nipa seca o tablillas finas de madera.
-3. Este falso techo atrapa una cámara de aire entre la chapa y el interior de la vivienda. El aire caliente sube hacia la cumbrera (donde debe dejarse ventilación en los hastiales) y se evita que el calor baje a las habitaciones.
+Estos elementos trabajan conjuntamente y son la transición entre la estructura de madera de la vivienda y el exterior.
 
 ---
 
-### A tener en cuenta
+# PARTE 1: CERCHA
 
-- Nunca se debe clavar o atornillar la chapa en los valles de la onda: el agua discurre por esos canales y terminará filtrándose por el agujero hacia la madera.
-- La unión de la cercha a los pilares debe soportar fuertes fuerzas de succión debido al viento. El simple peso de la cubierta no es suficiente para mantenerla en su sitio en caso de temporal.
-- El falso techo no debe ser completamente estanco; debe permitir que el aire fluya ligeramente hacia el espacio del bajo cubierta para facilitar la ventilación cruzada superior.
+La cercha es una estructura triangulada de madera que permite cubrir grandes luces sin apoyos intermedios. Su forma triangular —a diferencia de una viga recta— distribuye las cargas de manera que cada pieza trabaja en compresión o en tracción simple, sin flexión. Esto permite usar piezas de menor sección y madera de menor calidad relativa para cubrir distancias que de otra manera requerirían piezas de gran escuadría.
+
+<!-- PROMPT: Esta imagen tiene que representar el esquema general de una cercha de madera: cordón superior, cordón inferior y montantes y diagonales interiores. Se marca claramente la distinción entre piezas en compresión y piezas en tracción. Dibujo técnico a mano alzada, escala de grises, las piezas en tracción remarcadas en rojo. Vista lateral. -->
+
+En el contexto de este proyecto, las cerchas se dimensionan para cubrir luces variables:
+- **Viviendas:** luces de 6 a 8 metros. En este caso pueden aparecer pilares intermedios que reduzcan la luz a cubrir.
+- **Equipamientos comunitarios (bares, talleres):** luces de hasta 10 metros sin apoyos intermedios.
+
+<!-- TODO: Confirmar con el equipo técnico las luces definitivas del prototipo de la UNGE y actualizar los rangos. -->
+
+---
+
+## Materiales necesarios
+
+### Para la estructura de la cercha
+- Palo rojo u otra madera densa local, en sección de **8×8 cm** para los cordones (superior e inferior) y **5×8 cm** para los montantes y diagonales interiores
+- Cinta métrica
+- Escuadra de carpintero
+- Sierra manual o de arco
+- Formón y martillo de carpintero *(para los ensambles)*
+
+### Para las uniones
+- Clavos de madera de al menos 120 mm
+- Pletinas o escuadras de acero galvanizado de 3 mm de espesor *(recomendadas en los nudos principales)*
+- Tornillos para madera de 80–100 mm, con llave o destornillador adecuado
+
+### Para el montaje en altura
+- Andamios o estructuras auxiliares de madera *(se fabrican en obra; ver Paso 5)*
+- Cuerdas y cabos de amarre
+- Nivel de burbuja y plomada
+
+<!-- TODO: Verificar disponibilidad local de pletinas y escuadras de acero galvanizado en los mercados de Bata y Ebebiyín. Incluir alternativas si no están disponibles. -->
+
+---
+
+## Paso a paso
+
+### PASO 1 — Diseño y replanteo de la cercha
+
+Antes de cortar ninguna pieza, se traza la geometría de la cercha sobre una superficie plana: el suelo de tierra compactada o una losa de hormigón sirven perfectamente. Este dibujo a escala real es la plantilla que guiará todo el corte y ensamble.
+
+**Geometría básica:**
+- La **pendiente del cordón superior** determina la inclinación del tejado. En clima ecuatorial, con lluvias intensas, se recomienda una pendiente mínima del **30%** (unos 17°), aunque pendientes de hasta el 45% mejoran la evacuación del agua.
+- La **altura de la cumbrera** (punto más alto de la cercha) resulta de aplicar esa pendiente a la mitad de la luz total.
+- Los **montantes y diagonales** interiores dividen el espacio entre cordones en triángulos. La posición de cada nudo interior debe quedar marcada en el dibujo antes de empezar a cortar.
+
+<!-- PROMPT: Esta imagen tiene que representar el proceso de replanteo de una cercha sobre el suelo: una persona traza con cordel y tiza las líneas del cordón superior, el cordón inferior y los montantes sobre una superficie plana. Se ven las marcas de los nudos y las cotas de pendiente. Dibujo técnico a mano alzada, escala de grises, las líneas de replanteo remarcadas en rojo. Vista en perspectiva desde arriba. -->
+
+> ✅ **Verificación previa:** Antes de empezar, se comprueba que el cordón superior de todas las cerchas tendrá el mismo ángulo. Una sola cercha mal ejecutada en la pendiente rompe la regularidad del tejado e impide que la chapa asiente correctamente.
+
+---
+
+### PASO 2 — Preparación del cordón inferior doble o triple
+
+El cordón inferior es la pieza que trabaja en tracción: es la que "tira" hacia los extremos resistiendo que la cercha se abra. Es también la pieza donde se realizan las uniones con los montantes y diagonales, por lo que se recomienda construirlo como **cordón sándwich**: dos o tres piezas paralelas con un hueco entre ellas en el que se introducen los extremos de las otras piezas.
+
+**Configuración recomendada:**
+
+| Configuración | Descripción | Ventaja |
+|---|---|---|
+| Doble (madera–hueco–madera) | Dos piezas paralelas de 8×8 cm con separación igual al ancho de los montantes | Unión limpia, sin escuadras visibles |
+| Triple (madera–madera–madera) | Tres piezas pegadas; la central recibe el claveteado desde las exteriores | Mayor rigidez, menos huecos |
+
+<!-- PROMPT: Esta imagen tiene que representar el detalle en sección transversal de un cordón inferior tipo sándwich: dos piezas exteriores de madera con un hueco en el centro donde se introduce el extremo de un montante. Se ven los clavos pasando de las piezas exteriores al montante. Escala de grises, el hueco y el montante interior remarcados en rojo. Dibujo técnico a mano alzada. -->
+
+**Procedimiento:**
+1. Se cortan las dos o tres piezas del cordón a la longitud total de la cercha más el vuelo de alero si se incluye en este elemento.
+2. Se marcan sobre las piezas exteriores los puntos donde irán los nudos, alineados con el replanteo del suelo.
+3. Se ensamblan provisionalmente con abrazaderas o cuerda hasta que los montantes estén colocados.
+
+---
+
+### PASO 3 — Corte y preparación de montantes y diagonales
+
+Los montantes son las piezas verticales interiores de la cercha. Las diagonales son las piezas inclinadas. Juntos, forman los triángulos que dan rigidez al conjunto.
+
+**Regla fundamental de la triangulación:**
+
+Todas las piezas interiores deben estar **en el mismo plano** que los cordones. Si una pieza interior queda desplazada hacia delante o hacia atrás respecto al plano de la cercha, introduce esfuerzos de torsión que pueden partir la unión. En la práctica local, es frecuente encontrar piezas que no están en el mismo plano; esta es una de las causas de fallo estructural más comunes.
+
+<!-- PROMPT: Esta imagen tiene que representar una vista frontal de una cercha donde las piezas interiores están correctamente en el mismo plano, y una vista comparativa donde una pieza está desplazada hacia fuera del plano. El error está remarcado en rojo. Dibujo técnico a mano alzada, escala de grises. -->
+
+**Procedimiento:**
+1. Usando el replanteo del suelo como plantilla, se mide la longitud exacta de cada montante y diagonal, teniendo en cuenta los ángulos de corte en cada extremo.
+2. Se cortan los ángulos con sierra. El ángulo de corte debe quedar limpio y plano para que el contacto entre piezas sea total, sin holguras.
+3. Se presenta cada pieza sobre el replanteo antes de ensamblar para verificar que encaja correctamente.
+
+> ⚠️ **Importante:** Un corte de ángulo con holgura o con superficie irregular transmite mal los esfuerzos. La unión mecánica (clavo o tornillo) no puede compensar un mal contacto entre maderas.
+
+---
+
+### PASO 4 — Ensamble de la cercha en el suelo
+
+El ensamble se realiza completamente en el suelo, sobre el replanteo, antes de elevar la cercha a su posición definitiva. Intentar ensamblar en altura introduce errores geométricos y riesgos innecesarios.
+
+**Tipos de unión:**
+
+| Tipo | Descripción | Cuándo usar |
+|---|---|---|
+| Claveteado en diagonal | Clavos cruzados atravesando las piezas en ángulo | Uniones secundarias, montantes intermedios |
+| Pletina metálica | Placa de acero galvanizado fijada con tornillos a ambas piezas | Nudos principales: apoyo sobre pilar y cumbrera |
+| Ensamble a media madera | Rebaje en ambas piezas que encajan entre sí antes de clavar | Cuando hay carpintero disponible; da mayor resistencia |
+
+<!-- PROMPT: Esta imagen tiene que representar el detalle del nudo de apoyo de la cercha sobre el pilar: el cordón inferior apoya directamente sobre la cabeza del pilar, con una pletina metálica fijada con tornillos que une ambos elementos. Se ve claramente que el apoyo es sobre el pilar y no sobre el zuncho. Escala de grises, la pletina y el punto de apoyo remarcados en rojo. Dibujo técnico a mano alzada. Vista en perspectiva de detalle. -->
+
+**Procedimiento:**
+1. Se colocan primero las dos piezas del cordón inferior sobre el replanteo.
+2. Se introduce el extremo de cada montante y diagonal en el hueco del sándwich y se fija provisionalmente con cuerda o abrazadera.
+3. Se verifica la geometría midiendo las diagonales del triángulo principal: si las dos diagonales son iguales, la cercha está bien cuadrada.
+4. Se clavan o atornillan las uniones de forma definitiva, empezando por los nudos extremos y avanzando hacia el centro.
+5. Se colocan las pletinas metálicas en los nudos principales y se aprietan los tornillos.
+
+> ✅ **Comprobación final:** Se levanta ligeramente la cercha del suelo (con ayuda de varios operarios) y se comprueba que no presenta deformación visible. Si la cercha se tuerce o pandea al elevarla, hay un fallo en alguna unión que debe corregirse antes de subirla.
+
+---
+
+### PASO 5 — Elevación y colocación de las cerchas
+
+La elevación es la fase de mayor riesgo físico y la que requiere más coordinación de equipo. Una cercha de 8–10 metros pesa entre 80 y 150 kg dependiendo de las secciones utilizadas; no puede levantarse ni posicionarse sin organización previa.
+
+**Estructuras auxiliares:**
+
+Para poder elevar y posicionar las cerchas sin maquinaria, se construyen previamente estructuras auxiliares de madera llamadas **caballetes o puntales provisionales**. Su función es sostener la cercha en posición mientras se fija definitivamente sobre los pilares.
+
+<!-- PROMPT: Esta imagen tiene que representar el proceso de elevación de una cercha de madera mediante un sistema de puntales provisionales: varios operarios elevan la cercha desde el suelo por etapas, usando puntales inclinados que la sostienen en posición intermedia. Dibujo técnico a mano alzada, escala de grises, los puntales provisionales remarcados en rojo. Vista lateral. -->
+
+**Procedimiento:**
+1. Se preparan los puntales provisionales antes de elevar: piezas largas de madera con horquilla en el extremo superior que permiten sostener el cordón inferior de la cercha mientras se trabaja.
+2. Con un mínimo de **4 personas**, se eleva la cercha desde el suelo: dos en cada extremo levantando, una en el centro sosteniendo con puntal, una guiando desde el exterior.
+3. La cercha se apoya sobre la cabeza de los pilares (no sobre el zuncho). El cordón inferior debe quedar enrasado con la parte superior del pilar o ligeramente por encima.
+4. Se fija provisionalmente con cuerda antes de colocar las pletinas o los tornillos definitivos.
+5. Se comprueba la verticalidad de la cercha con la plomada antes de fijar definitivamente.
+6. Se repite el proceso con cada cercha, avanzando desde un extremo de la vivienda hacia el otro.
+
+> ⚠️ **Nunca se eleva una cercha sin puntales provisionales preparados.** Una cercha que cae durante la elevación puede causar lesiones graves y daños irreparables en la madera.
+
+---
+
+### PASO 6 — Arriostramiento entre cerchas
+
+Una cercha aislada es estable en su propio plano pero puede volcar lateralmente. El arriostramiento entre cerchas las convierte en un conjunto rígido tridimensional.
+
+**Elementos de arriostramiento:**
+- **Rastreles de cubierta:** los listones que apoyan sobre los cordones superiores de todas las cerchas a la vez las unen en su plano superior.
+- **Cruces de San Andrés:** pares de piezas diagonales cruzadas colocadas en el plano vertical entre dos cerchas contiguas, en al menos un paño de cada cinco.
+
+<!-- PROMPT: Esta imagen tiene que representar una vista en perspectiva del conjunto de tres cerchas arriostrradas: los rastreles superiores las unen en el plano inclinado de la cubierta, y una cruz de San Andrés aparece en el plano vertical entre dos de las cerchas. Dibujo técnico a mano alzada, escala de grises, los elementos de arriostramiento remarcados en rojo. -->
+
+**Procedimiento:**
+1. Una vez fijadas dos cerchas contiguas, se colocan los primeros rastreles transversales que las unen. A partir de ese momento, el conjunto ya es estable.
+2. Se colocan las cruces de San Andrés en los paños extremos (inicio y final de la cubierta) y cada cuatro o cinco crujías intermedias.
+3. Se continúa añadiendo cerchas y rastreles avanzando hacia el otro extremo.
+
+---
+
+# PARTE 2: CHAPA DE ZINC Y RASTRELES
+
+La chapa de zinc corrugada es el material de cobertura más extendido en Guinea Ecuatorial por su disponibilidad, precio y durabilidad. Sustituye a la nipa tradicional, que aunque tiene mejores propiedades térmicas, requiere renovación cada 3–5 años.
+
+> ⚠️ **Principal problema de la chapa de zinc:** actúa como un radiador. Al calentarse por la radiación solar directa, irradia calor hacia el interior del espacio. En días soleados, la temperatura bajo la chapa puede superar los 50–60 °C. La solución a este problema se aborda en la Parte 3 (falso techo).
+
+---
+
+## Materiales necesarios
+
+- Chapa de zinc corrugada, calibre mínimo 0,4 mm *(a mayor calibre, mayor durabilidad y menor ruido bajo la lluvia)*
+- Rastreles de madera de sección **5×5 cm** o **5×8 cm**
+- Tornillos autorroscantes para chapa con arandela de neopreno, longitud 35–50 mm
+- Cinta métrica y nivel
+- Tijeras de chapa o disco de corte para metales *(para ajustar longitudes)*
+
+<!-- TODO: Verificar disponibilidad y calibres de chapa de zinc en el mercado local de Bata. Consultar precios por metro cuadrado. -->
+
+---
+
+## Paso a paso
+
+### PASO 1 — Colocación de los rastreles
+
+Los rastreles son los listones de madera que apoyan transversalmente sobre los cordones superiores de las cerchas y sobre los que se fija la chapa. La separación entre rastreles determina la resistencia de la cubierta frente a cargas de viento y el comportamiento de la chapa.
+
+**Separación entre rastreles:**
+- Separación máxima recomendada: **60 cm** entre ejes.
+- En zonas con viento fuerte o en cubiertas de pendiente suave, reducir a **40–50 cm**.
+
+**Procedimiento:**
+1. Se comienza desde el alero (borde inferior de la cubierta) y se avanza hacia la cumbrera.
+2. El primer rastrel se coloca en el borde del alero, dejando vuelo suficiente para que la chapa sobresalga al menos **30 cm** del muro exterior.
+3. Se clava cada rastrel sobre el cordón superior de cada cercha con al menos un clavo en cada punto de cruce.
+4. Se comprueba la alineación de cada rastrel con un cordel tenso antes de clavar.
+
+<!-- PROMPT: Esta imagen tiene que representar la vista lateral de una cubierta inclinada con los rastreles ya colocados sobre los cordones superiores de las cerchas. Se ve claramente el vuelo del alero y la separación regular entre rastreles. Se marca la cota de separación entre rastreles y la longitud del vuelo del alero. Escala de grises, el primer rastrel de alero remarcado en rojo. Dibujo técnico a mano alzada. -->
+
+---
+
+### PASO 2 — Colocación de la chapa de zinc
+
+La chapa se coloca de abajo hacia arriba (del alero a la cumbrera) y de un lateral hacia el otro, con solapes entre chapas en las dos direcciones.
+
+**Solapes mínimos:**
+
+| Dirección | Solape mínimo |
+|---|---|
+| Longitudinal (de abajo a arriba) | 20 cm |
+| Transversal (lateral) | Una corruga completa |
+
+**Procedimiento:**
+1. Se empieza por la esquina inferior de sotavento (el lado opuesto al viento dominante). Así los solapes laterales quedan a favor del viento y no captan aire.
+2. La primera chapa se coloca con el vuelo de alero acordado y se fija con tornillos autorroscantes en cada corruga que coincide con un rastrel, en la cresta de la corruga.
+3. Cada chapa siguiente se solapa con la anterior y se fija de igual manera.
+4. Al llegar a la cumbrera, se instala una pieza de remate (chapa doblada en ángulo o perfil de cumbrera prefabricado) que cubre el encuentro entre los dos faldones e impide la entrada de agua por arriba.
+
+> ✅ **Los tornillos se colocan siempre en la cresta de la corruga, nunca en el valle.** En el valle se acumula el agua: un agujero allí es una vía de entrada directa.
+
+<!-- PROMPT: Esta imagen tiene que representar el detalle en sección transversal de la chapa corrugada sobre los rastreles. Se ven dos tornillos: uno mal colocado en el valle de la corruga (tachado) y uno bien colocado en la cresta. La dirección del agua también se indica. Escala de grises, la posición correcta del tornillo remarcada en rojo. Dibujo técnico a mano alzada. -->
+
+---
+
+### PASO 3 — El alero: dimensión y ejecución
+
+El alero es el vuelo de la cubierta más allá del muro exterior. En clima ecuatorial, el alero cumple dos funciones esenciales: proteger el cerramiento de madera de la lluvia directa y dar sombra a la pared y a las aberturas.
+
+**Dimensión mínima del alero:**
+- Alero lateral (a los lados de la cubierta): mínimo **60 cm**
+- Alero frontal (en los hastiales): mínimo **40 cm**
+
+> ⚠️ **Un alero insuficiente es uno de los errores más frecuentes en la construcción local.** Sin alero, el agua de lluvia golpea directamente el cerramiento de madera y la base del muro, y las aberturas dejan pasar el agua al interior. El coste de aumentar el alero es mínimo; el coste de reparar la madera dañada por la lluvia es muy alto.
+
+<!-- PROMPT: Esta imagen tiene que representar una sección transversal de la vivienda que muestra el alero en su dimensión correcta: la cubierta sobresale del muro exterior lo suficiente para proteger el cerramiento y la ventana de la lluvia. Una línea de lluvia diagonal indica cómo el alero desvía el agua. Escala de grises, la dimensión del alero y la línea de lluvia remarcadas en rojo. Dibujo técnico a mano alzada. -->
+
+---
+
+# PARTE 3: FALSO TECHO
+
+El falso techo es una capa horizontal situada por debajo de las cerchas, en el interior de la vivienda, que crea una cámara de aire entre la chapa y el espacio habitable. Su función principal es reducir la irradiación de calor de la chapa hacia el interior.
+
+> 💡 **¿Por qué es imprescindible el falso techo en Guinea Ecuatorial?**
+> La chapa de zinc alcanza temperaturas de superficie de 60–80 °C bajo el sol directo y emite esa energía como calor radiante hacia abajo. Sin barrera, esa radiación calienta el interior de la vivienda hasta hacerlo inhabitable en las horas centrales del día. El falso techo, junto con una correcta ventilación de la cámara de aire, puede reducir la temperatura interior en 8–12 °C.
+
+---
+
+## Materiales necesarios
+
+- Tablas de madera ligera o listones de bambú para la estructura del falso techo
+- Hojas de nipa tejida, fibra vegetal, o tabla fina de madera *(para el panel de cierre)*
+- Clavos o alambre de amarre
+
+<!-- TODO: Investigar con constructores locales qué materiales se usan habitualmente para falsos techos en la región. Documentar alternativas disponibles y sus duraciones medias. -->
+
+---
+
+## Paso a paso
+
+### PASO 1 — Estructura del falso techo
+
+La estructura del falso techo se cuelga del cordón inferior de las cerchas. Debe quedar en un plano horizontal, independientemente de la pendiente de la cubierta.
+
+**Procedimiento:**
+1. Se marcan en el cordón inferior de cada cercha el nivel al que quedará el falso techo. Este nivel debe ser suficientemente alto para dar altura libre interior de al menos **2,4 m**.
+2. Se clavan o atan listones transversales entre las cerchas, siguiendo ese nivel marcado.
+3. Sobre esos listones se tiende el material de cierre (nipa, tabla fina, fibra vegetal).
+
+<!-- PROMPT: Esta imagen tiene que representar la sección transversal de la vivienda con la cercha, la chapa y el falso techo. Se ve claramente la cámara de aire entre la chapa y el panel del falso techo, y la altura libre interior desde el suelo hasta el falso techo. Se indica la dirección del flujo de aire caliente que sube por la cámara. Escala de grises, la cámara de aire y el falso techo remarcados en rojo. Dibujo técnico a mano alzada. -->
+
+---
+
+### PASO 2 — Ventilación de la cámara de aire
+
+La cámara de aire entre chapa y falso techo solo es eficaz si el aire caliente puede salir. Si la cámara está herméticamente cerrada, el calor se acumula y el falso techo actúa como un segundo radiador.
+
+**Solución recomendada:**
+- Dejar aberturas de ventilación en los extremos de la cámara, en los hastiales de la cubierta, de al menos **20×20 cm** de sección libre.
+- Colocar malla fina sobre esas aberturas para evitar la entrada de insectos y aves.
+
+> ✅ **El principio es sencillo:** el aire caliente sube y sale por los hastiales; el aire más fresco entra por los aleros. Cuanto más alta sea la cumbrera respecto al alero, mayor será el efecto de tiraje y más eficaz la ventilación.
+
+---
+
+## 🌿 TIPS ESPECÍFICOS PARA EL CONTEXTO DE GUINEA ECUATORIAL
+
+---
+
+### Sobre el ruido de la lluvia
+
+La chapa de zinc amplifica el ruido de la lluvia de forma considerable. En tormentas intensas, el ruido puede resultar perturbador. La solución más sencilla es el propio falso techo: la cámara de aire y el panel actúan como atenuadores acústicos. Para mayor reducción, puede colocarse una capa de nipa o fibra vegetal entre la chapa y los rastreles, aunque esto aumenta el mantenimiento al ser un material orgánico.
+
+<!-- TODO: Consultar con carpinteros y familias locales qué soluciones utilizan actualmente para reducir el ruido de la lluvia en la cubierta. -->
+
+---
+
+### Sobre el apoyo de las cerchas
+
+En la práctica constructiva local, las cerchas frecuentemente se apoyan sobre el zuncho de coronación del muro en lugar de sobre la cabeza de los pilares. Esto genera una transmisión de cargas deficiente, ya que el zuncho no está diseñado para recibir cargas concentradas de esa magnitud. **Las cerchas deben apoyar directamente sobre los pilares**, de forma que la carga baje verticalmente desde la cubierta hasta la cimentación sin rodeos.
+
+---
+
+### Sobre el mantenimiento de la chapa
+
+La chapa de zinc dura más de 20 años si se mantiene correctamente. Los principales puntos de deterioro son:
+- Las perforaciones de los tornillos: si la arandela de neopreno envejece y deja de sellar, entra agua. Revisar y sustituir los tornillos cada 5–7 años.
+- Los cortes laterales de la chapa: el borde cortado es propenso a oxidar antes que la superficie. Doblar el borde o aplicar pintura anticorrosión en el corte prolonga la vida útil.
+- Las zonas de solape: si el solape es insuficiente o si una corruga queda mal alineada, el agua puede remontar por capilaridad. Revisar tras temporadas de lluvias intensas.
+
+---
+
+### Sobre la organización del trabajo
+
+La fase de cubierta es la más exigente logísticamente: requiere trabajo en altura, manejo de piezas largas y pesadas, y coordinación de varios operarios simultáneos. Se recomienda organizarla como jornada comunitaria, de forma similar al hormigonado de la zapata. Para una vivienda estándar, el montaje de cerchas requiere al menos **4–6 personas** durante una jornada completa.
+
+---
+
+## ⏭️ SIGUIENTE PASO: INSTALACIONES Y ACABADOS
+
+Una vez terminada la cubierta con el falso techo colocado, se procederá a las instalaciones básicas (saneamiento y ventilación) y a los acabados interiores de suelo y paramentos.
+
+---
+
+*Guía elaborada para el proyecto ADSIDEO Cooperación 2024 — "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial"*
+*UPV · Cátedra MADERAMEN*
+*Versión de trabajo — pendiente de validación técnica y revisión de campo*

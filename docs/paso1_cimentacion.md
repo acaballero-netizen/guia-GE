@@ -1,4 +1,4 @@
-# 02. Cimentación
+# Cimentación
 ### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 

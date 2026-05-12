@@ -2,13 +2,13 @@
 ### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
+
+
 ---
 
-## Introducción
+Antes de levantar cualquier muro o clavar cualquier poste, el terreno debe estar preparado. Estos cuatro pasos —analizar el terreno, limpiarlo, nivelarlo y replantearlo— son los más importantes de toda la obra. Si se hacen mal, todos los errores se acumulan y resultan muy difíciles de corregir.
 
-Antes de levantar cualquier muro o clavar cualquier poste, el terreno debe estar preparado. Estos tres pasos —limpiar, nivelar y replantear— son los más importantes de toda la obra. Si se hacen mal, todos los errores se acumulan y luego son muy difíciles de corregir.
-
-El clima ecuatorial de Guinea Ecuatorial hace que estos pasos sean especialmente importantes: las lluvias intensas erosionan terrenos mal preparados, la vegetación tropical crece con rapidez si no se elimina bien desde la raíz, y la humedad del suelo puede arruinar una cimentación si no se trabaja correctamente desde el principio.
+El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvias intensas erosionan terrenos mal preparados, la vegetación tropical crece con rapidez si no se elimina bien desde la raíz, y la humedad del suelo puede arruinar una cimentación si no se trabaja correctamente desde el principio.
 
 > 🔑 **Regla de oro:** Un día bien invertido en preparar el terreno ahorra semanas de problemas después.
 
@@ -18,42 +18,132 @@ El clima ecuatorial de Guinea Ecuatorial hace que estos pasos sean especialmente
 
 ### Herramientas de medición y marcado
 - Cinta métrica (mínimo 5 m)
-- Manguera transparente (mínimo 10 m), para usarla como nivel de agua
+- Manguera transparente (mínimo 10 m) — para usarla como nivel de agua
 - Cordel grueso que **no sea elástico** (un rollo grande)
 - Nivel de burbuja
 - Plomada
-- Rotulador indeleble o cinta aislante (para marcar el nivel en las estacas)
+- Rotulador indeleble o cinta aislante — para marcar el nivel en las estacas
+- Tarro de vidrio transparente con tapa — para la prueba de sedimentación del suelo *(alternativa: cualquier recipiente cilíndrico transparente)*
 
 ### Herramientas de trabajo
 - Machete y azada
 - Pico y pala de punta
 - Carretilla
 - Martillo y clavos
-- Cizalla o sierra para metales
-- Tubo de hierro hueco (para doblar varillas en forma de L con facilidad)
-- Pisón manual — se puede fabricar con un tronco pesado y dos palos como mangos, o con un cubo de plástico lleno de hormigón y un palo fuerte en el centro
+- Pisón manual — puede fabricarse con un tronco pesado y dos palos como mangos, o con un cubo de plástico lleno de hormigón y un palo fuerte en el centro
 
 ### Estacas y cordel
-- 8 a 10 estacas de madera de 60-80 cm, afiladas en un extremo para clavarlas en el suelo — pueden ser ramas rectas de desecho o bambú
+- 8 a 10 estacas de madera de 60–80 cm, afiladas en un extremo para clavarlas en el suelo — pueden ser ramas rectas de desecho o bambú
 - Mazo o piedra para clavar las estacas
 
 ---
 
-## Paso 1 · Limpieza del terreno
+## Paso 1 · Análisis del terreno
 
 ### ¿Para qué sirve?
+
+El terreno determina la profundidad y las dimensiones necesarias de la cimentación. Construir sin conocer el tipo de suelo puede resultar en una zapata insuficiente que se asienta, se agrieta o falla con las primeras lluvias intensas.
+
+En Guinea Ecuatorial es frecuente encontrar suelos arcillosos expansivos, especialmente en la zona fang interior, así como suelos con nivel freático alto en el litoral. Estos suelos exigen mayor cuidado que los suelos firmes o arenosos compactos. <!-- TODO: esto requiere algun tipo de comprobacion bibligrafica realmente, es un dato un poco soltado asi sin mas -->
+
+Antes de excavar ninguna zanja, se realizan dos pruebas sencillas que no requieren ningún instrumento especial.
+
+---
+
+### Prueba 1 · La prueba de la bola (reconocimiento inmediato)
+
+Esta prueba permite identificar el tipo de suelo en el momento, con las manos y en el mismo solar.
+
+<!-- PROMPT: Esta imagen tiene que representar una secuencia de tres manos realizando la prueba de la bola con distintos tipos de suelo. Primera mano: intenta comprimir tierra arenosa que se disgrega al abrir la mano. Segunda mano: comprime tierra arcillosa que mantiene una bola compacta con marcas de dedos visibles. Tercera mano: comprime tierra negra u orgánica que se deshace fácilmente y deja residuo oscuro. Escala de grises con elementos clave remarcados en rojo. Dibujo técnico a mano alzada, vista frontal. --> 
+<!-- TODO: parece interesante añadir una imagen de como se tiene que ver la bola, las grietas de la misma, esto tiene pinta de que tiene que ser mejor con una imagen -->
+
+**Cómo realizarla:**
+
+1. Tomar un puñado de tierra de la zona donde se excavará la zanja, a unos 20–30 cm de profundidad (no de la superficie).
+2. Si la tierra está seca, añadir unas gotas de agua y mezclar hasta que la humedad sea uniforme.
+3. Comprimir el puñado con fuerza entre las palmas durante 10 segundos.
+4. Abrir la mano y observar el resultado.
+
+**Interpretación:**
+
+| Resultado al abrir la mano | Tipo de suelo probable | Qué indica |
+|---|---|---|
+| La tierra se disgrega y cae, no mantiene forma | Arena o grava | Suelo permeable, buen drenaje. Cimentación estándar |
+| Mantiene la bola con forma. Se ven marcas de dedos. Al secar se endurece | Arcilla o tierra arcillosa | Suelo expansivo. Requiere mayor profundidad de zapata |
+| Mantiene la bola pero es esponjosa o fibrosa. Color oscuro, olor a tierra húmeda | Tierra orgánica o negra | **No apta para cimentar. Retirar completamente antes de excavar** |
+| Bola compacta, rugosa, con partículas visibles. No se ve barro en las manos | Tierra firme o laterítica | Buen soporte. Cimentación estándar |
+
+> ⚠️ Si el resultado es tierra orgánica o arcilla blanda, consultar la sección de *Tips específicos para Guinea Ecuatorial* al final de este documento antes de continuar. <!-- TODO: añadir link a la seccion que hace referencia -->
+
+---
+
+### Prueba 2 · La prueba del tarro (análisis de sedimentación)
+
+Esta prueba tarda entre 12 y 48 horas, pero da información más detallada sobre la composición del suelo. Es especialmente útil cuando la prueba de la bola genera dudas o cuando el suelo parece una mezcla de varios tipos.
+
+<!-- PROMPT: Esta imagen tiene que representar un tarro de vidrio transparente con agua y tierra en reposo, mostrando claramente tres capas de sedimento diferenciadas: grava y arena gruesa en el fondo, arena fina en el medio, y arcilla y limo en la parte superior, con una capa de agua turbia o clara encima. Se indica con flechas o cotas en rojo el nombre de cada capa y su grosor relativo. Dibujo técnico a mano alzada, escala de grises, las cotas de las capas remarcadas en rojo. Vista frontal del tarro. -->
+
+**Cómo realizarla:**
+
+1. Llenar un tarro de vidrio hasta un tercio de su capacidad con tierra del solar, tomada a la profundidad de la futura excavación. <!-- TODO: importante aclarar cual debe ser la superficie a la que se tiene que hacer porque esta claro que esto variara en funcion del terreno, pero por lo menos de la superficie no tiene que ser -->
+2. Rellenar con agua limpia hasta casi el borde.
+3. Tapar, agitar con fuerza durante 1 minuto y dejar en reposo en un lugar estable, sin moverlo.
+4. Esperar sin tocarlo:
+   - **A los 2 minutos:** se habrán depositado en el fondo la grava y la arena gruesa.
+   - **A los 30 minutos:** se habrá depositado la capa de arena fina por encima de la anterior.
+   - **A las 12–48 horas:** se habrá depositado la arcilla y el limo por encima de todo. El agua quedará más o menos clara dependiendo de la cantidad de arcilla.
+
+**Cómo leer el resultado:**
+
+Una vez que el agua está en reposo y las capas bien formadas, medir con un palillo o una regla el grosor de cada capa y calcular qué porcentaje ocupa del total de sedimento.
+<!-- TODO: en esta tabla habra que añadir el tipo de suelo mejor no? -->
+| Composición aproximada | Interpretación | Decisión |
+|---|---|---|
+| Más del 50% de capa inferior (arena/grava) | Suelo granular, buen drenaje | Cimentación estándar. Profundidad mínima 60 cm |
+| Capa superior (arcilla/limo) mayor que capa inferior | Suelo arcilloso dominante | Aumentar profundidad de zapata a 80–100 cm. Revisar drenaje perimetral |
+| Agua permanece turbia o marrón incluso tras 48 horas | Arcilla muy fina o suelo orgánico en suspensión | Valoración técnica necesaria antes de continuar |
+| Capa oscura flotando en la superficie | Materia orgánica presente | Retirar todo ese horizonte antes de excavar la zapata |
+
+> ✅ **Recomendación:** Realizar ambas pruebas en cada esquina del solar, ya que el tipo de suelo puede variar de un punto a otro de la misma parcela.
+
+---
+
+### Tabla de decisión: qué hacer según el tipo de suelo
+
+Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones de la cimentación:
+
+| Tipo de suelo | Cómo se reconoce | Profundidad mínima de zapata | Observaciones |
+|---|---|---|---|
+| Roca o grava compacta | Duro, no se deforma al pisar ni al presionar | 40 cm | Excelente. Caso ideal |
+| Arena o tierra firme compacta | No cede al pisarlo. Bola de la prueba se disgrega | 60 cm | Bueno. Caso estándar |
+| Suelo laterítico | Color rojizo, compacto, rugoso | 60 cm | Habitual en zona fang. Buen soporte |
+| Arcilla o tierra blanda | Se deforma al pisarlo. Bola mantiene forma y marcas | 80–100 cm | Retirar si es muy blanda. Mayor riesgo de movimiento |
+| Tierra negra u orgánica | Color oscuro, olor, esponjosa | — | **Retirar completamente. No cimentar sobre ella** |
+| Terreno muy húmedo o con agua | Aparece agua al cavar a menos de 80 cm | — | Consultar con técnico antes de continuar |
+
+<!-- TODO: Verificar en campo los tipos de suelo predominantes en los municipios de actuación del proyecto (litoral de Bata, zona interior fang). Esta tabla debe completarse y validarse con los resultados del estudio de campo. -->
+
+---
+
+## Paso 2 · Limpieza del terreno
+
+### ¿Para qué sirve?
+
 Para retirar toda la vegetación, raíces y tierra orgánica que hay sobre el solar. Si se deja materia vegetal enterrada bajo la casa, esta se pudre con el tiempo, crea huecos y puede hundir la construcción.
 
 ### Proceso
 
 1. **Cortar la vegetación** con machete: maleza, arbustos pequeños y todo lo que crezca dentro del perímetro de la futura casa y en una franja de al menos 1 metro alrededor.
 2. **Arrancar raíces superficiales** con la azada. No basta con cortar lo que se ve por encima del suelo.
-3. **Agrupar y retirar los restos** con el rastrillo y la carretilla, llevándolos fuera del área de trabajo.
-4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10-15 cm de tierra, ya que esta tierra no es apta para sostener una cimentación.
+3. **Agrupar y retirar los restos** con la carretilla, llevándolos fuera del área de trabajo.
+4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener una cimentación.
+
+<!-- PROMPT: Esta imagen tiene que representar la sección transversal de un terreno tropical mostrando las capas de suelo: capa vegetal oscura en la superficie (marcada en rojo indicando que se retira), y suelo firme competente por debajo. Se ve una pala de punta en acción retirando la capa superficial. Dibujo técnico a mano alzada, escala de grises. Vista en sección, entorno tropical. -->
 
 ### Si hay árboles dentro de la huella de la casa
+
 Se necesitará además:
-- Hacha o motosierra para cortar el árbol.
+- Hacha para cortar el árbol.
 - Pala de punta para cavar alrededor del tocón y extraer las raíces profundas.
 - Palanca para ayudar con las raíces resistentes o piedras grandes.
 
@@ -61,10 +151,13 @@ Se necesitará además:
 
 ---
 
-## Paso 2 · Nivelación del terreno
+## Paso 3 · Nivelación del terreno
 
 ### ¿Para qué sirve?
+
 Para asegurarse de que la base de la casa quede en un plano horizontal. Los terrenos suelen tener pendientes, irregularidades y zonas blandas. Un suelo bien nivelado garantiza que la estructura se asiente de forma uniforme.
+
+---
 
 ### El nivel de manguera: método accesible y preciso
 
@@ -72,55 +165,68 @@ Este método se basa en una ley física sencilla: **el agua en reposo siempre qu
 
 No se necesita ningún instrumento caro: basta con una manguera transparente llena de agua.
 
+<!-- PROMPT: Esta imagen tiene que representar dos personas trabajando con una manguera transparente llena de agua para nivelar estacas en un solar de tierra. Una persona sostiene un extremo a la altura de una marca en la estaca maestra. La otra, a unos 6 metros, marca su estaca donde el agua se detiene. La manguera va remarcada en rojo. Vista lateral, entorno tropical, luz de mediodía. Dibujo técnico a mano alzada, escala de grises. -->
+
 ### Proceso paso a paso
 
 **Preparación de la manguera:**
-1. Llena la manguera con agua limpia, asegurándote de que no queden burbujas de aire en su interior. Las burbujas hacen que la medición sea incorrecta.
-2. Para comprobar que no hay burbujas, coloca los dos extremos uno al lado del otro: si el agua está a la misma altura en ambos, la manguera está bien. Asegúrate de que sobra bastante manguera a ambos lados para que las variaciones no afecten.
-3. No dejes la manguera al sol durante el proceso: el calor calienta el agua y puede alterar ligeramente la medición.
+
+1. Llenar la manguera con agua limpia, asegurándose de que no queden burbujas de aire en el interior. Las burbujas producen mediciones incorrectas.
+2. Para verificar que no hay burbujas, colocar los dos extremos uno al lado del otro: si el agua está a la misma altura en ambos, la manguera está lista.
+3. No dejar la manguera al sol durante el proceso: el calor puede alterar ligeramente la medición.
 
 **Establecer el Punto Maestro:**
-1. Clava una estaca en la esquina del terreno que parezca estar más alta.
-2. Mide exactamente 1 metro desde el suelo hacia arriba en esa estaca y haz una marca clara con el rotulador o cinta aislante. Esta es tu **referencia de nivel**.
+
+1. Clavar una estaca en la esquina del terreno que parezca estar más alta.
+2. Medir exactamente 1 metro desde el suelo hacia arriba en esa estaca y hacer una marca clara con el rotulador o cinta aislante. Esta marca es la **referencia de nivel** de toda la obra.
 
 **Repartir el nivel (trabajo en pareja):**
 
 Este paso requiere dos personas trabajando juntas:
 
-- **Operario A** se queda fijo junto a la estaca maestra, con un extremo de la manguera, manteniendo el agua exactamente en la marca de 1 metro.
-- **Operario B** va a la siguiente esquina con el otro extremo de la manguera y clava allí una nueva estaca.
-- Cuando el agua se estabilice, el Operario B hace una marca en su estaca donde quede el nivel del agua. Esa marca está exactamente a la misma altura que la marca de 1 metro del Operario A.
+- La **primera persona** permanece fija junto a la estaca maestra, con un extremo de la manguera, manteniendo el agua exactamente en la marca de 1 metro.
+- La **segunda persona** lleva el otro extremo a la siguiente esquina y clava allí una nueva estaca.
+- Cuando el agua se estabilice, la segunda persona hace una marca en su estaca donde quede el nivel del agua. Esa marca está exactamente a la misma altura que la marca de 1 metro de la primera estaca.
 - Se repite el proceso en todas las esquinas y puntos intermedios del solar.
 
 **Atar el cordel de referencia:**
-Una vez que todas las estacas tienen su marca, se ata un cordel bien tenso pasando exactamente por todas las marcas. Este cordel representa un plano horizontal perfecto.
+
+Una vez que todas las estacas tienen su marca, se ata un cordel bien tenso pasando exactamente por todas las marcas. Ese cordel representa un plano horizontal perfecto.
 
 **Leer el terreno:**
-- Si la distancia desde el cordel hasta el suelo es **menor de 1 metro**: hay un bulto de tierra → hay que quitar tierra con la azada hasta alcanzar la medida exacta.
-- Si la distancia es **mayor de 1 metro**: hay una hondonada → hay que añadir tierra y compactarla (ver apartado siguiente).
+
+- Si la distancia desde el cordel hasta el suelo es **menor de 1 metro**: hay un montículo de tierra → quitar tierra con la azada hasta alcanzar la medida exacta.
+- Si la distancia es **mayor de 1 metro**: hay una hondonada → añadir tierra y compactarla por capas (ver apartado siguiente).
+
+<!-- PROMPT: Esta imagen tiene que representar un perfil de terreno irregular con el cordel de nivel tenso entre estacas. En un punto el suelo está por encima del cordel (marcado en rojo: rebajar), en otro está por debajo (marcado en rojo: rellenar). Las cotas de diferencia están indicadas con flechas rojas. Dibujo técnico a mano alzada, escala de grises, vista lateral. -->
+
+---
 
 ### Cómo compactar bien la tierra añadida
 
 Cuando haya que rellenar zonas bajas, **nunca se echa toda la tierra de golpe**. Se trabaja por capas:
 
 1. Echar una capa de unos **15 cm** de tierra.
-2. Humedecerla ligeramente con agua (debe quedar húmeda, no barro).
-3. Golpearla con fuerza con el pisón manual hasta que esté dura como una piedra.
+2. Humedecerla ligeramente con agua (debe quedar húmeda, no convertirse en barro).
+3. Golpearla con fuerza con el pisón manual hasta que esté dura y no ceda al pisar.
 4. Repetir capa por capa hasta llegar a la altura marcada por el cordel.
 
 > ⚠️ **Cuidados durante la nivelación:**
 > - Nadie debe pisar la manguera durante el proceso.
-> - Tapa los extremos con el pulgar al desplazarte de una estaca a otra para no perder agua.
-> - Si el terreno tiene pendiente fuerte, puede ser necesario hacer un pequeño terraplenado (corte en la parte alta y relleno en la parte baja) antes de empezar la nivelación de detalle.
+> - Tapar los extremos con el pulgar al desplazarse de una estaca a otra para no perder agua.
+> - Si el terreno tiene pendiente fuerte, puede ser necesario un terraplenado previo (corte en la parte alta y relleno en la parte baja) antes de empezar la nivelación de detalle.
 
 ---
 
-## Paso 3 · Replanteo
+## Paso 4 · Replanteo
 
 ### ¿Para qué sirve?
+
 El replanteo consiste en **dibujar sobre el terreno real las medidas exactas de la vivienda** antes de excavar. Es el momento de trasladar el plano al suelo.
 
 Un buen replanteo garantiza que las paredes quedarán rectas, las esquinas en ángulo recto y las puertas en el lugar correcto.
+
+---
 
 ### Proceso paso a paso
 
@@ -132,33 +238,42 @@ Antes de clavar nada, hay que tener claras las medidas. Al elegir las dimensione
 
 Las estacas se colocan **fuera de la zona de excavación**, a aproximadamente 1 metro de cada esquina de la futura casa. Así no se pierden cuando se excave la zanja.
 
+<!-- PROMPT: Esta imagen tiene que representar la vista en planta del solar con las estacas colocadas fuera de las cuatro esquinas de la huella de la vivienda. Se ven los cordeles tendidos entre estacas marcando la cara exterior del muro. Las estacas están claramente separadas de la línea de excavación futura, indicada en rojo. Dibujo técnico a mano alzada, escala de grises, vista en planta. -->
+
 **3. Tender los cordeles**
 
 Se atan cordeles entre las estacas marcando la **cara exterior de los muros** de la casa.
 
 **4. Comprobar que las esquinas son rectas: el método 3-4-5**
 
-Este método garantiza que cada esquina sea un ángulo de 90° exacto, sin necesidad de ningún instrumento de precisión. Funciona porque en todo triángulo rectángulo, si los dos lados miden 3 y 4, la hipotenusa mide exactamente 5.
+Este método garantiza que cada esquina sea un ángulo de 90° exacto, sin ningún instrumento de precisión. Funciona porque en todo triángulo rectángulo, si los dos lados perpendiculares miden 3 y 4, la diagonal entre sus extremos mide exactamente 5.
+
+<!-- PROMPT: Esta imagen tiene que representar la vista en planta de una esquina del replanteo mostrando el método 3-4-5. Se ven dos cordeles formando un ángulo, con la medida de 3 m marcada sobre uno y 4 m sobre el otro, y la diagonal de 5 m entre los dos puntos marcados, remarcada en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
 Proceso en cada esquina:
-1. Clava una estaca en la esquina y ata el cordel para marcar la primera pared.
-2. Desde esa esquina, mide exactamente **3 metros** sobre el cordel de una pared y haz una marca.
-3. Desde la misma esquina, extiende el cordel de la pared perpendicular y mide exactamente **4 metros**, marcando ese punto también.
-4. Pide a alguien que mueva el segundo cordel hasta que la distancia entre los dos puntos marcados sea exactamente **5 metros**.
-5. Cuando marque 5 metros: la esquina es perfecta. Clava la estaca.
 
-> 💡 El método funciona con cualquier escala proporcional: 30 cm / 40 cm / 50 cm también es válido. Cuanto mayor sea la escala usada, más preciso es el resultado.
+1. Clavar una estaca en la esquina y atar el cordel para marcar la primera pared.
+2. Desde esa esquina, medir exactamente **3 metros** sobre el cordel de una pared y marcar ese punto.
+3. Desde la misma esquina, extender el cordel de la pared perpendicular y medir exactamente **4 metros**, marcando ese punto también.
+4. Pedir a alguien que mueva el segundo cordel hasta que la distancia entre los dos puntos marcados sea exactamente **5 metros**.
+5. Cuando la distancia marque 5 metros, la esquina es perfecta. Clavar la estaca.
+
+> 💡 El método funciona con cualquier escala proporcional: 30 cm / 40 cm / 50 cm también es válido. Cuanto mayor sea la escala, más preciso es el resultado. 
+
+[→ Calculadora de esquinas (método 3-4-5)](calculadora_345.html) <!-- TODO: pensar como incluir el html en la pagina de markdown o si tiene que ser una imagen directamente -->
 
 **5. La prueba definitiva: comprobar las diagonales**
 
-Una vez colocados todos los cordeles, mide la distancia diagonal de una esquina a la esquina opuesta. Luego mide la otra diagonal.
+Una vez colocados todos los cordeles, medir la distancia diagonal de una esquina a la esquina opuesta. Luego medir la otra diagonal.
 
 - Si las dos diagonales son **iguales**: el rectángulo es perfecto. Se puede excavar.
-- Si una diagonal es **más larga que la otra**: el rectángulo está "cojo" (en forma de rombo). Hay que mover las cuerdas hasta que coincidan.
+- Si una diagonal es **más larga que la otra**: el rectángulo está deformado. Mover los cordeles hasta que coincidan.
+
+<!-- PROMPT: Esta imagen tiene que representar la vista en planta de un rectángulo de replanteo con sus dos diagonales marcadas. En un caso (marcado en verde) las dos diagonales son iguales: esquinas correctas. En el otro caso (marcado en rojo) una diagonal es más larga: esquinas incorrectas. Dibujo técnico a mano alzada, escala de grises, las diagonales remarcadas según su corrección. -->
 
 **6. Replantear las puertas**
 
-Antes de marcar en el suelo la posición de las puertas, hay que saber que **el hueco en el muro debe ser más grande que la puerta física**:
+El hueco en el muro debe ser ligeramente mayor que la puerta física:
 
 > Ancho del hueco = Ancho de la puerta + grosor del premarco de madera
 
@@ -166,7 +281,39 @@ Una vez decidida la ubicación, se clavan dos estacas en el suelo que marquen co
 
 **7. Posición de las guías de excavación**
 
-Las cuerdas del replanteo marcan la **cara exterior del muro**, no el eje de la excavación. Al excavar la zanja de cimentación, el operario se guía por esa cuerda sabiendo que deberá excavar tanto hacia el interior como hacia el exterior del muro según las dimensiones de la zapata.
+Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la excavación. Al excavar la zanja de cimentación, el operario se guía por esa cuerda sabiendo que deberá excavar tanto hacia el interior como hacia el exterior del muro según las dimensiones de la zapata.
+
+---
+
+## 🌿 Tips específicos para el contexto de Guinea Ecuatorial
+
+---
+
+**1. La arcilla expansiva: el principal riesgo de la región**
+
+Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la cimentación con el tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca construir sobre la capa superficial orgánica negra.
+
+**2. Nivel freático alto en la estación lluviosa**
+
+Si al realizar las pruebas de terreno aparece agua a menos de 80 cm de profundidad, el nivel freático es alto. En este caso, aumentar la impermeabilización de la base y elevar más el zócalo. Consultar con el equipo técnico del proyecto antes de continuar.
+
+**3. Realizar el replanteo por la mañana temprano**
+
+En días muy calurosos, el cordel puede dilatarse ligeramente con el calor y dar medidas algo imprecisas. Trabajar preferiblemente entre las 6 y las 10 de la mañana.
+
+**4. Proteger las estacas del replanteo**
+
+Una vez clavadas, las estacas del replanteo no deben moverse hasta terminar de hormigonar la zapata. Pueden marcarse con un trozo de tela o pintura para que todo el equipo las identifique y no las desplace accidentalmente.
+
+**5. Disponibilidad de manguera transparente**
+
+La manguera transparente es el instrumento clave para la nivelación. Si no está disponible en el mercado local, puede sustituirse por un tubo fino de PVC translúcido. Verificar la disponibilidad en campo antes de la obra.
+
+<!-- TODO: Documentar en la próxima misión de campo la disponibilidad de manguera transparente y tubo de PVC fino en los mercados de Bata, Ebebiyín y Mongomo, e incorporar los precios y nombres comerciales locales. -->
+
+<!-- TODO: Verificar con el equipo técnico los tipos de suelo predominantes en los municipios de actuación para completar y validar la tabla de análisis de terreno. -->
+
+<!-- TODO: Fotografiar y documentar el pisón manual fabricado localmente para incorporar las medidas e instrucciones de fabricación a la guía definitiva. -->
 
 ---
 
@@ -174,8 +321,10 @@ Las cuerdas del replanteo marcan la **cara exterior del muro**, no el eje de la 
 
 Antes de pasar a la cimentación, verificar que se han completado correctamente estos puntos:
 
+- [ ] Se han realizado la prueba de la bola y la prueba del tarro en varias zonas del solar.
+- [ ] El tipo de suelo está identificado y se ha determinado la profundidad de zapata correspondiente.
 - [ ] El terreno está libre de vegetación, raíces y tierra orgánica en toda la huella de la vivienda y al menos 1 metro alrededor.
-- [ ] Se han retirado los primeros 10-15 cm de tierra negra u orgánica donde los hubiera.
+- [ ] Se han retirado los primeros 10–15 cm de tierra negra u orgánica donde los hubiera.
 - [ ] El terreno está nivelado: la distancia desde el cordel de referencia hasta el suelo es igual en todos los puntos.
 - [ ] Las zonas rellenas se han compactado por capas de 15 cm con pisón.
 - [ ] Las estacas del replanteo están colocadas fuera de la zona de excavación.
@@ -185,14 +334,14 @@ Antes de pasar a la cimentación, verificar que se han completado correctamente 
 
 ---
 
-## Notas para el equipo investigador
+## ⏭️ Siguiente paso: Cimentación
 
-- La composición exacta de los suelos de la región del litoral y la zona fang continental varía significativamente: en algunos casos se encuentran suelos arcillosos con alta expansividad, en otros lateríticos o arenosos. **El reconocimiento del tipo de terreno antes de comenzar es imprescindible** y debe incorporarse como paso previo explícito en la guía definitiva, con descripción de los tipos más comunes en el área de actuación del proyecto.
-- La disponibilidad local de manguera transparente y cordel no elástico debe verificarse en campo. En caso de escasez, conviene identificar sustitutos locales fiables o incluir estos materiales en los kits de herramientas del proyecto.
-- El pisón manual fabricado localmente es una buena práctica a documentar con fotografías y medidas para incorporar a la guía.
-- Todas las recomendaciones estructurales de esta sección deben ser validadas por el equipo técnico antes de su incorporación a la versión definitiva de la guía.
-- Añadir una tabla para hacer una comprobacion de los suelos sencillas, con la prueba de la mano o de los vasos.
+Una vez preparado y replanteado el terreno, se procede a la excavación de la zanja y a la construcción de la zapata corrida y el zócalo de bloques de hormigón.
+
+[02. Cimentación →](paso1_cimentacion.md)
 
 ---
 
-*Documento de trabajo — Proyecto ADSIDEO Cooperación 2024 · v.01*
+*Guía elaborada para el proyecto ADSIDEO Cooperación 2024 — "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial"*
+*UPV · Cátedra MADERAMEN*
+*Versión de trabajo — pendiente de validación técnica y revisión de campo*
