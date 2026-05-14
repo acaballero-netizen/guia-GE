@@ -89,7 +89,7 @@ Esta prueba tarda entre 12 y 48 horas, pero da información más detallada sobre
    - **A los 30 minutos:** se habrá depositado la capa de arena fina por encima de la anterior.
    - **A las 12–48 horas:** se habrá depositado la arcilla y el limo por encima de todo. El agua quedará más o menos clara dependiendo de la cantidad de arcilla.
 
-<img src="/imagenes/pasos_previos-1.2.png" width="300" alt="Prueba del tarro">
+<img src="imagenes/pasos_previos-1.2.png" width="300" alt="Prueba del tarro">
 <!-- PROMPT: Esta imagen tiene que representar un tarro de vidrio transparente con agua y tierra en reposo, mostrando claramente tres capas de sedimento diferenciadas: grava y arena gruesa en el fondo, arena fina en el medio, y arcilla y limo en la parte superior, con una capa de agua turbia o clara encima. Se indica con flechas o cotas en rojo el nombre de cada capa y su grosor relativo. Dibujo técnico a mano alzada, escala de grises, las cotas de las capas remarcadas en rojo. Vista frontal del tarro. -->
 
 **Cómo leer el resultado:**
@@ -137,7 +137,7 @@ Para retirar toda la vegetación, raíces y tierra orgánica que hay sobre el so
 3. **Agrupar y retirar los restos** con la carretilla, llevándolos fuera del área de trabajo.
 4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener una cimentación.
 
-<img src="/imagenes/pasos_previos.2.png" width="500" alt="Limpieza del terreno">
+<img src="imagenes/pasos_previos.2.png" width="500" alt="Limpieza del terreno">
 <!-- PROMPT: Esta imagen tiene que representar la sección transversal de un terreno tropical mostrando las capas de suelo: capa vegetal oscura en la superficie (marcada en rojo indicando que se retira), y suelo firme competente por debajo. Se ve una pala de punta en acción retirando la capa superficial. Dibujo técnico a mano alzada, escala de grises. Vista en sección, entorno tropical. -->
 
 ### Si hay árboles dentro de la huella de la casa
@@ -165,7 +165,7 @@ Este método se basa en una ley física sencilla: **el agua en reposo siempre qu
 
 No se necesita ningún instrumento caro: basta con una manguera transparente llena de agua.
 
-<img src="/imagenes/pasos_previos.3.png" width="500" alt="El nivel de manguera">
+<img src="imagenes/pasos_previos.3.png" width="500" alt="El nivel de manguera">
 <!-- PROMPT: Esta imagen tiene que representar dos personas trabajando con una manguera transparente llena de agua para nivelar estacas en un solar de tierra. Una persona sostiene un extremo a la altura de una marca en la estaca maestra. La otra, a unos 6 metros, marca su estaca donde el agua se detiene. La manguera va remarcada en rojo. Vista lateral, entorno tropical, luz de mediodía. Dibujo técnico a mano alzada, escala de grises. -->
 
 ### Proceso paso a paso
