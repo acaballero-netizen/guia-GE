@@ -1,5 +1,5 @@
 # Cerramiento
-### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
+#### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
 ---

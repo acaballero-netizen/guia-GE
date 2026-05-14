@@ -52,9 +52,8 @@ Estos dos elementos trabajan juntos y son la transición entre el terreno y la e
 <!-- NEW: habria que hacer diferentes niveles dl uso de armado, pueden dejarse solo las armaduras longitudinales sin las de atado transversal o esto puede ser un problema si no se incluyen, que criterios seguir si se quiere economizar en acero -->
 ---
 
-## Paso a paso
 
-### Paso 1 — Reconocimiento del terreno
+## Paso 1 · Reconocimiento del terreno
 
 El reconocimiento del terreno es el punto de partida de esta fase. Este paso debe haberse iniciado ya durante el replanteo (ver sección de pasos previos), donde se describen también las pruebas manuales de campo para identificar el tipo de suelo.
 
@@ -74,7 +73,7 @@ Los tipos de suelo más frecuentes en la región del litoral y la zona fang, y l
 
 ---
 
-### Paso 2 — Excavación de la zanja
+## Paso 2 · Excavación de la zanja
 
 Una vez completado el replanteo (con los cordeles marcando la cara exterior del futuro muro), se procede a excavar la zanja de cimentación.
 
@@ -95,7 +94,7 @@ Las dimensiones de la zanja dependen del tipo de suelo y de las cargas de la viv
 
 ---
 
-### Paso 3 — Hormigón de limpieza o lámina de protección
+## Paso 3 · Hormigón de limpieza o lámina de protección
 
 El fondo de la zanja necesita una capa de protección antes de colocar las armaduras. Esta capa aísla el hierro de la humedad del suelo.
 
@@ -120,7 +119,7 @@ Si el hormigón de limpieza no está disponible, se extiende una lámina de plá
 
 ---
 
-### Paso 4 — Colocación de la parrilla inferior (armadura horizontal)
+## Paso 4 · Colocación de la parrilla inferior (armadura horizontal)
 <!-- TODO: entrar mas en detalle sobre las caracteristicas de este armado, hacer la parrilal entera es muy complejo, ademas de hacer las Varillas en L es algo que esta fuera de los criterios locales, como se puede hacer para que esté más de acuerdo con el entorno -->
 La armadura de hierro es la que da resistencia a tracción al hormigón. Sin ella, la zapata puede agrietarse.
 
@@ -145,7 +144,7 @@ Se introduce el extremo de la barra dentro del tubo metálico hueco y se usa el 
 <!-- TODO: puesto los recursos son limitados se deberia de hacer un orden de casos desde los que tengan mas recursos y materiales, donde se hacen todas las cuestiones profesionales hasta las formas mas simples yendo a los minimos de la armadura por ejemplo, que puede ser solo con las longitudinales sin las armaduras trasversales, no? -->
 ---
 
-### Paso 5 — Colocación de las esperas verticales
+## Paso 5 · Colocación de las esperas verticales
 
 Las esperas son las varillas de hierro que sobresalen verticalmente de la zapata y que conectarán con el zócalo de bloques y, a través del durmiente, con los pilares de madera. Su posición correcta debe planificarse durante el replanteo, ya que deben coincidir exactamente con el hueco interior de los bloques del zócalo.
 
@@ -167,7 +166,7 @@ Cada espera se coloca de forma que quede centrada dentro del hueco interior del 
 
 ---
 
-### Paso 6 — Preparación y dosificación del hormigón
+## Paso 6 · Preparación y dosificación del hormigón
 
 **Dosificación recomendada para la zapata:**
 
@@ -194,7 +193,7 @@ Cuando la disponibilidad de áridos es limitada o el coste es un factor crítico
 
 ---
 
-### Paso 7 — Vertido del hormigón
+## Paso 7 · Vertido del hormigón
 
 1. Se hormigona toda la zapata el mismo día. Las juntas de hormigonado son puntos débiles: si se para a mitad y se continúa al día siguiente, se crea una junta fría que puede fallar. <!-- TODO: lo mas probable es que no se pueda hormigonar todo en el mismo dia, como hay que proceder en este caso -->
 2. Se comienza por una esquina y se avanza de forma continua y constante.

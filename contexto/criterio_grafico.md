@@ -71,7 +71,28 @@ El punto de vista se especifica en cada `<!-- PROMPT: -->` del documento Markdow
 El siguiente prompt base debe incluirse al inicio de cada prompt específico. Define el estilo visual fijo del proyecto. A continuación se añade únicamente la descripción de lo que hay que mostrar en ese paso.
 
 ```
-Ilustración técnica a mano para una guía de autoconstrucción. Estilo de dibujo manual con trazos limpios pero con ligera irregularidad natural, similar a The Barefoot Architect. Escala de grises: trazo en #1c1c1c, sombras en #5a5a5a, rellenos en #b0b0b0 y #e0e0e0, fondo blanco puro #ffffff. Acuarela suelta en grises para dar volumen a las superficies. El único elemento en color es [ELEMENTO], remarcado en rojo #dc2f39. Sin texto, sin rótulos, sin leyendas dentro de la imagen. Formato cuadrado 1:1. [PUNTO DE VISTA: perspectiva axonométrica / sección transversal / detalle en perspectiva].
+Actúa como un ilustrador técnico artesanal. Estilo de dibujo puramente manual: trazos de grafito con imperfecciones naturales y grosores variables (#1c1c1c) sobre fondo blanco (#ffffff).
+
+Técnica de Acuarela: Usa lavados de acuarela muy diluidos y transparentes para el contexto (grises claros #e0e0e0 y #b0b0b0), con bordes de agua visibles y manchas irregulares que denoten un proceso humano.
+
+Jerarquía Visual y Color:
+
+Lo Secundario: Debe ser casi etéreo, con líneas finas y acuarelas muy suaves para no distraer.
+
+Lo Principal: El elemento nuevo se remarca con rojo vibrante sólido (#dc2f39) y trazos más definidos, creando un contraste radical de saturación.
+
+Representación Humana: Personas con rasgos de Guinea Ecuatorial; su piel se resuelve con acuarela gris oscura (#5a5a5a) aplicada de forma artística, nunca dejando la piel blanca. Sin elementos digitales ni texto. Formato 1:1."
+
+2. Cómo redactar el Prompt Particular ahora
+Con esta base, tus peticiones serán mucho más breves porque la IA ya sabe que debe "apagar" el fondo:
+
+Ejemplo para la prueba de la bola:
+
+"Dibuja tres manos africanas en escala de grises. El elemento principal es la bola de tierra en rojo intenso #dc2f39. Aplica acuarela muy tenue en las manos para que casi desaparezcan y todo el énfasis recaiga en la textura de la tierra roja."
+
+Ejemplo para la Zapata (Cimentación):
+
+"Dibuja una zanja de cimentación. El contexto del terreno debe ser una mancha de acuarela gris muy suave. El elemento principal son las varillas de acero en rojo sólido #dc2f39. Que la armadura resalte como si fuera lo único nítido de la imagen.
 ```
 
 **Cómo usar el prompt base:**

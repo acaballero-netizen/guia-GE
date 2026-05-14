@@ -1,8 +1,6 @@
 # Pasos previos
-### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
+#### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
-
-
 
 ---
 
@@ -16,7 +14,7 @@ El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvi
 
 ## Herramientas y materiales necesarios
 
-### Herramientas de medición y marcado
+### Medición y marcado
 - Cinta métrica (mínimo 5 m)
 - Manguera transparente (mínimo 10 m) — para usarla como nivel de agua
 - Cordel grueso que **no sea elástico** (un rollo grande)
@@ -25,7 +23,7 @@ El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvi
 - Rotulador indeleble o cinta aislante — para marcar el nivel en las estacas
 - Tarro de vidrio transparente con tapa — para la prueba de sedimentación del suelo *(alternativa: cualquier recipiente cilíndrico transparente)*
 
-### Herramientas de trabajo
+### De trabajo
 - Machete y azada
 - Pico y pala de punta
 - Carretilla
@@ -54,15 +52,15 @@ Antes de excavar ninguna zanja, se realizan dos pruebas sencillas que no requier
 
 Esta prueba permite identificar el tipo de suelo en el momento, con las manos y en el mismo solar.
 
-<!-- PROMPT: Esta imagen tiene que representar una secuencia de tres manos realizando la prueba de la bola con distintos tipos de suelo. Primera mano: intenta comprimir tierra arenosa que se disgrega al abrir la mano. Segunda mano: comprime tierra arcillosa que mantiene una bola compacta con marcas de dedos visibles. Tercera mano: comprime tierra negra u orgánica que se deshace fácilmente y deja residuo oscuro. Escala de grises con elementos clave remarcados en rojo. Dibujo técnico a mano alzada, vista frontal. --> 
-<!-- TODO: parece interesante añadir una imagen de como se tiene que ver la bola, las grietas de la misma, esto tiene pinta de que tiene que ser mejor con una imagen -->
-
 **Cómo realizarla:**
 
 1. Tomar un puñado de tierra de la zona donde se excavará la zanja, a unos 20–30 cm de profundidad (no de la superficie).
 2. Si la tierra está seca, añadir unas gotas de agua y mezclar hasta que la humedad sea uniforme.
 3. Comprimir el puñado con fuerza entre las palmas durante 10 segundos.
 4. Abrir la mano y observar el resultado.
+
+<img src="imagenes/pasos_previos.1.1.png" width="500" alt="Prueba de la bola">
+<!-- PROMPT: Esta imagen tiene que representar una secuencia de tres manos realizando la prueba de la bola con distintos tipos de suelo. Primera mano: intenta comprimir tierra arenosa que se disgrega al abrir la mano. Segunda mano: comprime tierra arcillosa que mantiene una bola compacta con marcas de dedos visibles. Tercera mano: comprime tierra negra u orgánica que se deshace fácilmente y deja residuo oscuro. Escala de grises con elementos clave remarcados en rojo. Dibujo técnico a mano alzada, vista frontal. --> 
 
 **Interpretación:**
 
@@ -81,8 +79,6 @@ Esta prueba permite identificar el tipo de suelo en el momento, con las manos y 
 
 Esta prueba tarda entre 12 y 48 horas, pero da información más detallada sobre la composición del suelo. Es especialmente útil cuando la prueba de la bola genera dudas o cuando el suelo parece una mezcla de varios tipos.
 
-<!-- PROMPT: Esta imagen tiene que representar un tarro de vidrio transparente con agua y tierra en reposo, mostrando claramente tres capas de sedimento diferenciadas: grava y arena gruesa en el fondo, arena fina en el medio, y arcilla y limo en la parte superior, con una capa de agua turbia o clara encima. Se indica con flechas o cotas en rojo el nombre de cada capa y su grosor relativo. Dibujo técnico a mano alzada, escala de grises, las cotas de las capas remarcadas en rojo. Vista frontal del tarro. -->
-
 **Cómo realizarla:**
 
 1. Llenar un tarro de vidrio hasta un tercio de su capacidad con tierra del solar, tomada a la profundidad de la futura excavación. <!-- TODO: importante aclarar cual debe ser la superficie a la que se tiene que hacer porque esta claro que esto variara en funcion del terreno, pero por lo menos de la superficie no tiene que ser -->
@@ -92,6 +88,9 @@ Esta prueba tarda entre 12 y 48 horas, pero da información más detallada sobre
    - **A los 2 minutos:** se habrán depositado en el fondo la grava y la arena gruesa.
    - **A los 30 minutos:** se habrá depositado la capa de arena fina por encima de la anterior.
    - **A las 12–48 horas:** se habrá depositado la arcilla y el limo por encima de todo. El agua quedará más o menos clara dependiendo de la cantidad de arcilla.
+
+<img src="/imagenes/pasos_previos-1.2.png" width="300" alt="Prueba del tarro">
+<!-- PROMPT: Esta imagen tiene que representar un tarro de vidrio transparente con agua y tierra en reposo, mostrando claramente tres capas de sedimento diferenciadas: grava y arena gruesa en el fondo, arena fina en el medio, y arcilla y limo en la parte superior, con una capa de agua turbia o clara encima. Se indica con flechas o cotas en rojo el nombre de cada capa y su grosor relativo. Dibujo técnico a mano alzada, escala de grises, las cotas de las capas remarcadas en rojo. Vista frontal del tarro. -->
 
 **Cómo leer el resultado:**
 
@@ -138,6 +137,7 @@ Para retirar toda la vegetación, raíces y tierra orgánica que hay sobre el so
 3. **Agrupar y retirar los restos** con la carretilla, llevándolos fuera del área de trabajo.
 4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener una cimentación.
 
+<img src="/imagenes/pasos_previos.2.png" width="500" alt="Limpieza del terreno">
 <!-- PROMPT: Esta imagen tiene que representar la sección transversal de un terreno tropical mostrando las capas de suelo: capa vegetal oscura en la superficie (marcada en rojo indicando que se retira), y suelo firme competente por debajo. Se ve una pala de punta en acción retirando la capa superficial. Dibujo técnico a mano alzada, escala de grises. Vista en sección, entorno tropical. -->
 
 ### Si hay árboles dentro de la huella de la casa
@@ -165,6 +165,7 @@ Este método se basa en una ley física sencilla: **el agua en reposo siempre qu
 
 No se necesita ningún instrumento caro: basta con una manguera transparente llena de agua.
 
+<img src="/imagenes/pasos_previos.3.png" width="500" alt="El nivel de manguera">
 <!-- PROMPT: Esta imagen tiene que representar dos personas trabajando con una manguera transparente llena de agua para nivelar estacas en un solar de tierra. Una persona sostiene un extremo a la altura de una marca en la estaca maestra. La otra, a unos 6 metros, marca su estaca donde el agua se detiene. La manguera va remarcada en rojo. Vista lateral, entorno tropical, luz de mediodía. Dibujo técnico a mano alzada, escala de grises. -->
 
 ### Proceso paso a paso
