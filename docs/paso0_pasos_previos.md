@@ -1,4 +1,4 @@
-# Pasos previos
+# **Pasos previos**
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
@@ -12,7 +12,7 @@ El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvi
 
 ---
 
-## Herramientas y materiales necesarios
+## **Herramientas y materiales necesarios**
 
 ### Medición y marcado
 - Cinta métrica (mínimo 5 m)
@@ -35,8 +35,9 @@ El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvi
 - Mazo o piedra para clavar las estacas
 
 ---
+<div style="page-break-after: always;"></div>
 
-## Paso 1 · Análisis del terreno
+## **Paso 1 · Análisis del terreno**
 
 ### ¿Para qué sirve?
 
@@ -59,7 +60,7 @@ Esta prueba permite identificar el tipo de suelo en el momento, con las manos y 
 3. Comprimir el puñado con fuerza entre las palmas durante 10 segundos.
 4. Abrir la mano y observar el resultado.
 
-<img src="imagenes/pasos_previos.1.1.png" width="500" alt="Prueba de la bola">
+<img src="imagenes/pasos_previos.1.1.png" width="500" alt="Prueba de la bola" style="display: block; margin: auto;">
 <!-- PROMPT: Esta imagen tiene que representar una secuencia de tres manos realizando la prueba de la bola con distintos tipos de suelo. Primera mano: intenta comprimir tierra arenosa que se disgrega al abrir la mano. Segunda mano: comprime tierra arcillosa que mantiene una bola compacta con marcas de dedos visibles. Tercera mano: comprime tierra negra u orgánica que se deshace fácilmente y deja residuo oscuro. Escala de grises con elementos clave remarcados en rojo. Dibujo técnico a mano alzada, vista frontal. --> 
 
 **Interpretación:**
@@ -89,7 +90,7 @@ Esta prueba tarda entre 12 y 48 horas, pero da información más detallada sobre
    - **A los 30 minutos:** se habrá depositado la capa de arena fina por encima de la anterior.
    - **A las 12–48 horas:** se habrá depositado la arcilla y el limo por encima de todo. El agua quedará más o menos clara dependiendo de la cantidad de arcilla.
 
-<img src="imagenes/pasos_previos-1.2.png" width="300" alt="Prueba del tarro">
+<img src="imagenes/pasos_previos-1.2.png" width="300" alt="Prueba del tarro" style="display: block; margin: auto;">
 <!-- PROMPT: Esta imagen tiene que representar un tarro de vidrio transparente con agua y tierra en reposo, mostrando claramente tres capas de sedimento diferenciadas: grava y arena gruesa en el fondo, arena fina en el medio, y arcilla y limo en la parte superior, con una capa de agua turbia o clara encima. Se indica con flechas o cotas en rojo el nombre de cada capa y su grosor relativo. Dibujo técnico a mano alzada, escala de grises, las cotas de las capas remarcadas en rojo. Vista frontal del tarro. -->
 
 **Cómo leer el resultado:**
@@ -123,8 +124,9 @@ Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones 
 <!-- TODO: Verificar en campo los tipos de suelo predominantes en los municipios de actuación del proyecto (litoral de Bata, zona interior fang). Esta tabla debe completarse y validarse con los resultados del estudio de campo. -->
 
 ---
+<div style="page-break-after: always;"></div>
 
-## Paso 2 · Limpieza del terreno
+## **Paso 2 · Limpieza del terreno**
 
 ### ¿Para qué sirve?
 
@@ -137,7 +139,7 @@ Para retirar toda la vegetación, raíces y tierra orgánica que hay sobre el so
 3. **Agrupar y retirar los restos** con la carretilla, llevándolos fuera del área de trabajo.
 4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener una cimentación.
 
-<img src="imagenes/pasos_previos.2.png" width="500" alt="Limpieza del terreno">
+<img src="imagenes/pasos_previos.2.png" width="500" alt="Limpieza del terreno" style="display: block; margin: auto;">
 <!-- PROMPT: Esta imagen tiene que representar la sección transversal de un terreno tropical mostrando las capas de suelo: capa vegetal oscura en la superficie (marcada en rojo indicando que se retira), y suelo firme competente por debajo. Se ve una pala de punta en acción retirando la capa superficial. Dibujo técnico a mano alzada, escala de grises. Vista en sección, entorno tropical. -->
 
 ### Si hay árboles dentro de la huella de la casa
@@ -150,8 +152,9 @@ Se necesitará además:
 > ⚠️ **Importante:** No se puede construir sobre un tocón enterrado. La madera podrida crea huecos que pueden ceder con el peso de la construcción.
 
 ---
+<div style="page-break-after: always;"></div>
 
-## Paso 3 · Nivelación del terreno
+## **Paso 3 · Nivelación del terreno**
 
 ### ¿Para qué sirve?
 
@@ -163,9 +166,7 @@ Para asegurarse de que la base de la casa quede en un plano horizontal. Los terr
 
 Este método se basa en una ley física sencilla: **el agua en reposo siempre queda al mismo nivel en los dos extremos de un tubo**, sin importar la distancia entre ellos ni los desniveles del terreno que haya en medio.
 
-No se necesita ningún instrumento caro: basta con una manguera transparente llena de agua.
-
-<img src="imagenes/pasos_previos.3.png" width="500" alt="El nivel de manguera">
+<img src="imagenes/pasos_previos.3.1.png" width="500" alt="El nivel de manguera" style="display: block; margin: auto;">
 <!-- PROMPT: Esta imagen tiene que representar dos personas trabajando con una manguera transparente llena de agua para nivelar estacas en un solar de tierra. Una persona sostiene un extremo a la altura de una marca en la estaca maestra. La otra, a unos 6 metros, marca su estaca donde el agua se detiene. La manguera va remarcada en rojo. Vista lateral, entorno tropical, luz de mediodía. Dibujo técnico a mano alzada, escala de grises. -->
 
 ### Proceso paso a paso
@@ -199,6 +200,7 @@ Una vez que todas las estacas tienen su marca, se ata un cordel bien tenso pasan
 - Si la distancia desde el cordel hasta el suelo es **menor de 1 metro**: hay un montículo de tierra → quitar tierra con la azada hasta alcanzar la medida exacta.
 - Si la distancia es **mayor de 1 metro**: hay una hondonada → añadir tierra y compactarla por capas (ver apartado siguiente).
 
+<img src="imagenes/pasos_previos.3.2.png" width="500" alt="El nivel de manguera" style="display: block; margin: auto;">
 <!-- PROMPT: Esta imagen tiene que representar un perfil de terreno irregular con el cordel de nivel tenso entre estacas. En un punto el suelo está por encima del cordel (marcado en rojo: rebajar), en otro está por debajo (marcado en rojo: rellenar). Las cotas de diferencia están indicadas con flechas rojas. Dibujo técnico a mano alzada, escala de grises, vista lateral. -->
 
 ---
@@ -218,8 +220,9 @@ Cuando haya que rellenar zonas bajas, **nunca se echa toda la tierra de golpe**.
 > - Si el terreno tiene pendiente fuerte, puede ser necesario un terraplenado previo (corte en la parte alta y relleno en la parte baja) antes de empezar la nivelación de detalle.
 
 ---
+<div style="page-break-after: always;"></div>
 
-## Paso 4 · Replanteo
+## **Paso 4 · Replanteo**
 
 ### ¿Para qué sirve?
 
@@ -286,7 +289,7 @@ Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la
 
 ---
 
-## 🌿 Tips específicos para el contexto de Guinea Ecuatorial
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 ---
 
