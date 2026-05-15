@@ -67,7 +67,7 @@ Los tipos de suelo más frecuentes en la región del litoral y la zona fang, y l
 | Tierra negra u orgánica | Color oscuro, olor a tierra húmeda | **No construir. Retirar completamente.** |
 | Terreno muy húmedo o con agua | Aparece agua al cavar | Consultar con el equipo técnico antes de continuar |
 
-<!-- TODO: completar con la tabla de pruebas manuales de campo (prueba del vaso, prueba de la mano) que debe incluirse en los pasos previos y referenciarse aquí -->
+<!-- TODO: completar con la tabla de pruebas manuales de campo (prueba del vaso, prueba de la mano) que debe incluirse en los pasos previos y referenciarse aquí, esta tabla debe de tener coherencia tambien con la que hay en los pasos previos -->
 
 > ⚠️ **Nota:** El diagnóstico detallado de los tipos de suelo predominantes en las áreas de intervención (litoral / zona fang interior) está pendiente de trabajo de campo. El equipo técnico debe realizar al menos una cata manual en cada parcela antes de confirmar las profundidades de excavación.
 
@@ -120,7 +120,7 @@ Si el hormigón de limpieza no está disponible, se extiende una lámina de plá
 ---
 
 ## Paso 4 · Colocación de la parrilla inferior (armadura horizontal)
-<!-- TODO: entrar mas en detalle sobre las caracteristicas de este armado, hacer la parrilal entera es muy complejo, ademas de hacer las Varillas en L es algo que esta fuera de los criterios locales, como se puede hacer para que esté más de acuerdo con el entorno -->
+<!-- TODO: entrar mas en detalle sobre las caracteristicas de este armado, hacer la parrilla entera es muy complejo, ademas de hacer las varillas en L es algo que esta fuera de los criterios locales, como se puede hacer para que esté más de acuerdo con el entorno, como por ejemplo hacer un armado solo con los longitudinales, que son los que mas atado hacen a lo larggo -->
 La armadura de hierro es la que da resistencia a tracción al hormigón. Sin ella, la zapata puede agrietarse.
 
 **Corte de las barras:**
