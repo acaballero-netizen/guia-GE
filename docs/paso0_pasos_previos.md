@@ -318,6 +318,7 @@ La manguera transparente es el instrumento clave para la nivelación. Si no est�
 <!-- TODO: Verificar con el equipo técnico los tipos de suelo predominantes en los municipios de actuación para completar y validar la tabla de análisis de terreno. -->
 
 <!-- TODO: Fotografiar y documentar el pisón manual fabricado localmente para incorporar las medidas e instrucciones de fabricación a la guía definitiva. -->
+<!-- NEW: definir los tipos de madera que se pueden usar en cada funcion, para las tablas o para la estructura o la cercha o rastreles, en funcion de las especies de madera que hay en el Pais -->
 
 ---
 

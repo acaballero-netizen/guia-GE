@@ -30,10 +30,11 @@ La cercha es una estructura triangulada de madera que permite cubrir grandes luc
 
 En el contexto de este proyecto, las cerchas se dimensionan para cubrir luces variables:
 - **Viviendas:** luces de 6 a 8 metros. En este caso pueden aparecer pilares intermedios que reduzcan la luz a cubrir.
-- **Equipamientos comunitarios (bares, talleres):** luces de hasta 10 metros sin apoyos intermedios.
+- **Equipamientos comunitarios:** luces de hasta 10 metros sin apoyos intermedios.
 
 <!-- TODO: Confirmar con el equipo técnico las luces definitivas del prototipo de la UNGE y actualizar los rangos. -->
-
+<!-- TODO: uno de los puntos mas importantes a remarcar es que las cerchas ahora mismo no las apoyan sobre los pilares y este es uno de los fallos que mas habitualmente hemos visto, las cerchas las apoyan directeamnte sobre el zuncho superior, Es decir la idea de remarcar el replanteo de la cercha o que en el diseño constructivo se tenga en cuenta que la cercha tiene que ir sobre el pilar -->
+<!-- TODO: la principal funcion de estas cerchas realmenente es generar la pendiente para la evacuaicon del agua, por lo tanto tambien tiene que tener una buena pendiente, pero unos aleros importantes para que se puedan realizar bien esta evacuacion del agua. Y aunque la cercha se puede usar con los 10 metros o igual inclsuo 12 dependiendo de la construccion, la idea es que esto pueda ser extrapolado a viviendas, por lo tanto no será necesario mantener la luz si no que se pueden incluir pilares en el medio de la vivienda, que configuren las particiones, pero tambien que se conviertan en el punto de apoyo para la cercha, por lo tanto limitando la cantidad de madera necesaria asi como la funcion de la misma como elemento estructural, esta parte de las compartimentaciones la podemos tratar eun una nueva pagina -->
 ---
 
 ## Materiales necesarios
@@ -60,7 +61,8 @@ En el contexto de este proyecto, las cerchas se dimensionan para cubrir luces va
 ---
 
 ## Paso a paso
-
+<!-- TODO: al igual que en los otros apartados igual es posible plantear varias opciones del deiseño de la cercha en funcion de los recursos materiales y economicos disponibles, pues es muy posible que se pueda hacer de una forma mas compleja y mejor, pero sera mas cara y mas dificil de ejecutar, hasta la forma mas simple y sencilla de hacer pero que siga siendo completamente funcional. -->
+<!-- TODO: dar por hecho que el montaje se va a hacer in situ es decir directamente sobre la estructura, ya que no existe niguna forma de levantar una cercha de 10 metros del suelo con una grua en el contexto de guiena Ecuatorial, por lo tanto habra que pensar como es el montaje, es tan importante el como se hace que el que -->
 ### PASO 1 — Diseño y replanteo de la cercha
 
 Antes de cortar ninguna pieza, se traza la geometría de la cercha sobre una superficie plana: el suelo de tierra compactada o una losa de hormigón sirven perfectamente. Este dibujo a escala real es la plantilla que guiará todo el corte y ensamble.
@@ -176,7 +178,7 @@ Una cercha aislada es estable en su propio plano pero puede volcar lateralmente.
 1. Una vez fijadas dos cerchas contiguas, se colocan los primeros rastreles transversales que las unen. A partir de ese momento, el conjunto ya es estable.
 2. Se colocan las cruces de San Andrés en los paños extremos (inicio y final de la cubierta) y cada cuatro o cinco crujías intermedias.
 3. Se continúa añadiendo cerchas y rastreles avanzando hacia el otro extremo.
-
+<!-- TODO: definir cuales tiene que ser las medidas asi como la separacion entre las cerchas para que sea lo mas optima posible, es decir que distancia tiene que haber entre pilares o entre cerchas, los rastreles tiene una longitud limitada es decir encontrar palos de 3 metros que puedan servir como  -->
 ---
 
 # PARTE 2: CHAPA DE ZINC Y RASTRELES
@@ -204,7 +206,7 @@ La chapa de zinc corrugada es el material de cobertura más extendido en Guinea 
 ### PASO 1 — Colocación de los rastreles
 
 Los rastreles son los listones de madera que apoyan transversalmente sobre los cordones superiores de las cerchas y sobre los que se fija la chapa. La separación entre rastreles determina la resistencia de la cubierta frente a cargas de viento y el comportamiento de la chapa.
-
+<!-- NEW: creo que la idea de las medidas mejor mostrarla en una tabla de forma tabulada, tambien para la longitud de la cercha, la luz entre las mismas etc, porque en funcion de unas condiciones seran de una forma u otra -->
 **Separación entre rastreles:**
 - Separación máxima recomendada: **60 cm** entre ejes.
 - En zonas con viento fuerte o en cubiertas de pendiente suave, reducir a **40–50 cm**.
@@ -220,16 +222,16 @@ Los rastreles son los listones de madera que apoyan transversalmente sobre los c
 ---
 
 ### PASO 2 — Colocación de la chapa de zinc
-
+<!-- NEW: tambien hemos pensado que la chapa de zinc seria como la opcion mas simple de hacer y la mas barata, pero para evitar tanto la radiacion como el ruido de la lluvia que puede llegar a ser bastante fuere, se puede poner una capa entre 2 chapas de nipa o algun tipo de material, haciendo algun tipo de panel sandwich que permita quitar esa irradiacion asi como el ruido de la lluvia, pero obviamente esto seria algo no convencional. pero que podria funcionar aunque tendria sus propios problemas. ¿Tiene sentido plantearlo como una segunda opcion? con este caso se podria eliminar la necesidad del falsso techo en construcciones que no sean de viviendas -->
 La chapa se coloca de abajo hacia arriba (del alero a la cumbrera) y de un lateral hacia el otro, con solapes entre chapas en las dos direcciones.
 
 **Solapes mínimos:**
-
+<!-- TODO: de los solapes mejor hacer una imagen para que quede completamente claro -->
 | Dirección | Solape mínimo |
 |---|---|
 | Longitudinal (de abajo a arriba) | 20 cm |
 | Transversal (lateral) | Una corruga completa |
-
+<!-- TODO: si aqui se habla de los vientos, mas predominantes, seria relevante mencionar en la guia de pasos previos, por un lado los vientos dominantes si se saben en la zona asi como la direccion del sol aunque en guinea el sol tienede a estar bstante vertical siempre, pero bueno la orientacion tiene que tener algun tipo de siginifcado tambien  -->
 **Procedimiento:**
 1. Se empieza por la esquina inferior de sotavento (el lado opuesto al viento dominante). Así los solapes laterales quedan a favor del viento y no captan aire.
 2. La primera chapa se coloca con el vuelo de alero acordado y se fija con tornillos autorroscantes en cada corruga que coincide con un rastrel, en la cresta de la corruga.
@@ -249,7 +251,7 @@ El alero es el vuelo de la cubierta más allá del muro exterior. En clima ecuat
 **Dimensión mínima del alero:**
 - Alero lateral (a los lados de la cubierta): mínimo **60 cm**
 - Alero frontal (en los hastiales): mínimo **40 cm**
-
+<!-- TODO: hay que añadir unos rastreles que sobresalen de la cercha esos 40cm para poder apoyar la chapa imagino o al menos tienen que salir unos centimetros si no 40 que sean 20 para que pueda hacerse ese vuelo -->
 > ⚠️ **Un alero insuficiente es uno de los errores más frecuentes en la construcción local.** Sin alero, el agua de lluvia golpea directamente el cerramiento de madera y la base del muro, y las aberturas dejan pasar el agua al interior. El coste de aumentar el alero es mínimo; el coste de reparar la madera dañada por la lluvia es muy alto.
 
 <!-- PROMPT: Esta imagen tiene que representar una sección transversal de la vivienda que muestra el alero en su dimensión correcta: la cubierta sobresale del muro exterior lo suficiente para proteger el cerramiento y la ventana de la lluvia. Una línea de lluvia diagonal indica cómo el alero desvía el agua. Escala de grises, la dimensión del alero y la línea de lluvia remarcadas en rojo. Dibujo técnico a mano alzada. -->
@@ -262,9 +264,9 @@ El falso techo es una capa horizontal situada por debajo de las cerchas, en el i
 
 > 💡 **¿Por qué es imprescindible el falso techo en Guinea Ecuatorial?**
 > La chapa de zinc alcanza temperaturas de superficie de 60–80 °C bajo el sol directo y emite esa energía como calor radiante hacia abajo. Sin barrera, esa radiación calienta el interior de la vivienda hasta hacerlo inhabitable en las horas centrales del día. El falso techo, junto con una correcta ventilación de la cámara de aire, puede reducir la temperatura interior en 8–12 °C.
-
+<!-- TODO: la idea es que entre el falso techo y la chapa se genera un espacio totalmente ventilado para que pueda ventilar solo, probablemente por debajo de los aleros, se considera que debajo de la pieza de cumbrera hay espacio para que se genere ese proceso de ventilacion  -->
 ---
-
+<!-- TODO: los materiales deberian ir todos al principio -->
 ## Materiales necesarios
 
 - Tablas de madera ligera o listones de bambú para la estructura del falso techo
@@ -278,7 +280,7 @@ El falso techo es una capa horizontal situada por debajo de las cerchas, en el i
 ## Paso a paso
 
 ### PASO 1 — Estructura del falso techo
-
+<!-- TODO: para simplificar la ejecucion de la misma se puede hacer por medio de unos rastrles horizontales que se ponen apoyados sobre las cerchas o entre los cordones, para que estos esten apoyados directaemnte y sobre estos rastreles se pueden colocar los paneles del falso techo, de esta forma simplificando la estructura de la cercha -->
 La estructura del falso techo se cuelga del cordón inferior de las cerchas. Debe quedar en un plano horizontal, independientemente de la pendiente de la cubierta.
 
 **Procedimiento:**
