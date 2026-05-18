@@ -1,165 +1,184 @@
-# Cerramiento
+# **Cerramiento**
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
----
-
-> **¿Por qué es importante el sistema de cerramiento?**
-> El cerramiento es el conjunto de elementos que forman las paredes de la vivienda. En este sistema constructivo, las paredes no son de bloque de hormigón macizo: están formadas por una estructura de montantes verticales de madera que soporta el peso de la cubierta, y por tablas horizontales que cierran el espacio entre ellos. En el clima ecuatorial de Guinea Ecuatorial, no se persigue un cerramiento hermético —la ventilación cruzada es necesaria—, sino una barrera eficaz contra el agua de lluvia lateral y la protección de la madera frente a la humedad ascendente.
+[← 01. Cimentación](paso1_cimentacion.md) | [03. Cubierta →](paso3_cubierta.md)
 
 ---
 
-## ESTRUCTURA GENERAL DEL CERRAMIENTO
+El cerramiento es el conjunto de elementos que forman las paredes de la vivienda. En este sistema constructivo, las paredes no son de bloque macizo: están formadas por una estructura de montantes verticales de madera que soporta el peso de la cubierta, y por tablas horizontales que cierran el espacio entre ellos.
 
-Esta guía cubre tres elementos consecutivos que trabajan de forma solidaria:
+En el clima ecuatorial de Guinea Ecuatorial no se persigue un cerramiento hermético —la ventilación cruzada es necesaria y beneficiosa—, sino una barrera eficaz contra el agua de lluvia lateral y la protección de la madera frente a la humedad ascendente del suelo.
 
-1. **ZUNCHO O DURMIENTE** — La pieza horizontal de madera que remata el zócalo de hormigón y sirve de base a toda la estructura vertical.
-2. **MONTANTES** — Los elementos verticales de palo rojo que soportan la cubierta y definen el módulo estructural.
+> 🔑 **Regla de oro:** La madera nunca toca el suelo. El zócalo de hormigón existe precisamente para mantener toda la estructura de madera elevada y seca.
+
+---
+
+## Estructura general
+
+Esta sección cubre tres elementos consecutivos que trabajan de forma solidaria:
+
+1. **DURMIENTE** — La pieza horizontal de madera que corona el zócalo y sirve de base a toda la estructura vertical.
+2. **MONTANTES** — Los elementos verticales de madera que soportan la cubierta y definen el módulo estructural.
 3. **TABLAS DE CERRAMIENTO** — Las tablas horizontales solapadas que cierran el espacio entre montantes y evacúan el agua de lluvia.
 
-<!-- PROMPT: Esta imagen tiene que representar un esquema en perspectiva del sistema completo de cerramiento: un zócalo de bloques de hormigón rematado por el durmiente de madera, sobre el que se levantan los montantes verticales de palo rojo separados a módulo constante, cerrados por tablas horizontales solapadas. Se distinguen claramente los tres elementos (durmiente, montante, tabla). Dibujo técnico a mano alzada, escala de grises, cada uno de los tres elementos remarcados con un color o trazo distinto. -->
+<img src="imagenes/cerramiento.intro.png" width="500" alt="Esquema general del cerramiento" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en perspectiva axonométrica de un tramo de pared de aproximadamente 3 metros de largo y altura completa. El cuadro muestra el sistema completo desde el zócalo de hormigón hasta el arranque de la cubierta.
+ESTADO: El cerramiento está terminado. Se distinguen claramente los tres niveles: el zócalo de bloques de hormigón en la parte baja, el durmiente de madera sobre el zócalo, los montantes verticales subiendo desde el durmiente y las tablas horizontales solapadas cerrando el espacio entre montantes.
+ROJO: El durmiente de madera, la pieza horizontal que separa el zócalo de hormigón de los montantes verticales.
+SIMPLIFICAR: No se muestra el interior de la vivienda ni la cubierta. Solo el cerramiento exterior.
+-->
 
 ---
 
-# PARTE 1: ZUNCHO O DURMIENTE
+## **Herramientas y materiales necesarios**
 
-El zócalo de bloques de hormigón no termina simplemente en la última hilada de bloques. Para que toda la cimentación trabaje como una sola pieza continua, es necesario un elemento de remate perimetral: el **zuncho** o **durmiente**.
+### Para el durmiente
+- Madera de alta densidad —palo rojo u otra madera local de densidad equivalente— en sección mínima de 8×8 cm
+- Varillas de acero corrugado Ø 10 mm, cortadas a 25–30 cm, para los anclajes
+- Barrena o formón para perforar la madera
+- Martillo y clavos de al menos 120 mm
+- Tratamiento preventivo contra humedad: aceite de motor usado, alquitrán mineral o pintura asfáltica
+- Nivel de burbuja
 
-El zuncho cumple dos funciones simultáneas: ata el zócalo para que los muros no se separen ante los movimientos del terreno o el peso de la cubierta, y sirve de base de anclaje para los montantes verticales.
-
-<!-- TODO: Decidir con el equipo técnico si el zuncho se resuelve con hormigón armado o con la pieza de madera descrita en esta sección. Las dos opciones se describen a continuación; la opción B (madera) requiere validación estructural antes de incorporarse a la versión definitiva. -->
-
----
-
-## Opción A — Zuncho de hormigón armado
-
-Esta es la opción convencional y estructuralmente más segura. Se construye un pequeño encofrado de tablas de madera en la parte superior del zócalo y se vierte hormigón armado, formando una viga perimetral continua.
-
-### Materiales
-
-- Tablas de madera para encofrado (pueden reutilizarse tras el hormigonado)
-- Varillas de acero corrugado Ø 8–10 mm
-- Alambre de amarrar
-- Hormigón (dosificación 1:2:3, igual que la zapata)
-- Clavos y martillo para sujetar el encofrado
-
-### Paso a paso
-
-1. Una vez terminadas las 2–3 hiladas de bloques del zócalo, se colocan tablas de madera a ambos lados del muro, sobresaliendo 10–15 cm por encima del último bloque. Las tablas forman el molde donde fraguará el hormigón.
-
-2. Se atan las tablas con alambre pasado de lado a lado del muro para que no se abran al verter el hormigón.
-
-<!-- PROMPT: Esta imagen tiene que representar el encofrado de tablas en la parte superior del zócalo, visto en sección transversal. Se ven las tablas sujetas con alambre a ambos lados del muro y el espacio interior listo para recibir el hormigón. Escala de grises, las tablas y el alambre de sujeción remarcados en rojo. Dibujo técnico a mano alzada. -->
-
-3. Se colocan al menos dos varillas horizontales a lo largo de todo el perímetro, dentro del encofrado, a una distancia de la cara exterior de al menos 3 cm.
-
-4. Se colocan esperas verticales: varillas cortas que sobresalen hacia arriba del zuncho y que más adelante servirán de anclaje para los montantes. La separación entre esperas coincide con el módulo de los montantes.
-
-5. Se vierte el hormigón, se compacta con el palo y se nivela la superficie. **Esta superficie debe quedar perfectamente plana**, ya que sobre ella apoyará el durmiente de madera.
-
-6. Se cura durante al menos 3 días antes de colocar los montantes.
-
-### A tener en cuenta
-
-- El zuncho de hormigón requiere un nivel de ejecución mayor que el resto del zócalo. Es la pieza estructural más exigente de esta fase.
-- La superficie superior debe quedar nivelada en todo el perímetro: un desnivel en el zuncho se traslada directamente a la verticalidad de los montantes.
-
----
-
-## Opción B — Durmiente de madera con anclajes metálicos
-
-<!-- TODO: Esta opción requiere validación estructural por parte del equipo técnico antes de incorporarse a la versión definitiva de la guía. Se describe aquí como alternativa en desarrollo. -->
-
-Cuando la ejecución de un zuncho de hormigón armado resulta difícil por falta de medios o experiencia, el remate del zócalo puede resolverse con una pieza de madera —el **durmiente**— anclada mecánicamente a los bloques mediante varillas de acero.
-
-Esta opción simplifica la ejecución y permite reutilizar el trabajo de carpintería local, pero requiere una preparación cuidadosa de la pieza antes de colocarla.
-
-### Materiales
-
-- Madera de alta densidad en sección mínima de 8x8 cm (palo rojo u otra madera local de densidad equivalente)
-- Varillas de acero corrugado Ø 10 mm, cortadas a unos 25–30 cm
-- Barrena o formón
-- Martillo y clavos
-- Tratamiento preventivo contra humedad (aceite de motor usado, alquitrán o similar)
-- Hormigón fluido para rellenar los huecos de los bloques
-
-### Paso a paso
-
-1. Se prepara el durmiente en el suelo antes de subirlo al zócalo. Se marcan los puntos donde irán los anclajes metálicos: un anclaje en cada posición de montante y otro en los puntos intermedios si el módulo lo requiere.
-
-<!-- PROMPT: Esta imagen tiene que representar la pieza de durmiente de madera tumbada en el suelo, con los puntos de anclaje marcados y los agujeros ya perforados para las varillas. Se ven las varillas cortadas y preparadas a un lado. Vista en perspectiva, escala de grises, los agujeros y las varillas remarcados en rojo. Dibujo técnico a mano alzada. -->
-
-2. Se perforan los agujeros con la barrena. El diámetro del agujero debe ser ligeramente mayor que el de la varilla para facilitar la introducción.
-
-3. Se introducen las varillas por los agujeros. El extremo que quedará dentro del bloque de hormigón se dobla en forma de gancho o cuña: esto impide que el anclaje se extraiga hacia arriba una vez hormigonado.
-
-<!-- PROMPT: Esta imagen tiene que representar el detalle del anclaje en sección: la varilla atravesando el durmiente de madera y el extremo inferior doblado en forma de gancho dentro del hueco del bloque de hormigón. El hueco del bloque está relleno de hormigón. Escala de grises, la varilla y el gancho remarcados en rojo. Sección transversal, dibujo técnico a mano alzada. -->
-
-4. Se aplica tratamiento preventivo en toda la superficie del durmiente, especialmente en la cara inferior que contactará con el hormigón: aceite de motor usado, alquitrán mineral o pintura asfáltica si están disponibles localmente.
-
-5. Se coloca el durmiente sobre el zócalo, introduciéndolo con los anclajes metálicos hacia abajo, de forma que las varillas caigan dentro de los huecos de los bloques.
-
-6. Se vierte hormigón fluido por el interior de los bloques que alojan las varillas hasta cubrir completamente el gancho. Se espera al menos 24 horas antes de continuar.
-
-7. Cuando las esperas verticales que vienen desde la zapata asoman por encima del zócalo, deben atravesar también el durmiente: se perfora el hueco correspondiente en la madera y se introduce la varilla. Esta varilla conecta la zapata, el zócalo y el durmiente en una cadena vertical continua.
-
-<!-- PROMPT: Esta imagen tiene que representar en sección la continuidad vertical de la armadura: la varilla de espera que sube desde la zapata, atraviesa el interior de los bloques del zócalo y pasa también por el durmiente de madera. Escala de grises, la línea de armadura continua remarcada en rojo. Dibujo técnico a mano alzada. -->
-
-### A tener en cuenta
-
-- El durmiente debe quedar perfectamente nivelado en todo el perímetro. Un desnivel en esta pieza afecta directamente a la verticalidad de todos los montantes.
-- Si la longitud del perímetro obliga a empalmar dos piezas de durmiente, el empalme no debe coincidir con la posición de un montante. Se deja siempre entre dos montantes, y el encuentro se refuerza con un clavo de al menos 120 mm pasando de una pieza a la otra.
-- La cara superior del durmiente debe quedar accesible y sin obstáculos: sobre ella apoyarán y se clavarán los montantes.
-
-> ⚠️ **LAGUNA A VERIFICAR EN CAMPO:** La disponibilidad de maderas de alta densidad (palo rojo y equivalentes) con sección mínima de 8x8 cm en los aserraderos locales de Bata y Mongomo debe confirmarse antes de fijar las especificaciones del durmiente. La sección puede variar en función de los formatos comercialmente disponibles.
-
----
-
-# PARTE 2: MONTANTES
-
-Los montantes son los elementos verticales de madera que soportan el peso de la cubierta y definen el módulo estructural de la vivienda. Se apoyan y clavan sobre el durmiente y suben hasta encontrarse con la viga de cubierta en la parte superior.
-
-El concepto más importante en esta fase es el **módulo**: la distancia constante de eje a eje entre montantes. Todo el replanteo del cerramiento parte de este módulo. Trabajar siempre a eje, no a cara de montante, garantiza que las tablas de cerramiento encajen sin ajustes y que la estructura sea regular.
-
-<!-- TODO: Confirmar con el equipo si el módulo definitivo del prototipo de la UNGE es 0,80 m o 1,00 m, y actualizar el documento. -->
-
----
-
-## Materiales necesarios
-
-- Palo rojo en sección 8x8 cm, cortado a la altura libre de la pared
+### Para los montantes
+- Palo rojo en sección 8×8 cm, cortado a la altura libre de la pared
 - Cinta métrica y cordel para el replanteo
 - Escuadra de carpintero
 - Martillo y clavos de al menos 120 mm
 - Nivel de burbuja o plomada
+- Escuadras metálicas de acero de 3 mm o pletinas de acero galvanizado *(recomendadas para los montantes de esquina)*
 
-*Refuerzo de la unión (recomendado):* escuadras metálicas de 3 mm de espesor o pletinas de acero galvanizado con tornillos o clavos adecuados.
+### Para las tablas de cerramiento
+- Tablas de madera local de grosor aproximado 1 cm, ancho a definir según disponibilidad local *(alternativa: tablas obtenidas por desbaste manual con azuela, de grosor irregular pero cara exterior plana)*
+- Clavos de longitud al menos el doble del grosor de la tabla
+- Martillo
+- Nivel de burbuja o cordel para mantener la horizontalidad de cada hilada
+
+<!-- TODO: Verificar con los aserraderos locales de Bata, Ebebiyín y Mongomo los formatos comerciales disponibles de tabla serrada: ancho, grosor y longitudes estándar. Las medidas de solape indicadas en esta guía deben ajustarse en función del formato real disponible. Verificar también la disponibilidad de palo rojo en sección 8×8 cm o los formatos de sección más próximos. -->
+
+---
+<div style="page-break-after: always;"></div>
+
+# **Parte 1: Durmiente**
+
+## **Paso 1 · Preparación del durmiente**
+
+### ¿Para qué sirve?
+
+El durmiente es la pieza de madera que corona el zócalo de bloques de hormigón. Cumple dos funciones simultáneas: sirve de base de anclaje para los montantes verticales y distribuye las cargas de la estructura de madera a lo largo de todo el perímetro del zócalo, evitando que se concentren en puntos aislados.
+
+A diferencia del zuncho de hormigón armado —la solución convencional para rematar el zócalo—, el durmiente de madera simplifica la ejecución y aprovecha el trabajo de la carpintería local. Su correcta preparación antes de colocarlo es la clave de que funcione bien: una pieza mal anclada o húmeda desde el inicio se deteriora y puede comprometer toda la estructura.
+
+<!-- TODO: El equipo técnico debe validar si el durmiente de madera es suficiente como remate del zócalo o si se requiere zuncho de hormigón armado previo. Esta decisión afecta al dimensionado estructural y debe confirmarse antes de fijar la versión definitiva de este apartado. -->
+
+### Proceso
+
+1. Se corta el durmiente a las dimensiones del perímetro. Si es necesario empalmar dos piezas, el punto de empalme no debe coincidir con la posición de un montante: se deja siempre entre dos montantes, y el encuentro se refuerza con al menos un clavo de 120 mm pasando de una pieza a la otra.
+
+2. Con la pieza tumbada en el suelo, se marcan los puntos donde irán los anclajes metálicos: un anclaje en cada posición prevista de montante, y otro en los puntos intermedios si el módulo lo requiere.
+
+<img src="imagenes/cerramiento.1.1.png" width="500" alt="Preparación del durmiente" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en perspectiva de la pieza de durmiente tumbada en el suelo. El cuadro muestra la pieza completa, de unos 2–3 metros de largo, con las marcas de anclaje ya señaladas y los agujeros perforados. A un lado se ven las varillas cortadas y preparadas.
+ESTADO: La preparación ha terminado. Los agujeros están perforados, las marcas de posición son visibles sobre la madera. Las varillas están al lado, listas para introducirse.
+ROJO: Los agujeros perforados en la cara superior del durmiente, con las varillas a su lado esperando ser introducidas.
+SIMPLIFICAR: No hay entorno de obra. Solo la pieza de madera y las varillas sobre el suelo.
+-->
+
+3. Se perforan los agujeros con la barrena. El diámetro del agujero debe ser ligeramente mayor que el de la varilla para facilitar la introducción sin forzar la madera.
+
+4. Se introducen las varillas por los agujeros. El extremo inferior —el que quedará dentro del bloque de hormigón— se dobla en forma de gancho o cuña, igual que se hace con las esperas de la zapata: esto impide que el anclaje se extraiga hacia arriba una vez hormigonado.
+
+<img src="imagenes/cerramiento.1.2.png" width="300" alt="Detalle del anclaje en sección" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Sección transversal del encuentro entre el durmiente de madera y el bloque de hormigón. El cuadro muestra unos 30 cm de altura: el bloque con su hueco interior, la varilla pasando por el durmiente y el gancho en el extremo inferior dentro del hueco ya relleno de hormigón.
+ESTADO: El hormigón dentro del bloque ya ha fraguado. El gancho está bloqueado. El durmiente apoya sobre la cara superior del bloque.
+ROJO: La varilla completa, desde el gancho interior hasta el extremo que asoma por encima del durmiente.
+SIMPLIFICAR: Solo se muestra el bloque superior del zócalo y el durmiente. No se muestra el zócalo completo.
+-->
+
+5. Se aplica tratamiento preventivo en toda la superficie del durmiente antes de colocarlo, prestando especial atención a la cara inferior que contactará con el hormigón: aceite de motor usado, alquitrán mineral o pintura asfáltica, si están disponibles localmente.
+
+6. Se coloca el durmiente sobre el zócalo, introduciendo las varillas hacia abajo para que caigan dentro de los huecos de los bloques.
+
+7. Se vierte hormigón fluido por el interior de los bloques que alojan las varillas hasta cubrir completamente el gancho. Se espera al menos 24 horas antes de continuar.
+
+8. Cuando las esperas verticales que vienen de la zapata asoman por encima del zócalo, deben atravesar también el durmiente: se perfora el agujero correspondiente en la madera y se introduce la varilla. Esta varilla conecta la zapata, el zócalo y el durmiente en una cadena vertical continua.
+
+<img src="imagenes/cerramiento.1.3.png" width="500" alt="Continuidad vertical de la armadura" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Sección transversal mostrando la continuidad vertical desde la zapata hasta el durmiente. El cuadro muestra unos 80 cm de altura: el suelo, el hormigón de la zapata, los bloques del zócalo y el durmiente encima.
+ESTADO: Todo ya colocado. La varilla de espera sube ininterrumpidamente desde la zapata, atraviesa el interior de los bloques del zócalo y pasa por el durmiente de madera.
+ROJO: La línea de armadura continua, de arriba abajo, que atraviesa todos los elementos.
+SIMPLIFICAR: Solo se muestra la sección. No hay entorno ni personas.
+-->
+
+### A tener en cuenta
+
+El durmiente debe quedar perfectamente nivelado en todo el perímetro. Un desnivel en esta pieza afecta directamente a la verticalidad de todos los montantes. Si la cara superior del zócalo presenta irregularidades, se corrigen con una capa fina de mortero antes de colocar el durmiente, dejándola fraguar hasta que esté firme.
+
+La cara superior del durmiente debe quedar accesible y sin obstáculos: sobre ella apoyarán y se clavarán los montantes.
+
+> ⚠️ **Laguna a verificar en campo:** La disponibilidad de maderas de alta densidad con sección mínima de 8×8 cm en los aserraderos locales de Bata, Ebebiyín y Mongomo debe confirmarse antes de fijar las especificaciones del durmiente. La sección puede variar en función de los formatos comercialmente disponibles.
+
+---
+<div style="page-break-after: always;"></div>
+
+# **Parte 2: Montantes**
+
+## **Paso 2 · Replanteo de los montantes**
+
+### ¿Para qué sirve?
+
+El replanteo consiste en marcar sobre el durmiente la posición exacta de cada montante antes de empezar a colocarlos. El concepto más importante en esta fase es el **módulo**: la distancia constante de eje a eje entre montantes. Todo el replanteo del cerramiento parte de este módulo.
+
+Trabajar siempre a **eje** —no a cara de montante— garantiza que las tablas de cerramiento encajen sin ajustes entre montante y montante, y que la estructura sea regular en todo el perímetro.
+
+<!-- TODO: Confirmar con el equipo técnico el módulo definitivo del prototipo: 0,80 m o 1,00 m de eje a eje. Actualizar el documento una vez confirmado. Este dato condiciona también el dimensionado de las tablas de cerramiento y los huecos de puertas y ventanas. -->
+
+### Proceso
+
+1. Se marca sobre el durmiente la posición de cada montante. La medida del módulo se toma siempre de **eje a eje**. Se marca el centro de cada posición con un clavo pequeño o una línea de lápiz de carpintero.
+
+<img src="imagenes/cerramiento.2.1.png" width="500" alt="Replanteo de montantes sobre el durmiente" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en planta del durmiente colocado sobre el zócalo, desde arriba. El cuadro muestra un tramo de unos 3 metros con varias marcas de eje ya trazadas.
+ESTADO: El replanteo está terminado. Se ven las líneas de lápiz de carpintero marcando el centro de cada posición de montante, con las cotas de módulo entre ellas.
+ROJO: Las marcas de eje de los montantes y las cotas de módulo entre ellas.
+SIMPLIFICAR: Solo se muestra el durmiente desde arriba. No hay entorno.
+-->
+
+2. En las posiciones donde haya puerta o ventana no se coloca montante. Se marcan los límites del hueco sobre el durmiente y se indica en cada extremo la posición del **montante de jamba**: un montante doble o reforzado que recibirá la carpintería.
+
+<!-- TODO: Definir en detalle el tratamiento del hueco de puerta y ventana: dimensiones mínimas del montante de jamba, listón horizontal de cargadero, relación entre el ancho del hueco y el módulo. Esta información debe resolverse en paralelo con la decisión sobre el sistema de carpintería (paso 05 del outline). -->
 
 ---
 
-## Paso a paso
+## **Paso 3 · Colocación de los montantes**
 
-### PASO 1 — Replanteo de los montantes
+### ¿Para qué sirve?
 
-1. Se marca sobre el durmiente la posición de cada montante. La medida del módulo (0,80 m o 1,00 m según el proyecto) se toma siempre de **eje a eje**. Se marca el centro de cada posición con un clavo o una línea de lápiz de carpintero.
+Los montantes son los elementos verticales de palo rojo que soportan el peso de la cubierta y definen la estructura de la pared. Se apoyan y clavan sobre el durmiente y suben hasta encontrarse con la viga de cubierta en la parte superior.
 
-<!-- PROMPT: Esta imagen tiene que representar la vista en planta del durmiente con las marcas de eje de cada montante. Se ven claramente las cotas de módulo tomadas de eje a eje, y la posición centrada del montante respecto a cada marca. Dibujo técnico a mano alzada, escala de grises, las marcas de eje y las cotas de módulo remarcadas en rojo. -->
+La clave de esta fase es conseguir que todos los montantes queden perfectamente verticales —aplomados— y alineados en el mismo plano. Un montante inclinado transmite las cargas de la cubierta de forma irregular y puede producir deformaciones en la estructura a lo largo del tiempo.
 
-2. En las posiciones donde haya puerta o ventana, no se coloca montante. En su lugar, se marcan los límites del hueco y se añade un **montante de jamba** —un montante doble o reforzado— en cada extremo del hueco para recibir la carpintería.
+### Proceso
 
-<!-- TODO: Definir el tratamiento del hueco de puerta y ventana en detalle: listón horizontal de cargadero, dimensiones mínimas del montante de jamba, relación con el módulo. -->
+El proceso recomendado para uno o dos operarios es el siguiente: se colocan primero los dos montantes de esquina, se arriostran con la primera tabla horizontal, y sobre esa tabla fija se van añadiendo los montantes intermedios uno a uno. Este orden evita tener que sostener varias piezas a la vez sin apoyos.
 
----
+1. Se coloca el primer montante en una esquina. Se comprueba la verticalidad en las dos direcciones con la plomada o el nivel antes de clavar. Una vez verificado, se clava al durmiente con al menos dos clavos en diagonal desde cada cara del montante.
 
-### PASO 2 — Colocación de los montantes
+<img src="imagenes/cerramiento.3.1.png" width="500" alt="Detalle del pie del montante" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en perspectiva de detalle del pie de un montante apoyado sobre el durmiente. El cuadro muestra unos 40 cm de altura: la parte superior del durmiente y los primeros 30 cm del montante.
+ESTADO: El montante ya está clavado. Se ven los dos clavos en diagonal entrando desde la cara del montante hacia el durmiente. Una escuadra metálica refuerza la unión en la cara interior.
+ROJO: Los clavos en diagonal y la escuadra metálica.
+SIMPLIFICAR: No se muestra el zócalo ni el entorno. Solo el pie del montante y el durmiente.
+-->
 
-**Proceso recomendado:** En lugar de colocar todos los montantes de una vez y luego las tablas, el proceso más estable para uno o dos operarios es el siguiente: se colocan dos montantes de esquina aplomados, se arriostra con la primera tabla horizontal, y sobre esa tabla fija se van añadiendo los montantes intermedios uno a uno.
-
-1. Se coloca el primer montante en una esquina. Se comprueba la verticalidad en las dos direcciones con la plomada o el nivel antes de clavar. Una vez verificado, se clava al durmiente con al menos dos clavos en diagonal desde cada cara.
-
-<!-- PROMPT: Esta imagen tiene que representar el detalle del pie del montante apoyado sobre el durmiente de madera. Se ven los clavos en diagonal entrando desde la cara del montante hacia el durmiente, y opcionalmente una escuadra metálica reforzando la unión en la cara interior. Escala de grises, los clavos y la escuadra remarcados en rojo. Vista en perspectiva de detalle, dibujo técnico a mano alzada. -->
-
-2. Se coloca el segundo montante de esquina en el extremo opuesto del mismo lado. Se tensa un cordel entre ambos montantes a una altura fija —puede ser la primera tabla de cerramiento— para guiar la alineación de todos los intermedios.
+2. Se coloca el segundo montante de esquina en el extremo opuesto del mismo lado. Se tensa un cordel entre los dos montantes a una altura fija —puede ser la primera tabla de cerramiento— para guiar la alineación de todos los intermedios.
 
 3. Se clava la primera tabla horizontal entre los dos montantes de esquina (ver Parte 3). Esta tabla actúa como arriostramiento provisional y garantiza que los montantes no se muevan mientras se añaden los siguientes.
 
@@ -169,132 +188,182 @@ El concepto más importante en esta fase es el **módulo**: la distancia constan
 
 ### A tener en cuenta
 
-- Los montantes de esquina trabajan en dos direcciones a la vez. Se clavan en las dos caras que dan al exterior y se refuerzan con escuadra metálica en el ángulo interior.
-- La unión clavada es la más sencilla pero la más vulnerable al movimiento lateral. En cualquier caso, se recomienda reforzar con escuadras metálicas en los montantes de esquina.
-- El pie del montante, en contacto con el durmiente, es el punto más expuesto a la humedad acumulada. Si la espera metálica que viene de la zapata asoma por encima del durmiente, el montante debe tener un agujero pasante que permita introducirla sin forzar la madera.
+Los montantes de esquina trabajan en dos direcciones a la vez. Se clavan en las dos caras que dan al exterior y se refuerzan con escuadra metálica en el ángulo interior.
 
-> ✅ **Nota sobre el palo rojo:** El palo rojo no requiere tratamiento preventivo contra insectos por su densidad y resistencia natural. Sin embargo, la cara inferior del montante —en contacto con el durmiente y por tanto próxima a la humedad— puede recibir una capa de aceite de motor usado como medida adicional de precaución.
+La unión clavada es la más sencilla, pero la más vulnerable al movimiento lateral. Se recomienda reforzar con escuadras metálicas al menos en los montantes de esquina.
+
+El pie del montante, en contacto con el durmiente, es el punto más expuesto a la humedad acumulada. Cuando la espera metálica que viene de la zapata asoma por encima del durmiente, el montante debe tener un agujero pasante que permita introducirla sin forzar la madera.
+
+> ✅ **Nota sobre el palo rojo:** El palo rojo no requiere tratamiento preventivo contra insectos xilófagos por su densidad y resistencia natural. La cara inferior del montante —en contacto con el durmiente y por tanto próxima a la humedad— puede recibir una capa de aceite de motor usado como medida adicional de precaución.
 
 ---
+<div style="page-break-after: always;"></div>
 
-# PARTE 3: TABLAS DE CERRAMIENTO
+# **Parte 3: Tablas de cerramiento**
 
 Las tablas horizontales cierran el espacio entre montantes. En clima ecuatorial, su función principal no es el aislamiento térmico ni acústico —la ventilación cruzada es necesaria y deseable—, sino la **evacuación del agua de lluvia lateral** y la **protección de la estructura de madera** frente a la humedad.
 
-Para cumplir esta función, las tablas se colocan solapadas entre sí y con una ligera inclinación hacia el exterior, de forma que el agua resbale por su cara exterior sin penetrar en la junta.
-
-Las tablas son además el elemento que **arriosta horizontalmente** la estructura: impiden que los montantes se inclinen y dan rigidez al conjunto del cerramiento.
+Para cumplir esta función, las tablas se colocan solapadas entre sí y con una ligera inclinación hacia el exterior, de forma que el agua resbale por su cara exterior sin penetrar en la junta. Las tablas son además el elemento que **arriosta horizontalmente** la estructura: impiden que los montantes se inclinen y dan rigidez al conjunto del cerramiento.
 
 ---
 
-## Materiales necesarios
+## **Paso 4 · Primera tabla: la tabla de arranque**
 
-- Tablas de madera local de grosor aproximado 1 cm y ancho a definir según disponibilidad local
-- Clavos de longitud al menos el doble del grosor de la tabla
-- Martillo
-- Nivel o cordel para mantener la horizontalidad de cada hilada
+### ¿Para qué sirve?
 
-<!-- TODO: Verificar con los aserraderos locales de Bata y Mongomo el formato comercial disponible (ancho y grosor de tabla). Las medidas de solape indicadas en esta guía deberán ajustarse en función del formato real. -->
+La primera tabla tiene una función distinta al resto: no evacúa agua de lluvia directa, sino que evita que el agua que cae al suelo salpique hacia arriba y alcance el durmiente y los montantes. Es la pieza más expuesta a la humedad y, por eso, la que más se beneficia de una madera de alta densidad o de tratamiento preventivo.
 
-*(Alternativa si no se dispone de tabla serrada: tablas obtenidas por desbaste manual con azuela, de grosor irregular pero cara exterior plana.)*
+### Proceso
 
----
+1. La primera tabla se coloca **horizontalmente**, directamente sobre el durmiente, sin inclinación. Su cara inferior debe rozar o estar muy próxima a la cara exterior del zócalo de hormigón, de modo que el agua que rebota desde el suelo no pueda entrar entre la tabla y el zócalo.
 
-## Paso a paso
-
-### PASO 1 — Primera tabla: la tabla de arranque
-
-La primera tabla tiene una función distinta al resto: no evacúa agua de lluvia, sino que evita que el agua que cae al suelo salpique hacia arriba y alcance el durmiente y los montantes.
-
-1. La primera tabla se coloca **horizontalmente**, directamente sobre el durmiente. No lleva inclinación. Su función es proteger el zócalo de hormigón y el durmiente de la lluvia que rebota desde el suelo.
-
-<!-- PROMPT: Esta imagen tiene que representar en sección la colocación de la primera tabla horizontal apoyada sobre el durmiente, con la cara inferior rozando la cara exterior del zócalo de hormigón. Se ve cómo la tabla vuela ligeramente hacia el exterior respecto al plano del muro para que el agua caiga fuera del zócalo. Escala de grises, la tabla y la dirección del agua remarcadas en rojo. Sección transversal, dibujo técnico a mano alzada. -->
+<img src="imagenes/cerramiento.4.1.png" width="500" alt="Tabla de arranque sobre el durmiente" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Sección transversal del encuentro entre el zócalo, el durmiente y la primera tabla. El cuadro muestra unos 40 cm de altura: la parte superior del zócalo de hormigón, el durmiente encima y la primera tabla apoyada sobre él.
+ESTADO: La tabla ya está clavada. Se ve cómo vuela ligeramente hacia el exterior respecto al plano del muro, de modo que el agua de lluvia que rebota desde el suelo cae fuera del zócalo. Una flecha indica la dirección del agua.
+ROJO: La tabla de arranque y la dirección del agua que desvía hacia el exterior.
+SIMPLIFICAR: Solo se muestra la sección. No hay entorno ni personas.
+-->
 
 2. La tabla de arranque se clava al durmiente y a cada montante que atraviesa, con al menos un clavo por montante.
 
+Las tablas no deben tocar el suelo en ningún punto. Si el zócalo no es suficientemente alto y las tablas quedan muy próximas al nivel del suelo, se añade una hilada extra de bloques antes de colocar el durmiente.
+
 ---
 
-### PASO 2 — Tablas solapadas del cerramiento
+## **Paso 5 · Tablas solapadas del cerramiento**
 
-A partir de la tabla de arranque, todas las tablas siguientes se colocan con **solape** e **inclinación hacia el exterior**.
+### ¿Para qué sirve?
+
+A partir de la tabla de arranque, todas las tablas siguientes se colocan con **solape** e **inclinación hacia el exterior**. Este sistema —conocido como tablas a "teja" o a "clin"— imita el principio de las escamas o las tejas: cada tabla cubre la junta de la anterior, y la inclinación lleva el agua hacia la cara exterior antes de que pueda entrar.
+
+### Proceso
 
 1. Cada tabla nueva se apoya sobre la anterior. El solape mínimo recomendado es de **3–4 cm**. Antes de clavar, se inclina ligeramente la parte superior de la tabla hacia el exterior, de forma que el agua de lluvia caiga sobre la cara exterior de la tabla inferior sin entrar en la junta.
 
-<!-- PROMPT: Esta imagen tiene que representar el detalle en sección del solape entre dos tablas horizontales. Se ve claramente el ángulo de inclinación de la tabla superior hacia el exterior y cómo el agua resbala por la cara exterior de la tabla inferior sin entrar en la junta. Escala de grises, el ángulo de inclinación y la dirección del agua remarcados en rojo. Sección transversal, dibujo técnico a mano alzada. -->
+<img src="imagenes/cerramiento.5.1.png" width="500" alt="Detalle del solape entre tablas" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Sección transversal del solape entre dos tablas horizontales. El cuadro muestra unos 20 cm de altura: la parte superior de la tabla inferior y la tabla superior ya clavada sobre ella, con la inclinación visible.
+ESTADO: La tabla superior ya está clavada. Se ve claramente el ángulo de inclinación hacia el exterior y cómo el agua resbalaría por la cara exterior de la tabla inferior sin entrar en la junta.
+ROJO: El ángulo de inclinación de la tabla superior y la dirección del agua que resbala hacia el exterior.
+SIMPLIFICAR: Solo la sección de las dos tablas. No hay entorno ni montante visible.
+-->
 
 2. Se clava cada tabla en cada montante con al menos un clavo. El clavo debe atravesar la tabla nueva y entrar también en la tabla inferior para solidarizar el conjunto.
 
 3. Se comprueba la horizontalidad de cada hilada con un cordel tenso o un nivel antes de continuar con la siguiente.
 
-4. Se sube hilada a hilada hasta llegar a la altura prevista de la viga de cubierta.
+4. Las tablas deben ser **contrapeadas**: las juntas verticales entre tablas de una hilada no deben coincidir con las de la hilada contigua. Esto evita que se forme una junta abierta continua por la que pueda entrar el agua.
+
+5. Se sube hilada a hilada hasta llegar a la altura prevista de la viga de cubierta.
 
 ---
 
-### PASO 3 — Esquinas y encuentros
+## **Paso 6 · Esquinas y encuentros**
 
-En las esquinas exteriores, las tablas de las dos caras no pueden terminar simultáneamente en el mismo plano: quedaría una junta vertical continua por la que entraría el agua.
+### ¿Para qué sirve?
 
-1. Las tablas de una cara se prolongan hasta la esquina y cubren el canto de los montantes de esa cara.
-2. Las tablas de la cara perpendicular se clavan contra la cara exterior de las primeras, cubriendo el encuentro. Se alternan entre hiladas para que no quede una junta abierta continua.
+En las esquinas exteriores, las tablas de las dos caras no pueden terminar simultáneamente en el mismo plano: quedaría una junta vertical continua por la que entraría el agua con facilidad. El encuentro de esquina resuelve este problema alternando el solapamiento entre hiladas.
 
-<!-- PROMPT: Esta imagen tiene que representar el detalle de la esquina exterior de la vivienda donde se encuentran las tablas de cerramiento de dos paredes. Se ve cómo las tablas de una cara cubren el canto del montante de esquina, y las tablas de la cara perpendicular se clavan solapando el encuentro de forma alternada. Vista en perspectiva exterior de la esquina, escala de grises, el encuentro de esquina remarcado en rojo. Dibujo técnico a mano alzada. -->
+### Proceso
 
----
+1. Las tablas de una cara se prolongan hasta la esquina y cubren el canto del montante de esa cara.
+2. Las tablas de la cara perpendicular se clavan contra la cara exterior de las primeras, cubriendo el encuentro.
+3. Se alternan entre hiladas: en la hilada impar prolonga una cara, en la hilada par prolonga la otra. De este modo no hay ninguna junta continua de arriba abajo.
 
-### PASO 4 — Huecos de puertas y ventanas
-
-En las posiciones donde hay puerta o ventana, las tablas se cortan a los límites del hueco y se clavan al montante de jamba. El hueco no lleva tabla.
-
-1. Para colocar la carpintería (si la hay), se instala un **listón horizontal** entre los dos montantes de jamba, a la altura del dintel y al del umbral. Estos listones son los que recibirán la carpintería y deben quedar en el plano del cerramiento.
-2. El listón de dintel se coloca a la altura proyectada de la parte superior de la puerta o ventana, y el umbral a la del suelo terminado en el caso de la ventana.
-
-<!-- PROMPT: Esta imagen tiene que representar el detalle del hueco de ventana en el cerramiento: los dos montantes de jamba a ambos lados, el listón horizontal de dintel en la parte superior y el listón de umbral en la parte inferior. Las tablas de cerramiento llegan hasta los montantes de jamba y se cortan en el plano del hueco. Escala de grises, los listones horizontales de dintel y umbral remarcados en rojo. Vista en perspectiva exterior, dibujo técnico a mano alzada. -->
-
----
-
-## A tener en cuenta
-
-**Sobre el agua y la humedad:**
-
-El agua es el principal enemigo de la madera en clima ecuatorial. El solape y la inclinación de las tablas son la primera línea de protección: si no se ejecutan con cuidado, el agua penetra en las juntas y pudre la madera desde dentro.
-
-La zona más vulnerable es la parte baja del cerramiento, donde el agua del suelo salpica hacia arriba. Se recomienda que las primeras hiladas tengan un solape algo mayor (5–6 cm) o que se utilicen maderas de mayor densidad en esa zona.
-
-Las tablas no deben tocar el suelo en ningún punto. Si el zócalo de hormigón no es suficientemente alto y las tablas quedan muy próximas al nivel del suelo, se añade una hilada extra de bloques antes de colocar el durmiente.
-
-**Sobre el proceso constructivo:**
-
-El cerramiento puede ser montado por una o dos personas si se sigue el proceso de dos montantes de esquina + primera tabla antes de añadir los intermedios. Este orden garantiza que la estructura no requiera ser sujetada por varios operarios simultáneamente.
-
-Las tablas deben ser **contrapeadas**: las juntas verticales entre tablas de una hilada no deben coincidir con las de la hilada contigua. Esto evita que se forme una junta continua por la que pueda entrar el agua.
-
-> ⚠️ **LAGUNA A COMPLETAR:** No existe aún documentación específica sobre técnicas tradicionales fang de solape o protección de junta que pudieran integrarse en este sistema. Se recomienda al equipo de campo consultar con carpinteros locales en la próxima misión.
+<img src="imagenes/cerramiento.6.1.png" width="500" alt="Encuentro de esquina" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en perspectiva exterior de la esquina de la vivienda, mostrando dos hiladas de tablas ya colocadas. El cuadro muestra unos 60 cm de cada cara, centrado en la esquina.
+ESTADO: Dos hiladas terminadas. En la hilada inferior, las tablas de la cara derecha cubren el canto del montante de esquina. En la hilada superior, son las tablas de la cara izquierda las que avanzan y cubren el encuentro, alternando el solape.
+ROJO: La hilada superior, que muestra la alternancia del solapamiento respecto a la hilada inferior.
+SIMPLIFICAR: Solo se muestra la esquina con dos hiladas. No hay entorno.
+-->
 
 ---
 
-## 🌿 TIPS ESPECÍFICOS PARA EL CONTEXTO DE GUINEA ECUATORIAL
+## **Paso 7 · Huecos de puertas y ventanas**
+
+### ¿Para qué sirve?
+
+En los puntos donde hay puerta o ventana, las tablas se cortan al llegar al límite del hueco y se clavan al montante de jamba. El hueco en sí no lleva tabla. Para recibir la carpintería, se instalan dos listones horizontales entre los montantes de jamba: uno en la parte alta —el dintel— y uno en la parte baja —el umbral, en el caso de las ventanas.
+
+### Proceso
+
+1. Las tablas de cerramiento se cortan a los límites del hueco y se clavan al montante de jamba. El corte debe ser limpio y perpendicular para que la junta con la carpintería quede bien cerrada.
+
+2. Se instala el **listón de dintel** entre los dos montantes de jamba a la altura proyectada de la parte superior de la puerta o ventana. Este listón debe quedar enrasado con el plano exterior del cerramiento.
+
+3. En el caso de las ventanas, se instala también el **listón de umbral** a la altura del alféizar. Para las puertas, el umbral es el suelo terminado.
+
+<img src="imagenes/cerramiento.7.1.png" width="500" alt="Hueco de ventana en el cerramiento" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en perspectiva exterior del hueco de una ventana en el cerramiento. El cuadro muestra el hueco completo más unos 40 cm de cerramiento a cada lado y arriba y abajo.
+ESTADO: El hueco está formado. Los dos montantes de jamba flanquean el hueco. El listón de dintel horizontal cierra la parte superior y el listón de umbral la parte inferior. Las tablas de cerramiento llegan hasta los montantes de jamba y se cortan limpiamente en el plano del hueco.
+ROJO: Los listones horizontales de dintel y umbral.
+SIMPLIFICAR: No hay carpintería instalada aún. Solo el hueco formado por los montantes y los listones.
+-->
+
+<!-- TODO: Definir en detalle el tratamiento del hueco una vez resuelta la carpintería del prototipo: dimensiones mínimas del montante de jamba, tolerancia entre el hueco de obra y la dimensión de la hoja, sistema de fijación del premarco. Ver paso 05 del outline. -->
 
 ---
 
-**1. El revestimiento del zócalo**
-Los bloques de hormigón de producción local suelen ser porosos y de calidad variable. Un revoco de mortero (1 parte de cemento : 3 de arena) aplicado sobre las caras exteriores del zócalo mejora significativamente su impermeabilidad y prolonga su vida útil. Se aplica con llana, en una capa de 1–1,5 cm, una vez el zócalo haya fraguado completamente.
+# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
-**2. Ventilación cruzada**
-El cerramiento de tablas solapadas no es hermético por definición: las juntas permiten cierta ventilación natural entre el interior y el exterior. Esto es una ventaja en clima ecuatorial, no un defecto. En ningún caso se deben sellar las juntas con materiales que impidan completamente el paso del aire.
+---
 
-**3. Mantenimiento periódico del cerramiento**
-Las tablas de madera en clima húmedo pueden deformarse o agrietarse con el tiempo. Se recomienda una revisión visual anual del cerramiento, prestando especial atención a las zonas bajas (mayor exposición al agua) y a las esquinas (mayor complejidad de encuentro). Una tabla deteriorada puede reemplazarse individualmente sin necesidad de desmontar el conjunto.
+**1. La zona más vulnerable: la parte baja del cerramiento**
+
+El agua del suelo salpica hacia arriba y las primeras hiladas de tablas reciben más humedad que el resto. Se recomienda que las tres o cuatro primeras hiladas tengan un solape algo mayor —5–6 cm en lugar de 3–4— o que se utilicen maderas de mayor densidad en esa zona.
+
+**2. Ventilación cruzada: una ventaja, no un defecto**
+
+El cerramiento de tablas solapadas no es hermético: las juntas permiten cierta ventilación natural entre el interior y el exterior. En clima ecuatorial esto es una ventaja. En ningún caso se deben sellar las juntas con materiales que impidan completamente el paso del aire.
+
+**3. Revoco del zócalo**
+
+Los bloques de hormigón de producción local suelen ser porosos y de calidad variable. Un revoco de mortero en proporción 1:3 —una parte de cemento por tres de arena— aplicado sobre las caras exteriores del zócalo mejora su impermeabilidad y prolonga su vida útil. Se aplica con llana en una capa de 1 a 1,5 cm, una vez el zócalo ha fraguado completamente.
 
 **4. Tratamiento preventivo de las tablas**
-Antes de colocar las tablas, se recomienda aplicar una capa de aceite de motor usado o alquitrán en la cara inferior (la que estará en contacto con la junta). La cara exterior puede dejarse sin tratar si la madera es de alta densidad, o tratarse con aceite si es una madera más blanda.
 
-> ⚠️ **LAGUNA A COMPLETAR:** El repositorio no contiene aún información verificada sobre los productos de tratamiento de la madera disponibles comercialmente en Guinea Ecuatorial (Bata, Ebebiyín). Se recomienda al equipo de campo documentar productos y precios en la próxima misión.
+Antes de colocar las tablas, se recomienda aplicar una capa de aceite de motor usado o alquitrán en la cara inferior de cada tabla —la que estará en contacto con la junta. La cara exterior puede dejarse sin tratar si la madera es de alta densidad, o tratarse con aceite si es una madera más blanda o de densidad media.
+
+<!-- TODO: Documentar en la próxima misión de campo los productos de tratamiento de la madera disponibles comercialmente en Guinea Ecuatorial —Bata, Ebebiyín— e incorporar nombres locales y precios orientativos a la guía definitiva. -->
+
+**5. Mantenimiento periódico del cerramiento**
+
+Las tablas de madera en clima húmedo pueden deformarse o agrietarse con el tiempo. Se recomienda una revisión visual anual del cerramiento, prestando especial atención a las zonas bajas —mayor exposición al agua— y a las esquinas —mayor complejidad de encuentro. Una tabla deteriorada puede reemplazarse individualmente sin necesidad de desmontar el conjunto.
+
+**6. Organización del trabajo**
+
+El cerramiento puede ser montado por una o dos personas si se sigue el proceso de dos montantes de esquina más primera tabla antes de añadir los intermedios. Este orden garantiza que la estructura no requiera ser sujetada por varios operarios simultáneamente.
+
+<!-- TODO: Consultar con carpinteros locales en la próxima misión de campo si existen técnicas tradicionales fang de solape o protección de junta que pudieran integrarse en este sistema. La documentación de esas prácticas puede enriquecer la guía y mejorar su aceptación cultural. -->
 
 ---
 
-## ⏭️ SIGUIENTE PASO: CUBIERTA
+## Resumen: comprobaciones antes de avanzar
 
-Una vez terminado el cerramiento, con los montantes aplomados y el perímetro superior bien arriostrado por la última hilada de tablas, se procederá a la colocación de la **viga de cubierta y la estructura de la techumbre**.
+Antes de pasar a la cubierta, verificar que se han completado correctamente estos puntos:
+
+- [ ] El durmiente está nivelado en todo el perímetro y bien anclado al zócalo.
+- [ ] Las esperas verticales que vienen de la zapata atraviesan el durmiente y los huecos de los bloques han sido rellenados con hormigón fluido.
+- [ ] Todos los montantes están aplomados —verticales— en las dos direcciones.
+- [ ] Los montantes de esquina están reforzados con escuadras metálicas en el ángulo interior.
+- [ ] La comprobación de diagonales de cada cara confirma que los montantes están en escuadra.
+- [ ] Las tablas de cerramiento están solapadas y con inclinación hacia el exterior en todas las hiladas.
+- [ ] Las juntas verticales entre tablas están contrapeadas: no hay juntas continuas de arriba abajo.
+- [ ] Las esquinas alternan el solapamiento entre hiladas: no hay junta vertical abierta en la esquina.
+- [ ] Los huecos de puerta y ventana están formados por montantes de jamba y listones horizontales de dintel y umbral.
+- [ ] Las tablas no tocan el suelo en ningún punto.
+- [ ] El perímetro superior del cerramiento está bien arriostrado por la última hilada de tablas, listo para recibir la viga de cubierta.
+
+---
+
+## ⏭️ Siguiente paso: Cubierta
+
+Una vez terminado el cerramiento, con los montantes aplomados y el perímetro superior arriostrado por la última hilada de tablas, se procede a la colocación de la viga de cubierta y la estructura de la techumbre.
+
+[← 01. Cimentación](paso1_cimentacion.md) | [03. Cubierta →](paso3_cubierta.md)
 
 ---
 
