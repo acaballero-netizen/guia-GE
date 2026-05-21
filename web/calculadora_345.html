@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora 3-4-5 · Replanteo de esquinas</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: #F5F2ED;
+      color: #1A1916;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .card {
+      background: #FFFFFF;
+      border-radius: 12px;
+      padding: 1.75rem;
+      max-width: 520px;
+      width: 100%;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08), 0 4px 16px rgba(0,0,0,0.06);
+    }
+
+    h1 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #1A1916;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      font-size: 12px;
+      color: #888780;
+      margin-bottom: 1.5rem;
+    }
+
+    .slider-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 1.5rem;
+    }
+
+    .slider-label {
+      font-size: 13px;
+      color: #555450;
+      min-width: 82px;
+    }
+
+    input[type="range"] {
+      flex: 1;
+      accent-color: #0F6E56;
+      height: 4px;
+      cursor: pointer;
+    }
+
+    .slider-val {
+      font-size: 20px;
+      font-weight: 600;
+      min-width: 52px;
+      text-align: right;
+      color: #1A1916;
+    }
+
+    .slider-unit {
+      font-size: 13px;
+      color: #888780;
+    }
+
+    .results {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 1.5rem;
+    }
+
+    .result-card {
+      background: #F5F2ED;
+      border-radius: 8px;
+      padding: 0.7rem 0.9rem;
+    }
+
+    .result-card.full { grid-column: 1 / -1; }
+
+    .result-card.a { border-left: 3px solid #0F6E56; }
+    .result-card.b { border-left: 3px solid #185FA5; }
+    .result-card.c { border-left: 3px solid #993C1D; }
+
+    .result-label {
+      font-size: 11px;
+      color: #888780;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .result-val {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .result-sub {
+      font-size: 11px;
+      color: #888780;
+      margin-top: 2px;
+    }
+
+    .a .result-val { color: #0F6E56; }
+    .b .result-val { color: #185FA5; }
+    .c .result-val { color: #993C1D; }
+
+    hr {
+      border: none;
+      border-top: 1px solid #E8E5DF;
+      margin-bottom: 1.5rem;
+    }
+
+    svg {
+      display: block;
+      width: 100%;
+      margin-bottom: 1.25rem;
+    }
+
+    .tip {
+      font-size: 12px;
+      color: #888780;
+      background: #F5F2ED;
+      border-radius: 8px;
+      padding: 0.6rem 0.9rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <h1>Calculadora · Método 3-4-5</h1>
+  <p class="subtitle">Replanteo de esquinas en ángulo recto</p>
+
+  <div class="slider-row">
+    <span class="slider-label">Lado corto (A)</span>
+    <input type="range" min="0.5" max="10" step="0.1" value="1.8" id="sl">
+    <span class="slider-val" id="sl-out">1.80</span>
+    <span class="slider-unit">m</span>
+  </div>
+
+  <div class="results">
+    <div class="result-card a">
+      <div class="result-label">Lado A — base 3</div>
+      <div class="result-val" id="rA">—</div>
+      <div class="result-sub" id="rAsub"></div>
+    </div>
+    <div class="result-card b">
+      <div class="result-label">Lado B — base 4</div>
+      <div class="result-val" id="rB">—</div>
+      <div class="result-sub" id="rBsub"></div>
+    </div>
+    <div class="result-card c full">
+      <div class="result-label">Diagonal C — base 5 · confirma la escuadra</div>
+      <div class="result-val" id="rC">—</div>
+      <div class="result-sub" id="rCsub"></div>
+    </div>
+  </div>
+
+  <hr>
+
+  <svg id="trisvg" viewBox="0 0 440 260" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="mA" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+        <path d="M0,0 L8,3 L0,6 Z" fill="#0F6E56"/>
+      </marker>
+      <marker id="mB" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+        <path d="M0,0 L8,3 L0,6 Z" fill="#185FA5"/>
+      </marker>
+      <marker id="mC" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+        <path d="M0,0 L8,3 L0,6 Z" fill="#993C1D"/>
+      </marker>
+    </defs>
+    <line id="lineA" stroke="#0F6E56" stroke-width="2.5" stroke-linecap="round" marker-end="url(#mA)"/>
+    <line id="lineB" stroke="#185FA5" stroke-width="2.5" stroke-linecap="round" marker-end="url(#mB)"/>
+    <line id="lineC" stroke="#993C1D" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 4" marker-end="url(#mC)"/>
+    <rect id="sq" fill="none" stroke="#AAAA9F" stroke-width="1.5"/>
+    <circle id="dotP" r="5" fill="#AAAA9F"/>
+    <circle id="dotQ" r="5" fill="#0F6E56"/>
+    <circle id="dotR" r="5" fill="#185FA5"/>
+    <text id="lblA" text-anchor="middle" font-size="13" font-weight="500" fill="#0F6E56" font-family="sans-serif"/>
+    <text id="lblB" text-anchor="end"    font-size="13" font-weight="500" fill="#185FA5" font-family="sans-serif"/>
+    <text id="lblC" text-anchor="start"  font-size="13" font-weight="500" fill="#993C1D" font-family="sans-serif"/>
+  </svg>
+
+  <p class="tip">
+    Introducir el lado corto disponible en obra. Los otros dos valores se calculan automáticamente.
+    Cuando la diagonal mide exactamente el valor de C, la esquina forma 90° exactos.
+  </p>
+</div>
+
+<script>
+  var sl    = document.getElementById('sl');
+  var slOut = document.getElementById('sl-out');
+
+  function fmt(v) { return v.toFixed(2); }
+
+  function setA(id, attrs) {
+    var el = document.getElementById(id);
+    for (var k in attrs) el.setAttribute(k, attrs[k]);
+  }
+
+  function setText(id, txt) {
+    document.getElementById(id).textContent = txt;
+  }
+
+  function drawTriangle(a, b) {
+    var W = 440, H = 260;
+    var padL = 68, padR = 40, padT = 24, padB = 42;
+    var maxW = W - padL - padR;
+    var maxH = H - padT - padB;
+    var sc   = Math.min(maxW / a, maxH / b);
+    var dA   = a * sc;
+    var dB   = b * sc;
+    var ox   = padL + (maxW - dA) / 2;
+    var oy   = padT + (maxH - dB) / 2;
+
+    var Px = ox,      Py = oy + dB;
+    var Qx = ox + dA, Qy = oy + dB;
+    var Rx = ox,      Ry = oy;
+    var sq = 13;
+
+    setA('sq',    { x: Px, y: Py - sq, width: sq, height: sq });
+    setA('lineA', { x1: Px + 6,  y1: Py,      x2: Qx - 8,  y2: Qy      });
+    setA('lineB', { x1: Px,      y1: Py - 6,  x2: Rx,      y2: Ry + 8  });
+    setA('lineC', { x1: Qx - 6,  y1: Qy - 6,  x2: Rx + 6,  y2: Ry + 6  });
+    setA('dotP',  { cx: Px, cy: Py });
+    setA('dotQ',  { cx: Qx, cy: Qy });
+    setA('dotR',  { cx: Rx, cy: Ry });
+
+    setA('lblA', { x: Px + dA / 2, y: Py + 26 });
+    setText('lblA', 'A: ' + fmt(a) + ' m');
+
+    setA('lblB', { x: Px - 12, y: Py - dB / 2 + 5 });
+    setText('lblB', 'B: ' + fmt(b) + ' m');
+
+    setA('lblC', { x: (Qx + Rx) / 2 + 10, y: (Qy + Ry) / 2 - 8 });
+    setText('lblC', 'C: ' + fmt(Math.sqrt(a*a + b*b)) + ' m');
+  }
+
+  function update() {
+    var s = parseFloat(sl.value);
+    var f = s / 3;
+    var a = s, b = 4 * f, c = 5 * f;
+
+    setText('sl-out', fmt(s));
+    setText('rA', fmt(a) + ' m');
+    setText('rB', fmt(b) + ' m');
+    setText('rC', fmt(c) + ' m');
+    setText('rAsub', 'Factor ×' + fmt(f) + ' sobre base 3');
+    setText('rBsub', 'Factor ×' + fmt(f) + ' sobre base 4');
+    setText('rCsub', 'Factor ×' + fmt(f) + ' sobre base 5');
+
+    drawTriangle(a, b);
+  }
+
+  sl.addEventListener('input', update);
+  update();
+</script>
+</body>
+</html>

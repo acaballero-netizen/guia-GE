@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Autoconstrucción · MADERAMEN</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <!-- ═══ PORTADA ═══════════════════════════════════════════════ -->
+    <section id="cover">
+
+        <div class="cover-tag">Proyecto MADERAMEN · UPV / UNGE · Cooperación Universitaria al Desarrollo</div>
+
+        <h1>Guía de autoconstrucción para<br><em>Guinea Ecuatorial</em></h1>
+
+        <p class="cover-subtitle">
+            Un manual práctico, participativo y adaptado al clima tropical. Diseñado junto a comunidades locales en Bata y Malabo para construir viviendas de madera seguras, sostenibles y dignas.
+        </p>
+
+        <div class="cover-actions">
+            <a href="guia_maderamen.pdf" download class="btn cover-btn-pdf">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Descargar guía en PDF
+            </a>
+            <a href="#wiki" onclick="loadStep('comparativa')" class="btn cover-btn-practices">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+                    <path d="M9 18h6"></path>
+                    <path d="M10 22h4"></path>
+                </svg>
+                Buenas Prácticas (SÍ vs NO)
+            </a>
+        </div>
+
+        <a href="#wiki" class="cover-scroll">
+            <span>Desliza para leer en línea</span>
+            <div class="cover-scroll-arrow">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+            </div>
+        </a>
+
+        <div class="cover-meta">
+            Versión de trabajo · Mayo 2025<br>
+            Cátedra MADERAMEN · Pendiente de validación de campo
+        </div>
+    </section>
+
+    <!-- ═══ WIKI ═══════════════════════════════════════════════════ -->
+
+    <!-- Topbar móvil -->
+    <div id="topbar">
+        <button id="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+        </button>
+        <div id="topbar-title">Guía MADERAMEN</div>
+    </div>
+
+    <div id="overlay" onclick="closeMenu()"></div>
+
+    <div id="wiki">
+
+        <!-- SIDEBAR -->
+        <nav id="sidebar" aria-label="Índice de la guía">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">MADERAMEN</div>
+                <div class="sidebar-title">Guía de<br>autoconstrucción</div>
+            </div>
+
+            <div class="sidebar-nav" id="sidebar-nav">
+                <!-- Generado por JS -->
+            </div>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <main id="content" role="main">
+            <div id="md-render">
+                <div class="loading">
+                    <div class="loading-dot"></div>
+                    Cargando...
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <script>
+        // ─────────────────────────────────────────────
+        // ESTRUCTURA DE LA GUÍA
+        // Ajustar las rutas a la estructura real del repo
+        // ─────────────────────────────────────────────
+
+        const STEPS = [
+            {
+                id: 'intro',
+                num: '',
+                label: 'Presentación',
+                file: null,
+                intro: true
+            },
+            {
+                id: 'comparativa',
+                num: '💡',
+                label: 'Buenas Prácticas (SÍ vs NO)',
+                file: '../docs/comparativa.md',
+                subsections: [
+                    'Cimentación y Elevación',
+                    'Replanteo y Escuadras',
+                    'Hormigonado y Curado',
+                    'Apoyo de Cerchas',
+                    'Fijación de Cubiertas'
+                ]
+            },
+            {
+                id: 'paso0',
+                num: '00',
+                label: 'Pasos previos',
+                file: '../docs/paso0_pasos_previos.md',
+                subsections: [
+                    'Análisis del terreno',
+                    'Limpieza del terreno',
+                    'Nivelación',
+                    'Replanteo'
+                ]
+            },
+            {
+                id: 'paso1',
+                num: '01',
+                label: 'Cimentación',
+                file: '../docs/paso1_cimentacion.md',
+                subsections: [
+                    'Zapata corrida',
+                    'Zócalo'
+                ]
+            },
+            {
+                id: 'paso2',
+                num: '02',
+                label: 'Cerramiento',
+                file: '../docs/paso2_cerramiento.md',
+                subsections: [
+                    'Durmiente',
+                    'Montantes',
+                    'Tablas de cerramiento'
+                ]
+            },
+            {
+                id: 'paso3',
+                num: '03',
+                label: 'Cubierta',
+                file: '../docs/paso3_cubierta.md',
+                subsections: [
+                    'Cercha',
+                    'Chapa de zinc y rastreles',
+                    'Falso techo'
+                ]
+            },
+            {
+                id: 'paso4',
+                num: '04',
+                label: 'Carpintería',
+                file: null,
+                upcoming: true
+            },
+            {
+                id: 'paso5',
+                num: '05',
+                label: 'Mantenimiento',
+                file: '../docs/paso9_mantemiento.md',
+                upcoming: true
+            }
+        ];
+
+        // ─────────────────────────────────────────────
+        // ESTADO
+        // ─────────────────────────────────────────────
+
+        let currentStep = null;
+
+        // ─────────────────────────────────────────────
+        // RENDERIZAR NAV LATERAL
+        // ─────────────────────────────────────────────
+
+        function buildNav() {
+            const nav = document.getElementById('sidebar-nav');
+            let html = '';
+
+            html += '<div class="nav-section-label">Índice</div>';
+
+            STEPS.forEach(step => {
+                const isAvail = step.file || step.intro;
+                const dimStyle = !isAvail ? 'opacity:0.4;pointer-events:none;' : '';
+
+                html += `
+      <button class="nav-item ${step.intro ? 'active' : ''}"
+              id="nav-${step.id}"
+              onclick="loadStep('${step.id}')"
+              style="${dimStyle}">
+        <span class="nav-num">${step.num}</span>
+        <span>${step.label}${step.upcoming ? ' <small style="font-family:var(--mono);font-size:10px;color:var(--ink-light)">(próx.)</small>' : ''}</span>
+      </button>
+      <div class="nav-sub" id="sub-${step.id}" style="display:none"></div>`;
+            });
+
+            nav.innerHTML = html;
+        }
+
+        function updateSubsections(stepId) {
+            // Ocultar todos los submenús primero
+            document.querySelectorAll('.nav-sub').forEach(el => {
+                el.style.display = 'none';
+                el.innerHTML = '';
+            });
+
+            const subContainer = document.getElementById('sub-' + stepId);
+            if (!subContainer) return;
+
+            // Obtener todos los encabezados H2 del contenido actual
+            const h2s = document.querySelectorAll('#md-render h2');
+            if (h2s.length === 0) {
+                subContainer.style.display = 'none';
+                return;
+            }
+
+            let html = '';
+            h2s.forEach(h2 => {
+                const label = h2.textContent.trim();
+                
+                // Asegurarse de que el elemento tiene ID
+                if (!h2.id) {
+                    h2.id = slugify(label);
+                }
+                const id = h2.id;
+
+                html += `
+        <button class="nav-item sub-nav-item" data-anchor="${id}" onclick="scrollToAnchor('${id}')" style="padding-left:0">
+          <span style="width:8px;height:1px;background:var(--ink-faint);display:inline-block;margin-top:10px;flex-shrink:0"></span>
+          <span style="font-size:12.5px;color:var(--ink-mid)">${label}</span>
+        </button>`;
+            });
+
+            subContainer.innerHTML = html;
+            subContainer.style.display = 'block';
+        }
+
+        function slugify(text) {
+            return text.toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^a-z0-9\s-]/g, '')
+                .trim()
+                .replace(/\s+/g, '-');
+        }
+
+        let isScrollingToAnchor = false;
+
+        function scrollToAnchor(id) {
+            const el = document.getElementById(id);
+            if (el) {
+                isScrollingToAnchor = true;
+                
+                // Resaltar botón de inmediato
+                document.querySelectorAll('.sub-nav-item').forEach(btn => {
+                    if (btn.getAttribute('data-anchor') === id) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                
+                // Habilitar Scroll Spy después de terminar el scroll suave
+                setTimeout(() => {
+                    isScrollingToAnchor = false;
+                }, 800);
+
+                closeMenu();
+            }
+        }
+
+        function initScrollSpy() {
+            window.addEventListener('scroll', () => {
+                if (isScrollingToAnchor) return;
+
+                const h2s = document.querySelectorAll('#md-render h2');
+                if (h2s.length === 0) return;
+
+                let activeId = null;
+                const scrollPosition = window.scrollY + 100; // Margen superior por cabeceras
+
+                h2s.forEach(h2 => {
+                    const top = h2.offsetTop;
+                    if (scrollPosition >= top) {
+                        activeId = h2.id;
+                    }
+                });
+
+                // Por defecto el primero si no hay ninguno activo pero estamos en la página
+                if (!activeId && h2s.length > 0) {
+                    activeId = h2s[0].id;
+                }
+
+                // Resaltar en la barra lateral
+                document.querySelectorAll('.sub-nav-item').forEach(btn => {
+                    if (btn.getAttribute('data-anchor') === activeId) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            });
+        }
+
+        // ─────────────────────────────────────────────
+        // CARGAR UN PASO
+        // ─────────────────────────────────────────────
+
+        async function loadStep(stepId) {
+            const step = STEPS.find(s => s.id === stepId);
+            if (!step) return;
+
+            // Update nav active state
+            document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+            const navBtn = document.getElementById('nav-' + stepId);
+            if (navBtn) navBtn.classList.add('active');
+
+            // Hide all submenus
+            document.querySelectorAll('.nav-sub').forEach(el => el.style.display = 'none');
+
+            // Update mobile topbar title
+            document.getElementById('topbar-title').textContent = step.label || 'Guía MADERAMEN';
+
+            closeMenu();
+
+            const render = document.getElementById('md-render');
+
+            // Intro page
+            if (step.intro) {
+                render.innerHTML = buildIntroHTML();
+                updateSubsections(stepId);
+                return;
+            }
+
+            // Upcoming
+            if (!step.file) {
+                render.innerHTML = `
+      <div style="padding:3rem 0;color:var(--ink-light)">
+        <div style="font-family:var(--mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:1rem;color:var(--red)">En preparación</div>
+        <p style="font-family:var(--serif);font-size:1.4rem;font-weight:400">La sección <em>${step.label}</em> está en desarrollo.</p>
+        <p style="font-size:14px;margin-top:1rem;color:var(--ink-mid)">Este contenido se incorporará a la guía tras la próxima misión de campo y la validación técnica del equipo.</p>
+      </div>`;
+                updateSubsections(stepId);
+                return;
+            }
+
+            // Loading
+            render.innerHTML = `<div class="loading"><div class="loading-dot"></div>Cargando ${step.label}...</div>`;
+
+            try {
+                const resp = await fetch(step.file);
+                if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+                const raw = await resp.text();
+                renderMarkdown(raw, step);
+                
+                // Generar subsecciones dinámicas
+                updateSubsections(stepId);
+
+                window.scrollTo({ top: document.getElementById('wiki').offsetTop, behavior: 'smooth' });
+            } catch (err) {
+                render.innerHTML = `
+      <div class="error-block">
+        <strong>No se pudo cargar el archivo</strong><br><br>
+        Ruta: <code>${step.file}</code><br><br>
+        ${err.message}<br><br>
+        <span style="opacity:0.7">Asegúrate de estar sirviendo la web desde un servidor local (p. ej.: <code>python -m http.server</code>) y de que los archivos .md están en la ruta correcta.</span>
+      </div>`;
+            }
+        }
+
+        // ─────────────────────────────────────────────
+        // RENDERIZAR MARKDOWN
+        // ─────────────────────────────────────────────
+
+        function renderMarkdown(raw, step) {
+            // Eliminar comentarios HTML (<!-- PROMPT: --> y <!-- TODO: -->)
+            let cleaned = raw
+                .replace(/<!--[\s\S]*?-->/g, '')
+                // Eliminar líneas de navegación estilo [← paso] | [paso →]
+                .replace(/\[←[^\]]*\]\([^)]*\)\s*\|\s*\[[^\]]*→\]\([^)]*\)/g, '')
+                .replace(/\[← [^\]]*\]\([^)]*\)/g, '')
+                .replace(/\[[^\]]*→\]\([^)]*\)/g, '')
+                .trim();
+
+            // Detectar y reemplazar el link de la calculadora con un contenedor id
+            let hasCalculator = false;
+            if (cleaned.includes('calculadora_345.html')) {
+                cleaned = cleaned.replace(/\[[^\]]*\]\(calculadora_345\.html\)/g, '<div id="calculator-345-container"></div>');
+                hasCalculator = true;
+            }
+
+            // Corregir rutas de imágenes en etiquetas HTML <img> (ej. src="imagenes/...")
+            cleaned = cleaned.replace(/src=["']imagenes\//g, 'src="../docs/imagenes/');
+
+            // Renderer personalizado — API marked v4
+            const renderer = new marked.Renderer();
+
+            // Headings con ID para anclas de navegación
+            renderer.heading = function (text, level) {
+                const plainText = String(text).replace(/<[^>]+>/g, '');
+                const id = slugify(plainText);
+                return `<h${level} id="${id}">${text}</h${level}>\n`;
+            };
+
+            // Imágenes: corregir rutas relativas que vienen del directorio docs/
+            renderer.image = function (href, title, text) {
+                let src = href;
+                if (src && !src.startsWith('http') && !src.startsWith('/') && !src.startsWith('data:')) {
+                    src = '../docs/' + src;
+                }
+                return `<img src="${src}" alt="${text || ''}" title="${title || ''}" onerror="this.style.display='none'" loading="lazy">`;
+            };
+
+            // Configurar marked v4
+            marked.setOptions({
+                renderer,
+                breaks: true,
+                gfm: true,
+                headerIds: false  // los IDs los ponemos nosotros en el renderer
+            });
+
+            const html = marked.parse(cleaned);
+
+            // Breadcrumb
+            const breadcrumb = step.num
+                ? `<div class="step-breadcrumb">Paso ${step.num}</div>`
+                : '';
+
+            document.getElementById('md-render').innerHTML =
+                `<div class="md-body">${breadcrumb}${html}</div>`;
+
+            if (hasCalculator) {
+                initEmbeddedCalculator();
+            }
+        }
+
+        function initEmbeddedCalculator() {
+            const container = document.getElementById('calculator-345-container');
+            if (!container) return;
+
+            container.innerHTML = `
+<div class="calculator-345-collapsible" style="border: 1px solid var(--ink-faint); border-left: 4px solid var(--red); border-radius: 4px; margin: 2.5rem 0; font-family: var(--sans); overflow: hidden; background: var(--white); box-shadow: 0 4px 12px rgba(220,47,57,0.04);">
+    <button onclick="toggleCalculator()" style="width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 1.25rem; background: rgba(220,47,57,0.03); border: none; cursor: pointer; text-align: left; font-family: var(--serif); font-size: 1.15rem; font-weight: 500; color: var(--ink); transition: background 0.15s; outline: none;">
+        <span style="display: flex; align-items: center; gap: 10px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; margin: 0; vertical-align: middle;">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            Herramienta interactiva: Calculadora de esquinas (3-4-5)
+        </span>
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="font-family:var(--mono); font-size:9.5px; font-weight:600; background:var(--red); color:var(--white); padding:3px 8px; border-radius:2px; letter-spacing:0.06em; flex-shrink:0;">HERRAMIENTA INTERACTIVA</span>
+            <svg id="calc-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--ink-mid)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transition: transform 0.2s;">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </button>
+    <div id="calc-content" style="display: none; padding: 1.5rem; background: var(--white); border-top: 1px solid var(--ink-faint);">
+        <p style="font-size:13.5px; color:var(--ink-mid); margin-bottom:1.25rem; line-height:1.6;">Ajusta la longitud del lado corto (A) para obtener los lados exactos y la diagonal que garantizan un ángulo recto de 90°.</p>
+        
+        <div style="display:flex; align-items:center; gap:12px; margin-bottom:1.5rem; background: var(--paper); padding: 0.8rem 1rem; border-radius: 4px; border: 1px solid var(--ink-faint);">
+            <span style="font-size:13.5px; font-weight:500; min-width:90px; color:var(--ink);">Lado A (Corto):</span>
+            <input type="range" min="0.5" max="10" step="0.1" value="1.8" id="w-sl" style="flex:1; accent-color:var(--red); height:4px; cursor:pointer;">
+            <span id="w-sl-out" style="font-size:18px; font-weight:600; min-width:50px; text-align:right; color:var(--red);">1.80</span>
+            <span style="font-size:13px; color:var(--ink-light);">m</span>
+        </div>
+
+        <div class="calc-grid-layout">
+            <!-- Columna izquierda: Indicadores verticales -->
+            <div style="display:flex; flex-direction:column; gap:10px; justify-content: center;">
+                <div style="background:var(--paper); border:1px solid var(--ink-faint); border-left:4px solid #0F6E56; border-radius:2px; padding:0.75rem 1rem;">
+                    <div style="font-size:9.5px; text-transform:uppercase; color:var(--ink-light); letter-spacing:0.05em; font-family:var(--mono); font-weight:500;">Lado A (base 3)</div>
+                    <div id="w-rA" style="font-size:20px; font-weight:600; color:#0F6E56; margin:2px 0;">—</div>
+                    <div id="w-rAsub" style="font-size:10px; color:var(--ink-light);"></div>
+                </div>
+                <div style="background:var(--paper); border:1px solid var(--ink-faint); border-left:4px solid #185FA5; border-radius:2px; padding:0.75rem 1rem;">
+                    <div style="font-size:9.5px; text-transform:uppercase; color:var(--ink-light); letter-spacing:0.05em; font-family:var(--mono); font-weight:500;">Lado B (base 4)</div>
+                    <div id="w-rB" style="font-size:20px; font-weight:600; color:#185FA5; margin:2px 0;">—</div>
+                    <div id="w-rBsub" style="font-size:10px; color:var(--ink-light);"></div>
+                </div>
+                <div style="background:var(--paper); border:1px solid var(--ink-faint); border-left:4px solid var(--red); border-radius:2px; padding:0.75rem 1rem;">
+                    <div style="font-size:9.5px; text-transform:uppercase; color:var(--ink-light); letter-spacing:0.05em; font-family:var(--mono); font-weight:500;">Diagonal C (base 5)</div>
+                    <div id="w-rC" style="font-size:20px; font-weight:600; color:var(--red); margin:2px 0;">—</div>
+                    <div id="w-rCsub" style="font-size:10px; color:var(--ink-light);"></div>
+                </div>
+            </div>
+
+            <!-- Columna derecha: Triángulo SVG interactivo -->
+            <div style="display:flex; justify-content:center; align-items:center; background:var(--paper); padding:15px; border-radius:4px; border:1px solid var(--ink-faint); min-height: 220px;">
+                <svg id="w-trisvg" viewBox="0 0 440 260" xmlns="http://www.w3.org/2000/svg" style="max-width:380px; width:100%; height:auto; display:block;">
+                    <defs>
+                        <marker id="w-mA" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+                            <path d="M0,0 L8,3 L0,6 Z" fill="#0F6E56"/>
+                        </marker>
+                        <marker id="w-mB" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+                            <path d="M0,0 L8,3 L0,6 Z" fill="#185FA5"/>
+                        </marker>
+                        <marker id="w-mC" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+                            <path d="M0,0 L8,3 L0,6 Z" fill="var(--red)"/>
+                        </marker>
+                    </defs>
+                    <line id="w-lineA" stroke="#0F6E56" stroke-width="2.5" stroke-linecap="round" marker-end="url(#w-mA)"/>
+                    <line id="w-lineB" stroke="#185FA5" stroke-width="2.5" stroke-linecap="round" marker-end="url(#w-mB)"/>
+                    <line id="w-lineC" stroke="var(--red)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="7 4" marker-end="url(#w-mC)"/>
+                    <rect id="w-sq" fill="none" stroke="var(--ink-light)" stroke-width="1.5"/>
+                    <circle id="w-dotP" r="5" fill="var(--ink-light)"/>
+                    <circle id="w-dotQ" r="5" fill="#0F6E56"/>
+                    <circle id="w-dotR" r="5" fill="#185FA5"/>
+                    <text id="w-lblA" text-anchor="middle" font-size="15" font-weight="600" fill="#0F6E56" font-family="var(--sans)"/>
+                    <text id="w-lblB" text-anchor="end"    font-size="15" font-weight="600" fill="#185FA5" font-family="var(--sans)"/>
+                    <text id="w-lblC" text-anchor="start"  font-size="15" font-weight="600" fill="var(--red)" font-family="var(--sans)"/>
+                </svg>
+            </div>
+        </div>
+        
+        <div style="font-size:11.5px; color:var(--ink-mid); background:rgba(220,47,57,0.05); border-left:3px solid var(--red); padding:0.5rem 0.8rem; border-radius:2px; line-height:1.5;">
+            <strong>💡 Consejo de obra:</strong> Clava las estacas del replanteo en el lado A y B con las medidas indicadas. Mueve el cordel hasta que la diagonal entre ambas marcas mida exactamente el valor C para obtener un ángulo de 90° perfecto.
+        </div>
+    </div>
+</div>`;
+
+            // Exportar a window para que funcione con onclick en el HTML inyectado
+            window.toggleCalculator = function() {
+                const content = document.getElementById('calc-content');
+                const chevron = document.getElementById('calc-chevron');
+                if (content.style.display === 'none') {
+                    content.style.display = 'block';
+                    chevron.style.transform = 'rotate(180deg)';
+                    // Forzar dibujado del SVG al abrirse
+                    sl.dispatchEvent(new Event('input'));
+                } else {
+                    content.style.display = 'none';
+                    chevron.style.transform = 'rotate(0deg)';
+                }
+            };
+
+            const sl    = document.getElementById('w-sl');
+            const slOut = document.getElementById('w-sl-out');
+
+            function fmt(v) { return v.toFixed(2); }
+
+            function setA(id, attrs) {
+                const el = document.getElementById(id);
+                for (let k in attrs) el.setAttribute(k, attrs[k]);
+            }
+
+            function setText(id, txt) {
+                document.getElementById(id).textContent = txt;
+            }
+
+            function drawTriangle(a, b) {
+                const W = 440, H = 260;
+                const padL = 68, padR = 40, padT = 24, padB = 42;
+                const maxW = W - padL - padR;
+                const maxH = H - padT - padB;
+                const sc   = Math.min(maxW / a, maxH / b);
+                const dA   = a * sc;
+                const dB   = b * sc;
+                const ox   = padL + (maxW - dA) / 2;
+                const oy   = padT + (maxH - dB) / 2;
+
+                const Px = ox,      Py = oy + dB;
+                const Qx = ox + dA, Qy = oy + dB;
+                const Rx = ox,      Ry = oy;
+                const sq = 13;
+
+                setA('w-sq',    { x: Px, y: Py - sq, width: sq, height: sq });
+                setA('w-lineA', { x1: Px + 6,  y1: Py,      x2: Qx - 8,  y2: Qy      });
+                setA('w-lineB', { x1: Px,      y1: Py - 6,  x2: Rx,      y2: Ry + 8  });
+                setA('w-lineC', { x1: Qx - 6,  y1: Qy - 6,  x2: Rx + 6,  y2: Ry + 6  });
+                setA('w-dotP',  { cx: Px, cy: Py });
+                setA('w-dotQ',  { cx: Qx, cy: Qy });
+                setA('w-dotR',  { cx: Rx, cy: Ry });
+
+                setA('w-lblA', { x: Px + dA / 2, y: Py + 26 });
+                setText('w-lblA', 'A: ' + fmt(a) + ' m');
+
+                setA('w-lblB', { x: Px - 12, y: Py - dB / 2 + 5 });
+                setText('w-lblB', 'B: ' + fmt(b) + ' m');
+
+                setA('w-lblC', { x: (Qx + Rx) / 2 + 10, y: (Qy + Ry) / 2 - 8 });
+                setText('w-lblC', 'C: ' + fmt(Math.sqrt(a*a + b*b)) + ' m');
+            }
+
+            function update() {
+                const s = parseFloat(sl.value);
+                const f = s / 3;
+                const a = s, b = 4 * f, c = 5 * f;
+
+                setText('w-sl-out', fmt(s));
+                setText('w-rA', fmt(a) + ' m');
+                setText('w-rB', fmt(b) + ' m');
+                setText('w-rC', fmt(c) + ' m');
+                setText('w-rAsub', 'Factor ×' + fmt(f) + ' sobre base 3');
+                setText('w-rBsub', 'Factor ×' + fmt(f) + ' sobre base 4');
+                setText('w-rCsub', 'Factor ×' + fmt(f) + ' sobre base 5');
+
+                drawTriangle(a, b);
+            }
+
+            sl.addEventListener('input', update);
+            update();
+        }
+
+        // ─────────────────────────────────────────────
+        // PÁGINA INTRO
+        // ─────────────────────────────────────────────
+
+        function buildIntroHTML() {
+            return `
+    <div class="md-body">
+      <h1>Guía de autoconstrucción</h1>
+      <p style="font-family:var(--mono);font-size:11.5px;color:var(--ink-light);border-bottom:1px solid var(--ink-faint);padding-bottom:1.5rem;margin-bottom:2.5rem">
+        Proyecto MADERAMEN · ADSIDEO Cooperación 2024 · Universitat Politècnica de València
+      </p>
+
+      <p>Esta guía recoge el proceso completo de construcción de una vivienda de madera apta para la autoconstrucción en Guinea Ecuatorial. Está pensada para comunidades fang, carpinteros locales y estudiantes de arquitectura de la UNGE y la AAUCA.</p>
+
+      <p>El objetivo no es la perfección técnica, sino garantizar mínimos dignos de seguridad estructural, salubridad y confort adaptados al clima ecuatorial y a los recursos disponibles localmente.</p>
+
+      <div class="intro-feature-banner" onclick="loadStep('comparativa')">
+        <div class="banner-text">
+          <div class="banner-title">
+            💡 Guía Visual: Buenas Prácticas (SÍ vs. NO)
+          </div>
+          <div class="banner-desc">
+            Explora las recomendaciones críticas de autoconstrucción. Compara directamente detalles técnicos y errores constructivos frecuentes para garantizar la seguridad y durabilidad de la vivienda.
+          </div>
+        </div>
+        <div class="banner-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </div>
+
+      <h2>Estructura de la guía</h2>
+
+      <div style="display:grid;gap:12px;margin:1.5rem 0">
+        ${STEPS.filter(s => !s.intro).map(s => `
+          <div onclick="loadStep('${s.id}')"
+               style="padding:1rem 1.25rem;background:var(--white);border:1px solid var(--ink-faint);border-radius:2px;cursor:pointer;transition:border-color 0.15s;display:flex;align-items:center;gap:1rem;${!s.file && !s.upcoming ? 'opacity:0.4;cursor:default' : ''}"
+               onmouseover="this.style.borderColor='var(--red)'"
+               onmouseout="this.style.borderColor='var(--ink-faint)'">
+            <span style="font-family:var(--mono);font-size:22px;font-weight:500;color:var(--ink-faint);min-width:2.5rem">${s.num}</span>
+            <div>
+              <div style="font-weight:500;font-size:15px;color:var(--ink)">${s.label}</div>
+              ${s.upcoming ? '<div style="font-family:var(--mono);font-size:10px;color:var(--ink-light);margin-top:2px;text-transform:uppercase;letter-spacing:0.08em">En preparación</div>' : ''}
+              ${s.subsections ? '<div style="font-size:12.5px;color:var(--ink-light);margin-top:3px">' + s.subsections.join(' · ') + '</div>' : ''}
+            </div>
+          </div>`).join('')}
+      </div>
+
+      <h2>Sobre el proyecto</h2>
+      <p>El proyecto ADSIDEO, desarrollado por la Cátedra MADERAMEN de la UPV en colaboración con la UNGE, surge en respuesta a la emergencia habitacional generada por la explosión del arsenal militar de Bata en 2021. La guía se elabora con participación directa de comunidades fang y está diseñada para ser ejecutable sin maquinaria especializada ni titulación técnica.</p>
+
+      <blockquote><p>⚠️ Versión de trabajo. Todas las recomendaciones estructurales o de seguridad deben ser validadas por el equipo técnico antes de incorporarse a la versión definitiva.</p></blockquote>
+    </div>`;
+        }
+
+        // ─────────────────────────────────────────────
+        // MENÚ MÓVIL
+        // ─────────────────────────────────────────────
+
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.getElementById('overlay').classList.toggle('open');
+        }
+
+        function closeMenu() {
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('overlay').classList.remove('open');
+        }
+
+        // ─────────────────────────────────────────────
+        // INIT
+        // ─────────────────────────────────────────────
+
+        document.addEventListener('DOMContentLoaded', () => {
+            buildNav();
+            loadStep('intro');
+            initScrollSpy();
+
+            // Si hay hash en la URL, cargar ese paso
+            const hash = window.location.hash.replace('#', '');
+            if (hash && STEPS.find(s => s.id === hash)) {
+                loadStep(hash);
+                setTimeout(() => {
+                    document.getElementById('wiki').scrollIntoView({ behavior: 'smooth' });
+                }, 300);
+            }
+        });
+    </script>
+</body>
+
+</html>
