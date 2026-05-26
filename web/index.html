@@ -96,6 +96,32 @@
             </div>
         </main>
 
+        <!-- PANEL LATERAL DERECHO DE IMÁGENES -->
+        <aside id="images-panel">
+            <div class="images-panel-header">
+                <h3>Fotografías de referencia</h3>
+                <button onclick="toggleImagesPanel()" class="close-images-btn" aria-label="Cerrar panel de imágenes">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div id="images-container" class="images-panel-content">
+                <!-- Generado por JS -->
+            </div>
+        </aside>
+
+        <!-- BOTÓN FLOTANTE PARA ABRIR PANEL -->
+        <button id="images-toggle-btn" onclick="toggleImagesPanel()" style="display: none;" aria-label="Abrir panel de imágenes">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+            </svg>
+            <span id="images-count">0</span>
+        </button>
+
     </div>
 
     <script>
@@ -116,13 +142,13 @@
                 id: 'criterios',
                 num: '00',
                 label: 'Criterios de diseño',
-                file: '../docs/paso_criterios_de_diseño.md'
+                file: '../docs/paso00_criterios_de_diseño.md'
             },
             {
                 id: 'comparativa',
                 num: '💡',
                 label: 'Buenas Prácticas (SÍ vs NO)',
-                file: '../docs/comparativa.md',
+                file: 'comparativa.md',
                 subsections: [
                     'Cimentación y Elevación',
                     'Replanteo y Escuadras',
@@ -135,7 +161,7 @@
                 id: 'paso0',
                 num: '01',
                 label: 'Pasos previos',
-                file: '../docs/paso0_pasos_previos.md',
+                file: '../docs/paso01_pasos_previos.md',
                 subsections: [
                     'Análisis del terreno',
                     'Limpieza del terreno',
@@ -147,7 +173,7 @@
                 id: 'paso1',
                 num: '02',
                 label: 'Cimentación',
-                file: '../docs/paso1_cimentacion.md',
+                file: '../docs/paso02_cimentacion.md',
                 subsections: [
                     'Zapata corrida',
                     'Zócalo'
@@ -157,7 +183,7 @@
                 id: 'paso2',
                 num: '03',
                 label: 'Cerramiento',
-                file: '../docs/paso2_cerramiento.md',
+                file: '../docs/paso03_cerramiento.md',
                 subsections: [
                     'Durmiente',
                     'Montantes',
@@ -168,7 +194,7 @@
                 id: 'paso3',
                 num: '04',
                 label: 'Cubierta',
-                file: '../docs/paso3_cubierta.md',
+                file: '../docs/paso04_cubierta.md',
                 subsections: [
                     'Cercha',
                     'Chapa de zinc y rastreles',
@@ -179,25 +205,25 @@
                 id: 'paso4',
                 num: '05',
                 label: 'Carpintería',
-                file: '../docs/paso4_carpinterias.md'
+                file: '../docs/paso05_carpinterias.md'
             },
             {
                 id: 'paso5',
                 num: '06',
                 label: 'Instalaciones',
-                file: '../docs/paso5_instalaciones.md'
+                file: '../docs/paso06_instalaciones.md'
             },
             {
                 id: 'paso6',
                 num: '07',
                 label: 'Mantenimiento',
-                file: '../docs/paso9_mantemiento.md'
+                file: '../docs/paso99_mantemiento.md'
             },
             {
                 id: 'bibliografia',
                 num: '📚',
                 label: 'Bibliografía y referencias',
-                file: '../docs/bibliografia.md'
+                file: 'bibliografia.md'
             }
         ];
 
@@ -206,6 +232,7 @@
         // ─────────────────────────────────────────────
 
         let currentStep = null;
+        let sidebarImagesData = [];
 
         // ─────────────────────────────────────────────
         // RENDERIZAR NAV LATERAL
@@ -412,6 +439,15 @@
         // ─────────────────────────────────────────────
 
         function renderMarkdown(raw, step) {
+            // Reiniciar estado de imágenes del sidebar
+            sidebarImagesData = [];
+            const imagesToggleBtn = document.getElementById('images-toggle-btn');
+            const imagesContainer = document.getElementById('images-container');
+            
+            // Cerrar panel por defecto al cambiar de paso
+            document.getElementById('images-panel').classList.remove('open');
+            imagesContainer.innerHTML = '';
+
             // Eliminar comentarios HTML (<!-- PROMPT: --> y <!-- TODO: -->)
             let cleaned = raw
                 .replace(/<!--[\s\S]*?-->/g, '')
@@ -441,12 +477,30 @@
                 return `<h${level} id="${id}">${text}</h${level}>\n`;
             };
 
-            // Imágenes: corregir rutas relativas que vienen del directorio docs/
+            // Imágenes: corregir rutas relativas y gestionar las del sidebar
             renderer.image = function (href, title, text) {
                 let src = href;
                 if (src && !src.startsWith('http') && !src.startsWith('/') && !src.startsWith('data:')) {
                     src = '../docs/' + src;
                 }
+                
+                // Si el título es "sidebar", interceptar la imagen
+                if (title && title.trim().toLowerCase() === 'sidebar') {
+                    const imgId = 'sidebar-img-' + sidebarImagesData.length;
+                    sidebarImagesData.push({ id: imgId, src, text: text || 'Imagen de referencia' });
+                    
+                    // Devolver un botón inline en el texto
+                    return `<button class="inline-img-btn" onclick="openAndScrollToImage('${imgId}')" aria-label="Ver imagen: ${text}">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                    <polyline points="21 15 16 10 5 21"></polyline>
+                                </svg>
+                                <span>Ver foto ${text ? ': ' + text : ''}</span>
+                            </button>`;
+                }
+
+                // Imagen normal (en el texto)
                 return `<img src="${src}" alt="${text || ''}" title="${title || ''}" onerror="this.style.display='none'" loading="lazy">`;
             };
 
@@ -471,6 +525,55 @@
             if (hasCalculator) {
                 initEmbeddedCalculator();
             }
+
+            // Construir panel de imágenes
+            if (sidebarImagesData.length > 0) {
+                imagesToggleBtn.style.display = 'flex';
+                document.getElementById('images-count').textContent = sidebarImagesData.length;
+                
+                let imgsHtml = '';
+                sidebarImagesData.forEach((img, idx) => {
+                    imgsHtml += `
+                    <div class="sidebar-img-card" id="${img.id}">
+                        <a href="${img.src}" target="_blank">
+                            <img src="${img.src}" alt="${img.text}" loading="lazy">
+                        </a>
+                        ${img.text ? `<div class="sidebar-img-caption">${img.text}</div>` : ''}
+                    </div>`;
+                });
+                imagesContainer.innerHTML = imgsHtml;
+            } else {
+                imagesToggleBtn.style.display = 'none';
+            }
+        }
+
+        // ─────────────────────────────────────────────
+        // PANEL LATERAL DE IMÁGENES
+        // ─────────────────────────────────────────────
+
+        function toggleImagesPanel() {
+            document.getElementById('images-panel').classList.toggle('open');
+        }
+
+        function openAndScrollToImage(imgId) {
+            const panel = document.getElementById('images-panel');
+            if (!panel.classList.contains('open')) {
+                panel.classList.add('open');
+            }
+            
+            // Pequeño retardo para asegurar que el panel se abrió y el navegador puede scrollear
+            setTimeout(() => {
+                const imgEl = document.getElementById(imgId);
+                if (imgEl) {
+                    imgEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    // Efecto de parpadeo suave para destacar la imagen
+                    imgEl.style.transition = 'box-shadow 0.3s, border-color 0.3s';
+                    imgEl.style.boxShadow = '0 0 0 2px var(--red)';
+                    setTimeout(() => {
+                        imgEl.style.boxShadow = 'none';
+                    }, 1500);
+                }
+            }, 300);
         }
 
         function initEmbeddedCalculator() {

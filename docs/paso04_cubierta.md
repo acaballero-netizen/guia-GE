@@ -2,7 +2,7 @@
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
-[← 02. Cerramiento](paso2_cerramiento.md) | [04. Carpintería →](paso4_carpinteria.md)
+[← 02. Cerramiento](paso03_cerramiento.md) | [04. Carpintería →](paso05_carpinterias.md)
 
 ---
 
@@ -494,7 +494,7 @@ Antes de pasar a la carpintería, verificar que se han completado correctamente 
 
 Una vez terminada la cubierta con el falso techo colocado y la cámara de aire ventilada, se procede a la colocación de las carpinterías: puertas y ventanas.
 
-[← 02. Cerramiento](paso2_cerramiento.md) | [04. Carpintería →](paso4_carpinteria.md)
+[← 02. Cerramiento](paso03_cerramiento.md) | [04. Carpintería →](paso05_carpinterias.md)
 
 ---
 

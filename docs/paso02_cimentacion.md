@@ -2,7 +2,7 @@
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
-[← 00. Pasos previos](paso0_pasos_previos.md) | [02. Cerramiento →](paso2_cerramiento.md)
+[← 00. Pasos previos](paso01_pasos_previos.md) | [02. Cerramiento →](paso03_cerramiento.md)
 
 ---
 
@@ -451,7 +451,7 @@ Antes de pasar al cerramiento de madera, verificar que se han completado correct
 
 Una vez terminado el zócalo con la cara superior limpia y nivelada, se procede a la colocación del durmiente de madera y los montantes verticales que forman la estructura de la pared.
 
-[← 00. Pasos previos](paso0_pasos_previos.md) | [02. Cerramiento →](paso2_cerramiento.md)
+[← 00. Pasos previos](paso01_pasos_previos.md) | [02. Cerramiento →](paso03_cerramiento.md)
 
 ---
 

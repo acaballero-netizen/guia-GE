@@ -60,7 +60,7 @@ Esta prueba permite identificar el tipo de suelo en el momento, con las manos y 
 3. Comprimir el puñado con fuerza entre las palmas durante 10 segundos.
 4. Abrir la mano y observar el resultado.
 
-<img src="docs/imagenes/pasos_previos.1.1.png" width="500" alt="Prueba de la bola" style="display: block; margin: auto;">
+<img src="imagenes/pasos_previos.1.1.png" width="500" alt="Prueba de la bola" style="display: block; margin: auto;">
 <!-- PROMPT: Esta imagen tiene que representar una secuencia de tres manos realizando la prueba de la bola con distintos tipos de suelo. Primera mano: intenta comprimir tierra arenosa que se disgrega al abrir la mano. Segunda mano: comprime tierra arcillosa que mantiene una bola compacta con marcas de dedos visibles. Tercera mano: comprime tierra negra u orgánica que se deshace fácilmente y deja residuo oscuro. Escala de grises con elementos clave remarcados en rojo. Dibujo técnico a mano alzada, vista frontal. --> 
 
 **Interpretación:**
@@ -343,7 +343,7 @@ Antes de pasar a la cimentación, verificar que se han completado correctamente 
 
 Una vez preparado y replanteado el terreno, se procede a la excavación de la zanja y a la construcción de la zapata corrida y el zócalo de bloques de hormigón.
 
-[02. Cimentación →](paso1_cimentacion.md)
+[02. Cimentación →](paso02_cimentacion.md)
 
 ---
 

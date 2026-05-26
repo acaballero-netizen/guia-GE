@@ -2,7 +2,7 @@
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
-[← 03. Cubierta](paso3_cubierta.md) | [05. Mantenimiento →](paso5_mantenimiento.md)
+[← 03. Cubierta](paso04_cubierta.md) | [05. Mantenimiento →](paso99_mantemiento.md)
 
 ---
 
@@ -468,7 +468,7 @@ Antes de dar la vivienda por terminada, verificar que se han completado correcta
 
 Con la carpintería instalada, la vivienda está estructuralmente terminada. El último apartado de la guía recoge cómo mantenerla en buen estado a lo largo del tiempo: qué revisar, cuándo y cómo actuar ante los problemas más frecuentes en clima ecuatorial.
 
-[← 03. Cubierta](paso3_cubierta.md) | [05. Mantenimiento →](paso5_mantenimiento.md)
+[← 03. Cubierta](paso04_cubierta.md) | [05. Mantenimiento →](paso99_mantemiento.md)
 
 ---
 

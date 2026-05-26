@@ -2,7 +2,7 @@
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
-[← 01. Cimentación](paso1_cimentacion.md) | [03. Cubierta →](paso3_cubierta.md)
+[← 01. Cimentación](paso02_cimentacion.md) | [03. Cubierta →](paso04_cubierta.md)
 
 ---
 
@@ -363,7 +363,7 @@ Antes de pasar a la cubierta, verificar que se han completado correctamente esto
 
 Una vez terminado el cerramiento, con los montantes aplomados y el perímetro superior arriostrado por la última hilada de tablas, se procede a la colocación de la viga de cubierta y la estructura de la techumbre.
 
-[← 01. Cimentación](paso1_cimentacion.md) | [03. Cubierta →](paso3_cubierta.md)
+[← 01. Cimentación](paso02_cimentacion.md) | [03. Cubierta →](paso04_cubierta.md)
 
 ---
 

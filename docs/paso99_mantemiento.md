@@ -2,7 +2,7 @@
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
-[← 04. Carpintería](paso4_carpinteria.md)
+[← 04. Carpintería](paso05_carpinterias.md)
 
 ---
 
@@ -38,7 +38,7 @@ Esta sección cubre tres bloques:
 
 # **Parte 1: Calendario de revisiones**
 
-## **06.1 · Cuándo y qué revisar**
+## **Paso 1 · Cuándo y qué revisar**
 
 ### ¿Para qué sirve?
 
@@ -68,7 +68,7 @@ La **revisión de inicio de estación lluviosa** permite comprobar que la vivien
 
 # **Parte 2: Inspecciones por elemento**
 
-## **06.2 · Inspección del zócalo**
+## **Paso 2 · Inspección del zócalo**
 
 ### ¿Qué se busca?
 
@@ -100,7 +100,7 @@ Las termitas construyen galerías de tierra desde el suelo hasta la madera que q
 
 **Proceso de inspección:** se recorre todo el perímetro exterior del zócalo con la linterna, prestando especial atención a las esquinas y a la junta entre el zócalo y el durmiente de madera. Las galerías se detectan mejor al tacto que a la vista: se pasa la mano por la superficie y se notan como protuberancias frágiles que se deshacen al presionarlas.
 
-Si se detecta una galería, se rompe y se elimina. Si en la siguiente revisión ha vuelto a aparecer en el mismo punto, hay una colonia activa cercana y debe actuarse según el protocolo del apartado 06.6.
+Si se detecta una galería, se rompe y se elimina. Si en la siguiente revisión ha vuelto a aparecer en el mismo punto, hay una colonia activa cercana y debe actuarse según el protocolo del Paso 6.
 
 <img src="imagenes/mantenimiento.2.png" width="500" alt="Inspección del zócalo" style="display: block; margin: auto;">
 <!-- PROMPT:
@@ -112,7 +112,7 @@ SIMPLIFICAR: No se muestra el interior ni el entorno completo de la vivienda. So
 
 ---
 
-## **06.3 · Inspección del cerramiento**
+## **Paso 3 · Inspección del cerramiento**
 
 ### ¿Qué se busca?
 
@@ -152,7 +152,7 @@ SIMPLIFICAR: No se muestra el zócalo ni el entorno. Solo el tramo de tablas con
 
 ---
 
-## **06.4 · Inspección de la cubierta**
+## **Paso 4 · Inspección de la cubierta**
 
 ### ¿Qué se busca?
 
@@ -188,7 +188,7 @@ SIMPLIFICAR: No se muestra la estructura de la cercha ni el interior. Solo las c
 
 ---
 
-## **06.5 · Inspección de la carpintería**
+## **Paso 5 · Inspección de la carpintería**
 
 ### ¿Qué se busca?
 
@@ -227,7 +227,7 @@ SIMPLIFICAR: No se muestra el interior de la vivienda ni el cerramiento completo
 
 # **Parte 3: Actuaciones frecuentes**
 
-## **06.6 · Actuación ante termitas**
+## **Paso 6 · Actuación ante termitas**
 
 ### ¿Para qué sirve?
 
@@ -269,7 +269,7 @@ SIMPLIFICAR: Solo el pie del montante, el durmiente y el tramo superior del zóc
 
 ---
 
-## **06.7 · Reparación de una tabla de cerramiento**
+## **Paso 7 · Reparación de una tabla de cerramiento**
 
 ### ¿Para qué sirve?
 
@@ -315,7 +315,7 @@ SIMPLIFICAR: Solo el tramo de tres tablas con las manos. No hay entorno ni perso
 
 ---
 
-## **06.8 · Reparación de una chapa de cubierta**
+## **Paso 8 · Reparación de una chapa de cubierta**
 
 ### ¿Para qué sirve?
 
@@ -439,7 +439,7 @@ Antes de dar por terminada cada revisión semestral, verificar que se han compro
 
 Esta sección cierra el ciclo completo de construcción y mantenimiento de la vivienda. Una vivienda bien mantenida puede durar décadas en el clima ecuatorial con un esfuerzo anual mínimo. La clave es la constancia en las revisiones y la rapidez en actuar ante las primeras señales de deterioro.
 
-[← 04. Carpintería](paso4_carpinteria.md)
+[← 04. Carpintería](paso05_carpinterias.md)
 
 ---
 

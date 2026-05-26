@@ -981,3 +981,168 @@ body {
     transform: translateX(4px);
 }
 
+/* ─── PANEL LATERAL DE IMÁGENES ───────────────────────────── */
+
+#images-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 340px;
+    background: var(--paper);
+    border-left: 1px solid var(--ink-faint);
+    z-index: 100;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    box-shadow: -4px 0 24px rgba(0,0,0,0.1);
+}
+
+#images-panel.open {
+    transform: translateX(0);
+}
+
+.images-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--ink-faint);
+    background: var(--white);
+}
+
+.images-panel-header h3 {
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 0;
+    color: var(--ink);
+}
+
+.close-images-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--ink-light);
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s, background 0.2s;
+    border-radius: 4px;
+}
+
+.close-images-btn:hover {
+    color: var(--red);
+    background: rgba(220,47,57,0.05);
+}
+
+.images-panel-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+}
+
+.sidebar-img-card {
+    margin-bottom: 2rem;
+    background: var(--white);
+    border: 1px solid var(--ink-faint);
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 2px 12px rgba(28,28,28,0.03);
+}
+
+.sidebar-img-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.sidebar-img-caption {
+    padding: 12px 8px 4px;
+    font-size: 13px;
+    color: var(--ink-mid);
+    text-align: center;
+    font-style: italic;
+    font-family: var(--sans);
+    line-height: 1.4;
+}
+
+/* ─── BOTÓN FLOTANTE IMÁGENES ─────────────────────────────── */
+
+#images-toggle-btn {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 95;
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    border-radius: 50px;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(220, 47, 57, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+#images-toggle-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(220, 47, 57, 0.4);
+    background: #c4242d;
+}
+
+#images-count {
+    background: var(--white);
+    color: var(--red);
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-family: var(--mono);
+    font-weight: 700;
+}
+
+/* ─── BOTÓN INLINE EN EL TEXTO ────────────────────────────── */
+
+.inline-img-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(220, 47, 57, 0.05);
+    color: var(--red);
+    border: 1px solid rgba(220, 47, 57, 0.15);
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-family: var(--sans);
+    font-size: 13.5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 8px 0;
+    transition: background 0.2s, transform 0.1s, border-color 0.2s;
+    vertical-align: middle;
+}
+
+.inline-img-btn:hover {
+    background: rgba(220, 47, 57, 0.1);
+    border-color: rgba(220, 47, 57, 0.3);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+    #images-panel {
+        width: 300px;
+    }
+    #images-toggle-btn {
+        right: 1.25rem;
+        bottom: 1.25rem;
+        padding: 12px 20px;
+    }
+}
