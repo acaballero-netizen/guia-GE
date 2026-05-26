@@ -361,6 +361,10 @@ Las hiladas de bloques forman el muro del zócalo. La clave de su resistencia no
 
 ---
 
+<!-- TODO: pendiente añadir el revoco o mortero para la proteccion de los bloques de hormigon -->
+
+---
+
 ## **Paso 10 · Relleno de los huecos con hormigón fluido**
 
 ### ¿Para qué sirve?
