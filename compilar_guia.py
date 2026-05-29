@@ -46,12 +46,8 @@ SALIDA = BASE / "guia_completa.md"
 # sección del mismo nivel o superior.
 # La comparación ignora mayúsculas/minúsculas y espacios extra.
 SECCIONES_EXCLUIR = [
-    # Secciones repetitivas en todos los capítulos
-    "Resumen: comprobaciones antes de avanzar",
-    "Tips específicos para el contexto de Guinea Ecuatorial",
-    "Herramientas y materiales necesarios",
-    # Notas de pie de cada capítulo
-    "A tener en cuenta",
+    # Secciones finales o de navegación que no deben aparecer en el PDF.
+    "Siguiente paso",
 ]
 
 # Bloques completos de texto que se eliminan aunque no sean secciones:
@@ -62,20 +58,31 @@ ELIMINAR_COMENTARIOS_HTML = True
 ELIMINAR_NAVEGACION = True
 ELIMINAR_METADATOS_PIE = True
 
-# Separador visual entre capítulos en el documento compilado
+# Separador visual entre capítulos en el documento compilado.
 SEPARADOR_CAPITULOS = "\n\n---\n\n"
 
-# Título y cabecera del documento compilado
-CABECERA = """\
-# Guía práctica de autoconstrucción
-#### Proyecto MADERAMEN · ADSIDEO Cooperación 2024
-*UPV · Cátedra MADERAMEN*
+# Salto de página adicional solo en el Markdown compilado para separar cada capítulo nuevo.
+SALTO_PAGINA_TITULO = "<div style=\"page-break-before: always;\"></div>\n\n"
 
-> Documento compilado generado automáticamente a partir de los capítulos fuente.
-> Para editar el contenido, modificar los archivos individuales en `/docs/`.
+# Contraportada que aparecerá como página previa al índice (personalizable)
+CONTRAPORTADA = """
+#### Créditos
+Proyecto MADERAMEN · ADSIDEO Cooperación 2024
+
+Equipo: Cátedra MADERAMEN, UPV
+
+Diseño y edición: Equipo MADERAMEN
 
 """
 
+# Segunda página de contraportada (p. ej. agradecimientos, licencias)
+CONTRAPORTADA_2 = """
+#### Agradecimientos
+Gracias a todas las personas y entidades colaboradoras.
+
+Licencia: CC BY-SA 4.0
+
+"""
 
 # ══════════════════════════════════════════════════════════════════
 # LÓGICA DE FILTRADO
@@ -85,6 +92,8 @@ def normalizar(texto: str) -> str:
     """Elimina espacios extra, emojis decorativos y pasa a minúsculas."""
     # Quitar emojis y símbolos Unicode no-ASCII frecuentes en los títulos
     texto = re.sub(r'[^\x00-\x7FáéíóúüñÁÉÍÓÚÜÑ¿¡·]', '', texto)
+    # Ignorar marcadores de formato Markdown como negritas o cursivas
+    texto = re.sub(r'[\*_`~\[\]]', '', texto)
     return texto.strip().lower()
 
 
@@ -120,7 +129,10 @@ def filtrar_secciones(lineas: list[str], excluir: list[str]) -> list[str]:
                 saltando = False
                 # Comprobamos si este nuevo heading también hay que excluir
                 titulo = normalizar(titulo_heading(linea))
-                if titulo in excluir_norm:
+                if any(
+                    titulo == excl or titulo.startswith(excl + " ") or titulo.startswith(excl + ":")
+                    for excl in excluir_norm
+                ):
                     nivel_salto = nivel
                     continue
                 else:
@@ -130,7 +142,10 @@ def filtrar_secciones(lineas: list[str], excluir: list[str]) -> list[str]:
 
         if nivel > 0:
             titulo = normalizar(titulo_heading(linea))
-            if titulo in excluir_norm:
+            if any(
+                titulo == excl or titulo.startswith(excl + " ") or titulo.startswith(excl + ":")
+                for excl in excluir_norm
+            ):
                 saltando = True
                 nivel_salto = nivel
                 continue
@@ -181,6 +196,26 @@ def limpiar_lineas_vacias_excesivas(texto: str) -> str:
     return re.sub(r'\n{3,}', '\n\n', texto)
 
 
+def ajustar_rutas_imagenes(texto: str) -> str:
+    """Convierte las rutas de imágenes para el documento compilado en la raíz del repo."""
+    texto = re.sub(
+        r'(<img[^>]+src=["\"])(?!https?:|/|data:|docs/)(imagenes/)',
+        r'\1docs/\2',
+        texto,
+    )
+    texto = re.sub(
+        r'(!\[[^\]]*\]\()(?!https?:|/|data:|docs/)(imagenes/)',
+        r'\1docs/\2',
+        texto,
+    )
+    return texto
+
+
+def tiene_salto_pagina_inicio(texto: str) -> bool:
+    """Comprueba si el texto empieza con un salto de página HTML."""
+    return bool(re.match(r'^\s*<div[^>]*page-break', texto, re.IGNORECASE))
+
+
 def procesar_archivo(ruta: Path) -> str:
     """Lee un archivo .md y aplica todos los filtros configurados."""
     if not ruta.exists():
@@ -206,10 +241,13 @@ def procesar_archivo(ruta: Path) -> str:
     lineas = filtrar_secciones(lineas, SECCIONES_EXCLUIR)
     texto = "".join(lineas)
 
-    # 5. Limpiar líneas vacías excesivas que dejan los filtros
+    # 5. Ajustar rutas de imágenes para el documento compilado.
+    texto = ajustar_rutas_imagenes(texto)
+
+    # 6. Limpiar líneas vacías excesivas que dejan los filtros
     texto = limpiar_lineas_vacias_excesivas(texto)
 
-    return texto.strip()
+    return texto
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -225,16 +263,29 @@ def main():
         print(f"  -> {ruta.name}")
         contenido = procesar_archivo(ruta)
         if contenido:
+            if bloques and not tiene_salto_pagina_inicio(contenido):
+                contenido = SALTO_PAGINA_TITULO + contenido
             bloques.append(contenido)
 
-    compilado = CABECERA + SEPARADOR_CAPITULOS.join(bloques)
+    # Preparar portada HTML si existe
+    portada_texto = ""
+    # Insertar solo las dos páginas de contraportada antes del contenido.
+    partes = [
+        CONTRAPORTADA,
+        SALTO_PAGINA_TITULO,
+        CONTRAPORTADA_2,
+        SALTO_PAGINA_TITULO,
+        SEPARADOR_CAPITULOS.join(bloques),
+    ]
+
+    compilado = "".join(partes)
 
     SALIDA.write_text(compilado, encoding="utf-8")
+    print(f"\n[OK] Generado: {SALIDA}")
 
     # Estadísticas rápidas
     palabras = len(compilado.split())
     lineas   = compilado.count('\n')
-    print(f"\n[OK] Generado: {SALIDA}")
     print(f"   {lineas} lineas . {palabras} palabras . {len(compilado):,} caracteres")
 
 

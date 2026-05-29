@@ -1,6 +1,4 @@
 # **Mantenimiento**
-#### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
-*UPV · Cátedra MADERAMEN*
 
 [← 04. Carpintería](paso05_carpinterias.md)
 

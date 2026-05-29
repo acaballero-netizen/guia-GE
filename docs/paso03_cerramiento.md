@@ -1,6 +1,4 @@
 # **Cerramiento**
-#### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
-*UPV · Cátedra MADERAMEN*
 
 [← 01. Cimentación](paso02_cimentacion.md) | [03. Cubierta →](paso04_cubierta.md)
 

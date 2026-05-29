@@ -1,8 +1,5 @@
 # **Pasos previos**
-#### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
-*UPV · Cátedra MADERAMEN*
-
----
+<!-- TODO: #### Guía de autoconstrucción · Guinea Ecuatorial — *ADSIDEO Cooperación 2024 / 2026* -->
 
 Antes de levantar cualquier muro o clavar cualquier poste, el terreno debe estar preparado. Estos cuatro pasos —analizar el terreno, limpiarlo, nivelarlo y replantearlo— son los más importantes de toda la obra. Si se hacen mal, todos los errores se acumulan y resultan muy difíciles de corregir.
 
@@ -344,9 +341,3 @@ Antes de pasar a la cimentación, verificar que se han completado correctamente 
 Una vez preparado y replanteado el terreno, se procede a la excavación de la zanja y a la construcción de la zapata corrida y el zócalo de bloques de hormigón.
 
 [02. Cimentación →](paso02_cimentacion.md)
-
----
-
-*Guía elaborada para el proyecto ADSIDEO Cooperación 2024 — "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial"*
-*UPV · Cátedra MADERAMEN*
-*Versión de trabajo — pendiente de validación técnica y revisión de campo*

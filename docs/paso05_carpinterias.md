@@ -1,6 +1,4 @@
 # **Carpintería y particiones interiores**
-#### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
-*UPV · Cátedra MADERAMEN*
 
 [← 03. Cubierta](paso04_cubierta.md) | [05. Mantenimiento →](paso99_mantemiento.md)
 

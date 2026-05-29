@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada · Guía MADERAMEN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        @page {
+            size: A4 portrait;
+            margin: 2cm;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: 'IBM Plex Serif', Georgia, serif;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #cover {
+            width: 210mm;
+            height: 297mm;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            padding: 4rem 2rem 3.5rem;
+            position: relative;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 0 0.75rem rgba(0,0,0,0.08);
+        }
+
+        #cover::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0.35)),
+                url('fondo.png');
+            background-size: auto 100%;
+            background-position: left 35% center;
+            background-repeat: no-repeat;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .cover-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            width: 100%;
+        }
+
+        .cover-bottom-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+            width: 100%;
+            padding-top: 1rem;
+        }
+
+        #cover::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.2) 55%, rgba(255,255,255,0.45) 100%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        #cover > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cover-tag {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #5a5a5a;
+            border: 1px solid rgba(28, 28, 28, 0.18);
+            background: rgba(255, 255, 255, 0.75);
+            padding: 8px 18px;
+            border-radius: 999px;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(4px);
+        }
+
+        #cover h1 {
+            font-family: var(--serif, 'IBM Plex Serif', Georgia, serif);
+            font-size: clamp(3rem, 5vw, 5rem);
+            font-weight: 400;
+            color: #1c1c1c;
+            line-height: 1.05;
+            max-width: 900px;
+            margin-bottom: 1.5rem;
+        }
+
+        #cover h1 em {
+            color: #dc2f39;
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .cover-subtitle {
+            font-family: var(--sans, 'Space Grotesk', system-ui, sans-serif);
+            font-size: 1.1rem;
+            color: #4f4f4f;
+            max-width: 640px;
+            margin-bottom: 0;
+            line-height: 1.8;
+        }
+
+        .cover-meta {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            color: #5a5a5a;
+            line-height: 1.6;
+            margin-top: 0;
+        }
+
+        @media print {
+            html, body {
+                width: 210mm;
+                height: 297mm;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            #cover {
+                width: 210mm;
+                height: 297mm;
+                padding: 2.5rem 2rem;
+                page-break-after: always;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                background-size: 65% auto !important;
+                background-position: left 22% center !important;
+                background-repeat: no-repeat !important;
+            }
+        }
+    </style>
+
+    <section id="cover">
+        <div class="cover-top">
+            <div class="cover-tag">Proyecto ADSIDEO · UPV / UNGE · Cátedra MADERAMEN</div>
+            <h1>Guía de autoconstrucción<br><em>Guinea Ecuatorial</em></h1>
+        </div>
+        <div class="cover-bottom-group">
+            <p class="cover-subtitle">
+                Un manual práctico, participativo y adaptado al clima tropical. Diseñado junto a comunidades locales en Bata y Malabo para construir viviendas seguras, sostenibles y dignas.
+            </p>
+            <div class="cover-meta">
+                Versión de trabajo · Mayo 2026
+            </div>
+        </div>
+    </section>
+</body>
+</html>
