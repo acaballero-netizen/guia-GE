@@ -437,7 +437,7 @@ La cámara de aire entre la chapa y el falso techo funciona por convección natu
 
 **1. El apoyo de la cercha: sobre el pilar, no sobre el zuncho**
 
-En la práctica constructiva local, las cerchas frecuentemente se apoyan sobre el zuncho de coronación del muro en lugar de sobre la cabeza de los pilares. El zuncho no está diseñado para recibir cargas concentradas de esa magnitud. Las cerchas deben apoyar directamente sobre los pilares, de forma que la carga baje verticalmente desde la cubierta hasta la cimentación. La posición del pilar y el punto de apoyo de la cercha deben coincidir desde la fase de diseño de la planta.
+En la práctica constructiva local, las cerchas frecuentemente se apoyan sobre el zuncho de coronación del muro en lugar de sobre la cabeza de los pilares. El zuncho no está diseñado para recibir cargas concentradas de esa magnitud. Las cerchas deben apoyar directamente sobre los pilares, de forma que la carga baje verticalmente desde la cubierta hasta la fundación. La posición del pilar y el punto de apoyo de la cercha deben coincidir desde la fase de diseño de la planta.
 
 **2. El ruido de la lluvia**
 
@@ -495,8 +495,4 @@ Una vez terminada la cubierta con el falso techo colocado y la cámara de aire v
 
 [← 02. Cerramiento](paso03_cerramiento.md) | [04. Carpintería →](paso05_carpinterias.md)
 
----
 
-*Guía elaborada para el proyecto ADSIDEO Cooperación 2024 — "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial"*
-*UPV · Cátedra MADERAMEN*
-*Versión de trabajo — pendiente de validación técnica y revisión de campo*

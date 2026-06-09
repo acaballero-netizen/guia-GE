@@ -33,9 +33,8 @@ ARCHIVOS = [
     BASE / "docs" / "paso02_cimentacion.md",
     BASE / "docs" / "paso03_cerramiento.md",
     BASE / "docs" / "paso04_cubierta.md",
-    # Añade aquí los próximos capítulos cuando estén listos:
-    # BASE / "docs" / "paso05_carpinterias.md",
-    # BASE / "docs" / "paso99_mantemiento.md",
+    BASE / "docs" / "paso05_carpinterias.md",
+    BASE / "docs" / "paso99_mantenimiento.md",
 ]
 
 # Archivo de salida
@@ -240,6 +239,7 @@ def procesar_archivo(ruta: Path) -> str:
     lineas = texto.splitlines(keepends=True)
     lineas = filtrar_secciones(lineas, SECCIONES_EXCLUIR)
     texto = "".join(lineas)
+
 
     # 5. Ajustar rutas de imágenes para el documento compilado.
     texto = ajustar_rutas_imagenes(texto)

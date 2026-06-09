@@ -59,7 +59,7 @@ o una acción espacial va acompañado de un bloque de imagen (ver apartado 4).
 Avisos, errores frecuentes, condiciones especiales del clima o del terreno.
 ```
 
-**Sobre la longitud:** no hay un límite fijo por sección, ya que algunas partes del proceso (como la cimentación) requieren más desarrollo que otras. Cuando una sección crece mucho, es preferible dividirla en subsecciones con título propio antes que comprimirla y perder claridad.
+**Sobre la longitud:** no hay un límite fijo por sección, ya que algunas partes del proceso (como la fundación) requieren más desarrollo que otras. Cuando una sección crece mucho, es preferible dividirla en subsecciones con título propio antes que comprimirla y perder claridad.
 
 **Sobre los materiales:** la lista es única por sección. Cuando un material tiene una alternativa local o de menor coste, se indica de forma simple:
 

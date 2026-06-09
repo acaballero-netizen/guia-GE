@@ -8,7 +8,7 @@ Esta sección interactiva reúne de forma sumamente visual los aciertos y errore
 
 ---
 
-## **1. Cimentación y Elevación**
+## **1. fundación y Elevación**
 
 Evitar que la estructura de madera absorba la humedad constante del suelo tropical y la lluvia de Guinea Ecuatorial.
 

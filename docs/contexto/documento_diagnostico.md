@@ -29,7 +29,7 @@ Las extremas condiciones climáticas del país (25-27ºC de media anual, 90% de 
 
 ### A. Madera (Entramado Ligero)
 Es el sistema vernáculo dominante. Evolucionó históricamente desde el uso de cortezas de árbol amarradas con lianas hasta la actual madera aserrada unida con clavos. Se emplean maderas de alta densidad como el **Palo rojo** para los elementos estructurales (pilares), y maderas blandas como el **Okume** para los cerramientos.
-*   **Patologías:** La principal vulnerabilidad es la **pudrición por humedad**, agravada porque los pilares suelen enterrarse directamente en el suelo sin cimentación adecuada. También sufren ataques severos de **insectos xilófagos** al no aplicarles tratamientos protectores. A nivel estructural, el uso rudimentario de clavos y la falta de correspondencia geométrica en las uniones generan **fallas ante los fuertes vientos**.
+*   **Patologías:** La principal vulnerabilidad es la **pudrición por humedad**, agravada porque los pilares suelen enterrarse directamente en el suelo sin fundación adecuada. También sufren ataques severos de **insectos xilófagos** al no aplicarles tratamientos protectores. A nivel estructural, el uso rudimentario de clavos y la falta de correspondencia geométrica en las uniones generan **fallas ante los fuertes vientos**.
 
 ### B. Tierra Cruda
 Utilizada como *tierra proyectada* (barro sobre un entramado vegetal) o *tierra compactada* (bloques comprimidos). Destaca por ser incombustible, altamente transpirable (evitando hongos) y tener excelentes propiedades de inercia térmica y aislamiento acústico.

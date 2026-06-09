@@ -1,12 +1,12 @@
-# **Cimentación**
+# **Fundaciones**
 
 [← 00. Pasos previos](paso01_pasos_previos.md) | [02. Cerramiento →](paso03_cerramiento.md)
 
 ---
 
-La cimentación es la parte de la vivienda que transmite todo el peso al suelo. Si falla la cimentación, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas muy difíciles de corregir después.
+La fundación es la parte de la vivienda que transmite todo el peso al suelo. Si falla la fundación, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas muy difíciles de corregir después.
 
-> 🔑 **Regla de oro:** Una cimentación bien ejecutada es invisible una vez terminada la casa. Una cimentación mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.
+> 🔑 **Regla de oro:** Una fundación bien ejecutada es invisible una vez terminada la casa. Una fundación mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.
 
 ---
 
@@ -93,7 +93,7 @@ La zanja es el molde natural donde se construirá la zapata. Sus dimensiones det
 5. La grava o piedra limpia que aparezca durante la excavación se guarda aparte: puede reutilizarse en el hormigón.
 
 <img src="imagenes/cimentacion.2.png" width="500" alt="Excavación de la zanja" style="display: block; margin: auto;">
-<!-- PROMPT: Esta imagen tiene que representar la sección transversal de la zanja de cimentación excavada en el terreno. Se ve el cordel de replanteo en la parte superior marcando la cara exterior del muro —no el centro de la zanja—, las paredes verticales y el fondo plano. Se indican con cotas la anchura total y la profundidad. El cordel de replanteo y las cotas de dimensión están remarcados en rojo. Dibujo técnico a mano alzada, escala de grises. -->
+<!-- PROMPT: Esta imagen tiene que representar la sección transversal de la zanja de fundación excavada en el terreno. Se ve el cordel de replanteo en la parte superior marcando la cara exterior del muro —no el centro de la zanja—, las paredes verticales y el fondo plano. Se indican con cotas la anchura total y la profundidad. El cordel de replanteo y las cotas de dimensión están remarcados en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
 > ✅ **A tener en cuenta:** La zanja se excava el mismo día que se va a hormigonar, o se cubre con lámina de plástico si hay que esperar. En Guinea Ecuatorial, una lluvia nocturna puede inundar o desmoronar las paredes de una zanja abierta. Si la obra se para durante días o semanas, se rellena la zanja parcialmente con la tierra extraída para proteger el fondo, y se vuelve a excavar cuando se retome el trabajo.
 
@@ -386,7 +386,7 @@ Los huecos interiores de los bloques donde hay esperas verticales deben rellenar
 
 **1. La arcilla expansiva: el principal riesgo del suelo**
 
-Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la cimentación a lo largo del tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca se construye sobre la capa superficial orgánica de color negro.
+Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la fundación a lo largo del tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca se construye sobre la capa superficial orgánica de color negro.
 
 **2. Nivel freático alto en la estación lluviosa**
 
@@ -451,8 +451,3 @@ Una vez terminado el zócalo con la cara superior limpia y nivelada, se procede 
 
 [← 00. Pasos previos](paso01_pasos_previos.md) | [02. Cerramiento →](paso03_cerramiento.md)
 
----
-
-*Guía elaborada para el proyecto ADSIDEO Cooperación 2024 — "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial"*
-*UPV · Cátedra MADERAMEN*
-*Versión de trabajo — pendiente de validación técnica y revisión de campo*

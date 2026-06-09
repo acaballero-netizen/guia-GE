@@ -35,7 +35,7 @@ Esto tiene una consecuencia directa en todo el contenido: **la claridad siempre 
 /docs
     paso00_criterios_de_diseño.md  → Criterios de diseño
     paso01_pasos_previos.md        → Pasos previos: limpieza, nivelación y replanteo
-    paso02_cimentacion.md          → Cimentación: zapata corrida y zócalo
+    paso02_cimentacion.md          → fundación: zapata corrida y zócalo
     paso03_cerramiento.md          → Cerramiento: paramentos verticales de madera
     paso04_cubierta.md             → Cubierta: estructura de cerchas y chapa
     paso05_carpinterias.md         → Carpintería y particiones interiores

@@ -40,7 +40,7 @@ Licencia: CC BY-SA 4.0
 
 ---
 
-## 02 · Estructura de permanente · Cimentación
+## 02 · Estructura de permanente · fundación
 
 ### 02.A · Zapata corrida
 * **02.A.1 · Reconocimiento del terreno** — Identificación manual del tipo de suelo (roca, arena, arcilla) para determinar la profundidad.
@@ -115,7 +115,7 @@ Licencia: CC BY-SA 4.0
 
 Antes de levantar cualquier muro o clavar cualquier poste, el terreno debe estar preparado. Estos cuatro pasos —analizar el terreno, limpiarlo, nivelarlo y replantearlo— son los más importantes de toda la obra. Si se hacen mal, todos los errores se acumulan y resultan muy difíciles de corregir.
 
-El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvias intensas erosionan terrenos mal preparados, la vegetación tropical crece con rapidez si no se elimina bien desde la raíz, y la humedad del suelo puede arruinar una cimentación si no se trabaja correctamente desde el principio.
+El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvias intensas erosionan terrenos mal preparados, la vegetación tropical crece con rapidez si no se elimina bien desde la raíz, y la humedad del suelo puede arruinar una fundación si no se trabaja correctamente desde el principio.
 
 > 🔑 **Regla de oro:** Un día bien invertido en preparar el terreno ahorra semanas de problemas después.
 
@@ -150,7 +150,7 @@ El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvi
 
 ### ¿Para qué sirve?
 
-El terreno determina la profundidad y las dimensiones necesarias de la cimentación. Construir sin conocer el tipo de suelo puede resultar en una zapata insuficiente que se asienta, se agrieta o falla con las primeras lluvias intensas.
+El terreno determina la profundidad y las dimensiones necesarias de la fundación. Construir sin conocer el tipo de suelo puede resultar en una zapata insuficiente que se asienta, se agrieta o falla con las primeras lluvias intensas.
 
 En Guinea Ecuatorial es frecuente encontrar suelos arcillosos expansivos, especialmente en la zona fang interior, así como suelos con nivel freático alto en el litoral. Estos suelos exigen mayor cuidado que los suelos firmes o arenosos compactos. 
 
@@ -176,10 +176,10 @@ Esta prueba permite identificar el tipo de suelo en el momento, con las manos y 
 
 | Resultado al abrir la mano | Tipo de suelo probable | Qué indica |
 |---|---|---|
-| La tierra se disgrega y cae, no mantiene forma | Arena o grava | Suelo permeable, buen drenaje. Cimentación estándar |
+| La tierra se disgrega y cae, no mantiene forma | Arena o grava | Suelo permeable, buen drenaje. fundación estándar |
 | Mantiene la bola con forma. Se ven marcas de dedos. Al secar se endurece | Arcilla o tierra arcillosa | Suelo expansivo. Requiere mayor profundidad de zapata |
 | Mantiene la bola pero es esponjosa o fibrosa. Color oscuro, olor a tierra húmeda | Tierra orgánica o negra | **No apta para cimentar. Retirar completamente antes de excavar** |
-| Bola compacta, rugosa, con partículas visibles. No se ve barro en las manos | Tierra firme o laterítica | Buen soporte. Cimentación estándar |
+| Bola compacta, rugosa, con partículas visibles. No se ve barro en las manos | Tierra firme o laterítica | Buen soporte. fundación estándar |
 
 > ⚠️ Si el resultado es tierra orgánica o arcilla blanda, consultar la sección de *Tips específicos para Guinea Ecuatorial* al final de este documento antes de continuar. 
 
@@ -207,7 +207,7 @@ Una vez que el agua está en reposo y las capas bien formadas, medir con un pali
 
 | Composición aproximada | Interpretación | Decisión |
 |---|---|---|
-| Más del 50% de capa inferior (arena/grava) | Suelo granular, buen drenaje | Cimentación estándar. Profundidad mínima 60 cm |
+| Más del 50% de capa inferior (arena/grava) | Suelo granular, buen drenaje | fundación estándar. Profundidad mínima 60 cm |
 | Capa superior (arcilla/limo) mayor que capa inferior | Suelo arcilloso dominante | Aumentar profundidad de zapata a 80–100 cm. Revisar drenaje perimetral |
 | Agua permanece turbia o marrón incluso tras 48 horas | Arcilla muy fina o suelo orgánico en suspensión | Valoración técnica necesaria antes de continuar |
 | Capa oscura flotando en la superficie | Materia orgánica presente | Retirar todo ese horizonte antes de excavar la zapata |
@@ -218,7 +218,7 @@ Una vez que el agua está en reposo y las capas bien formadas, medir con un pali
 
 ### Tabla de decisión: qué hacer según el tipo de suelo
 
-Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones de la cimentación:
+Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones de la fundación:
 
 | Tipo de suelo | Cómo se reconoce | Profundidad mínima de zapata | Observaciones |
 |---|---|---|---|
@@ -243,7 +243,7 @@ Para retirar toda la vegetación, raíces y tierra orgánica que hay sobre el so
 1. **Cortar la vegetación** con machete: maleza, arbustos pequeños y todo lo que crezca dentro del perímetro de la futura casa y en una franja de al menos 1 metro alrededor.
 2. **Arrancar raíces superficiales** con la azada. No basta con cortar lo que se ve por encima del suelo.
 3. **Agrupar y retirar los restos** con la carretilla, llevándolos fuera del área de trabajo.
-4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener una cimentación.
+4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener una fundación.
 
 <img src="docs/imagenes/pasos_previos.2.png" width="500" alt="Limpieza del terreno" style="display: block; margin: auto;">
 
@@ -382,7 +382,7 @@ Una vez decidida la ubicación, se clavan dos estacas en el suelo que marquen co
 
 **7. Posición de las guías de excavación**
 
-Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la excavación. Al excavar la zanja de cimentación, el operario se guía por esa cuerda sabiendo que deberá excavar tanto hacia el interior como hacia el exterior del muro según las dimensiones de la zapata.
+Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la excavación. Al excavar la zanja de fundación, el operario se guía por esa cuerda sabiendo que deberá excavar tanto hacia el interior como hacia el exterior del muro según las dimensiones de la zapata.
 
 ---
 
@@ -392,7 +392,7 @@ Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la
 
 **1. La arcilla expansiva: el principal riesgo de la región**
 
-Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la cimentación con el tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca construir sobre la capa superficial orgánica negra.
+Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la fundación con el tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca construir sobre la capa superficial orgánica negra.
 
 **2. Nivel freático alto en la estación lluviosa**
 
@@ -414,7 +414,7 @@ La manguera transparente es el instrumento clave para la nivelación. Si no est�
 
 ## Resumen: comprobaciones antes de avanzar
 
-Antes de pasar a la cimentación, verificar que se han completado correctamente estos puntos:
+Antes de pasar a la fundación, verificar que se han completado correctamente estos puntos:
 
 - [ ] Se han realizado la prueba de la bola y la prueba del tarro en varias zonas del solar.
 - [ ] El tipo de suelo está identificado y se ha determinado la profundidad de zapata correspondiente.
@@ -435,13 +435,13 @@ Antes de pasar a la cimentación, verificar que se han completado correctamente 
 
 <div style="page-break-before: always;"></div>
 
-# **Cimentación**
+# **fundación**
 
 ---
 
-La cimentación es la parte de la vivienda que transmite todo el peso al suelo. Si falla la cimentación, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas muy difíciles de corregir después.
+La fundación es la parte de la vivienda que transmite todo el peso al suelo. Si falla la fundación, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas muy difíciles de corregir después.
 
-> 🔑 **Regla de oro:** Una cimentación bien ejecutada es invisible una vez terminada la casa. Una cimentación mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.
+> 🔑 **Regla de oro:** Una fundación bien ejecutada es invisible una vez terminada la casa. Una fundación mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.
 
 ---
 
@@ -807,7 +807,7 @@ Los huecos interiores de los bloques donde hay esperas verticales deben rellenar
 
 **1. La arcilla expansiva: el principal riesgo del suelo**
 
-Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la cimentación a lo largo del tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca se construye sobre la capa superficial orgánica de color negro.
+Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la fundación a lo largo del tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca se construye sobre la capa superficial orgánica de color negro.
 
 **2. Nivel freático alto en la estación lluviosa**
 
@@ -1513,7 +1513,7 @@ La cámara de aire entre la chapa y el falso techo funciona por convección natu
 
 **1. El apoyo de la cercha: sobre el pilar, no sobre el zuncho**
 
-En la práctica constructiva local, las cerchas frecuentemente se apoyan sobre el zuncho de coronación del muro en lugar de sobre la cabeza de los pilares. El zuncho no está diseñado para recibir cargas concentradas de esa magnitud. Las cerchas deben apoyar directamente sobre los pilares, de forma que la carga baje verticalmente desde la cubierta hasta la cimentación. La posición del pilar y el punto de apoyo de la cercha deben coincidir desde la fase de diseño de la planta.
+En la práctica constructiva local, las cerchas frecuentemente se apoyan sobre el zuncho de coronación del muro en lugar de sobre la cabeza de los pilares. El zuncho no está diseñado para recibir cargas concentradas de esa magnitud. Las cerchas deben apoyar directamente sobre los pilares, de forma que la carga baje verticalmente desde la cubierta hasta la fundación. La posición del pilar y el punto de apoyo de la cercha deben coincidir desde la fase de diseño de la planta.
 
 **2. El ruido de la lluvia**
 
@@ -1560,4 +1560,756 @@ Antes de pasar a la carpintería, verificar que se han completado correctamente 
 - [ ] La cámara de aire entre la chapa y el falso techo tiene aberturas de entrada en los aleros y de salida en los hastiales o la cumbrera.
 
 ---
+
+
+
+---
+
+<div style="page-break-before: always;"></div>
+
+# **Carpintería y particiones interiores**
+
+---
+
+Las particiones interiores y la carpintería son los últimos elementos que se colocan antes de dar la vivienda por terminada. A diferencia de los pasos anteriores, ninguno de estos elementos es estructural: no soportan el peso de la cubierta ni rigidizan el conjunto. Su función es organizar el espacio interior, regular la ventilación y la privacidad, y proteger los huecos de la lluvia y los insectos.
+
+El orden de ejecución importa: primero se trazan y construyen las particiones, porque son las que definen los huecos donde irán las puertas. Después se instalan los premarcos y las hojas de carpintería, tanto en los huecos del cerramiento exterior como en los de las particiones.
+
+> 🔑 **Regla de oro:** En este sistema constructivo, la estructura la llevan los montantes del cerramiento exterior. Las particiones interiores no soportan nada: pueden moverse, modificarse o retirarse sin afectar a la estabilidad de la vivienda. Esta flexibilidad es una ventaja, no una debilidad.
+
+---
+
+## Estructura general
+
+Esta sección cubre dos elementos que se ejecutan en orden:
+
+1. **PARTICIONES INTERIORES** — Los tabiques no estructurales que dividen el espacio habitable en estancias.
+2. **CARPINTERÍA** — Los premarcos, puertas y ventanas que cierran los huecos, tanto en el cerramiento exterior como en las particiones.
+
+---
+
+## **Herramientas y materiales necesarios**
+
+### Para las particiones interiores
+- Madera de densidad media local para los montantes verticales, sección mínima de 5×8 cm *(el palo rojo no es necesario aquí: al no haber contacto con el exterior ni con el suelo, una madera de menor densidad es suficiente)*
+- Madera para la solera de arranque y la pieza de coronación, sección 5×8 cm
+- Tablas de madera local de grosor aproximado 1 cm para el cerramiento de la partición
+- Clavos de al menos 80 mm para los montantes y la solera
+- Clavos de longitud al menos el doble del grosor de la tabla para fijar el cerramiento
+- Cinta métrica y cordel para el replanteo
+- Escuadra de carpintero
+- Nivel de burbuja y plomada
+- Sierra manual
+
+### Para la carpintería
+- Madera de densidad media o alta para el premarco, sección 3×8 cm o equivalente disponible localmente
+- Madera de densidad media para las hojas de puerta: tablones de al menos 2 cm de grosor y travesaños de sección mínima 4×6 cm
+- Bisagras de acero galvanizado de al menos 3 pulgadas (75 mm), dos o tres por hoja según la altura
+- Pestillo o pasador sencillo para el cierre
+- Clavos y tornillos para madera de 60–80 mm
+- Sierra manual y formón para los ajustes
+- Cepillo de carpintero para el ajuste del batiente
+- Mosquitera de malla fina *(para ventanas, si está disponible localmente)*
+- Lámina de zinc o chapa fina para el goterón del alféizar
+
+---
+<div style="page-break-after: always;"></div>
+
+# **Parte 1: Particiones interiores**
+
+Las particiones interiores son los tabiques que dividen el espacio habitable. En la cultura fang, la separación entre zonas de uso es un criterio relevante: la zona de descanso y la zona de estar suelen diferenciarse, aunque en la vivienda urbana contemporánea estas divisiones tienden a concentrarse en un único volumen. La guía no prescribe una distribución concreta —eso corresponde a los criterios de diseño del apartado 00— sino el sistema constructivo para materializar cualquier distribución que se haya decidido.
+
+Una partición interior, a diferencia del cerramiento exterior, no necesita evacuar agua de lluvia ni proteger de la humedad ascendente. Pero sí debe ser estable, estar bien aplomada y resistir los golpes del uso cotidiano. En clima ecuatorial, la ventilación cruzada es prioritaria: las particiones no deben bloquear el paso del aire entre estancias si no es necesario. Una partición que llegue hasta 2 metros de altura y deje libre la zona superior hasta la cubierta ventila mejor que una que selle completamente el espacio.
+
+---
+
+## **Paso 1 · Qué es una partición interior**
+
+### ¿Para qué sirve?
+
+Este paso define con claridad qué es una partición y qué no es, para evitar errores que comprometan la seguridad de la estructura.
+
+En este sistema constructivo, **la estructura la forman exclusivamente los montantes del cerramiento exterior**. Cada montante es un pilar que va desde el durmiente hasta la viga o correa de cubierta y que soporta el peso del tejado. Las particiones interiores no forman parte de este sistema: son tabiques independientes que organizan el espacio pero no soportan ninguna carga vertical de la cubierta.
+
+Esto significa que:
+
+- Una partición puede colocarse en cualquier posición del interior, sin que su ubicación tenga que coincidir con los montantes del cerramiento.
+- Una partición puede retirarse o modificarse en el futuro sin afectar a la estabilidad de la vivienda.
+- Una partición **nunca debe usarse como apoyo** de vigas, correas o cualquier otro elemento de cubierta. Si una correa pasa por encima de una partición, debe apoyar sobre un montante del cerramiento o sobre un pilar independiente, nunca sobre el tabique.
+
+<img src="docs/imagenes/particiones.1.png" width="500" alt="Esquema estructural: montantes vs partición" style="display: block; margin: auto;">
+
+---
+
+## **Paso 2 · Replanteo de particiones**
+
+### ¿Para qué sirve?
+
+El replanteo consiste en marcar sobre el suelo la posición exacta de cada tabique antes de empezar a construirlo. Es el momento de trasladar la distribución decidida en el diseño a la realidad del espacio construido.
+
+### Proceso
+
+1. Se traza con cordel y rotulador o tiza la línea de la **cara de cada partición** sobre el suelo. Se trabaja siempre a cara de tabique, no al eje, porque lo que interesa en el interior es conocer las dimensiones libres de cada estancia.
+
+2. Se comprueba que las estancias resultantes tienen las dimensiones previstas. Una vez colocadas las particiones no es fácil moverlas.
+
+3. Se marcan los **huecos de paso**: los puntos donde irá una puerta o un paso libre entre estancias. Se indican en el suelo con dos marcas que señalan los límites del hueco.
+
+4. Se verifica que la posición de las particiones no coincide con las esperas verticales que vienen de la fundación ni con los montantes del cerramiento: si una partición chocara con un montante, se desplaza ligeramente hasta quedar en un espacio libre.
+
+<img src="docs/imagenes/particiones.2.png" width="500" alt="Replanteo de particiones en el suelo" style="display: block; margin: auto;">
+
+> ✅ **Relación con el módulo:** Aunque las particiones no tienen que coincidir con el módulo del cerramiento exterior, es conveniente que el ancho de los huecos de paso sea un múltiplo o submúltiplo del módulo estructural. Esto simplifica la fabricación del premarco y facilita que las puertas queden bien integradas.
+
+---
+
+## **Paso 3 · Estructura de la partición**
+
+### ¿Para qué sirve?
+
+La estructura de la partición es el esqueleto de madera sobre el que se fijan las tablas de cerramiento interior. Está formada por tres elementos: la solera de arranque en el suelo, los montantes verticales y la pieza de coronación en la parte superior.
+
+### Proceso
+
+1. Se corta la **solera de arranque** a la longitud del tabique, descontando los huecos de paso. La solera se clava directamente sobre el suelo de hormigón o se fija con tacos si el suelo está acabado. En los puntos de hueco de paso, la solera no existe: el suelo queda libre.
+
+<img src="docs/imagenes/particiones.3.1.png" width="500" alt="Solera de arranque con hueco de paso" style="display: block; margin: auto;">
+
+2. Se marcan sobre la solera las posiciones de los **montantes verticales**, igual que se hace en el cerramiento exterior: a eje de módulo, con una separación regular. En los límites del hueco de paso se colocan siempre dos montantes uno al lado del otro formando la jamba.
+
+3. Se cortan los montantes a la **altura libre prevista para la partición**. La partición no tiene por qué llegar hasta la viga de cubierta: puede terminar a 2 metros de altura y dejar la parte superior abierta para favorecer la ventilación. Si llega hasta la viga, debe anclarse a ella sin transmitirle cargas verticales: solo se trata de un amarre lateral.
+
+4. Se clava cada montante a la solera con al menos dos clavos en diagonal desde cada cara, igual que en el cerramiento exterior.
+
+5. Se coloca la **pieza de coronación** horizontal sobre los montantes, clavándola en cada punto de cruce. Si la partición no llega hasta la viga, la pieza de coronación es el remate superior del tabique y da rigidez al conjunto.
+
+<img src="docs/imagenes/particiones.3.2.png" width="500" alt="Estructura completa de la partición" style="display: block; margin: auto;">
+
+6. La partición se fija al cerramiento exterior en el punto donde la toca. Si la partición es perpendicular a un montante del cerramiento, se clava directamente a él. Si la partición queda entre dos montantes, se clava un listón vertical en la cara interior del cerramiento que sirva de punto de anclaje.
+
+### A tener en cuenta
+
+La partición no debe quedar separada del cerramiento exterior. Una junta abierta entre el tabique y la pared es una vía de entrada para insectos. Si hay una pequeña diferencia por irregularidad de la madera, se rellena con un listón fino clavado a tope.
+
+---
+
+## **Paso 4 · Cerramiento de la partición**
+
+### ¿Para qué sirve?
+
+Las tablas de cerramiento son las que dan cuerpo al tabique y lo convierten en una superficie continua. A diferencia del cerramiento exterior, aquí no es necesario evacuar agua de lluvia, por lo que las tablas pueden colocarse verticales u horizontales, sin inclinación ni solape obligatorio.
+
+### Proceso
+
+1. Se decide la **orientación de las tablas**: vertical u horizontal. Las tablas verticales son más rápidas de colocar y dejan juntas menos expuestas al polvo. Las tablas horizontales dan un acabado más regular y son más fáciles de sustituir individualmente si se deterioran.
+
+2. Las tablas se clavan a cada montante con al menos un clavo por punto de cruce. Se colocan a tope —sin solape— o con una pequeña junta de 3–5 mm que permite la ventilación entre estancias y el trabajo de la madera con la humedad ambiental.
+
+<img src="docs/imagenes/particiones.4.png" width="500" alt="Cerramiento de la partición con tablas" style="display: block; margin: auto;">
+
+3. Se tabla **una cara** completa antes de pasar a la otra. Esto facilita el trabajo y permite comprobar el aplomo del conjunto antes de cerrarlo definitivamente.
+
+4. En la zona próxima al suelo, las tablas pueden recibir una capa de aceite de motor usado como protección preventiva frente a la humedad ambiental del suelo de Guinea Ecuatorial, especialmente en la estación lluviosa.
+
+> ⚠️ **Sobre el acabado:** Las tablas de partición quedan vistas por ambas caras. Un cepillado previo de la cara visible mejora considerablemente el acabado sin necesidad de ningún material adicional. Si hay carpintero con cepillo disponible, vale la pena hacerlo antes de colocar las tablas.
+
+---
+
+## **Paso 5 · El hueco de paso**
+
+### ¿Para qué sirve?
+
+El hueco de paso es la abertura en la partición que comunica dos estancias. Puede ser un paso libre sin puerta o un hueco preparado para recibir una puerta interior. La diferencia entre ambos está en si se instala o no un premarco y una hoja de carpintería.
+
+### Proceso
+
+1. Los **montantes de jamba** ya están colocados desde el Paso 3. Son los dos montantes que flanquean el hueco y sobre los que se apoyará el premarco si hay puerta.
+
+2. Se coloca el **dintel**: un listón horizontal entre los dos montantes de jamba a la altura proyectada de la parte superior del hueco. El dintel no tiene función estructural —no soporta nada— pero es necesario para rematar las tablas de cerramiento a esa altura y para recibir el premarco.
+
+3. Las tablas de cerramiento llegan hasta los montantes de jamba y se cortan limpiamente en el plano del hueco. El corte debe ser recto y a plomo para que la junta con el premarco quede bien cerrada.
+
+<img src="docs/imagenes/particiones.5.png" width="500" alt="Hueco de paso terminado en la partición" style="display: block; margin: auto;">
+
+4. Para un **paso libre sin puerta**, el hueco se deja tal cual. No hace falta premarco ni ningún remate adicional si los montantes de jamba están bien cepillados y las tablas bien cortadas.
+
+5. Para un **hueco con puerta**, se continúa con el Paso 1 de la Parte 2 (instalación del premarco).
+
+> 💡 **En la cultura fang, el paso libre entre estancias** —sin puerta física— es habitual entre la zona de estar y la zona de descanso en viviendas de familia extensa. El sistema permite dejarlo abierto durante la construcción y añadir la puerta en un momento posterior sin modificar la estructura del tabique.
+
+---
+<div style="page-break-after: always;"></div>
+
+# **Parte 2: Carpintería**
+
+La carpintería son los elementos móviles —puertas y ventanas— que cierran los huecos tanto del cerramiento exterior como de las particiones interiores. En la construcción local de Guinea Ecuatorial, la carpintería suele fabricarse en taller de carpintería local antes de llevarse a obra, lo que simplifica el montaje y mejora la calidad del resultado.
+
+El elemento clave que conecta la carpintería con la obra es el **premarco**: una subestructura de madera que se fija primero al hueco de obra y que recibe después la hoja de puerta o ventana. Esta separación entre premarco y hoja permite ajustar y corregir sin desmontar todo el conjunto.
+
+---
+
+## **Paso 1 · El premarco**
+
+### ¿Para qué sirve?
+
+El premarco es el marco fijo que se instala en el hueco de obra antes de colgar la puerta o ventana. Cumple dos funciones: proteger el canto de los montantes de jamba y proporcionar una superficie plana, aplomada y escuadrada sobre la que fijar las bisagras y el cierre.
+
+Sin premarco, las bisagras irían directamente sobre los montantes de jamba, que pueden tener irregularidades superficiales que impidan el correcto funcionamiento de la puerta.
+
+### Proceso
+
+1. Se cortan las dos **jambas del premarco** —las piezas verticales— a la altura libre del hueco más 2–3 cm de tolerancia. Se cortan también el **cabecero** —la pieza horizontal superior— y el **umbral** si lo hay (en puertas exteriores puede no haberlo para facilitar el paso).
+
+2. Se ensamblan las piezas del premarco en el suelo formando un rectángulo. Las esquinas se unen con dos clavos en diagonal o con un tornillo de 80 mm. Se comprueba la escuadra midiendo las dos diagonales: deben ser iguales.
+
+<img src="docs/imagenes/carpinteria.1.1.png" width="500" alt="Ensamble del premarco en el suelo" style="display: block; margin: auto;">
+
+3. Se introduce el premarco en el hueco de obra. Se comprueba con el nivel y la plomada que está vertical en las dos direcciones y que el cabecero está horizontal.
+
+4. Se acuña el premarco contra los montantes de jamba con pequeñas cuñas de madera en los puntos necesarios para corregir las irregularidades. Las cuñas se dejan entre el premarco y el montante de jamba.
+
+5. Una vez nivelado y aplomado, se clava o atornilla el premarco a los montantes de jamba a través de las cuñas. Al menos dos fijaciones por jamba, en el tercio superior e inferior.
+
+<img src="docs/imagenes/carpinteria.1.2.png" width="500" alt="Premarco instalado en el hueco de obra" style="display: block; margin: auto;">
+
+> ✅ **Comprobación:** Antes de colgar la puerta, se pasa una hoja de sierra o una regla por el interior del premarco. Si la regla roza en algún punto, hay una deformación que debe corregirse antes de continuar.
+
+---
+
+## **Paso 2 · La puerta**
+
+### ¿Para qué sirve?
+
+La puerta es la hoja móvil que cierra el hueco. En el contexto de Guinea Ecuatorial, la solución más accesible y habitual es una hoja fabricada con tablones de madera local unidos por travesaños transversales. Esta solución puede ejecutarla cualquier carpintero local sin herramientas especializadas.
+
+### Fabricación de la hoja
+
+La hoja de puerta se fabrica en el taller antes de llevarla a obra. Las dimensiones deben dejar una **tolerancia de 3–5 mm** por cada lado respecto al hueco libre del premarco: la madera trabaja con la humedad y necesita espacio para moverse.
+
+1. Se cortan los **tablones** a la altura de la hoja. El número de tablones depende del ancho disponible: se unen hasta cubrir el ancho previsto.
+
+2. Se cortan los **travesaños** a la anchura de la hoja. Se colocan tres travesaños: uno en la parte superior, otro en la parte inferior y otro en el centro, formando una "Z" o una "H" según la disposición del diagonal de rigidización.
+
+<img src="docs/imagenes/carpinteria.2.1.png" width="500" alt="Disposición de travesaños en Z en la hoja de puerta" style="display: block; margin: auto;">
+
+3. El **diagonal de rigidización** va desde la esquina inferior del lado de las bisagras hasta la esquina superior del lado del cierre. Esta disposición es la que da rigidez a la hoja e impide que se deforme con el tiempo. Si el diagonal va en sentido contrario, la hoja puede hundirse por el propio peso.
+
+4. Los tablones se clavan a los travesaños con al menos dos clavos por punto de cruce. Los clavos se clavan en diagonal hacia el interior de la madera para que no aflojen con el tiempo.
+
+5. Se cepilla el canto de la hoja para que quede liso y en escuadra. Se comprueba que la hoja entra en el hueco del premarco con la tolerancia prevista.
+
+### Colgado de la hoja
+
+1. Se marcan las posiciones de las **bisagras** en la jamba del premarco: una en el tercio superior y otra en el tercio inferior de la hoja, a unos 20 cm del extremo. Si la puerta mide más de 2 metros, se añade una tercera bisagra en el centro.
+
+2. Se practica el **mortajado**: un rebaje poco profundo en la jamba del premarco y en el canto de la hoja donde encajará cada ala de la bisagra. El mortajado hace que la bisagra quede enrasada y la hoja cierre sin holgura en el canto. Si no hay formón disponible, puede prescindirse del mortajado y fijar la bisagra sobre la superficie plana.
+
+3. Se fija primero la bisagra al premarco. Después se apoya la hoja sobre cuñas que la elevan el espacio de tolerancia inferior, se alinea con el premarco y se fija la bisagra a la hoja.
+
+<img src="docs/imagenes/carpinteria.2.2.png" width="500" alt="Detalle del mortajado y fijación de bisagra" style="display: block; margin: auto;">
+
+4. Se comprueba el **batiente**: se abre y cierra la puerta varias veces y se observa si roza en algún punto. Si roza en la parte superior, la hoja se cepilla en ese punto. Si hay holgura excesiva en un lado y escasez en el otro, se ajusta la posición de una bisagra.
+
+5. Se instala el **pestillo o pasador** en el canto opuesto al de las bisagras, a una altura cómoda —entre 90 y 110 cm desde el suelo.
+
+> ⚠️ **Sobre la madera húmeda:** En Guinea Ecuatorial, la madera recién aserrada puede tener alta humedad interna. Una hoja fabricada con madera no estabilizada puede deformarse en las primeras semanas. Si es posible, se deja la madera secando en lugar cubierto durante al menos 2–4 semanas antes de fabricar la hoja.
+
+---
+
+## **Paso 3 · La ventana**
+
+### ¿Para qué sirve?
+
+La ventana cierra el hueco del cerramiento exterior regulando la ventilación, la entrada de luz y la protección frente a insectos. En Guinea Ecuatorial, la ventilación cruzada es más importante que el aislamiento: una ventana que se puede abrir completamente tiene más valor que una que aísla bien pero ventila poco.
+
+### Formación del hueco de ventana en el cerramiento exterior
+
+El hueco de ventana se forma durante la fase de cerramiento (Paso 7 de la sección 02), interrumpiendo las tablas horizontales entre dos montantes de jamba y colocando los listones de dintel y umbral. Si el hueco no se formó en esa fase, puede practicarse posteriormente cortando las tablas con sierra y añadiendo los montantes y listones necesarios.
+
+El premarco de ventana se instala de la misma manera que el de puerta (Paso 1 de esta sección), con la diferencia de que lleva las cuatro piezas completas: las dos jambas, el cabecero y el umbral.
+
+### Soluciones de hoja según disponibilidad
+
+**Opción A — Hoja abatible de madera** *(recomendada si hay carpintero disponible)*
+
+Se fabrica igual que una hoja de puerta pequeña, con tablones y travesaños. Se cuelga con dos bisagras en la jamba superior —abriendo hacia arriba— o en una jamba lateral —abriendo hacia el interior. La apertura hacia el interior protege la hoja de la lluvia cuando está abierta. Se fija en posición abierta con un gancho o un pasador sencillo.
+
+<img src="docs/imagenes/carpinteria.3.1.png" width="500" alt="Hoja abatible de ventana" style="display: block; margin: auto;">
+
+**Opción B — Lamas fijas de madera** *(solución más sencilla, sin partes móviles)*
+
+Se fijan listones de madera inclinados en el hueco, paralelos entre sí, a modo de persiana fija. El ángulo de inclinación —entre 30° y 45° respecto a la horizontal— permite la entrada de aire pero impide la entrada directa de lluvia horizontal. No ofrece privacidad visual completa, pero ventila de forma permanente sin necesidad de mantenimiento.
+
+<img src="docs/imagenes/carpinteria.3.2.png" width="500" alt="Lamas fijas de madera en ventana" style="display: block; margin: auto;">
+
+**Opción C — Bastidor con mosquitera** *(si la mosquitera está disponible localmente)*
+
+Se fabrica un bastidor de madera liviana del tamaño del hueco interior del premarco y se tensa la mosquitera sobre él, fijándola con listones finos que la sujetan perimetralmente. El bastidor puede ser fijo —clavado al premarco— o desmontable, fijado con ganchos para poder retirarlo si es necesario.
+
+> ✅ **En el contexto de Guinea Ecuatorial**, las opciones A y B son las más habituales y replicables por carpinteros locales sin necesidad de materiales importados. La opción C depende de la disponibilidad de mosquitera en el mercado local y añade mantenimiento: la malla se degrada con el tiempo y necesita ser sustituida.
+
+---
+
+## **Paso 4 · Protección frente a la lluvia**
+
+### ¿Para qué sirve?
+
+En Guinea Ecuatorial, las lluvias son torrenciales y frecuentemente laterales por el efecto del viento. Los huecos del cerramiento exterior —puertas y ventanas— son los puntos más vulnerables frente a la entrada de agua. Este paso recoge las medidas mínimas para proteger esos huecos sin necesidad de sellantes ni materiales industriales.
+
+### El alféizar con goterón
+
+El alféizar es la pieza horizontal que remata la parte inferior de la ventana por el exterior. Su función es desviar el agua de lluvia que cae sobre la fachada hacia el exterior antes de que llegue a la junta entre la ventana y el cerramiento.
+
+Para que funcione correctamente, el alféizar necesita un **goterón**: una pequeña ranura o resalte en la cara inferior de la pieza que interrumpe el recorrido del agua e impide que llegue a la pared por capilaridad.
+
+<img src="docs/imagenes/carpinteria.4.1.png" width="500" alt="Sección del alféizar con goterón" style="display: block; margin: auto;">
+
+El alféizar puede ejecutarse de dos maneras según los materiales disponibles:
+
+- **Madera:** se coloca una pieza de madera densa con al menos 2–3 cm de vuelo hacia el exterior respecto al plano de la fachada. El goterón se practica con un formón: una ranura de 5–8 mm en la cara inferior, a 1–2 cm del borde exterior. La madera del alféizar debe recibir tratamiento con aceite o alquitrán para protegerla de la exposición directa al agua.
+
+- **Chapa de zinc doblada:** se corta un trozo de chapa y se dobla formando un ángulo que cubre el umbral y vuela hacia el exterior. El borde inferior de la chapa actúa como goterón natural. Es la solución más duradera y requiere menos mantenimiento que la madera.
+
+### Protección del dintel
+
+El dintel es la parte superior del hueco, donde el agua puede colarse entre el cerramiento y el premarco si la junta no está bien resuelta. La protección mínima consiste en colocar una pequeña pieza de chapa o madera inclinada sobre el cabecero del premarco, de modo que el agua resbale hacia la fachada en lugar de hacia la junta.
+
+<img src="docs/imagenes/carpinteria.4.2.png" width="500" alt="Protección del dintel con chapa" style="display: block; margin: auto;">
+
+### Encuentro entre carpintería y cerramiento
+
+La junta perimetral entre el premarco y las tablas de cerramiento es una vía de entrada de agua, insectos y viento si queda abierta. Se cierra con un **listón de tapajuntas**: una pieza fina de madera —1–2 cm de grosor, 4–6 cm de ancho— que se clava sobre la junta por el exterior, solapando parte del premarco y parte de las tablas de cerramiento. El tapajuntas no sella herméticamente la junta —la madera necesita respirar— pero impide la entrada directa de agua y fauna.
+
+> ⚠️ **No se usan sellantes de silicona ni espumas expansivas** en estos encuentros. Estos materiales no son adecuados en clima ecuatorial: la expansión y contracción de la madera con la humedad rompe el sellante en pocas semanas, y la junta queda peor que si no se hubiera sellado. El tapajuntas de madera trabaja con la misma dilatación que el cerramiento y no genera ese problema.
+
+---
+
+# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
+
+---
+
+**1. La humedad como factor principal de diseño de carpintería**
+
+La madera en Guinea Ecuatorial trabaja mucho con la humedad: se dilata en la estación lluviosa y se contrae en la seca. Las puertas fabricadas sin tolerancia suficiente se atascan en la estación lluviosa. La tolerancia mínima de 3–5 mm por lado no es opcional: es la que permite que la puerta funcione durante todo el año.
+
+**2. Particiones y ventilación cruzada**
+
+Una partición que llega hasta la cubierta y no tiene ventana ni hueco de ventilación puede bloquear la ventilación cruzada de la vivienda. En el clima ecuatorial, esto aumenta la temperatura y la humedad interior. Si la distribución lo permite, las particiones se rematan a 2 metros de altura y dejan libre la zona superior. En viviendas con falso techo, esta solución no es posible: en ese caso, se prevé al menos un hueco de ventilación en la parte alta de cada partición.
+
+**3. Puertas exteriores: sentido de apertura**
+
+Las puertas exteriores abren siempre hacia el interior de la vivienda. Una puerta que abre hacia el exterior puede quedar bloqueada por el barro o la vegetación después de una lluvia intensa. Además, la hoja queda más protegida de la lluvia cuando está abierta.
+
+**4. El tapajuntas como primera línea de mantenimiento**
+
+El tapajuntas de madera es la pieza que más se deteriora con el tiempo en la carpintería. Una revisión anual permite detectar piezas sueltas o con pudrición incipiente y sustituirlas antes de que el agua entre en la junta. Es una tarea sencilla que no requiere desmontar la carpintería.
+
+**5. Fabricación de carpintería en taller local**
+
+En la región de Bata y en los municipios del interior fang existen carpinteros locales con experiencia en fabricación de puertas y ventanas sencillas. La prefabricación en taller mejora la calidad del resultado y libera tiempo de obra para otras tareas. Se recomienda encargar la carpintería con suficiente antelación: las puertas necesitan al menos 1–2 semanas de secado antes de colgarlas.
+
+**6. Lamas fijas como solución de bajo mantenimiento**
+
+Las lamas fijas de madera son la solución de ventana con menor mantenimiento y mayor durabilidad en este contexto. No tienen partes móviles que puedan desajustarse ni mosquitera que se deteriore. Su único inconveniente es que no permiten regular la ventilación: si se quiere reducir el paso de aire en la estación seca, se necesita una hoja abatible. Para estancias de uso frecuente —dormitorios, zona de estar— las lamas fijas combinadas con una mosquitera de bastidor desmontable es la solución más equilibrada.
+
+**7. Termitas en la carpintería**
+
+Las puertas y ventanas fabricadas con madera de baja densidad pueden ser atacadas por termitas, especialmente en la zona inferior, más próxima al suelo. Se recomienda usar madera de alta densidad para los travesaños inferiores de las hojas de puerta y aplicar tratamiento preventivo en esa zona. La inspección periódica del estado de la carpintería debe incluir la comprobación de la zona baja de todas las hojas.
+
+---
+
+## Resumen: comprobaciones antes de avanzar
+
+Antes de dar la vivienda por terminada, verificar que se han completado correctamente estos puntos:
+
+- [ ] Las particiones interiores no están en contacto con ninguna correa o viga de cubierta de forma que transmitan cargas verticales.
+- [ ] Las soleras de arranque de las particiones están bien clavadas al suelo y no presentan movimiento.
+- [ ] Todos los montantes de las particiones están aplomados en las dos direcciones.
+- [ ] Las tablas de cerramiento de las particiones están bien clavadas y no presentan holgura visible.
+- [ ] Todos los huecos de paso tienen dintel horizontal colocado.
+- [ ] Todos los premarcos están aplomados y escuadrados, sin deformación.
+- [ ] Todas las hojas de puerta tienen la tolerancia suficiente y abren y cierran sin rozar.
+- [ ] Las bisagras están bien fijadas y no presentan juego.
+- [ ] Las hojas de puerta tienen el diagonal de rigidización en la dirección correcta: desde la esquina inferior del lado de las bisagras hasta la esquina superior del lado del cierre.
+- [ ] Todas las ventanas tienen premarco instalado y la solución de hoja elegida correctamente fijada.
+- [ ] Los alféizares de ventana tienen goterón y vuelo suficiente hacia el exterior.
+- [ ] Los dinteles de puertas y ventanas exteriores tienen protección frente a la entrada de agua.
+- [ ] Los tapajuntas perimetrales están colocados en todas las carpinterías exteriores.
+
+---
+
+
+
+---
+
+<div style="page-break-before: always;"></div>
+
+# **Mantenimiento**
+
+---
+
+Una vivienda bien construida necesita revisiones periódicas para mantener su integridad a lo largo del tiempo. En Guinea Ecuatorial, el clima ecuatorial acelera todos los procesos de degradación: la humedad constante pudre la madera, las lluvias intensas desgastan los materiales y las termitas actúan sin pausa durante todo el año. Lo que en un clima templado tarda décadas en deteriorarse, en este entorno puede manifestarse en una o dos temporadas.
+
+El mantenimiento no es una tarea excepcional. Es parte del ciclo de vida normal de la vivienda y debe integrarse en los hábitos de la familia desde el primer año. El coste de una revisión anual es mínimo. El coste de reparar una viga atacada por termitas o un muro de bloques fisurado por humedad es muy alto, y en algunos casos puede comprometer la seguridad estructural de toda la casa.
+
+> 🔑 **Regla de oro:** Una patología detectada a tiempo es siempre una reparación sencilla. La misma patología ignorada durante dos temporadas puede convertirse en una intervención estructural.
+
+---
+
+## Estructura general
+
+Esta sección cubre tres bloques:
+
+1. **CALENDARIO DE REVISIONES** — Cuándo revisar y qué buscar en cada momento del año.
+2. **INSPECCIONES POR ELEMENTO** — Cómo revisar cada parte de la vivienda y qué señales indican un problema.
+3. **ACTUACIONES FRECUENTES** — Cómo actuar ante los problemas más habituales: termitas, tablas dañadas y chapas de cubierta.
+
+---
+
+## **Herramientas necesarias para las revisiones**
+
+- Martillo — para golpear la madera y detectar zonas huecas por ataque de termitas
+- Destornillador o punzón — para presionar la madera y detectar zonas blandas por pudrición
+- Linterna — para inspeccionar el interior del zócalo y las zonas de sombra bajo los aleros
+- Cinta métrica — para medir la apertura de grietas y hacer seguimiento entre revisiones
+- Cubo de agua — para mojar superficies y comprobar la impermeabilidad de revocos y solapes
+- Rotulador indeleble o tiza — para marcar las zonas con anomalías y su fecha de detección
+
+---
+<div style="page-break-after: always;"></div>
+
+# **Parte 1: Calendario de revisiones**
+
+## **Paso 1 · Cuándo y qué revisar**
+
+### ¿Para qué sirve?
+
+Las revisiones se concentran en dos momentos del año que coinciden con los cambios de estación: el inicio de la estación seca y el inicio de la estación lluviosa. Cada momento tiene una lógica distinta.
+
+La **revisión de inicio de estación seca** permite detectar los daños acumulados durante la temporada de lluvias: filtraciones en la cubierta, tablas saturadas de humedad, grietas en el zócalo abiertas por el agua. Es el momento de reparar antes de que la madera húmeda se pudra durante los meses siguientes.
+
+La **revisión de inicio de estación lluviosa** permite comprobar que la vivienda está en condiciones de recibir las lluvias intensas: solapes bien sellados, tornillos de chapa operativos, aleros sin grietas. Es el momento de prevenir antes de que el agua entre.
+
+### Tabla de revisión por elemento y estación
+
+| Elemento | Inicio estación seca | Inicio estación lluviosa |
+|---|---|---|
+| **Zócalo** | Grietas y eflorescencias | Galerías de termitas |
+| **Cerramiento** | Tablas podridas o deformadas | Juntas abiertas y solapes |
+| **Cubierta** | Chapas oxidadas o sueltas | Tornillos y solapes |
+| **Carpintería** | Bisagras y batientes | Ajuste de hojas, filtraciones |
+| **Base de montantes** | Pudrición en pie de pilar | Galerías de termitas |
+| **Alero** | Estado general | Vuelo suficiente, sin grietas |
+
+> ✅ **Recomendación:** Cada revisión se hace en dos partes: primero una vuelta exterior completa alrededor de la vivienda, y luego una inspección interior de cada elemento. El exterior revela los problemas de agua y termitas; el interior revela los problemas de humedad y deformación.
+
+---
+<div style="page-break-after: always;"></div>
+
+# **Parte 2: Inspecciones por elemento**
+
+## **Paso 2 · Inspección del zócalo**
+
+### ¿Qué se busca?
+
+El zócalo de bloques de hormigón es el elemento más expuesto al agua del suelo, las salpicaduras de lluvia y el contacto con la tierra. Sus problemas más frecuentes son tres: las grietas estructurales, las eflorescencias y las galerías de termitas.
+
+### Grietas
+
+Se distinguen dos tipos de grieta con consecuencias muy distintas:
+
+**Grietas de retracción** — Fisuras finas, superficiales, en forma de red o de pelo, que aparecen en la superficie del revoco o del bloque. No comprometen la estructura. Se sellan con mortero fino o pintura impermeabilizante.
+
+**Grietas estructurales** — Grietas de más de 1 mm de apertura, con dirección definida —generalmente diagonal o vertical— que atraviesan el bloque de lado a lado. Pueden indicar movimiento del terreno, asiento diferencial de la fundación o sobrecarga puntual. Requieren valoración técnica antes de actuar.
+
+**Cómo medirlas:** se introduce la punta de un lápiz en la grieta. Si entra más de 1 mm, se marca la grieta con dos líneas perpendiculares en los extremos y se anota la fecha. En la siguiente revisión se comprueba si la grieta ha crecido. Una grieta estabilizada puede sellarse. Una grieta que sigue abriendo requiere valoración técnica.
+
+### Eflorescencias
+
+Las eflorescencias son manchas blancas de sal que aparecen en la superficie del hormigón o del revoco. Indican que el agua está atravesando el muro, disolviendo las sales del interior y depositándolas en la superficie al evaporarse.
+
+Una eflorescencia no es urgente por sí misma, pero señala que hay agua circulando por el interior del muro. Si no se corrige el origen —una junta sin sellar, un drenaje insuficiente, un revoco fisurado— la humedad acabará alcanzando las armaduras de acero y acelerando su corrosión.
+
+**Proceso de inspección:** se moja la superficie con agua y se observa si la mancha blanca reaparece en menos de 24 horas. Si reaparece, la fuente de humedad sigue activa. Si no reaparece, puede tratarse de una eflorescencia antigua ya inactiva.
+
+### Galerías de termitas
+
+Las termitas construyen galerías de tierra desde el suelo hasta la madera que quieren atacar. En el zócalo, estas galerías aparecen como cordones de tierra de color oscuro que suben por la cara exterior del hormigón.
+
+**Proceso de inspección:** se recorre todo el perímetro exterior del zócalo con la linterna, prestando especial atención a las esquinas y a la junta entre el zócalo y el durmiente de madera. Las galerías se detectan mejor al tacto que a la vista: se pasa la mano por la superficie y se notan como protuberancias frágiles que se deshacen al presionarlas.
+
+Si se detecta una galería, se rompe y se elimina. Si en la siguiente revisión ha vuelto a aparecer en el mismo punto, hay una colonia activa cercana y debe actuarse según el protocolo del Paso 6.
+
+<img src="docs/imagenes/mantenimiento.2.png" width="500" alt="Inspección del zócalo" style="display: block; margin: auto;">
+
+---
+
+## **Paso 3 · Inspección del cerramiento**
+
+### ¿Qué se busca?
+
+El cerramiento de tablas horizontales solapadas es el elemento más expuesto a la lluvia lateral y a los ciclos de humedad y secado. Sus problemas más frecuentes son la pudrición de las tablas bajas, la apertura de juntas entre tablas y la deformación de los montantes.
+
+### Pudrición de tablas
+
+La pudrición comienza siempre en los puntos de mayor acumulación de humedad: los extremos de las tablas, la cara inferior del solape y las tres o cuatro hiladas más bajas del cerramiento, que reciben más salpicaduras desde el suelo.
+
+**Proceso de inspección:** se presiona cada tabla con el pulgar o con el punzón. La madera sana resiste sin ceder. La madera podrida cede fácilmente, tiene color más oscuro y puede desprenderse en fibras. En los extremos de las tablas, se presiona la cara de corte: es el punto más vulnerable porque la madera sin tratar absorbe agua por los poros del extremo mucho más que por la cara lateral.
+
+Una tabla con pudrición localizada en un extremo o en la cara inferior del solape puede reemplazarse individualmente. Una tabla con pudrición generalizada que afecta al montante adyacente requiere inspeccionar también ese montante según el proceso descrito a continuación.
+
+### Deformación de montantes
+
+Los montantes de palo rojo son resistentes, pero pueden deformarse si han estado en contacto con humedad de forma continuada —especialmente en el pie, en el punto de unión con el durmiente.
+
+**Proceso de inspección:** se mira la línea de fachada desde uno de los extremos del muro. Los montantes deben formar una línea recta y vertical. Un montante que sobresale o se hunde respecto a los demás indica deformación. Se confirma colocando un listón recto contra la cara del muro: cualquier holgura mayor de 1 cm entre el listón y el montante indica una deformación que debe evaluarse.
+
+Se golpea la base de cada montante con el martillo. El sonido debe ser macizo y seco. Un sonido hueco o apagado indica que la madera ha perdido densidad por ataque de termitas o por pudrición interna.
+
+### Juntas abiertas en solapes
+
+Con los ciclos de humedad y secado, las tablas pueden contraerse y abrir las juntas de solape. Una junta abierta de más de 3 mm permite la entrada de agua de lluvia lateral cuando el viento es fuerte.
+
+**Proceso de inspección:** se moja la fachada con un cubo de agua desde arriba y se observa desde el interior si aparece agua en la cara interior de las tablas. Si aparece, la junta está abierta y debe corregirse.
+
+<img src="docs/imagenes/mantenimiento.3.png" width="500" alt="Inspección del cerramiento" style="display: block; margin: auto;">
+
+---
+
+## **Paso 4 · Inspección de la cubierta**
+
+### ¿Qué se busca?
+
+La cubierta de chapa de zinc es el elemento más expuesto a la radiación solar, a las lluvias intensas y al viento. Sus problemas más frecuentes son la oxidación de las chapas, el fallo de los tornillos de fijación y la apertura de los solapes.
+
+### Inspección exterior de la chapa
+
+La inspección de la chapa se hace desde el suelo con buena luz, o subiendo a la cubierta con precaución extrema. En Guinea Ecuatorial, la chapa caliente bajo el sol puede producir quemaduras graves al contacto. La inspección exterior se realiza siempre en las primeras horas de la mañana, antes de las 8 h, o al atardecer.
+
+**Qué buscar:**
+
+- **Chapas sueltas:** se detectan porque vibran o producen un golpeteo metálico con el viento. Desde el suelo se ven porque han perdido la alineación con las chapas adyacentes o presentan un vuelo ligeramente levantado en el borde.
+- **Oxidación:** aparece primero en los bordes cortados de las chapas —donde el zinc de protección no cubre el acero interior— y en las zonas donde el agua se estanca. Se identifica por manchas de color marrón rojizo. Una oxidación superficial puede tratarse con pintura anticorrosión. Una oxidación que ha perforado la chapa requiere sustitución.
+- **Tornillos sin arandela operativa:** la arandela de neopreno envejece y se aplana con el tiempo, dejando de sellar el agujero. Se detectan desde arriba viendo si la arandela está plana y dura o si el tornillo presenta movimiento al presionarlo con el dedo.
+
+### Inspección de solapes y cumbrera
+
+Los solapes entre chapas son los puntos más vulnerables a las filtraciones. Se inspeccionan desde el interior de la vivienda durante o inmediatamente después de una lluvia intensa.
+
+**Proceso de inspección interior:** se observa la cara inferior de la chapa y el falso techo durante la lluvia con una linterna. Las manchas oscuras de humedad o las gotas activas señalan el punto de filtración. Se marca la posición con tiza para localizar el punto exacto desde el exterior una vez pare la lluvia.
+
+La cumbrera se inspecciona verificando que la pieza de remate no presenta separación respecto a la chapa en ningún punto. Un espacio de más de 5 mm entre la cumbrera y la chapa permite la entrada de agua con viento cruzado.
+
+<img src="docs/imagenes/mantenimiento.4.png" width="500" alt="Inspección de la cubierta" style="display: block; margin: auto;">
+
+---
+
+## **Paso 5 · Inspección de la carpintería**
+
+### ¿Qué se busca?
+
+Las puertas y ventanas son los elementos con más partes móviles de la vivienda. Sus problemas más frecuentes son el desajuste del batiente, la oxidación de las bisagras y la pudrición del premarco en la zona de contacto con el cerramiento.
+
+### Bisagras
+
+Las bisagras de acero en clima ecuatorial húmedo pueden oxidarse en una o dos temporadas si no reciben mantenimiento. La oxidación bloquea el movimiento de la hoja y puede llegar a partir la bisagra si se fuerza.
+
+**Proceso de inspección:** se abre y cierra la hoja varias veces. El movimiento debe ser suave y sin resistencia. Se comprueba que los tornillos de fijación de cada bisagra están apretados: una bisagra con tornillos flojos transmite el peso de la hoja al marco de forma irregular y acelera el desgaste. Se aplica unas gotas de aceite de motor usado en el eje de cada bisagra como mantenimiento preventivo.
+
+### Batiente y ajuste de la hoja
+
+Con los ciclos de humedad, la madera de la hoja puede hincharse y hacer que la puerta no cierre correctamente, o contraerse y dejar una junta abierta que permite la entrada de lluvia y mosquitos.
+
+**Proceso de inspección:** se cierra la puerta y se observa la junta perimetral desde el exterior con luz de fondo. Cualquier luz visible a través de la junta indica una separación. Se mide con una tira de papel: si la tira pasa sin resistencia por la junta, la separación es excesiva.
+
+### Premarco
+
+El premarco es la pieza de madera fija que recibe la hoja. Su punto más vulnerable es la base, donde puede acumular agua de lluvia que rebota desde el suelo.
+
+**Proceso de inspección:** se presiona la base del premarco con el punzón en los cuatro lados del hueco. La madera sana resiste. Si cede, hay pudrición que debe tratarse o sustituirse antes de que progrese hacia los montantes del cerramiento adyacente.
+
+<img src="docs/imagenes/mantenimiento.5.png" width="500" alt="Inspección de la carpintería" style="display: block; margin: auto;">
+
+---
+<div style="page-break-after: always;"></div>
+
+# **Parte 3: Actuaciones frecuentes**
+
+## **Paso 6 · Actuación ante termitas**
+
+### ¿Para qué sirve?
+
+Las termitas son el principal riesgo biológico para la estructura de madera en Guinea Ecuatorial. Una colonia activa puede deteriorar gravemente un montante o un durmiente en una sola temporada de lluvias. La actuación debe ser inmediata en cuanto se confirma un ataque activo.
+
+### Cómo identificar un ataque activo
+
+Un ataque activo se distingue de daños antiguos por tres señales:
+
+**Galerías de tierra frescas:** las galerías recientes tienen un color oscuro uniforme y están húmedas al tacto. Las galerías antiguas abandonadas son de color gris claro y se deshacen en polvo seco al presionarlas.
+
+**Serrín fresco en la base:** si hay serrín de color claro acumulado en la base de un montante o en el pie del durmiente, las termitas están activas en ese punto.
+
+**Sonido hueco al golpear:** se golpea la madera con el martillo a intervalos regulares a lo largo de cada montante. Una madera sana produce un sonido macizo y seco. Una madera con galerías internas produce un sonido hueco, más grave y resonante. El contraste entre zonas sanas y zonas afectadas es claramente audible.
+
+<img src="docs/imagenes/mantenimiento.6.png" width="500" alt="Señales de ataque activo de termitas" style="display: block; margin: auto;">
+
+### Proceso de actuación
+
+1. Se elimina la galería de tierra rascando con un objeto duro. Se examina el interior del canal: si hay termitas vivas en movimiento, la colonia está activa en ese punto.
+
+2. Se localiza el origen de la galería en el suelo exterior, alrededor del zócalo. El origen suele estar en la tierra junto al muro, en restos de madera enterrada o en tocones no retirados durante la limpieza del solar.
+
+3. Se aplica tratamiento de barrera en toda la superficie de la madera expuesta: aceite de motor usado aplicado a brocha, o cualquier producto insecticida de contacto disponible localmente. Se aplica también en el interior de la galería antes de sellarla.
+
+4. Se revisa toda la estructura de madera accesible —durmiente, montantes, cordón inferior de las cerchas— golpeando con el martillo para localizar otras zonas afectadas no visibles desde el exterior.
+
+5. Si el ataque ha alcanzado el interior de un montante y la madera ha perdido sección resistente, el montante debe sustituirse. Esta decisión requiere valoración técnica.
+
+> ⚠️ **La madera podrida no se recupera con tratamiento.** El tratamiento preventivo protege la madera sana. La madera ya atacada con pérdida de sección debe sustituirse.
+
+---
+
+## **Paso 7 · Reparación de una tabla de cerramiento**
+
+### ¿Para qué sirve?
+
+Las tablas de cerramiento son piezas individuales que pueden reemplazarse sin desmontar el conjunto. Esta es una de las ventajas del sistema de tablas solapadas frente a otros sistemas de cerramiento: la reparación es local, no requiere intervenir en el resto de la fachada y puede realizarla un carpintero local sin herramientas especiales.
+
+### Materiales necesarios
+
+- Tabla nueva de las mismas dimensiones que la existente
+- Martillo y formón
+- Palanca pequeña o pie de cabra
+- Clavos del mismo tipo que los existentes
+- Tratamiento preventivo: aceite de motor usado o similar
+
+### Proceso
+
+1. Se identifican los clavos que fijan la tabla dañada a cada montante. Se introduce el formón entre la tabla dañada y la tabla superior para hacer palanca y aflojar los clavos sin forzar la madera adyacente.
+
+<img src="docs/imagenes/mantenimiento.7.1.png" width="500" alt="Extracción de la tabla dañada" style="display: block; margin: auto;">
+
+2. Se extrae la tabla dañada con cuidado de no deteriorar las tablas adyacentes. Se comprueba el estado del montante en la zona de contacto: si hay inicio de pudrición o galerías de termitas, se trata antes de continuar.
+
+3. Se corta la tabla nueva a la misma longitud que la extraída. Se aplica tratamiento preventivo en todos los cantos de corte —especialmente en los extremos— antes de colocarla.
+
+4. Se presenta la tabla nueva en la posición correcta, con el mismo solape e inclinación que las tablas adyacentes. Se comprueba que la junta queda bien cerrada antes de clavar.
+
+5. Se clava la tabla nueva en cada montante con al menos un clavo. Se verifica que el solape con la tabla superior y con la tabla inferior es el mismo que en el resto del cerramiento.
+
+<img src="docs/imagenes/mantenimiento.7.2.png" width="500" alt="Colocación de la tabla nueva" style="display: block; margin: auto;">
+
+> ✅ **Comprobación final:** Se vierte agua sobre la zona reparada desde la tabla superior y se comprueba desde el interior que no hay filtración. Si el agua entra, el solape o la inclinación no son correctos y deben ajustarse antes de dar la reparación por terminada.
+
+---
+
+## **Paso 8 · Reparación de una chapa de cubierta**
+
+### ¿Para qué sirve?
+
+Una chapa suelta o perforada puede sustituirse individualmente sin necesidad de desmontar la cubierta entera. El proceso requiere trabajo en altura y debe realizarse siempre en las primeras horas de la mañana, cuando la chapa no está caliente.
+
+### Materiales necesarios
+
+- Chapa nueva del mismo calibre y corrugado que la existente
+- Tornillos autorroscantes para chapa con arandela de neopreno nueva
+- Destornillador o taladro manual
+- Tijeras de chapa o disco de corte para ajustar longitudes si es necesario
+- Cuerdas de seguridad y andamio o caballete provisional
+
+> ⚠️ **Nunca se trabaja sobre la chapa sin asegurarse de que los rastreles y las cerchas están en buen estado.** Antes de subir, se comprueba desde el interior que la estructura de madera bajo la zona a reparar no presenta deformación ni pérdida de sección.
+
+### Proceso
+
+1. Se localizan desde el interior los tornillos que fijan la chapa dañada, anotando su posición exacta para poder retirarlos desde arriba.
+
+2. Se retiran los tornillos de la chapa dañada con el destornillador. Si la chapa está sólo suelta —sin perforación ni oxidación grave—, puede reapretarse con tornillos nuevos con arandela nueva sin necesidad de sustituirla.
+
+3. Si la chapa debe sustituirse, se desliza hacia arriba con cuidado de no levantar las chapas adyacentes y se extrae por el alero o por el hastial, según la posición.
+
+<img src="docs/imagenes/mantenimiento.8.1.png" width="500" alt="Extracción de la chapa dañada" style="display: block; margin: auto;">
+
+4. Se presenta la chapa nueva en la posición correcta, respetando el solape mínimo de 20 cm con la chapa inferior y una corruga completa con las chapas laterales.
+
+5. Se fijan los tornillos nuevos —con arandela de neopreno nueva— siempre en la cresta de la corruga, nunca en el valle. Se aprietan hasta que la arandela quede ligeramente comprimida pero sin deformarse en exceso.
+
+<img src="docs/imagenes/mantenimiento.8.2.png" width="500" alt="Fijación de la chapa nueva" style="display: block; margin: auto;">
+
+6. Se comprueba la estanqueidad vertiendo agua sobre la zona reparada y observando desde el interior que no hay filtración.
+
+---
+
+# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
+
+---
+
+**1. La estación lluviosa no da margen**
+
+En Guinea Ecuatorial las lluvias intensas pueden aparecer en pocas horas. Una chapa suelta o una junta abierta detectada en la revisión de inicio de estación lluviosa debe repararse en los días siguientes, no en las semanas siguientes. Una tormenta nocturna puede filtrar agua suficiente para saturar el falso techo y dañar el cerramiento interior antes de que haya tiempo de actuar.
+
+**2. Materiales de repuesto en obra**
+
+La distancia a los puntos de venta de materiales puede ser grande, especialmente en las comunidades rurales del interior. Se recomienda guardar siempre un pequeño stock de los materiales de reparación más frecuentes: tres o cuatro tablas de cerramiento del mismo formato, una docena de tornillos de chapa con arandela nueva y un bote de aceite de motor usado para tratamiento de la madera. Este stock permite actuar de inmediato sin depender de un desplazamiento al mercado.
+
+**3. El aceite de motor usado como tratamiento preventivo**
+
+El aceite de motor usado es el tratamiento preventivo más accesible y eficaz disponible localmente. Se aplica a brocha en todos los puntos de corte de madera nueva, en la base de los montantes y en el pie del durmiente. No sustituye a un insecticida específico ante un ataque activo de termitas, pero es una barrera preventiva eficaz y de coste casi nulo.
+
+**4. Implicar a la familia en las revisiones**
+
+Las revisiones semestrales no requieren conocimiento técnico especializado. Una persona de la familia puede aprender a realizar la vuelta exterior —buscar galerías de termitas, tablas deformadas, chapas sueltas— y avisar al carpintero local solo cuando detecte algo. Cuanto antes se detecta el problema, más sencilla es la reparación.
+
+**5. Registro de anomalías**
+
+Se recomienda mantener un registro sencillo de las anomalías detectadas en cada revisión: fecha, elemento afectado y descripción del problema. Este registro permite comparar entre revisiones y detectar si una patología está progresando o se ha estabilizado. Puede ser un cuaderno, un papel pegado en la pared interior o una anotación en el teléfono.
+
+**6. Tocones y restos de madera junto al zócalo**
+
+Los tocones de árbol no extraídos durante la limpieza del solar y los restos de madera acumulados junto al zócalo son los principales focos de colonia de termitas en el entorno inmediato de la vivienda. Se retiran completamente y se mantiene el perímetro exterior de la vivienda libre de materia orgánica en contacto con el suelo.
+
+**7. Revisión tras eventos extremos**
+
+Tras una tormenta especialmente intensa o un viento fuerte, se realiza una revisión extraordinaria de la cubierta y del cerramiento sin esperar a la revisión semestral programada. Los eventos extremos pueden soltar tornillos, abrir solapes o desplazar chapas que hasta ese momento estaban correctamente fijadas.
+
+---
+
+## Resumen: checklist de revisión
+
+Antes de dar por terminada cada revisión semestral, verificar que se han comprobado todos estos puntos:
+
+**Zócalo**
+- [ ] Sin grietas estructurales de más de 1 mm de apertura
+- [ ] Sin eflorescencias activas que reaparezcan en menos de 24 horas
+- [ ] Sin galerías de tierra de termitas en ningún punto del perímetro exterior
+- [ ] Junta entre zócalo y durmiente sin separación ni acumulación de tierra
+
+**Cerramiento**
+- [ ] Todas las tablas resisten la presión del pulgar sin ceder
+- [ ] Ninguna junta de solape permite el paso de agua lateral
+- [ ] Las juntas verticales entre tablas están contrapeadas en todas las hiladas
+- [ ] Todos los montantes producen sonido macizo al golpearlos con el martillo
+- [ ] La base de todos los montantes está seca y sin serrín acumulado
+
+**Cubierta**
+- [ ] Ninguna chapa vibra ni produce golpeteo con el viento
+- [ ] Todos los tornillos tienen la arandela de neopreno operativa
+- [ ] Los solapes longitudinales y transversales están correctamente cerrados
+- [ ] La cumbrera no presenta separación respecto a la chapa en ningún punto
+- [ ] El vuelo de alero lateral es de al menos 60 cm en todo el perímetro
+
+**Carpintería**
+- [ ] Todas las bisagras se mueven con suavidad y tienen los tornillos apretados
+- [ ] Ninguna hoja de puerta o ventana deja junta visible al cerrarse
+- [ ] La base del premarco de todas las puertas y ventanas resiste la presión del punzón
+
+**General**
+- [ ] El perímetro exterior de la vivienda está libre de restos de madera y materia orgánica
+- [ ] No hay agua estancada junto al zócalo en ningún punto
+- [ ] Las anomalías detectadas están registradas con fecha y descripción
+
+---
+
+## ⏭️ Fin de la guía
+
+Esta sección cierra el ciclo completo de construcción y mantenimiento de la vivienda. Una vivienda bien mantenida puede durar décadas en el clima ecuatorial con un esfuerzo anual mínimo. La clave es la constancia en las revisiones y la rapidez en actuar ante las primeras señales de deterioro.
 

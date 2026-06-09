@@ -23,7 +23,7 @@
 
 ---
 
-## 02 · Estructura de permanente · Cimentación
+## 02 · Estructura de permanente · fundación
 
 ### 02.A · Zapata corrida
 * **02.A.1 · Reconocimiento del terreno** — Identificación manual del tipo de suelo (roca, arena, arcilla) para determinar la profundidad.

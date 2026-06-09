@@ -97,7 +97,7 @@ El replanteo consiste en marcar sobre el suelo la posición exacta de cada tabiq
 
 3. Se marcan los **huecos de paso**: los puntos donde irá una puerta o un paso libre entre estancias. Se indican en el suelo con dos marcas que señalan los límites del hueco.
 
-4. Se verifica que la posición de las particiones no coincide con las esperas verticales que vienen de la cimentación ni con los montantes del cerramiento: si una partición chocara con un montante, se desplaza ligeramente hasta quedar en un espacio libre.
+4. Se verifica que la posición de las particiones no coincide con las esperas verticales que vienen de la fundación ni con los montantes del cerramiento: si una partición chocara con un montante, se desplaza ligeramente hasta quedar en un espacio libre.
 
 <img src="imagenes/particiones.2.png" width="500" alt="Replanteo de particiones en el suelo" style="display: block; margin: auto;">
 <!-- PROMPT:
@@ -468,8 +468,3 @@ Con la carpintería instalada, la vivienda está estructuralmente terminada. El 
 
 [← 03. Cubierta](paso04_cubierta.md) | [05. Mantenimiento →](paso99_mantemiento.md)
 
----
-
-*Guía elaborada para el proyecto ADSIDEO Cooperación 2024 — "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial"*
-*UPV · Cátedra MADERAMEN*
-*Versión de trabajo — pendiente de validación técnica y revisión de campo*

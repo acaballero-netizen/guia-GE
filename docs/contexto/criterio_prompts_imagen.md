@@ -130,7 +130,7 @@ y las piernas. El pie de la persona va descalzo.
 
 ---
 
-### Doblar varilla en L (paso1 · cimentación)
+### Doblar varilla en L (paso1 · fundación)
 
 **Antes:**
 ```

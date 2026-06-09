@@ -32,9 +32,9 @@ Antes de excavar o clavar nada, el terreno debe estar preparado. Estos pasos son
 
 ---
 
-## 02 · Cimentación
+## 02 · fundación
 
-La cimentación transmite el peso de toda la vivienda al suelo. Está formada por dos elementos: la zapata corrida (hormigón armado enterrado) y el zócalo (muro de bloques sobre la zapata).
+La fundación transmite el peso de toda la vivienda al suelo. Está formada por dos elementos: la zapata corrida (hormigón armado enterrado) y el zócalo (muro de bloques sobre la zapata).
 
 ### 02.A · Zapata corrida
 
