@@ -48,6 +48,12 @@ SIMPLIFICAR: No se muestra el interior de la vivienda ni la cubierta. Solo el ce
 - Nivel de burbuja o plomada
 - Escuadras metálicas de acero de 3 mm o pletinas de acero galvanizado *(recomendadas para los montantes de esquina)*
 
+### Para la viga de cubierta
+- Palo rojo u otra madera densa local, en sección **8×8 cm** —la misma que los montantes— cortado a la longitud de cada lado del perímetro
+- Clavos de al menos 120 mm
+- Escuadras metálicas de acero galvanizado *(recomendadas en las esquinas)*
+- Nivel de burbuja
+
 ### Para las tablas de cerramiento
 - Tablas de madera local de grosor aproximado 1 cm, ancho a definir según disponibilidad local *(alternativa: tablas obtenidas por desbaste manual con azuela, de grosor irregular pero cara exterior plana)*
 - Clavos de longitud al menos el doble del grosor de la tabla
@@ -68,8 +74,6 @@ SIMPLIFICAR: No se muestra el interior de la vivienda ni la cubierta. Solo el ce
 El durmiente es la pieza de madera que corona el zócalo de bloques de hormigón. Cumple dos funciones simultáneas: sirve de base de anclaje para los montantes verticales y distribuye las cargas de la estructura de madera a lo largo de todo el perímetro del zócalo, evitando que se concentren en puntos aislados.
 
 A diferencia del zuncho de hormigón armado —la solución convencional para rematar el zócalo—, el durmiente de madera simplifica la ejecución y aprovecha el trabajo de la carpintería local. Su correcta preparación antes de colocarlo es la clave de que funcione bien: una pieza mal anclada o húmeda desde el inicio se deteriora y puede comprometer toda la estructura.
-
-<!-- TODO: El equipo técnico debe validar si el durmiente de madera es suficiente como remate del zócalo o si se requiere zuncho de hormigón armado previo. Esta decisión afecta al dimensionado estructural y debe confirmarse antes de fijar la versión definitiva de este apartado. -->
 
 ### Proceso
 
@@ -305,6 +309,53 @@ SIMPLIFICAR: No hay carpintería instalada aún. Solo el hueco formado por los m
 
 ---
 
+## **Paso 8 · La viga de cubierta**
+
+### ¿Para qué sirve?
+
+Una vez colocadas las tablas del cerramiento, los montantes tienen la cabeza libre: no hay ninguna pieza que los una entre sí por arriba. La viga de cubierta es la pieza horizontal de madera que cierra la parte alta de todos los montantes. Cumple dos funciones:
+
+- **Ata los montantes entre sí** para que no se abran ni se inclinen bajo el peso y el empuje de la cubierta.
+- **Recibe las cerchas de la cubierta**: es el punto de apoyo sobre el que descansarán.
+
+Sin esta pieza, cada montante trabaja de forma aislada. Con ella, todo el perímetro superior de la pared queda solidarizado y preparado para recibir la cubierta de forma repartida.
+
+### Proceso
+
+1. Se corta la viga a la longitud de cada lado del perímetro. Si no se dispone de una pieza única de esa longitud, el empalme se hace siempre sobre un montante —nunca en un punto libre entre dos.
+
+2. Se apoya la viga sobre la cabeza de los montantes. La cara exterior de la viga queda enrasada con la cara exterior de los montantes: ni retranqueada hacia dentro ni sobresaliendo hacia fuera.
+
+<img src="imagenes/cerramiento.8.1.png" width="500" alt="Viga de cubierta apoyada sobre los montantes" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en perspectiva de un tramo de cerramiento visto desde fuera y ligeramente desde arriba. El cuadro muestra unos 2 metros de pared: los montantes verticales llegan hasta arriba y la viga horizontal de cubierta acaba de apoyarse sobre ellos.
+ESTADO: La viga está apoyada pero aún no clavada. Se ve claramente cómo queda enrasada con la cara exterior de los montantes. La cara superior de la viga está libre —aún no hay cercha encima.
+ROJO: La viga de cubierta, de extremo a extremo del tramo.
+SIMPLIFICAR: No se muestra el interior ni la cubierta. Solo los montantes, las tablas del cerramiento y la viga recién apoyada.
+-->
+
+3. Se clava la viga a cada montante con al menos dos clavos en diagonal. Los clavos entran desde la cara lateral de la viga hacia el interior del montante, cruzándose entre sí.
+
+4. En las esquinas, las vigas de los dos lados se empalman sobre el montante de esquina. La viga de un lado cubre el canto del montante; la del otro lado apoya contra ella. El empalme se refuerza con una escuadra metálica en la cara interior.
+
+<img src="imagenes/cerramiento.8.2.png" width="500" alt="Empalme de la viga de cubierta en la esquina" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en perspectiva de la esquina superior de la estructura: el montante de esquina y las dos vigas de cubierta que llegan desde cada lado.
+ESTADO: Las dos vigas ya están clavadas. Una de ellas cubre el canto del montante de esquina; la otra apoya contra la cara de la primera. Una escuadra metálica refuerza el empalme en el ángulo interior.
+ROJO: La escuadra metálica y la línea de empalme de las dos vigas.
+SIMPLIFICAR: Solo el montante de esquina y los dos tramos de viga. No hay tablas del cerramiento ni cubierta.
+-->
+
+5. Una vez colocada la viga en todo el perímetro, se comprueba con el nivel que la cara superior está horizontal. Cualquier desnivel en este punto afecta directamente a la regularidad de la cubierta.
+
+### A tener en cuenta
+
+> ⚠️ **Las cerchas de la cubierta apoyan sobre la viga de cubierta, que corona la cabeza de los montantes.** El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Las cerchas no deben apoyar directamente sobre las tablas del cerramiento ni sobre el zuncho de hormigón.
+
+<!-- TODO: Validar con el equipo técnico la sección mínima de la viga de cubierta en función de la separación entre montantes y las cargas previstas de la cubierta del prototipo. La sección de 8×8 cm se propone como valor de referencia. -->
+
+---
+
 # 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 ---
@@ -353,13 +404,15 @@ Antes de pasar a la cubierta, verificar que se han completado correctamente esto
 - [ ] Las esquinas alternan el solapamiento entre hiladas: no hay junta vertical abierta en la esquina.
 - [ ] Los huecos de puerta y ventana están formados por montantes de jamba y listones horizontales de dintel y umbral.
 - [ ] Las tablas no tocan el suelo en ningún punto.
-- [ ] El perímetro superior del cerramiento está bien arriostrado por la última hilada de tablas, listo para recibir la viga de cubierta.
+- [ ] La viga de cubierta está colocada en todo el perímetro, clavada a cada montante y nivelada en su cara superior.
+- [ ] Los empalmes de la viga de cubierta coinciden siempre sobre un montante, nunca en un punto libre entre dos.
+- [ ] Las esquinas de la viga están reforzadas con escuadras metálicas.
 
 ---
 
 ## ⏭️ Siguiente paso: Cubierta
 
-Una vez terminado el cerramiento, con los montantes aplomados y el perímetro superior arriostrado por la última hilada de tablas, se procede a la colocación de la viga de cubierta y la estructura de la techumbre.
+Una vez terminado el cerramiento —montantes aplomados, tablas colocadas y viga de cubierta fijada en todo el perímetro— se procede a la estructura de la cubierta.
 
 [← 01. fundación](paso02_cimentacion.md) | [03. Cubierta →](paso04_cubierta.md)
 

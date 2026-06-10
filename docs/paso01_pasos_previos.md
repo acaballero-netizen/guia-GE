@@ -69,7 +69,7 @@ Esta prueba permite identificar el tipo de suelo en el momento, con las manos y 
 | Mantiene la bola pero es esponjosa o fibrosa. Color oscuro, olor a tierra húmeda | Tierra orgánica o negra | **No apta para cimentar. Retirar completamente antes de excavar** |
 | Bola compacta, rugosa, con partículas visibles. No se ve barro en las manos | Tierra firme o laterítica | Buen soporte. fundación estándar |
 
-> ⚠️ Si el resultado es tierra orgánica o arcilla blanda, consultar la sección de *Tips específicos para Guinea Ecuatorial* al final de este documento antes de continuar. <!-- TODO: añadir link a la seccion que hace referencia -->
+> ⚠️ Si el resultado es tierra orgánica o arcilla blanda, consultar la sección de *Tips específicos para Guinea Ecuatorial* al final de este capítulo antes de continuar.
 
 ---
 
@@ -109,14 +109,16 @@ Una vez que el agua está en reposo y las capas bien formadas, medir con un pali
 
 Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones de la fundación:
 
-| Tipo de suelo | Cómo se reconoce | Profundidad mínima de zapata | Observaciones |
-|---|---|---|---|
-| Roca o grava compacta | Duro, no se deforma al pisar ni al presionar | 40 cm | Excelente. Caso ideal |
-| Arena o tierra firme compacta | No cede al pisarlo. Bola de la prueba se disgrega | 60 cm | Bueno. Caso estándar |
-| Suelo laterítico | Color rojizo, compacto, rugoso | 60 cm | Habitual en zona fang. Buen soporte |
-| Arcilla o tierra blanda | Se deforma al pisarlo. Bola mantiene forma y marcas | 80–100 cm | Retirar si es muy blanda. Mayor riesgo de movimiento |
-| Tierra negra u orgánica | Color oscuro, olor, esponjosa | — | **Retirar completamente. No cimentar sobre ella** |
-| Terreno muy húmedo o con agua | Aparece agua al cavar a menos de 80 cm | — | Consultar con técnico antes de continuar |
+| Tipo de suelo | Cómo se reconoce | Profundidad mínima | Ancho mínimo orientativo | Observaciones |
+|---|---|---|---|---|
+| Roca o grava compacta | Duro, no se deforma al pisar ni al presionar | 40 cm | 40 cm | Excelente. Caso ideal |
+| Arena o tierra firme compacta | No cede al pisarlo. Bola de la prueba se disgrega | 60 cm | 40 cm | Bueno. Caso estándar |
+| Suelo laterítico | Color rojizo, compacto, rugoso | 60 cm | 40 cm | Habitual en zona fang. Buen soporte |
+| Arcilla o tierra blanda | Se deforma al pisarlo. Bola mantiene forma y marcas | 80–100 cm | 50–60 cm | Mayor riesgo de movimiento. Validar con el equipo técnico |
+| Tierra negra u orgánica | Color oscuro, olor, esponjosa | — | — | **Retirar completamente. No cimentar sobre ella** |
+| Terreno muy húmedo o con agua | Aparece agua al cavar a menos de 80 cm | — | — | Consultar con el equipo técnico antes de continuar |
+
+> ⚠️ Los valores de ancho son orientativos para vivienda de una planta con estructura de madera ligera. En suelo blando o arcilloso deben calcularse en función de la carga real y la capacidad portante del terreno. Validar con el equipo técnico antes de excavar.
 
 <!-- TODO: Verificar en campo los tipos de suelo predominantes en los municipios de actuación del proyecto (litoral de Bata, zona interior fang). Esta tabla debe completarse y validarse con los resultados del estudio de campo. -->
 

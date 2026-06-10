@@ -29,11 +29,10 @@
 * **02.A.1 · Reconocimiento del terreno** — Identificación manual del tipo de suelo (roca, arena, arcilla) para determinar la profundidad.
 * **02.A.2 · Excavación de la zanja** — Proceso de excavación con pico y pala manteniendo paredes verticales y fondo plano.
 * **02.A.3 · Hormigón de limpieza** — Vertido de una capa base de hormigón pobre o colocación de lámina plástica de protección.
-* **02.A.4 · Parrilla de armadura horizontal** — Corte, doblado en "L" de los extremos en las esquinas y colocación de las barras sobre calzos.
-* **02.A.5 · Esperas verticales** — Colocación, alineación y fijación con alambre de las varillas que conectarán con el zócalo.
-* **02.A.6 · Dosificación y mezcla del hormigón** — Proporciones y mezclado manual en seco y en húmedo de cemento, arena y grava.
-* **02.A.7 · Vertido y compactación** — Llenado continuo de la zanja, picado manual con barra de hierro para eliminar burbujas y alisado.
-* **02.A.8 · Curado** — Protección con plásticos o hojas y humectación diaria de la zapata durante un mínimo de 7 días.
+* **02.B.4 · Anclaje del durmiente de madera** — Perforación e introducción del durmiente en las esperas y fijación con hormigón fluido.
+* **02.A.5 · Dosificación y mezcla del hormigón** — Proporciones y mezclado manual en seco y en húmedo de cemento, arena y grava.
+* **02.A.6 · Vertido y compactación** — Llenado continuo de la zanja, picado manual con barra de hierro para eliminar burbujas y alisado.
+* **02.A.7 · Curado** — Protección con plásticos o hojas y humectación diaria de la zapata durante un mínimo de 7 días.
 
 ### 02.B · Zócalo
 * **02.B.1 · Preparación de bloques** — Modificación e incisión con martillo y cincel en los bloques para permitir el paso de las esperas.
@@ -41,6 +40,10 @@
 * **02.B.3 · Trabado de hiladas** — Alternancia de las juntas verticales entre hiladas de bloques en forma de "T" para dar resistencia.
 * **02.B.4 · Zuncho perimetral** — Montaje del encofrado de madera, colocación de armaduras horizontales y vertido de la viga superior de atado.
 * **02.B.5 · Anclaje del durmiente de madera** — Perforación e introducción del durmiente en las esperas y fijación con hormigón fluido.
+
+### 02.C · Suelo interior
+* **02.C.1 · Preparación del terreno interior** — Retirada de restos orgánicos, nivelación y compactación dentro del perímetro del zócalo.
+* **02.C.2 · Suelo interior** — Solera de hormigón o tierra laterítica compactada: dos opciones según disponibilidad de recursos.
 
 ---
 
@@ -53,16 +56,17 @@
 * **03.6 · Primera hilada de tablas** — Presentación y clavado horizontal de la tabla base de arranque directamente sobre el durmiente y los pilares.
 * **03.7 · Solape e inclinación de tablas** — Colocación de las tablas consecutivas con solape de 3-4 cm e inclinadas al exterior para repeler el agua.
 * **03.8 · Encuentro de esquina** — Alternancia del solape vertical de las tablas en los ángulos de la vivienda para evitar juntas abiertas.
-* **03.9 · Remate superior del cerramiento** — Ajuste y fijación de la última hilada de tablas en su encuentro con la viga superior o durmiente de cubierta.
+* **03.9 · La viga de cubierta** — Colocación y fijación de la pieza horizontal que corona los montantes, los ata entre sí y recibe las cerchas de la cubierta.
+* **03.10 · Remate superior del cerramiento** — Ajuste y fijación de la última hilada de tablas en su encuentro con la viga de cubierta.
 
 ---
 
 ## 04 · Estructura de madera · Cubierta
 * **04.1 · Qué es una cercha** — Comprensión del funcionamiento y la estabilidad de la estructura triangulada de cubierta.
 * **04.2 · Piezas de la cercha** — Identificación y preparación del tirante, par, montante y tornapunta.
-* **04.3 · Fabricación de la cercha en el suelo** — Ensamblaje completo y prefabricación de las piezas antes del montaje en altura.
+* **04.3 · Fabricación de piezas en el suelo** — Uso de la plantilla para cortar y numerar las piezas, y validación de la geometría mediante una cercha de prueba.
 * **04.4 · Uniones de la cercha** — Ejecución de los nudos estructurales mediante clavado, pletinas metálicas o ensambles tradicionales.
-* **04.5 · Izado y colocación de la cercha** — Elevación manual, aplomado y fijación de las cerchas sobre los pilares estructurales.
+* **04.5 · Montaje de la cercha pieza a pieza** — Colocación progresiva de cada pieza directamente sobre la estructura desde andamios provisionales.
 * **04.6 · Correas** — Instalación de las piezas longitudinales de madera que atan las cerchas y sirven de soporte a la chapa.
 * **04.7 · Colocación de la chapa metálica** — Montaje con solape perimetral de las chapas de zinc y fijación con tornillos o clavos de gancho.
 * **04.8 · Alero** — Ejecución del remate perimetral sobresaliente de la cubierta para desviar la lluvia de las paredes de madera.

@@ -12,10 +12,11 @@ La fundación es la parte de la vivienda que transmite todo el peso al suelo. Si
 
 ## Estructura general
 
-Esta sección cubre dos elementos consecutivos que trabajan juntos:
+Esta sección cubre tres elementos que trabajan juntos:
 
 1. **ZAPATA CORRIDA** — La base enterrada de hormigón armado que reparte el peso de la vivienda sobre el terreno.
 2. **ZÓCALO** — El muro de bloques de hormigón construido sobre la zapata, que eleva la estructura de madera por encima del nivel del suelo y la protege de la humedad y las termitas.
+3. **SUELO INTERIOR** — La superficie sobre la que se pisa dentro de la vivienda. Frena la humedad ascendente, dificulta el acceso de las termitas y sirve de base para las particiones y los umbrales. Se ejecuta después de que la cubierta esté terminada.
 
 ---
 
@@ -52,6 +53,14 @@ Esta sección cubre dos elementos consecutivos que trabajan juntos:
 - Sacos de tela, hojas de plátano, cartones o lámina de plástico — para cubrir el hormigón durante el curado
 - Cubo de agua para el riego de curado
 
+### Para el suelo interior
+- Pisón manual
+- Tierra laterítica rojiza —del propio solar o de un préstamo cercano— para la opción de tierra compactada
+- Arena gruesa o grava fina, para la capa de acabado de la opción de tierra *(opcional)*
+- Lámina de plástico grueso —para la barrera de humedad de la opción hormigón
+- Cemento, arena y grava —misma dosificación que la zapata— para la opción de hormigón
+- Regla o listón recto de madera de al menos 2 m —para enrasar la solera
+
 ---
 <div style="page-break-after: always;"></div>
 
@@ -63,18 +72,11 @@ Esta sección cubre dos elementos consecutivos que trabajan juntos:
 
 El tipo de suelo determina la profundidad de la zapata. Una zapata demasiado superficial en suelo blando puede asentarse o agrietarse con las primeras lluvias intensas. Este paso debe haberse iniciado ya en la fase de pasos previos, donde se describen la prueba de la bola y la prueba del tarro para identificar el suelo. Si aún no se han realizado esas pruebas, hacerlas antes de continuar.
 
-### Profundidades mínimas según tipo de suelo
+### Profundidades y anchos de excavación
 
-| Tipo de suelo | Cómo se reconoce | Profundidad mínima de zapata |
-|---|---|---|
-| Roca o grava compacta | Duro, no se deforma al pisar | 40 cm |
-| Arena o tierra firme compacta | Compacto, no cede al pisarlo. Bola de la prueba se disgrega | 60 cm |
-| Suelo laterítico | Color rojizo, compacto, rugoso. Habitual en zona fang | 60 cm |
-| Arcilla o tierra blanda | Se deforma al pisarlo. Bola mantiene forma y marcas de dedos | 80–100 cm |
-| Tierra negra u orgánica | Color oscuro, olor a tierra húmeda, esponjosa | **No construir. Retirar completamente** |
-| Terreno muy húmedo o con agua | Aparece agua al cavar a menos de 80 cm | Consultar con el equipo técnico antes de continuar |
+La profundidad y el ancho de la zanja dependen del tipo de suelo identificado en el Paso 1 · Análisis del terreno del capítulo de **Pasos previos**. Si aún no se ha realizado ese análisis, hacerlo antes de continuar.
 
-> ⚠️ **Nota:** El diagnóstico detallado de los tipos de suelo en las áreas de intervención está pendiente de trabajo de campo. El equipo técnico debe realizar al menos una cata manual en cada parcela antes de confirmar la profundidad de excavación.
+Como referencia rápida para suelo firme o laterítico: profundidad mínima 60 cm, ancho mínimo 40 cm. En arcilla blanda: 80–100 cm de profundidad y 50–60 cm de ancho. En todos los casos, el equipo técnico debe realizar al menos una cata manual en cada parcela antes de confirmar las dimensiones definitivas.
 
 ---
 
@@ -83,6 +85,14 @@ El tipo de suelo determina la profundidad de la zapata. Una zapata demasiado sup
 ### ¿Para qué sirve?
 
 La zanja es el molde natural donde se construirá la zapata. Sus dimensiones determinan la superficie de apoyo sobre el terreno y el espacio disponible para colocar la armadura con el recubrimiento mínimo necesario —distancia entre la barra de acero y la cara exterior del hormigón que protege el hierro de la humedad.
+
+### Dimensiones de la zanja
+
+La zanja debe tener el **ancho mínimo** indicado en la tabla del Paso 1 según el tipo de suelo. El ancho se mide en el interior de la zanja, de pared a pared.
+
+La referencia de replanteo —el cordel— marca la **cara exterior del muro**. La zanja se desarrolla simétricamente a ambos lados de esa referencia: la mitad del ancho hacia el exterior y la otra mitad hacia el interior de la vivienda.
+
+> 💡 **Ejemplo:** En suelo firme, la zanja tiene 40 cm de ancho. El cordel marca la cara exterior del muro. Se excavan 20 cm hacia fuera del cordel y 20 cm hacia dentro.
 
 ### Proceso
 
@@ -379,6 +389,124 @@ Los huecos interiores de los bloques donde hay esperas verticales deben rellenar
 > ⚠️ Si el hormigón fluido es demasiado líquido, puede salir por las juntas de mortero entre bloques. Se ajusta la consistencia añadiendo menos agua y se tapan temporalmente las juntas inferiores con un trozo de mortero si es necesario.
 
 ---
+<div style="page-break-after: always;"></div>
+
+# **Parte 3: Suelo interior**
+
+El suelo interior es la superficie sobre la que se pisa dentro de la vivienda. Además del uso cotidiano, cumple dos funciones que afectan a la durabilidad del conjunto: frena la humedad que asciende desde el terreno hacia la estructura de madera, y dificulta el acceso de las termitas al interior.
+
+El suelo interior **se ejecuta después de que la cubierta esté terminada**, para que pueda curarse o compactarse protegido de la lluvia. El terreno interior puede prepararse ahora —antes de levantar las paredes— para facilitar el trabajo, pero el acabado final se aplica al final de la obra.
+
+---
+
+## **Paso 11 · Preparación del terreno interior**
+
+### ¿Para qué sirve?
+
+Antes de ejecutar el suelo, el terreno interior debe estar limpio, nivelado y compactado. Un suelo asentado sobre tierra suelta o con restos orgánicos puede hundirse y agrietarse con el tiempo.
+
+### Proceso
+
+1. Se retiran todos los restos orgánicos, raíces y tierra vegetal que queden dentro del perímetro del zócalo.
+
+2. Se nivela el terreno interior hasta alcanzar una cota aproximadamente **15 cm por debajo** de la cara superior del zócalo. Esta diferencia garantiza que el suelo terminado no quede al mismo nivel que el durmiente de madera, evitando el contacto entre la madera y la humedad del suelo.
+
+3. Se compacta el terreno por capas de 10–15 cm con el pisón, igual que en los rellenos exteriores.
+
+<img src="imagenes/cimentacion.suelo.1.png" width="500" alt="Nivelación del terreno interior" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Sección transversal del interior de la vivienda durante la preparación del suelo. El cuadro muestra el zócalo en los dos extremos, el terreno interior nivelado y una persona compactando con el pisón.
+ESTADO: El terreno ya está limpio y nivelado. La persona está compactando con el pisón. Se indica la diferencia de cota entre el nivel del terreno interior y la cara superior del zócalo.
+ROJO: La cota de diferencia entre el nivel del terreno interior y la cara superior del zócalo —los 15 cm de margen.
+SIMPLIFICAR: Solo el zócalo y el terreno interior con el pisón. Sin estructura de madera ni cubierta.
+-->
+
+---
+
+## **Paso 12 · Suelo interior**
+
+### Opción A · Solera de hormigón
+
+La solera de hormigón es la opción más duradera e higiénica. Una vez fraguada, proporciona una superficie dura, fácil de limpiar y resistente a la humedad ascendente.
+
+#### Materiales
+- Lámina de plástico grueso
+- Cemento, arena y grava en proporción 1 : 2 : 3
+- Regla o listón recto de al menos 2 m
+- Fratacho o tabla lisa húmeda para alisar
+
+#### Proceso
+
+1. Se extiende la **lámina de plástico** sobre el terreno compactado, cubriendo toda la superficie. Los solapes entre piezas son de al menos 20 cm. La lámina sube también por las caras interiores del zócalo unos 5 cm para cortar la humedad en el encuentro.
+
+<img src="imagenes/cimentacion.suelo.2a.png" width="500" alt="Lámina de plástico en el suelo interior" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en perspectiva del interior de la vivienda con la lámina de plástico extendida sobre el terreno compactado. El cuadro muestra la superficie cubierta, los solapes entre piezas y cómo la lámina sube por la cara interior del zócalo.
+ESTADO: La lámina ya está colocada. Los solapes son visibles. El borde sube unos 5 cm por la cara interior del zócalo.
+ROJO: Los solapes entre piezas de lámina y el borde que sube por el zócalo.
+SIMPLIFICAR: Solo la lámina en el suelo y el zócalo perimetral. Sin estructura de madera ni cubierta.
+-->
+
+2. Se vierte el hormigón sobre la lámina. El espesor mínimo recomendado es de **8 cm**.
+
+3. Se extiende y enrasa el hormigón con la regla, apoyando sus extremos sobre la cara interior del zócalo para mantener la cota uniforme.
+
+4. Una vez enrasado, se alisa la superficie con el fratacho o una tabla lisa húmeda.
+
+5. Se cura durante al menos **7 días**: se cubre con sacos húmedos, hojas de plátano o lámina de plástico y se riega cada mañana.
+
+<img src="imagenes/cimentacion.suelo.2b.png" width="500" alt="Enrase de la solera de hormigón" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista en perspectiva del interior durante el enrase del hormigón. Se ve a una persona usando la regla apoyada sobre los dos lados del zócalo para nivelar el hormigón fresco.
+ESTADO: El hormigón ya está vertido. La persona arrastra la regla de un lado al otro, dejando la superficie plana.
+ROJO: La regla y los dos puntos de apoyo sobre el zócalo que sirven de referencia de cota.
+SIMPLIFICAR: Solo el interior con el hormigón fresco, la regla y el zócalo. Sin techo ni estructura de madera.
+-->
+
+> ⚠️ La solera no debe quedar en contacto con el durmiente de madera. Debe existir siempre una pequeña separación entre la cara superior de la solera y la cara inferior del durmiente para que la madera no absorba humedad desde el hormigón.
+
+---
+
+### Opción B · Suelo de tierra compactada
+
+El suelo de tierra compactada es la solución de coste cero y la más habitual en la construcción local. Correctamente ejecutado y mantenido, es una superficie estable, fresca y culturalmente integrada.
+
+#### Materiales
+- Tierra laterítica rojiza —del solar o de un préstamo cercano
+- Arena gruesa o grava fina para la capa de acabado *(opcional)*
+- Pisón manual
+
+#### Proceso
+
+1. Sobre el terreno compactado del Paso 11, se añade una capa de **tierra laterítica** de 5–8 cm. La tierra laterítica —el suelo rojizo habitual en la región— compacta bien y resiste el tránsito cuando se trabaja húmeda.
+
+2. Se humedece ligeramente la capa y se compacta con el pisón hasta que la superficie esté dura y no ceda al pisar.
+
+3. Opcionalmente, se extiende una capa fina de **arena gruesa o grava fina** (1–2 cm) como acabado. Reduce el polvo y mejora el drenaje de pequeños derrames.
+
+<img src="imagenes/cimentacion.suelo.3.png" width="500" alt="Compactación del suelo de tierra" style="display: block; margin: auto;">
+<!-- PROMPT:
+ENCUADRE: Vista lateral del interior de la vivienda durante la compactación de la capa de tierra. Se ve a una persona usando el pisón sobre una capa de tierra rojiza húmeda.
+ESTADO: La tierra está extendida. La persona golpea con el pisón. La zona ya compactada es visible, más oscura y lisa que la zona aún suelta.
+ROJO: El pisón y la línea que separa la zona ya compactada de la zona aún por compactar.
+SIMPLIFICAR: Solo la persona, el pisón y la capa de tierra. Sin techo ni estructura de madera.
+-->
+
+#### Mantenimiento
+
+El suelo de tierra requiere revisión periódica: al inicio de cada estación seca se identifican las zonas hundidas o disgregadas, se añade tierra laterítica húmeda y se recompacta. Si con el tiempo se dispone de recursos, puede aplicarse una solera de hormigón directamente encima sin necesidad de demoler nada.
+
+> 💡 El suelo de tierra es un punto de partida, no una solución definitiva. Puede mejorarse progresivamente a medida que los recursos lo permitan.
+
+---
+
+### A tener en cuenta — ambas opciones
+
+El encuentro entre el suelo interior y la base del zócalo es el punto más vulnerable a la entrada de agua. La cara exterior del zócalo al nivel del suelo exterior debe quedar siempre **por encima** de la cara superior del suelo interior, para que el agua de lluvia no entre rebosando hacia el interior.
+
+<!-- TODO: Documentar en la próxima misión de campo qué tipo de suelo interior es más habitual en las viviendas de la región: tierra compactada, hormigón, cerámica u otro acabado. Verificar también si existe algún material o técnica local de estabilización del suelo (cal, ceniza, mezcla de arcilla y arena) que pueda integrarse como tercera opción. -->
+
+---
 
 # 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
@@ -442,12 +570,15 @@ Antes de pasar al cerramiento de madera, verificar que se han completado correct
 - [ ] El zócalo tiene al menos 3 hiladas de bloque sobre el nivel del suelo terminado.
 - [ ] Los huecos con esperas se han rellenado con hormigón fluido.
 - [ ] La cara superior del zócalo está limpia y libre de mortero suelto, lista para recibir el cerramiento.
+- [ ] El terreno interior está limpio de restos orgánicos, nivelado y compactado.
+- [ ] El suelo interior está ejecutado —solera de hormigón o tierra compactada— o el terreno interior está preparado y el suelo se ejecutará tras terminar la cubierta.
+- [ ] La cara superior del suelo interior queda al menos 5 cm por debajo de la cara inferior del durmiente de madera.
 
 ---
 
 ## ⏭️ Siguiente paso: Cerramiento
 
-Una vez terminado el zócalo con la cara superior limpia y nivelada, se procede a la colocación del durmiente de madera y los montantes verticales que forman la estructura de la pared.
+Una vez terminado el zócalo —y con el terreno interior preparado o el suelo ya ejecutado— se procede a la colocación del durmiente de madera y los montantes verticales que forman la estructura de la pared. Si el suelo interior no se ha ejecutado aún, se retoma al final de la obra, una vez terminada la cubierta.
 
 [← 00. Pasos previos](paso01_pasos_previos.md) | [02. Cerramiento →](paso03_cerramiento.md)
 

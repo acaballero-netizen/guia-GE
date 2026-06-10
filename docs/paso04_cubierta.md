@@ -112,6 +112,14 @@ El vuelo lateral se obtiene dejando que el cordón superior de la cercha sobresa
 
 Antes de cortar ninguna pieza, se traza la geometría completa de la cercha sobre una superficie plana: el suelo de tierra compactada o una losa de hormigón sirven perfectamente. Este dibujo a escala real es la plantilla que guía todo el corte y ensamble y garantiza que todas las cerchas sean idénticas entre sí.
 
+**Coordinación con el módulo del cerramiento:**
+
+La posición de cada cercha no puede elegirse de forma independiente. Cada cercha debe caer exactamente encima de un montante del cerramiento: es la única forma de que la carga baje en línea recta desde la cubierta hasta la fundación. Si una cercha cae en el punto medio entre dos montantes, la viga de cubierta tiene que soportar esa carga en voladizo —esfuerzo para el que no está dimensionada.
+
+Esto significa que **la separación entre cerchas debe ser igual al módulo del cerramiento** —la distancia de eje a eje entre montantes— o un múltiplo de él. Si el módulo del cerramiento es de 80 cm, las cerchas van a 80 cm o a 160 cm entre ejes. Esta coordinación debe quedar resuelta en el plano antes de empezar la obra.
+
+<!-- TODO: Confirmar el módulo definitivo del prototipo y verificar que la separación entre cerchas es un múltiplo exacto de ese módulo. Actualizar ambos documentos (cerramiento y cubierta) de forma coordinada cuando esté validado. -->
+
 ### Proceso
 
 1. Se traza sobre el suelo la línea del **cordón inferior**: una línea recta horizontal de la longitud total de la cercha, incluyendo los vuelos de alero si los lleva incorporados.
@@ -180,11 +188,15 @@ Todas las piezas interiores deben estar **en el mismo plano** que los cordones. 
 
 ---
 
-## **Paso 4 · Ensamble de la cercha**
+## **Paso 4 · Cercha de prueba: validación de geometría en el suelo**
 
 ### ¿Para qué sirve?
 
-La cercha se ensambla completamente en el suelo, sobre el replanteo, antes de montarla en su posición definitiva. Esto garantiza la precisión geométrica y reduce los errores que se producirían al trabajar en altura.
+Antes de subir ninguna pieza, se ensambla **una única cercha completa en el suelo** sobre el replanteo. Esta cercha no se iza: su función es exclusivamente verificar que todos los cortes son correctos, que las piezas encajan sin holguras y que la geometría del conjunto es la prevista.
+
+Una vez validada, las piezas se **numeran con lápiz o marca de sierra** y se desmonta la cercha. A partir de ese momento, todas las cerchas —incluida esta primera— se montan **pieza a pieza en altura** (ver Paso 5).
+
+Detectar un corte incorrecto en el suelo, antes del montaje, es mucho más fácil que corregirlo desde un andamio.
 
 ### Tipos de unión
 
@@ -210,13 +222,18 @@ La cercha se ensambla completamente en el suelo, sobre el replanteo, antes de mo
 
 <img src="imagenes/cubierta.4.png" width="500" alt="Detalle del nudo de apoyo sobre pilar" style="display: block; margin: auto;">
 <!-- PROMPT:
-ENCUADRE: Vista en perspectiva de detalle del nudo de apoyo de la cercha sobre la cabeza del pilar. El cuadro muestra unos 40 cm de altura: la parte alta del pilar, el extremo del cordón inferior apoyado directamente sobre él, y la pletina metálica que une ambos elementos.
-ESTADO: La unión ya está hecha. El cordón inferior apoya directamente sobre la cabeza del pilar —no sobre el zuncho. La pletina está fijada con tornillos a ambas piezas.
-ROJO: La pletina metálica y la superficie de contacto entre el cordón y la cabeza del pilar.
-SIMPLIFICAR: No se muestra el muro ni el zócalo. Solo la cabeza del pilar, el extremo de la cercha y la pletina.
+ENCUADRE: Vista en perspectiva de detalle del nudo de apoyo. El cuadro muestra unos 55 cm de altura: la parte alta del montante, la viga de cubierta apoyada sobre su cabeza, y el extremo del cordón inferior de la cercha apoyado sobre la viga —exactamente en la vertical del montante.
+ESTADO: La unión ya está hecha. El cordón inferior apoya sobre la viga de cubierta, en el punto exacto donde el montante soporta la viga desde abajo. La pletina metálica une el cordón inferior a la viga de cubierta. Los tres elementos —cercha, viga y montante— quedan en línea vertical.
+ROJO: La línea vertical de transmisión de cargas que une el extremo del cordón inferior, la viga de cubierta y la cabeza del montante. La pletina metálica.
+SIMPLIFICAR: No se muestra el cerramiento de tablas ni el zócalo. Solo el montante, la viga de cubierta encima y el extremo de la cercha con la pletina.
 -->
 
-> ✅ **Comprobación final:** Se levanta ligeramente la cercha del suelo con ayuda de varios operarios y se comprueba que no presenta deformación visible. Si la cercha se tuerce o pandea al elevarla, hay un fallo en alguna unión que debe corregirse antes de subirla.
+> ✅ **Comprobación final antes de desmontar:** Con la cercha aún en el suelo, verificar tres puntos:
+> 1. Todas las piezas están **en el mismo plano** — ningún montante o diagonal sobresale hacia delante o hacia atrás respecto a los cordones.
+> 2. Las **diagonales del triángulo principal son iguales** — confirma que la geometría no está torcida.
+> 3. Todos los nudos tienen **contacto completo** entre piezas, sin holguras visibles.
+>
+> Si todo es correcto, **numerar cada pieza** con lápiz o marca de sierra antes de desmontar. Las piezas de esta primera cercha sirven como plantilla de longitud y ángulo para cortar las siguientes.
 
 ---
 
@@ -242,7 +259,7 @@ SIMPLIFICAR: No se muestra la cubierta completa. Solo los pilares, los puntales 
 
 ### Proceso de montaje pieza a pieza
 
-1. Se sube y coloca el **cordón inferior** sobre la cabeza de los pilares. Se sujeta provisionalmente con puntales y cuerda antes de fijarlo de forma definitiva.
+1. Se sube y coloca el **cordón inferior** sobre la viga de cubierta, en la posición exacta del montante. Se sujeta provisionalmente con puntales y cuerda antes de fijarlo de forma definitiva.
 
 2. Desde ambos extremos y trabajando hacia la cumbrera, se suben y encajan los **cordones superiores**, pieza a pieza. Cada pieza se apoya en el nudo del cordón inferior y se sujeta provisionalmente con cuerda al punto anterior.
 
@@ -262,8 +279,9 @@ ROJO: El cordón superior que se está colocando y el punto de la cumbrera donde
 SIMPLIFICAR: No se muestra el interior de la vivienda. Solo la estructura exterior y el operario en el andamio.
 -->
 
-> ⚠️ **Las cerchas deben apoyar siempre sobre la cabeza de los pilares**, nunca sobre el zuncho de coronación del muro. El zuncho no está diseñado para recibir cargas concentradas de esta magnitud. Un apoyo incorrecto sobre el zuncho es una de las causas de fallo más frecuentes en la construcción local. La posición del pilar y el punto de apoyo de la cercha deben coincidir desde la fase de diseño.
-
+> ⚠️ **Cada cercha debe caer directamente sobre un montante.** La viga de cubierta no está dimensionada para recibir la carga de una cercha en el punto medio entre dos montantes: si eso ocurre, la viga trabaja en flexión y puede doblarse o partirse.
+>
+> El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Este recorrido solo funciona si la posición de cada cercha coincide con la posición de un montante. Si la separación entre cerchas no coincide con el módulo del cerramiento, hay un error de diseño que debe corregirse antes del montaje.
 ---
 
 ## **Paso 6 · Arriostramiento entre cerchas**
@@ -288,7 +306,7 @@ ROJO: La cruz de San Andrés y los rastreles transversales que arriostran el con
 SIMPLIFICAR: No se muestra la chapa ni el falso techo. Solo las cerchas y los elementos de arriostramiento.
 -->
 
-<!-- TODO: Definir la separación definitiva entre cerchas en función de las secciones de rastrel disponibles localmente y las luces del prototipo. Como referencia orientativa, una separación de 80–100 cm entre ejes de cercha es habitual en construcción ligera de madera. Validar con el equipo técnico. -->
+<!-- TODO: Definir la separación definitiva entre cerchas. Debe cumplir dos condiciones simultáneas: (1) ser un múltiplo del módulo del cerramiento para que cada cercha caiga sobre un montante; (2) ser compatible con la sección de los rastreles disponibles localmente. Validar ambas condiciones con el equipo técnico antes de fijar el valor definitivo. -->
 
 ---
 <div style="page-break-after: always;"></div>
@@ -435,9 +453,11 @@ La cámara de aire entre la chapa y el falso techo funciona por convección natu
 
 ---
 
-**1. El apoyo de la cercha: sobre el pilar, no sobre el zuncho**
+**1. La posición de la cercha: siempre sobre un montante, nunca en medio del vano**
 
-En la práctica constructiva local, las cerchas frecuentemente se apoyan sobre el zuncho de coronación del muro en lugar de sobre la cabeza de los pilares. El zuncho no está diseñado para recibir cargas concentradas de esa magnitud. Las cerchas deben apoyar directamente sobre los pilares, de forma que la carga baje verticalmente desde la cubierta hasta la fundación. La posición del pilar y el punto de apoyo de la cercha deben coincidir desde la fase de diseño de la planta.
+Uno de los errores más frecuentes en la construcción local es colocar las cerchas en posiciones que no coinciden con los montantes del cerramiento. Cuando la cercha cae en el punto medio entre dos montantes, la viga de cubierta tiene que aguantar esa carga en el centro del vano —para lo que no está dimensionada. El resultado es visible: la viga se dobla, el muro se deforma y la cubierta pierde estabilidad.
+
+La solución debe tomarse antes de empezar la obra: la separación entre cerchas debe ser igual al módulo del cerramiento —la distancia entre montantes— o un múltiplo de él. Cercha y montante deben quedar en la misma línea vertical. Si eso no se cumple en el diseño, no puede corregirse en la obra.
 
 **2. El ruido de la lluvia**
 
