@@ -1,0 +1,9 @@
+@media print {
+  body, p, li, td, th {
+    font-size: 8pt; /* cambia este valor: 9pt, 10pt, 11pt… */
+  }
+
+  h1 { font-size: 16pt; }
+  h2 { font-size: 12pt; }
+  h3 { font-size: 10pt; }
+}

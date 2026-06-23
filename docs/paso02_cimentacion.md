@@ -303,10 +303,12 @@ La zapata se cubre inmediatamente después del vertido con sacos de tela, hojas 
 
 | Tiempo transcurrido | Resistencia aproximada alcanzada | Qué se puede hacer |
 |---|---|---|
-| 24 horas | ~30% | Nada. No cargar, no pisar |
-| 3 días | ~60% | Se puede comenzar el zócalo con precaución |
-| 7 días | ~75% | Trabajo normal sobre el zócalo |
-| 28 días | 100% | Resistencia de diseño completa |
+| 24 horas | ~15–25 % | Nada. No cargar, no pisar |
+| 3 días | ~40–50 % | Se puede comenzar el zócalo **con mucha precaución**, siguiendo mojando |
+| 7 días | ~60–65 % | Trabajo normal sobre el zócalo |
+| 28 días | 100 % | Resistencia de diseño completa |
+
+> ⚠️ Estos valores son orientativos para hormigón amasado a mano en clima cálido. Con curado deficiente o agua de mezcla excesiva, la resistencia real puede ser menor. **La regla práctica es: cuanto más días de curado húmedo, mejor.**
 
 > ⚠️ No se hormigona bajo lluvia intensa: el agua de lluvia puede lavar el cemento de la mezcla fresca antes de que fragüe.
 <!-- TODO: no se ha mencionado tampoco como hacer la nivelacion de la zapata asi como la nivelacion de la zapata con un regle o algun tipo de palo largo que se pueda mejorar la horizonatildad de la zapata,y que luego el asentamiento del zoaclo no se vaya a desnivelar. Como se puede hacer el acabado y nivelacion de esta zapata lo mejor posible -->

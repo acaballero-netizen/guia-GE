@@ -10,7 +10,7 @@ Diseño y edición: Equipo MADERAMEN
 
 
 #### Agradecimientos
-Gracias a todas las personas y entidades colaboradoras.
+Entidades colaboradoras...
 
 Licencia: CC BY-SA 4.0
 
@@ -46,11 +46,10 @@ Licencia: CC BY-SA 4.0
 * **02.A.1 · Reconocimiento del terreno** — Identificación manual del tipo de suelo (roca, arena, arcilla) para determinar la profundidad.
 * **02.A.2 · Excavación de la zanja** — Proceso de excavación con pico y pala manteniendo paredes verticales y fondo plano.
 * **02.A.3 · Hormigón de limpieza** — Vertido de una capa base de hormigón pobre o colocación de lámina plástica de protección.
-* **02.A.4 · Parrilla de armadura horizontal** — Corte, doblado en "L" de los extremos en las esquinas y colocación de las barras sobre calzos.
-* **02.A.5 · Esperas verticales** — Colocación, alineación y fijación con alambre de las varillas que conectarán con el zócalo.
-* **02.A.6 · Dosificación y mezcla del hormigón** — Proporciones y mezclado manual en seco y en húmedo de cemento, arena y grava.
-* **02.A.7 · Vertido y compactación** — Llenado continuo de la zanja, picado manual con barra de hierro para eliminar burbujas y alisado.
-* **02.A.8 · Curado** — Protección con plásticos o hojas y humectación diaria de la zapata durante un mínimo de 7 días.
+* **02.B.4 · Anclaje del durmiente de madera** — Perforación e introducción del durmiente en las esperas y fijación con hormigón fluido.
+* **02.A.5 · Dosificación y mezcla del hormigón** — Proporciones y mezclado manual en seco y en húmedo de cemento, arena y grava.
+* **02.A.6 · Vertido y compactación** — Llenado continuo de la zanja, picado manual con barra de hierro para eliminar burbujas y alisado.
+* **02.A.7 · Curado** — Protección con plásticos o hojas y humectación diaria de la zapata durante un mínimo de 7 días.
 
 ### 02.B · Zócalo
 * **02.B.1 · Preparación de bloques** — Modificación e incisión con martillo y cincel en los bloques para permitir el paso de las esperas.
@@ -58,6 +57,10 @@ Licencia: CC BY-SA 4.0
 * **02.B.3 · Trabado de hiladas** — Alternancia de las juntas verticales entre hiladas de bloques en forma de "T" para dar resistencia.
 * **02.B.4 · Zuncho perimetral** — Montaje del encofrado de madera, colocación de armaduras horizontales y vertido de la viga superior de atado.
 * **02.B.5 · Anclaje del durmiente de madera** — Perforación e introducción del durmiente en las esperas y fijación con hormigón fluido.
+
+### 02.C · Suelo interior
+* **02.C.1 · Preparación del terreno interior** — Retirada de restos orgánicos, nivelación y compactación dentro del perímetro del zócalo.
+* **02.C.2 · Suelo interior** — Solera de hormigón o tierra laterítica compactada: dos opciones según disponibilidad de recursos.
 
 ---
 
@@ -70,16 +73,17 @@ Licencia: CC BY-SA 4.0
 * **03.6 · Primera hilada de tablas** — Presentación y clavado horizontal de la tabla base de arranque directamente sobre el durmiente y los pilares.
 * **03.7 · Solape e inclinación de tablas** — Colocación de las tablas consecutivas con solape de 3-4 cm e inclinadas al exterior para repeler el agua.
 * **03.8 · Encuentro de esquina** — Alternancia del solape vertical de las tablas en los ángulos de la vivienda para evitar juntas abiertas.
-* **03.9 · Remate superior del cerramiento** — Ajuste y fijación de la última hilada de tablas en su encuentro con la viga superior o durmiente de cubierta.
+* **03.9 · La viga de cubierta** — Colocación y fijación de la pieza horizontal que corona los montantes, los ata entre sí y recibe las cerchas de la cubierta.
+* **03.10 · Remate superior del cerramiento** — Ajuste y fijación de la última hilada de tablas en su encuentro con la viga de cubierta.
 
 ---
 
 ## 04 · Estructura de madera · Cubierta
 * **04.1 · Qué es una cercha** — Comprensión del funcionamiento y la estabilidad de la estructura triangulada de cubierta.
 * **04.2 · Piezas de la cercha** — Identificación y preparación del tirante, par, montante y tornapunta.
-* **04.3 · Fabricación de la cercha en el suelo** — Ensamblaje completo y prefabricación de las piezas antes del montaje en altura.
+* **04.3 · Fabricación de piezas en el suelo** — Uso de la plantilla para cortar y numerar las piezas, y validación de la geometría mediante una cercha de prueba.
 * **04.4 · Uniones de la cercha** — Ejecución de los nudos estructurales mediante clavado, pletinas metálicas o ensambles tradicionales.
-* **04.5 · Izado y colocación de la cercha** — Elevación manual, aplomado y fijación de las cerchas sobre los pilares estructurales.
+* **04.5 · Montaje de la cercha pieza a pieza** — Colocación progresiva de cada pieza directamente sobre la estructura desde andamios provisionales.
 * **04.6 · Correas** — Instalación de las piezas longitudinales de madera que atan las cerchas y sirven de soporte a la chapa.
 * **04.7 · Colocación de la chapa metálica** — Montaje con solape perimetral de las chapas de zinc y fijación con tornillos o clavos de gancho.
 * **04.8 · Alero** — Ejecución del remate perimetral sobresaliente de la cubierta para desviar la lluvia de las paredes de madera.
@@ -181,7 +185,7 @@ Esta prueba permite identificar el tipo de suelo en el momento, con las manos y 
 | Mantiene la bola pero es esponjosa o fibrosa. Color oscuro, olor a tierra húmeda | Tierra orgánica o negra | **No apta para cimentar. Retirar completamente antes de excavar** |
 | Bola compacta, rugosa, con partículas visibles. No se ve barro en las manos | Tierra firme o laterítica | Buen soporte. fundación estándar |
 
-> ⚠️ Si el resultado es tierra orgánica o arcilla blanda, consultar la sección de *Tips específicos para Guinea Ecuatorial* al final de este documento antes de continuar. 
+> ⚠️ Si el resultado es tierra orgánica o arcilla blanda, consultar la sección de *Tips específicos para Guinea Ecuatorial* al final de este capítulo antes de continuar.
 
 ---
 
@@ -220,14 +224,16 @@ Una vez que el agua está en reposo y las capas bien formadas, medir con un pali
 
 Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones de la fundación:
 
-| Tipo de suelo | Cómo se reconoce | Profundidad mínima de zapata | Observaciones |
-|---|---|---|---|
-| Roca o grava compacta | Duro, no se deforma al pisar ni al presionar | 40 cm | Excelente. Caso ideal |
-| Arena o tierra firme compacta | No cede al pisarlo. Bola de la prueba se disgrega | 60 cm | Bueno. Caso estándar |
-| Suelo laterítico | Color rojizo, compacto, rugoso | 60 cm | Habitual en zona fang. Buen soporte |
-| Arcilla o tierra blanda | Se deforma al pisarlo. Bola mantiene forma y marcas | 80–100 cm | Retirar si es muy blanda. Mayor riesgo de movimiento |
-| Tierra negra u orgánica | Color oscuro, olor, esponjosa | — | **Retirar completamente. No cimentar sobre ella** |
-| Terreno muy húmedo o con agua | Aparece agua al cavar a menos de 80 cm | — | Consultar con técnico antes de continuar |
+| Tipo de suelo | Cómo se reconoce | Profundidad mínima | Ancho mínimo orientativo | Observaciones |
+|---|---|---|---|---|
+| Roca o grava compacta | Duro, no se deforma al pisar ni al presionar | 40 cm | 40 cm | Excelente. Caso ideal |
+| Arena o tierra firme compacta | No cede al pisarlo. Bola de la prueba se disgrega | 60 cm | 40 cm | Bueno. Caso estándar |
+| Suelo laterítico | Color rojizo, compacto, rugoso | 60 cm | 40 cm | Habitual en zona fang. Buen soporte |
+| Arcilla o tierra blanda | Se deforma al pisarlo. Bola mantiene forma y marcas | 80–100 cm | 50–60 cm | Mayor riesgo de movimiento. Validar con el equipo técnico |
+| Tierra negra u orgánica | Color oscuro, olor, esponjosa | — | — | **Retirar completamente. No cimentar sobre ella** |
+| Terreno muy húmedo o con agua | Aparece agua al cavar a menos de 80 cm | — | — | Consultar con el equipo técnico antes de continuar |
+
+> ⚠️ Los valores de ancho son orientativos para vivienda de una planta con estructura de madera ligera. En suelo blando o arcilloso deben calcularse en función de la carga real y la capacidad portante del terreno. Validar con el equipo técnico antes de excavar.
 
 ---
 <div style="page-break-after: always;"></div>
@@ -435,7 +441,7 @@ Antes de pasar a la fundación, verificar que se han completado correctamente es
 
 <div style="page-break-before: always;"></div>
 
-# **fundación**
+# **Fundaciones**
 
 ---
 
@@ -447,10 +453,11 @@ La fundación es la parte de la vivienda que transmite todo el peso al suelo. Si
 
 ## Estructura general
 
-Esta sección cubre dos elementos consecutivos que trabajan juntos:
+Esta sección cubre tres elementos que trabajan juntos:
 
 1. **ZAPATA CORRIDA** — La base enterrada de hormigón armado que reparte el peso de la vivienda sobre el terreno.
 2. **ZÓCALO** — El muro de bloques de hormigón construido sobre la zapata, que eleva la estructura de madera por encima del nivel del suelo y la protege de la humedad y las termitas.
+3. **SUELO INTERIOR** — La superficie sobre la que se pisa dentro de la vivienda. Frena la humedad ascendente, dificulta el acceso de las termitas y sirve de base para las particiones y los umbrales. Se ejecuta después de que la cubierta esté terminada.
 
 ---
 
@@ -487,6 +494,14 @@ Esta sección cubre dos elementos consecutivos que trabajan juntos:
 - Sacos de tela, hojas de plátano, cartones o lámina de plástico — para cubrir el hormigón durante el curado
 - Cubo de agua para el riego de curado
 
+### Para el suelo interior
+- Pisón manual
+- Tierra laterítica rojiza —del propio solar o de un préstamo cercano— para la opción de tierra compactada
+- Arena gruesa o grava fina, para la capa de acabado de la opción de tierra *(opcional)*
+- Lámina de plástico grueso —para la barrera de humedad de la opción hormigón
+- Cemento, arena y grava —misma dosificación que la zapata— para la opción de hormigón
+- Regla o listón recto de madera de al menos 2 m —para enrasar la solera
+
 ---
 <div style="page-break-after: always;"></div>
 
@@ -498,18 +513,11 @@ Esta sección cubre dos elementos consecutivos que trabajan juntos:
 
 El tipo de suelo determina la profundidad de la zapata. Una zapata demasiado superficial en suelo blando puede asentarse o agrietarse con las primeras lluvias intensas. Este paso debe haberse iniciado ya en la fase de pasos previos, donde se describen la prueba de la bola y la prueba del tarro para identificar el suelo. Si aún no se han realizado esas pruebas, hacerlas antes de continuar.
 
-### Profundidades mínimas según tipo de suelo
+### Profundidades y anchos de excavación
 
-| Tipo de suelo | Cómo se reconoce | Profundidad mínima de zapata |
-|---|---|---|
-| Roca o grava compacta | Duro, no se deforma al pisar | 40 cm |
-| Arena o tierra firme compacta | Compacto, no cede al pisarlo. Bola de la prueba se disgrega | 60 cm |
-| Suelo laterítico | Color rojizo, compacto, rugoso. Habitual en zona fang | 60 cm |
-| Arcilla o tierra blanda | Se deforma al pisarlo. Bola mantiene forma y marcas de dedos | 80–100 cm |
-| Tierra negra u orgánica | Color oscuro, olor a tierra húmeda, esponjosa | **No construir. Retirar completamente** |
-| Terreno muy húmedo o con agua | Aparece agua al cavar a menos de 80 cm | Consultar con el equipo técnico antes de continuar |
+La profundidad y el ancho de la zanja dependen del tipo de suelo identificado en el Paso 1 · Análisis del terreno del capítulo de **Pasos previos**. Si aún no se ha realizado ese análisis, hacerlo antes de continuar.
 
-> ⚠️ **Nota:** El diagnóstico detallado de los tipos de suelo en las áreas de intervención está pendiente de trabajo de campo. El equipo técnico debe realizar al menos una cata manual en cada parcela antes de confirmar la profundidad de excavación.
+Como referencia rápida para suelo firme o laterítico: profundidad mínima 60 cm, ancho mínimo 40 cm. En arcilla blanda: 80–100 cm de profundidad y 50–60 cm de ancho. En todos los casos, el equipo técnico debe realizar al menos una cata manual en cada parcela antes de confirmar las dimensiones definitivas.
 
 ---
 
@@ -518,6 +526,14 @@ El tipo de suelo determina la profundidad de la zapata. Una zapata demasiado sup
 ### ¿Para qué sirve?
 
 La zanja es el molde natural donde se construirá la zapata. Sus dimensiones determinan la superficie de apoyo sobre el terreno y el espacio disponible para colocar la armadura con el recubrimiento mínimo necesario —distancia entre la barra de acero y la cara exterior del hormigón que protege el hierro de la humedad.
+
+### Dimensiones de la zanja
+
+La zanja debe tener el **ancho mínimo** indicado en la tabla del Paso 1 según el tipo de suelo. El ancho se mide en el interior de la zanja, de pared a pared.
+
+La referencia de replanteo —el cordel— marca la **cara exterior del muro**. La zanja se desarrolla simétricamente a ambos lados de esa referencia: la mitad del ancho hacia el exterior y la otra mitad hacia el interior de la vivienda.
+
+> 💡 **Ejemplo:** En suelo firme, la zanja tiene 40 cm de ancho. El cordel marca la cara exterior del muro. Se excavan 20 cm hacia fuera del cordel y 20 cm hacia dentro.
 
 ### Proceso
 
@@ -720,10 +736,12 @@ La zapata se cubre inmediatamente después del vertido con sacos de tela, hojas 
 
 | Tiempo transcurrido | Resistencia aproximada alcanzada | Qué se puede hacer |
 |---|---|---|
-| 24 horas | ~30% | Nada. No cargar, no pisar |
-| 3 días | ~60% | Se puede comenzar el zócalo con precaución |
-| 7 días | ~75% | Trabajo normal sobre el zócalo |
-| 28 días | 100% | Resistencia de diseño completa |
+| 24 horas | ~15–25 % | Nada. No cargar, no pisar |
+| 3 días | ~40–50 % | Se puede comenzar el zócalo **con mucha precaución**, siguiendo mojando |
+| 7 días | ~60–65 % | Trabajo normal sobre el zócalo |
+| 28 días | 100 % | Resistencia de diseño completa |
+
+> ⚠️ Estos valores son orientativos para hormigón amasado a mano en clima cálido. Con curado deficiente o agua de mezcla excesiva, la resistencia real puede ser menor. **La regla práctica es: cuanto más días de curado húmedo, mejor.**
 
 > ⚠️ No se hormigona bajo lluvia intensa: el agua de lluvia puede lavar el cemento de la mezcla fresca antes de que fragüe.
 
@@ -800,6 +818,98 @@ Los huecos interiores de los bloques donde hay esperas verticales deben rellenar
 > ⚠️ Si el hormigón fluido es demasiado líquido, puede salir por las juntas de mortero entre bloques. Se ajusta la consistencia añadiendo menos agua y se tapan temporalmente las juntas inferiores con un trozo de mortero si es necesario.
 
 ---
+<div style="page-break-after: always;"></div>
+
+# **Parte 3: Suelo interior**
+
+El suelo interior es la superficie sobre la que se pisa dentro de la vivienda. Además del uso cotidiano, cumple dos funciones que afectan a la durabilidad del conjunto: frena la humedad que asciende desde el terreno hacia la estructura de madera, y dificulta el acceso de las termitas al interior.
+
+El suelo interior **se ejecuta después de que la cubierta esté terminada**, para que pueda curarse o compactarse protegido de la lluvia. El terreno interior puede prepararse ahora —antes de levantar las paredes— para facilitar el trabajo, pero el acabado final se aplica al final de la obra.
+
+---
+
+## **Paso 11 · Preparación del terreno interior**
+
+### ¿Para qué sirve?
+
+Antes de ejecutar el suelo, el terreno interior debe estar limpio, nivelado y compactado. Un suelo asentado sobre tierra suelta o con restos orgánicos puede hundirse y agrietarse con el tiempo.
+
+### Proceso
+
+1. Se retiran todos los restos orgánicos, raíces y tierra vegetal que queden dentro del perímetro del zócalo.
+
+2. Se nivela el terreno interior hasta alcanzar una cota aproximadamente **15 cm por debajo** de la cara superior del zócalo. Esta diferencia garantiza que el suelo terminado no quede al mismo nivel que el durmiente de madera, evitando el contacto entre la madera y la humedad del suelo.
+
+3. Se compacta el terreno por capas de 10–15 cm con el pisón, igual que en los rellenos exteriores.
+
+<img src="docs/imagenes/cimentacion.suelo.1.png" width="500" alt="Nivelación del terreno interior" style="display: block; margin: auto;">
+
+---
+
+## **Paso 12 · Suelo interior**
+
+### Opción A · Solera de hormigón
+
+La solera de hormigón es la opción más duradera e higiénica. Una vez fraguada, proporciona una superficie dura, fácil de limpiar y resistente a la humedad ascendente.
+
+#### Materiales
+- Lámina de plástico grueso
+- Cemento, arena y grava en proporción 1 : 2 : 3
+- Regla o listón recto de al menos 2 m
+- Fratacho o tabla lisa húmeda para alisar
+
+#### Proceso
+
+1. Se extiende la **lámina de plástico** sobre el terreno compactado, cubriendo toda la superficie. Los solapes entre piezas son de al menos 20 cm. La lámina sube también por las caras interiores del zócalo unos 5 cm para cortar la humedad en el encuentro.
+
+<img src="docs/imagenes/cimentacion.suelo.2a.png" width="500" alt="Lámina de plástico en el suelo interior" style="display: block; margin: auto;">
+
+2. Se vierte el hormigón sobre la lámina. El espesor mínimo recomendado es de **8 cm**.
+
+3. Se extiende y enrasa el hormigón con la regla, apoyando sus extremos sobre la cara interior del zócalo para mantener la cota uniforme.
+
+4. Una vez enrasado, se alisa la superficie con el fratacho o una tabla lisa húmeda.
+
+5. Se cura durante al menos **7 días**: se cubre con sacos húmedos, hojas de plátano o lámina de plástico y se riega cada mañana.
+
+<img src="docs/imagenes/cimentacion.suelo.2b.png" width="500" alt="Enrase de la solera de hormigón" style="display: block; margin: auto;">
+
+> ⚠️ La solera no debe quedar en contacto con el durmiente de madera. Debe existir siempre una pequeña separación entre la cara superior de la solera y la cara inferior del durmiente para que la madera no absorba humedad desde el hormigón.
+
+---
+
+### Opción B · Suelo de tierra compactada
+
+El suelo de tierra compactada es la solución de coste cero y la más habitual en la construcción local. Correctamente ejecutado y mantenido, es una superficie estable, fresca y culturalmente integrada.
+
+#### Materiales
+- Tierra laterítica rojiza —del solar o de un préstamo cercano
+- Arena gruesa o grava fina para la capa de acabado *(opcional)*
+- Pisón manual
+
+#### Proceso
+
+1. Sobre el terreno compactado del Paso 11, se añade una capa de **tierra laterítica** de 5–8 cm. La tierra laterítica —el suelo rojizo habitual en la región— compacta bien y resiste el tránsito cuando se trabaja húmeda.
+
+2. Se humedece ligeramente la capa y se compacta con el pisón hasta que la superficie esté dura y no ceda al pisar.
+
+3. Opcionalmente, se extiende una capa fina de **arena gruesa o grava fina** (1–2 cm) como acabado. Reduce el polvo y mejora el drenaje de pequeños derrames.
+
+<img src="docs/imagenes/cimentacion.suelo.3.png" width="500" alt="Compactación del suelo de tierra" style="display: block; margin: auto;">
+
+#### Mantenimiento
+
+El suelo de tierra requiere revisión periódica: al inicio de cada estación seca se identifican las zonas hundidas o disgregadas, se añade tierra laterítica húmeda y se recompacta. Si con el tiempo se dispone de recursos, puede aplicarse una solera de hormigón directamente encima sin necesidad de demoler nada.
+
+> 💡 El suelo de tierra es un punto de partida, no una solución definitiva. Puede mejorarse progresivamente a medida que los recursos lo permitan.
+
+---
+
+### A tener en cuenta — ambas opciones
+
+El encuentro entre el suelo interior y la base del zócalo es el punto más vulnerable a la entrada de agua. La cara exterior del zócalo al nivel del suelo exterior debe quedar siempre **por encima** de la cara superior del suelo interior, para que el agua de lluvia no entre rebosando hacia el interior.
+
+---
 
 # 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
@@ -863,6 +973,9 @@ Antes de pasar al cerramiento de madera, verificar que se han completado correct
 - [ ] El zócalo tiene al menos 3 hiladas de bloque sobre el nivel del suelo terminado.
 - [ ] Los huecos con esperas se han rellenado con hormigón fluido.
 - [ ] La cara superior del zócalo está limpia y libre de mortero suelto, lista para recibir el cerramiento.
+- [ ] El terreno interior está limpio de restos orgánicos, nivelado y compactado.
+- [ ] El suelo interior está ejecutado —solera de hormigón o tierra compactada— o el terreno interior está preparado y el suelo se ejecutará tras terminar la cubierta.
+- [ ] La cara superior del suelo interior queda al menos 5 cm por debajo de la cara inferior del durmiente de madera.
 
 ---
 
@@ -913,6 +1026,12 @@ Esta sección cubre tres elementos consecutivos que trabajan de forma solidaria:
 - Martillo y clavos de al menos 120 mm
 - Nivel de burbuja o plomada
 - Escuadras metálicas de acero de 3 mm o pletinas de acero galvanizado *(recomendadas para los montantes de esquina)*
+
+### Para la viga de cubierta
+- Palo rojo u otra madera densa local, en sección **8×8 cm** —la misma que los montantes— cortado a la longitud de cada lado del perímetro
+- Clavos de al menos 120 mm
+- Escuadras metálicas de acero galvanizado *(recomendadas en las esquinas)*
+- Nivel de burbuja
 
 ### Para las tablas de cerramiento
 - Tablas de madera local de grosor aproximado 1 cm, ancho a definir según disponibilidad local *(alternativa: tablas obtenidas por desbaste manual con azuela, de grosor irregular pero cara exterior plana)*
@@ -1107,6 +1226,39 @@ En los puntos donde hay puerta o ventana, las tablas se cortan al llegar al lím
 
 ---
 
+## **Paso 8 · La viga de cubierta**
+
+### ¿Para qué sirve?
+
+Una vez colocadas las tablas del cerramiento, los montantes tienen la cabeza libre: no hay ninguna pieza que los una entre sí por arriba. La viga de cubierta es la pieza horizontal de madera que cierra la parte alta de todos los montantes. Cumple dos funciones:
+
+- **Ata los montantes entre sí** para que no se abran ni se inclinen bajo el peso y el empuje de la cubierta.
+- **Recibe las cerchas de la cubierta**: es el punto de apoyo sobre el que descansarán.
+
+Sin esta pieza, cada montante trabaja de forma aislada. Con ella, todo el perímetro superior de la pared queda solidarizado y preparado para recibir la cubierta de forma repartida.
+
+### Proceso
+
+1. Se corta la viga a la longitud de cada lado del perímetro. Si no se dispone de una pieza única de esa longitud, el empalme se hace siempre sobre un montante —nunca en un punto libre entre dos.
+
+2. Se apoya la viga sobre la cabeza de los montantes. La cara exterior de la viga queda enrasada con la cara exterior de los montantes: ni retranqueada hacia dentro ni sobresaliendo hacia fuera.
+
+<img src="docs/imagenes/cerramiento.8.1.png" width="500" alt="Viga de cubierta apoyada sobre los montantes" style="display: block; margin: auto;">
+
+3. Se clava la viga a cada montante con al menos dos clavos en diagonal. Los clavos entran desde la cara lateral de la viga hacia el interior del montante, cruzándose entre sí.
+
+4. En las esquinas, las vigas de los dos lados se empalman sobre el montante de esquina. La viga de un lado cubre el canto del montante; la del otro lado apoya contra ella. El empalme se refuerza con una escuadra metálica en la cara interior.
+
+<img src="docs/imagenes/cerramiento.8.2.png" width="500" alt="Empalme de la viga de cubierta en la esquina" style="display: block; margin: auto;">
+
+5. Una vez colocada la viga en todo el perímetro, se comprueba con el nivel que la cara superior está horizontal. Cualquier desnivel en este punto afecta directamente a la regularidad de la cubierta.
+
+### A tener en cuenta
+
+> ⚠️ **Las cerchas de la cubierta apoyan sobre la viga de cubierta, que corona la cabeza de los montantes.** El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Las cerchas no deben apoyar directamente sobre las tablas del cerramiento ni sobre el zuncho de hormigón.
+
+---
+
 # 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 ---
@@ -1151,7 +1303,9 @@ Antes de pasar a la cubierta, verificar que se han completado correctamente esto
 - [ ] Las esquinas alternan el solapamiento entre hiladas: no hay junta vertical abierta en la esquina.
 - [ ] Los huecos de puerta y ventana están formados por montantes de jamba y listones horizontales de dintel y umbral.
 - [ ] Las tablas no tocan el suelo en ningún punto.
-- [ ] El perímetro superior del cerramiento está bien arriostrado por la última hilada de tablas, listo para recibir la viga de cubierta.
+- [ ] La viga de cubierta está colocada en todo el perímetro, clavada a cada montante y nivelada en su cara superior.
+- [ ] Los empalmes de la viga de cubierta coinciden siempre sobre un montante, nunca en un punto libre entre dos.
+- [ ] Las esquinas de la viga están reforzadas con escuadras metálicas.
 
 ---
 
@@ -1260,6 +1414,12 @@ El vuelo lateral se obtiene dejando que el cordón superior de la cercha sobresa
 
 Antes de cortar ninguna pieza, se traza la geometría completa de la cercha sobre una superficie plana: el suelo de tierra compactada o una losa de hormigón sirven perfectamente. Este dibujo a escala real es la plantilla que guía todo el corte y ensamble y garantiza que todas las cerchas sean idénticas entre sí.
 
+**Coordinación con el módulo del cerramiento:**
+
+La posición de cada cercha no puede elegirse de forma independiente. Cada cercha debe caer exactamente encima de un montante del cerramiento: es la única forma de que la carga baje en línea recta desde la cubierta hasta la fundación. Si una cercha cae en el punto medio entre dos montantes, la viga de cubierta tiene que soportar esa carga en voladizo —esfuerzo para el que no está dimensionada.
+
+Esto significa que **la separación entre cerchas debe ser igual al módulo del cerramiento** —la distancia de eje a eje entre montantes— o un múltiplo de él. Si el módulo del cerramiento es de 80 cm, las cerchas van a 80 cm o a 160 cm entre ejes. Esta coordinación debe quedar resuelta en el plano antes de empezar la obra.
+
 ### Proceso
 
 1. Se traza sobre el suelo la línea del **cordón inferior**: una línea recta horizontal de la longitud total de la cercha, incluyendo los vuelos de alero si los lleva incorporados.
@@ -1316,11 +1476,15 @@ Todas las piezas interiores deben estar **en el mismo plano** que los cordones. 
 
 ---
 
-## **Paso 4 · Ensamble de la cercha**
+## **Paso 4 · Cercha de prueba: validación de geometría en el suelo**
 
 ### ¿Para qué sirve?
 
-La cercha se ensambla completamente en el suelo, sobre el replanteo, antes de montarla en su posición definitiva. Esto garantiza la precisión geométrica y reduce los errores que se producirían al trabajar en altura.
+Antes de subir ninguna pieza, se ensambla **una única cercha completa en el suelo** sobre el replanteo. Esta cercha no se iza: su función es exclusivamente verificar que todos los cortes son correctos, que las piezas encajan sin holguras y que la geometría del conjunto es la prevista.
+
+Una vez validada, las piezas se **numeran con lápiz o marca de sierra** y se desmonta la cercha. A partir de ese momento, todas las cerchas —incluida esta primera— se montan **pieza a pieza en altura** (ver Paso 5).
+
+Detectar un corte incorrecto en el suelo, antes del montaje, es mucho más fácil que corregirlo desde un andamio.
 
 ### Tipos de unión
 
@@ -1344,7 +1508,12 @@ La cercha se ensambla completamente en el suelo, sobre el replanteo, antes de mo
 
 <img src="docs/imagenes/cubierta.4.png" width="500" alt="Detalle del nudo de apoyo sobre pilar" style="display: block; margin: auto;">
 
-> ✅ **Comprobación final:** Se levanta ligeramente la cercha del suelo con ayuda de varios operarios y se comprueba que no presenta deformación visible. Si la cercha se tuerce o pandea al elevarla, hay un fallo en alguna unión que debe corregirse antes de subirla.
+> ✅ **Comprobación final antes de desmontar:** Con la cercha aún en el suelo, verificar tres puntos:
+> 1. Todas las piezas están **en el mismo plano** — ningún montante o diagonal sobresale hacia delante o hacia atrás respecto a los cordones.
+> 2. Las **diagonales del triángulo principal son iguales** — confirma que la geometría no está torcida.
+> 3. Todos los nudos tienen **contacto completo** entre piezas, sin holguras visibles.
+>
+> Si todo es correcto, **numerar cada pieza** con lápiz o marca de sierra antes de desmontar. Las piezas de esta primera cercha sirven como plantilla de longitud y ángulo para cortar las siguientes.
 
 ---
 
@@ -1364,7 +1533,7 @@ Para cada cercha se necesitan al menos **cuatro puntales**: dos en los extremos 
 
 ### Proceso de montaje pieza a pieza
 
-1. Se sube y coloca el **cordón inferior** sobre la cabeza de los pilares. Se sujeta provisionalmente con puntales y cuerda antes de fijarlo de forma definitiva.
+1. Se sube y coloca el **cordón inferior** sobre la viga de cubierta, en la posición exacta del montante. Se sujeta provisionalmente con puntales y cuerda antes de fijarlo de forma definitiva.
 
 2. Desde ambos extremos y trabajando hacia la cumbrera, se suben y encajan los **cordones superiores**, pieza a pieza. Cada pieza se apoya en el nudo del cordón inferior y se sujeta provisionalmente con cuerda al punto anterior.
 
@@ -1378,8 +1547,9 @@ Para cada cercha se necesitan al menos **cuatro puntales**: dos en los extremos 
 
 <img src="docs/imagenes/cubierta.5.2.png" width="500" alt="Montaje pieza a pieza de la cercha" style="display: block; margin: auto;">
 
-> ⚠️ **Las cerchas deben apoyar siempre sobre la cabeza de los pilares**, nunca sobre el zuncho de coronación del muro. El zuncho no está diseñado para recibir cargas concentradas de esta magnitud. Un apoyo incorrecto sobre el zuncho es una de las causas de fallo más frecuentes en la construcción local. La posición del pilar y el punto de apoyo de la cercha deben coincidir desde la fase de diseño.
-
+> ⚠️ **Cada cercha debe caer directamente sobre un montante.** La viga de cubierta no está dimensionada para recibir la carga de una cercha en el punto medio entre dos montantes: si eso ocurre, la viga trabaja en flexión y puede doblarse o partirse.
+>
+> El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Este recorrido solo funciona si la posición de cada cercha coincide con la posición de un montante. Si la separación entre cerchas no coincide con el módulo del cerramiento, hay un error de diseño que debe corregirse antes del montaje.
 ---
 
 ## **Paso 6 · Arriostramiento entre cerchas**
@@ -1511,9 +1681,11 @@ La cámara de aire entre la chapa y el falso techo funciona por convección natu
 
 ---
 
-**1. El apoyo de la cercha: sobre el pilar, no sobre el zuncho**
+**1. La posición de la cercha: siempre sobre un montante, nunca en medio del vano**
 
-En la práctica constructiva local, las cerchas frecuentemente se apoyan sobre el zuncho de coronación del muro en lugar de sobre la cabeza de los pilares. El zuncho no está diseñado para recibir cargas concentradas de esa magnitud. Las cerchas deben apoyar directamente sobre los pilares, de forma que la carga baje verticalmente desde la cubierta hasta la fundación. La posición del pilar y el punto de apoyo de la cercha deben coincidir desde la fase de diseño de la planta.
+Uno de los errores más frecuentes en la construcción local es colocar las cerchas en posiciones que no coinciden con los montantes del cerramiento. Cuando la cercha cae en el punto medio entre dos montantes, la viga de cubierta tiene que aguantar esa carga en el centro del vano —para lo que no está dimensionada. El resultado es visible: la viga se dobla, el muro se deforma y la cubierta pierde estabilidad.
+
+La solución debe tomarse antes de empezar la obra: la separación entre cerchas debe ser igual al módulo del cerramiento —la distancia entre montantes— o un múltiplo de él. Cercha y montante deben quedar en la misma línea vertical. Si eso no se cumple en el diseño, no puede corregirse en la obra.
 
 **2. El ruido de la lluvia**
 

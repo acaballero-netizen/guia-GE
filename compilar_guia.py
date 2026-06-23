@@ -77,7 +77,7 @@ Diseño y edición: Equipo MADERAMEN
 # Segunda página de contraportada (p. ej. agradecimientos, licencias)
 CONTRAPORTADA_2 = """
 #### Agradecimientos
-Gracias a todas las personas y entidades colaboradoras.
+Entidades colaboradoras...
 
 Licencia: CC BY-SA 4.0
 
