@@ -72,8 +72,8 @@
         <!-- SIDEBAR -->
         <nav id="sidebar" aria-label="Índice de la guía">
             <div class="sidebar-header">
-                <div class="sidebar-logo">MADERAMEN</div>
-                <div class="sidebar-title">Guía de<br>autoconstrucción</div>
+                <div class="sidebar-logo">Cátedra MADERAMEN</div>
+                <div class="sidebar-title">Guía de autoconstrucción<br>Guinea Ecuatorial</div>
             </div>
 
             <div class="sidebar-nav" id="sidebar-nav">
@@ -123,21 +123,23 @@
     </div>
 
     <footer id="site-footer">
-        <div class="footer-copy">
-            <p>Guía para el proyecto ADSIDEO Cooperación 2024 — "Autoconstrucción sostenible y participativa de
-                viviendas en Guinea Ecuatorial"</p>
-        </div>
-        <div class="footer-logos">
-            <a href="https://www.upv.es/entidades/ccd/" target="_blank" rel="noreferrer noopener">
-                <img src="Imagenes/LOGO_UPV+CCD.jpg" alt="UPV + CCD" loading="lazy">
-            </a>
-            <a href="https://calab.es/catedra-maderamen/" target="_blank" rel="noreferrer noopener">
-                <img src="Imagenes/LOGO_MADERAMEN.png" alt="MADERAMEN" loading="lazy">
-            </a>
-            <a href="https://ungecampus.com/" target="_blank" rel="noreferrer noopener">
-                <img src="Imagenes/LOGO_Universidad%20Nacional%20de%20Guinea%20Ecuatorial.png"
-                    alt="Universidad Nacional de Guinea Ecuatorial" loading="lazy">
-            </a>
+        <div class="footer-inner">
+            <div class="footer-copy">
+                <p>Guía para el proyecto ADSIDEO Cooperación 2024 — "Autoconstrucción sostenible y participativa de
+                    viviendas en Guinea Ecuatorial"</p>
+            </div>
+            <div class="footer-logos">
+                <a href="https://www.upv.es/entidades/ccd/" target="_blank" rel="noreferrer noopener">
+                    <img src="Imagenes/LOGO_UPV+CCD.jpg" alt="UPV + CCD" loading="lazy">
+                </a>
+                <a href="https://calab.es/catedra-maderamen/" target="_blank" rel="noreferrer noopener">
+                    <img src="Imagenes/LOGO_MADERAMEN.png" alt="MADERAMEN" loading="lazy">
+                </a>
+                <a href="https://ungecampus.com/" target="_blank" rel="noreferrer noopener">
+                    <img src="Imagenes/LOGO_Universidad%20Nacional%20de%20Guinea%20Ecuatorial.png"
+                        alt="Universidad Nacional de Guinea Ecuatorial" loading="lazy">
+                </a>
+            </div>
         </div>
     </footer>
 
@@ -159,7 +161,8 @@
                 id: 'criterios',
                 num: '00',
                 label: 'Criterios de diseño',
-                file: '../docs/paso00_criterios_de_diseño.md'
+                file: '../docs/paso00_criterios_de_diseño.md',
+                hidden: true
             },
             {
                 id: 'paso0',
@@ -176,7 +179,7 @@
             {
                 id: 'paso1',
                 num: '02',
-                label: 'fundación',
+                label: 'Fundamentos',
                 file: '../docs/paso02_cimentacion.md',
                 subsections: [
                     'Zapata corrida',
@@ -209,17 +212,22 @@
                 id: 'paso4',
                 num: '05',
                 label: 'Carpintería',
-                file: '../docs/paso05_carpinterias.md'
+                file: '../docs/paso05_carpinterias.md',
+                subsections: [
+                    'Particiones interiores',
+                    'Carpintería'
+                ]
             },
             {
                 id: 'paso5',
                 num: '06',
                 label: 'Instalaciones',
-                file: '../docs/paso06_instalaciones.md'
+                file: '../docs/paso06_instalaciones.md',
+                hidden: true
             },
             {
                 id: 'paso6',
-                num: '07',
+                num: '',
                 label: 'Mantenimiento',
                 file: '../docs/paso99_mantenimiento.md'
             },
@@ -227,7 +235,8 @@
                 id: 'bibliografia',
                 num: '📚',
                 label: 'Bibliografía y referencias',
-                file: 'bibliografia.md'
+                file: 'bibliografia.md',
+                hidden: true
             }
         ];
 
@@ -248,7 +257,7 @@
 
             html += '<div class="nav-section-label">Índice</div>';
 
-            STEPS.forEach(step => {
+            STEPS.filter(s => !s.hidden).forEach(step => {
                 const isAvail = step.file || step.intro;
                 const dimStyle = !isAvail ? 'opacity:0.4;pointer-events:none;' : '';
 
@@ -758,7 +767,7 @@
         function buildIntroHTML() {
             return `
     <div class="md-body">
-      <h1>Guía de autoconstrucción</h1>
+      <h1>Guía de autoconstrucción Guinea Ecuatorial</h1>
       <p style="font-family:var(--mono);font-size:11.5px;color:var(--ink-light);border-bottom:1px solid var(--ink-faint);padding-bottom:1.5rem;margin-bottom:2.5rem">
         Proyecto ADSIDEO Cooperación 2024 · Universitat Politècnica de València · Cátedra MADERAMEN
       </p>
@@ -766,9 +775,9 @@
       <h2>Contexto y motivación</h2>
       <p>El 7 de marzo de 2021, la explosión del arsenal militar de Bata destruyó más de 700 viviendas y dejó miles de personas sin hogar. Desde entonces, la Cátedra MADERAMEN de la UPV trabaja en colaboración con comunidades locales y actores en Guinea Ecuatorial para responder a esta emergencia habitacional.</p>
 
-      <p>El proyecto ADSIDEO "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial" es una iniciativa desarrollada en colaboración con instituciones locales: la Universidad Nacional de Guinea Ecuatorial (UNGE), Arquitectura Sin Fronteras (ASFE), y la ONG local REMAR. La metodología combina investigación académica rigurosa con trabajo comunitario participativo basado en Desarrollo Comunitario Basado en Activos (ABCD).</p>
+      <p>El proyecto ADSIDEO "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial" es una iniciativa desarrollada en colaboración con instituciones locales: la Universidad Nacional de Guinea Ecuatorial (UNGE) y la ONG REMAR. La metodología combina investigación académica rigurosa con trabajo comunitario participativo basado en Desarrollo Comunitario Basado en Activos (ABCD).</p>
 
-      <p>Esta guía es el resultado de un proceso participativo de tres años desarrollado en colaboración directa con 10 comunidades de la etnia fang para garantizar que fuera culturalmente pertinente, técnicamente segura y realmente replicable. No es un manual teórico, sino una herramienta práctica basada en experiencia real de construcción y en las necesidades específicas del contexto local.</p>
+      <p>Esta guía es el resultado de un proceso participativo de cuatro años desarrollado en colaboración directa con comunidades de la etnia fang para garantizar que fuera culturalmente pertinente, técnicamente segura y realmente replicable. No es un manual teórico, sino una herramienta práctica basada en experiencia real de construcción y en las necesidades específicas del contexto local.</p>
 
       <blockquote><p>⚠️ <strong>Importante:</strong> Todas las recomendaciones estructurales o de seguridad incluidas en esta guía deben ser validadas por profesionales técnicos cualificados antes de su aplicación en proyectos reales. Esta guía proporciona orientaciones de buenas prácticas, pero no sustituye la consulta con arquitectos o ingenieros locales.</p></blockquote>
 
@@ -796,12 +805,30 @@
           <a href="https://ungecampus.com/" target="_blank" rel="noreferrer noopener" title="Universidad Nacional de Guinea Ecuatorial">
             <img src="Imagenes/LOGO_Universidad%20Nacional%20de%20Guinea%20Ecuatorial.png" alt="UNGE" loading="lazy">
           </a>
+          <a href="https://remar.org/guinea-ecuatorial/" target="_blank" rel="noreferrer noopener" title="REMAR Guinea Ecuatorial">
+            <img src="Imagenes/LOGO_Remar.png" alt="REMAR" loading="lazy">
+          </a>
         </div>
       </div>
 
       <!-- WHATSAPP -->
       <div class="intro-whatsapp">
-        <p><strong>📱 Únete al grupo de WhatsApp</strong> del proyecto para compartir experiencias, resolver dudas y conectar con la comunidad de constructores.</p>
+        <div class="intro-whatsapp-body">
+          <div>
+            <div class="intro-whatsapp-label">Canal oficial</div>
+            <div class="intro-whatsapp-title">Mantente al día</div>
+            <p class="intro-whatsapp-desc">Síguenos en WhatsApp para recibir actualizaciones, nuevo contenido y información de campo en tiempo real.</p>
+          </div>
+          <a href="https://whatsapp.com/channel/0029VbDVV5lDDmFTkXy1qu0f"
+             target="_blank"
+             rel="noreferrer noopener"
+             class="intro-whatsapp-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+            </svg>
+            Unirse al canal
+          </a>
+        </div>
       </div>
 
       <h2>Cómo usar esta guía</h2>
@@ -812,7 +839,7 @@
       <h2>Pasos de construcción</h2>
 
       <div style="display:grid;gap:12px;margin:1.5rem 0">
-        ${STEPS.filter(s => !s.intro).map(s => `
+        ${STEPS.filter(s => !s.intro && !s.hidden).map(s => `
           <div onclick="loadStep('${s.id}')"
                style="padding:1rem 1.25rem;background:var(--white);border:1px solid var(--ink-faint);border-radius:2px;cursor:pointer;transition:border-color 0.15s;display:flex;align-items:center;gap:1rem;${!s.file && !s.upcoming ? 'opacity:0.4;cursor:default' : ''}"
                onmouseover="this.style.borderColor='var(--red)'"

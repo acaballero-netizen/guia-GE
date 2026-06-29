@@ -330,10 +330,7 @@ body {
     width: var(--sidebar-w);
     flex-shrink: 0;
     background: var(--paper);
-    border-top: 1px solid rgba(28, 28, 28, 0.08);
-    border-bottom: 1px solid rgba(28, 28, 28, 0.08);
     border-right: 1px solid var(--ink-faint);
-    box-shadow: inset 0 1px 0 rgba(28, 28, 28, 0.06), inset 0 -1px 0 rgba(28, 28, 28, 0.06);
     position: sticky;
     top: 0;
     height: 100vh;
@@ -707,17 +704,36 @@ body {
 }
 
 #site-footer {
+    width: 100%;
+    background: #ffffff;
+    color: var(--ink-mid);
+    position: relative;
+}
+
+.footer-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1.25rem;
     padding: 2.5rem 4rem;
-    background: #ffffff;
-    border-top: 1px solid var(--ink-faint);
-    color: var(--ink-mid);
-    width: min(100%, 1180px);
+    max-width: 1180px;
     margin: 0 auto;
+}
+
+/* Extiende visualmente la columna del sidebar dentro del footer */
+@media (min-width: 901px) {
+    #site-footer::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: var(--sidebar-w);
+        background: var(--paper);
+        border-right: 1px solid var(--ink-faint);
+        pointer-events: none;
+    }
 }
 
 #site-footer .footer-copy {
@@ -766,7 +782,7 @@ body {
 }
 
 @media (max-width: 900px) {
-    #site-footer {
+    .footer-inner {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -1117,21 +1133,72 @@ body {
     background: rgba(220, 47, 57, 0.05);
     border: 1px solid rgba(220, 47, 57, 0.18);
     border-radius: 4px;
-    padding: 1.25rem 1.5rem;
+    padding: 1.5rem;
     margin: 2rem 0 2.5rem;
 }
 
-.intro-whatsapp p {
-    margin: 0;
-    font-size: 0.95rem;
+.intro-whatsapp-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.intro-whatsapp-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 0.25rem;
+}
+
+.intro-whatsapp-title {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    font-weight: 600;
     color: var(--ink);
-    line-height: 1.6;
+    margin-bottom: 0.35rem;
+}
+
+.intro-whatsapp-desc {
+    margin: 0;
+    font-size: 0.875rem;
+    color: var(--ink-mid);
+    line-height: 1.55;
     font-family: var(--sans);
 }
 
-.intro-whatsapp strong {
-    color: var(--red);
-    font-weight: 600;
+.intro-whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: #b91c1c;
+    color: #fff !important;
+    font-family: var(--sans);
+    font-size: 13.5px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: opacity 0.15s, transform 0.1s;
+}
+
+.intro-whatsapp-btn svg {
+    fill: #fff;
+    flex-shrink: 0;
+}
+
+.intro-whatsapp-btn:hover {
+    opacity: 0.88;
+    transform: translateY(-1px);
+}
+
+.intro-whatsapp-btn:active {
+    transform: translateY(0);
 }
 
 /* ─── PANEL LATERAL DE IMÁGENES ───────────────────────────── */

@@ -1,12 +1,12 @@
-# **Fundaciones**
+# **Fundamentos**
 
 [← 00. Pasos previos](paso01_pasos_previos.md) | [02. Cerramiento →](paso03_cerramiento.md)
 
 ---
 
-La fundación es la parte de la vivienda que transmite todo el peso al suelo. Si falla la fundación, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas muy difíciles de corregir después.
+Los fundamentos es la parte de la vivienda que transmite todo el peso al suelo. Si falla los fundamentos, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas muy difíciles de corregir después.
 
-> 🔑 **Regla de oro:** Una fundación bien ejecutada es invisible una vez terminada la casa. Una fundación mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.
+> 🔑 **Regla de oro:** Unos fundamentos bien ejecutada es invisible una vez terminada la casa. Unos fundamentos mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.
 
 ---
 
@@ -516,7 +516,7 @@ El encuentro entre el suelo interior y la base del zócalo es el punto más vuln
 
 **1. La arcilla expansiva: el principal riesgo del suelo**
 
-Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la fundación a lo largo del tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca se construye sobre la capa superficial orgánica de color negro.
+Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar los fundamentos a lo largo del tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca se construye sobre la capa superficial orgánica de color negro.
 
 **2. Nivel freático alto en la estación lluviosa**
 
