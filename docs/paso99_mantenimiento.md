@@ -2,8 +2,6 @@
 
 [← 04. Carpintería](paso05_carpinterias.md)
 
----
-
 Una vivienda bien construida necesita revisiones periódicas para mantener su integridad a lo largo del tiempo. En Guinea Ecuatorial, el clima ecuatorial acelera todos los procesos de degradación: la humedad constante pudre la madera, las lluvias intensas desgastan los materiales y las termitas actúan sin pausa durante todo el año. Lo que en un clima templado tarda décadas en deteriorarse, en este entorno puede manifestarse en una o dos temporadas.
 
 El mantenimiento no es una tarea excepcional. Es parte del ciclo de vida normal de la vivienda y debe integrarse en los hábitos de la familia desde el primer año. El coste de una revisión anual es mínimo. El coste de reparar una viga atacada por termitas o un muro de bloques fisurado por humedad es muy alto, y en algunos casos puede comprometer la seguridad estructural de toda la casa.
@@ -109,6 +107,7 @@ SIMPLIFICAR: No se muestra el interior ni el entorno completo de la vivienda. So
 -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Inspección del cerramiento**
 
@@ -149,6 +148,7 @@ SIMPLIFICAR: No se muestra el zócalo ni el entorno. Solo el tramo de tablas con
 -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Inspección de la cubierta**
 
@@ -185,6 +185,7 @@ SIMPLIFICAR: No se muestra la estructura de la cercha ni el interior. Solo las c
 -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · Inspección de la carpintería**
 
@@ -266,6 +267,7 @@ SIMPLIFICAR: Solo el pie del montante, el durmiente y el tramo superior del zóc
 <!-- TODO: Documentar en la próxima misión de campo los productos de tratamiento de termitas disponibles comercialmente en Guinea Ecuatorial —Bata, Ebebiyín— con nombres locales y precios orientativos. Incorporar a la guía definitiva. -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 7 · Reparación de una tabla de cerramiento**
 
@@ -312,6 +314,7 @@ SIMPLIFICAR: Solo el tramo de tres tablas con las manos. No hay entorno ni perso
 > ✅ **Comprobación final:** Se vierte agua sobre la zona reparada desde la tabla superior y se comprueba desde el interior que no hay filtración. Si el agua entra, el solape o la inclinación no son correctos y deben ajustarse antes de dar la reparación por terminada.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 8 · Reparación de una chapa de cubierta**
 
@@ -360,10 +363,9 @@ SIMPLIFICAR: Solo la sección de la chapa, el rastrel y los dos tornillos —el 
 6. Se comprueba la estanqueidad vertiendo agua sobre la zona reparada y observando desde el interior que no hay filtración.
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
-
----
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 **1. La estación lluviosa no da margen**
 

@@ -2,8 +2,6 @@
 
 [← 01. fundación](paso02_cimentacion.md) | [03. Cubierta →](paso04_cubierta.md)
 
----
-
 El cerramiento es el conjunto de elementos que forman las paredes de la vivienda. En este sistema constructivo, las paredes no son de bloque macizo: están formadas por una estructura de montantes verticales de madera que soporta el peso de la cubierta, y por tablas horizontales que cierran el espacio entre ellos.
 
 En el clima ecuatorial de Guinea Ecuatorial no se persigue un cerramiento hermético —la ventilación cruzada es necesaria y beneficiosa—, sino una barrera eficaz contra el agua de lluvia lateral y la protección de la madera frente a la humedad ascendente del suelo.
@@ -157,6 +155,7 @@ SIMPLIFICAR: Solo se muestra el durmiente desde arriba. No hay entorno.
 <!-- TODO: Definir en detalle el tratamiento del hueco de puerta y ventana: dimensiones mínimas del montante de jamba, listón horizontal de cargadero, relación entre el ancho del hueco y el módulo. Esta información debe resolverse en paralelo con la decisión sobre el sistema de carpintería (paso 05 del outline). -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Colocación de los montantes**
 
@@ -232,6 +231,7 @@ SIMPLIFICAR: Solo se muestra la sección. No hay entorno ni personas.
 Las tablas no deben tocar el suelo en ningún punto. Si el zócalo no es suficientemente alto y las tablas quedan muy próximas al nivel del suelo, se añade una hilada extra de bloques antes de colocar el durmiente.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · Tablas solapadas del cerramiento**
 
@@ -260,6 +260,7 @@ SIMPLIFICAR: Solo la sección de las dos tablas. No hay entorno ni montante visi
 5. Se sube hilada a hilada hasta llegar a la altura prevista de la viga de cubierta.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 6 · Esquinas y encuentros**
 
@@ -282,6 +283,7 @@ SIMPLIFICAR: Solo se muestra la esquina con dos hiladas. No hay entorno.
 -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 7 · Huecos de puertas y ventanas**
 
@@ -308,6 +310,7 @@ SIMPLIFICAR: No hay carpintería instalada aún. Solo el hueco formado por los m
 <!-- TODO: Definir en detalle el tratamiento del hueco una vez resuelta la carpintería del prototipo: dimensiones mínimas del montante de jamba, tolerancia entre el hueco de obra y la dimensión de la hoja, sistema de fijación del premarco. Ver paso 05 del outline. -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 8 · La viga de cubierta**
 
@@ -355,10 +358,9 @@ SIMPLIFICAR: Solo el montante de esquina y los dos tramos de viga. No hay tablas
 <!-- TODO: Validar con el equipo técnico la sección mínima de la viga de cubierta en función de la separación entre montantes y las cargas previstas de la cubierta del prototipo. La sección de 8×8 cm se propone como valor de referencia. -->
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
-
----
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 **1. La zona más vulnerable: la parte baja del cerramiento**
 

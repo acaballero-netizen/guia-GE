@@ -2,8 +2,6 @@
 
 [← 03. Cubierta](paso04_cubierta.md) | [05. Mantenimiento →](paso99_mantemiento.md)
 
----
-
 Las particiones interiores y la carpintería son los últimos elementos que se colocan antes de dar la vivienda por terminada. A diferencia de los pasos anteriores, ninguno de estos elementos es estructural: no soportan el peso de la cubierta ni rigidizan el conjunto. Su función es organizar el espacio interior, regular la ventilación y la privacidad, y proteger los huecos de la lluvia y los insectos.
 
 El orden de ejecución importa: primero se trazan y construyen las particiones, porque son las que definen los huecos donde irán las puertas. Después se instalan los premarcos y las hojas de carpintería, tanto en los huecos del cerramiento exterior como en los de las particiones.
@@ -82,6 +80,7 @@ SIMPLIFICAR: No se muestra la cubierta completa. Solo los montantes del cerramie
 -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 2 · Replanteo de particiones**
 
@@ -110,6 +109,7 @@ SIMPLIFICAR: No hay piezas de madera aún. Solo las líneas sobre el suelo.
 > ✅ **Relación con el módulo:** Aunque las particiones no tienen que coincidir con el módulo del cerramiento exterior, es conveniente que el ancho de los huecos de paso sea un múltiplo o submúltiplo del módulo estructural. Esto simplifica la fabricación del premarco y facilita que las puertas queden bien integradas.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Estructura de la partición**
 
@@ -152,6 +152,7 @@ SIMPLIFICAR: Sin tablas de cerramiento aún. Solo la estructura de madera.
 La partición no debe quedar separada del cerramiento exterior. Una junta abierta entre el tabique y la pared es una vía de entrada para insectos. Si hay una pequeña diferencia por irregularidad de la madera, se rellena con un listón fino clavado a tope.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Cerramiento de la partición**
 
@@ -180,6 +181,7 @@ SIMPLIFICAR: Solo el tramo de tabique. No hay entorno ni personas.
 > ⚠️ **Sobre el acabado:** Las tablas de partición quedan vistas por ambas caras. Un cepillado previo de la cara visible mejora considerablemente el acabado sin necesidad de ningún material adicional. Si hay carpintero con cepillo disponible, vale la pena hacerlo antes de colocar las tablas.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · El hueco de paso**
 
@@ -259,6 +261,7 @@ SIMPLIFICAR: Solo la sección del encuentro. No hay entorno ni hoja de puerta.
 > ✅ **Comprobación:** Antes de colgar la puerta, se pasa una hoja de sierra o una regla por el interior del premarco. Si la regla roza en algún punto, hay una deformación que debe corregirse antes de continuar.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 2 · La puerta**
 
@@ -311,6 +314,7 @@ SIMPLIFICAR: Solo el detalle de la bisagra. No se muestra la hoja completa ni el
 > ⚠️ **Sobre la madera húmeda:** En Guinea Ecuatorial, la madera recién aserrada puede tener alta humedad interna. Una hoja fabricada con madera no estabilizada puede deformarse en las primeras semanas. Si es posible, se deja la madera secando en lugar cubierto durante al menos 2–4 semanas antes de fabricar la hoja.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · La ventana**
 
@@ -359,6 +363,7 @@ Se fabrica un bastidor de madera liviana del tamaño del hueco interior del prem
 > ✅ **En el contexto de Guinea Ecuatorial**, las opciones A y B son las más habituales y replicables por carpinteros locales sin necesidad de materiales importados. La opción C depende de la disponibilidad de mosquitera en el mercado local y añade mantenimiento: la malla se degrada con el tiempo y necesita ser sustituida.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Protección frente a la lluvia**
 
@@ -405,10 +410,9 @@ La junta perimetral entre el premarco y las tablas de cerramiento es una vía de
 > ⚠️ **No se usan sellantes de silicona ni espumas expansivas** en estos encuentros. Estos materiales no son adecuados en clima ecuatorial: la expansión y contracción de la madera con la humedad rompe el sellante en pocas semanas, y la junta queda peor que si no se hubiera sellado. El tapajuntas de madera trabaja con la misma dilatación que el cerramiento y no genera ese problema.
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
-
----
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 **1. La humedad como factor principal de diseño de carpintería**
 

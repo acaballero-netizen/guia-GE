@@ -2,8 +2,6 @@
 
 [← 00. Pasos previos](paso01_pasos_previos.md) | [02. Cerramiento →](paso03_cerramiento.md)
 
----
-
 Los fundamentos es la parte de la vivienda que transmite todo el peso al suelo. Si falla los fundamentos, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas muy difíciles de corregir después.
 
 > 🔑 **Regla de oro:** Unos fundamentos bien ejecutada es invisible una vez terminada la casa. Unos fundamentos mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.
@@ -79,6 +77,7 @@ La profundidad y el ancho de la zanja dependen del tipo de suelo identificado en
 Como referencia rápida para suelo firme o laterítico: profundidad mínima 60 cm, ancho mínimo 40 cm. En arcilla blanda: 80–100 cm de profundidad y 50–60 cm de ancho. En todos los casos, el equipo técnico debe realizar al menos una cata manual en cada parcela antes de confirmar las dimensiones definitivas.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 2 · Excavación de la zanja**
 
@@ -108,6 +107,7 @@ La referencia de replanteo —el cordel— marca la **cara exterior del muro**. 
 > ✅ **A tener en cuenta:** La zanja se excava el mismo día que se va a hormigonar, o se cubre con lámina de plástico si hay que esperar. En Guinea Ecuatorial, una lluvia nocturna puede inundar o desmoronar las paredes de una zanja abierta. Si la obra se para durante días o semanas, se rellena la zanja parcialmente con la tierra extraída para proteger el fondo, y se vuelve a excavar cuando se retome el trabajo.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Capa de protección del fondo**
 <!-- TODO: confirmar si tiene sentido compactar el fondo del suelo de la zapata para que pueda tener ademas de un asentamiento mas homogeneo, y si hay que incluir grava en el fondo o no, para hacer mejor el asentamiento de la zapata -->
@@ -146,6 +146,7 @@ Se extiende una lámina de plástico grueso en el fondo de la excavación, solap
 La zapata puede ejecutarse sin capa de protección, pero en ese caso se aumenta el recubrimiento mínimo de la armadura: las barras de acero deben quedar a al menos 7–8 cm del fondo de la zanja en lugar de los 5 cm estándar. Los calzos que soportan la armadura deben ser de hormigón o bloque, nunca de madera.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Armadura de la zapata**
 
@@ -206,6 +207,7 @@ En este caso:
 > ⚠️ El armado mínimo debe ser validado por el equipo técnico antes de aplicarse. No es adecuado en suelos blandos o arcillosos, ni en viviendas con más de una planta.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · Esperas verticales**
 
@@ -229,6 +231,7 @@ La posición de cada espera debe planificarse durante el replanteo, porque deben
 > ✅ **Prueba de comprobación:** Antes de verter el hormigón, se presenta un bloque sobre la zanja sin apoyarlo. Las esperas deben pasar por el hueco interior del bloque con holgura, sin rozar las paredes. Si rozan, se ajusta la posición antes de continuar.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 6 · Preparación y dosificación del hormigón**
 
@@ -279,6 +282,7 @@ Condiciones para que funcione correctamente:
 > ⚠️ Solo se amasa la cantidad que pueda verterse en 30–45 minutos. El calor ecuatorial acelera el fraguado: una mezcla que empieza a endurecer no debe reutilizarse añadiéndole más agua.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 7 · Vertido y curado del hormigón**
 
@@ -344,6 +348,7 @@ Los bloques estándar de hormigón tienen dos o tres huecos interiores por los q
 <!-- PROMPT: Esta imagen tiene que representar el detalle de un bloque de hormigón visto en sección con la base perforada para dejar pasar una espera vertical. Se ve el bloque con sus huecos interiores y el punto de la base donde se ha practicado la apertura con el cincel. La apertura y la espera que pasa a través del bloque están remarcadas en rojo. Dibujo técnico a mano alzada, escala de grises. -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 9 · Colocación de las hiladas de bloques**
 
@@ -369,11 +374,10 @@ Las hiladas de bloques forman el muro del zócalo. La clave de su resistencia no
 
 > ✅ La junta de mortero entre bloques debe ser de aproximadamente 1 cm. Más de esa medida debilita el conjunto; menos impide la adhesión correcta.
 
----
-
 <!-- TODO: pendiente añadir el revoco o mortero para la proteccion de los bloques de hormigon -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 10 · Relleno de los huecos con hormigón fluido**
 
@@ -424,6 +428,7 @@ SIMPLIFICAR: Solo el zócalo y el terreno interior con el pisón. Sin estructura
 -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 12 · Suelo interior**
 
@@ -509,8 +514,9 @@ El encuentro entre el suelo interior y la base del zócalo es el punto más vuln
 <!-- TODO: Documentar en la próxima misión de campo qué tipo de suelo interior es más habitual en las viviendas de la región: tierra compactada, hormigón, cerámica u otro acabado. Verificar también si existe algún material o técnica local de estabilización del suelo (cal, ceniza, mezcla de arcilla y arena) que pueda integrarse como tercera opción. -->
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 ---
 

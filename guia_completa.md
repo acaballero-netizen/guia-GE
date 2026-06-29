@@ -16,12 +16,12 @@ Licencia: CC BY-SA 4.0
 
 <div style="page-break-before: always;"></div>
 
-# **Índice General de Pasos · Guía Práctica de Autoconstrucción**
+# **Índice general de pasos · Guía práctica de autoconstrucción**
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 
 ---
 
-## 00 · Criterios de diseño (en desarrollo)
+## 00 · Criterios de diseño **(en desarrollo)**
 * **00.1 · Tamaño de la vivienda** — Cómo estimar la superficie necesaria en función del número de personas y los usos.
 * **00.2 · Orientación** — Cómo orientar la vivienda para maximizar la ventilación cruzada y minimizar la entrada de lluvia y sol directo.
 * **00.3 · Distribución interior** — Criterios básicos de organización de espacios: habitaciones, zona de cocina, accesos.
@@ -40,7 +40,7 @@ Licencia: CC BY-SA 4.0
 
 ---
 
-## 02 · Estructura de permanente · fundación
+## 02 · Estructura de permanente · Fundamentos
 
 ### 02.A · Zapata corrida
 * **02.A.1 · Reconocimiento del terreno** — Identificación manual del tipo de suelo (roca, arena, arcilla) para determinar la profundidad.
@@ -101,15 +101,25 @@ Licencia: CC BY-SA 4.0
 
 ---
 
-## 06 · Mantenimiento
-* **06.1 · Calendario de revisiones** — Programación de inspecciones al inicio de la estación seca y de la estación lluviosa.
-* **06.2 · Inspección del zócalo** — Localización de grietas, humedades o caminos/galerías de tierra hechos por termitas.
-* **06.3 · Inspección del cerramiento** — Identificación de tablas podridas por humedad, movimientos de pilares o juntas abiertas.
-* **06.4 · Inspección de la cubierta** — Detección de chapas metálicas sueltas, puntos de óxido o filtraciones de agua.
-* **06.5 · Inspección de carpintería** — Revisión del estado de las bisagras, desajustes en el cierre de puertas y ventanas o pudrición.
-* **06.6 · Actuación ante termitas** — Aplicación de tratamientos de barrera o sustituciones urgentes antes de que afecte a los pilares.
-* **06.7 · Reparación de una tabla de cerramiento** — Proceso de extracción y sustitución de una pieza de fachada dañada sin alterar el resto.
-* **06.8 · Reparación de una chapa de cubierta** — Desmontaje de la chapa dañada o suelta y colocación de una nueva fijación impermeabilizada.
+## 06 · Instalaciones **(en desarrollo)**
+* **06.1 · Captación de agua de lluvia** — Diseño de la red de canalones y depósito de almacenamiento aprovechando la cubierta como superficie de recogida.
+* **06.2 · Depósito y distribución** — Elección, ubicación y conexión del depósito elevado para obtener presión por gravedad en los puntos de consumo.
+* **06.3 · Saneamiento y fosa séptica** — Trazado de la red de aguas residuales, distancias mínimas y construcción de una fosa de decantación sencilla.
+* **06.4 · Ventilación e higiene** — Estrategias de ventilación cruzada, protección frente a insectos y separación de zona húmeda y zona seca.
+* **06.5 · Instalación eléctrica básica** — Opciones de suministro (red, generador, solar) y trazado mínimo de circuitos para iluminación y enchufes.
+* **06.6 · Sistema fotovoltaico autónomo** — Dimensionado de paneles, batería, regulador e inversor para cubrir las necesidades esenciales del hogar.
+
+---
+
+## Mantenimiento
+1. **Calendario de revisiones** — Programación de inspecciones al inicio de la estación seca y de la estación lluviosa.
+2. **Inspección del zócalo** — Localización de grietas, humedades o caminos/galerías de tierra hechos por termitas.
+3. **Inspección del cerramiento** — Identificación de tablas podridas por humedad, movimientos de pilares o juntas abiertas.
+4. **Inspección de la cubierta** — Detección de chapas metálicas sueltas, puntos de óxido o filtraciones de agua.
+5. **Inspección de carpintería** — Revisión del estado de las bisagras, desajustes en el cierre de puertas y ventanas o pudrición.
+6. **Actuación ante termitas** — Aplicación de tratamientos de barrera o sustituciones urgentes antes de que afecte a los pilares.
+7. **Reparación de una tabla de cerramiento** — Proceso de extracción y sustitución de una pieza de fachada dañada sin alterar el resto.
+8. **Reparación de una chapa de cubierta** — Desmontaje de la chapa dañada o suelta y colocación de una nueva fijación impermeabilizada.
 
 ---
 
@@ -119,7 +129,7 @@ Licencia: CC BY-SA 4.0
 
 Antes de levantar cualquier muro o clavar cualquier poste, el terreno debe estar preparado. Estos cuatro pasos —analizar el terreno, limpiarlo, nivelarlo y replantearlo— son los más importantes de toda la obra. Si se hacen mal, todos los errores se acumulan y resultan muy difíciles de corregir.
 
-El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvias intensas erosionan terrenos mal preparados, la vegetación tropical crece con rapidez si no se elimina bien desde la raíz, y la humedad del suelo puede arruinar una fundación si no se trabaja correctamente desde el principio.
+El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvias intensas erosionan terrenos mal preparados, la vegetación tropical crece con rapidez si no se elimina bien desde la raíz, y la humedad del suelo puede arruinar un fundamento si no se trabaja correctamente desde el principio.
 
 > 🔑 **Regla de oro:** Un día bien invertido en preparar el terreno ahorra semanas de problemas después.
 
@@ -154,7 +164,7 @@ El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvi
 
 ### ¿Para qué sirve?
 
-El terreno determina la profundidad y las dimensiones necesarias de la fundación. Construir sin conocer el tipo de suelo puede resultar en una zapata insuficiente que se asienta, se agrieta o falla con las primeras lluvias intensas.
+El terreno determina la profundidad y las dimensiones necesarias de los fundamentos. Construir sin conocer el tipo de suelo puede resultar en una zapata insuficiente que se asienta, se agrieta o falla con las primeras lluvias intensas.
 
 En Guinea Ecuatorial es frecuente encontrar suelos arcillosos expansivos, especialmente en la zona fang interior, así como suelos con nivel freático alto en el litoral. Estos suelos exigen mayor cuidado que los suelos firmes o arenosos compactos. 
 
@@ -162,7 +172,7 @@ Antes de excavar ninguna zanja, se realizan dos pruebas sencillas que no requier
 
 ---
 
-### Prueba 1 · La prueba de la bola (reconocimiento inmediato)
+**### Prueba 1 · La prueba de la bola (reconocimiento inmediato)**
 
 Esta prueba permite identificar el tipo de suelo en el momento, con las manos y en el mismo solar.
 
@@ -180,16 +190,16 @@ Esta prueba permite identificar el tipo de suelo en el momento, con las manos y 
 
 | Resultado al abrir la mano | Tipo de suelo probable | Qué indica |
 |---|---|---|
-| La tierra se disgrega y cae, no mantiene forma | Arena o grava | Suelo permeable, buen drenaje. fundación estándar |
+| La tierra se disgrega y cae, no mantiene forma | Arena o grava | Suelo permeable, buen drenaje. Fundamento estándar |
 | Mantiene la bola con forma. Se ven marcas de dedos. Al secar se endurece | Arcilla o tierra arcillosa | Suelo expansivo. Requiere mayor profundidad de zapata |
 | Mantiene la bola pero es esponjosa o fibrosa. Color oscuro, olor a tierra húmeda | Tierra orgánica o negra | **No apta para cimentar. Retirar completamente antes de excavar** |
-| Bola compacta, rugosa, con partículas visibles. No se ve barro en las manos | Tierra firme o laterítica | Buen soporte. fundación estándar |
+| Bola compacta, rugosa, con partículas visibles. No se ve barro en las manos | Tierra firme o laterítica | Buen soporte. Fundamento estándar |
 
 > ⚠️ Si el resultado es tierra orgánica o arcilla blanda, consultar la sección de *Tips específicos para Guinea Ecuatorial* al final de este capítulo antes de continuar.
 
 ---
 
-### Prueba 2 · La prueba del tarro (análisis de sedimentación)
+**### Prueba 2 · La prueba del tarro (análisis de sedimentación)**
 
 Esta prueba tarda entre 12 y 48 horas, pero da información más detallada sobre la composición del suelo. Es especialmente útil cuando la prueba de la bola genera dudas o cuando el suelo parece una mezcla de varios tipos.
 
@@ -211,7 +221,7 @@ Una vez que el agua está en reposo y las capas bien formadas, medir con un pali
 
 | Composición aproximada | Interpretación | Decisión |
 |---|---|---|
-| Más del 50% de capa inferior (arena/grava) | Suelo granular, buen drenaje | fundación estándar. Profundidad mínima 60 cm |
+| Más del 50% de capa inferior (arena/grava) | Suelo granular, buen drenaje | Fundamentos estándar. Profundidad mínima 60 cm |
 | Capa superior (arcilla/limo) mayor que capa inferior | Suelo arcilloso dominante | Aumentar profundidad de zapata a 80–100 cm. Revisar drenaje perimetral |
 | Agua permanece turbia o marrón incluso tras 48 horas | Arcilla muy fina o suelo orgánico en suspensión | Valoración técnica necesaria antes de continuar |
 | Capa oscura flotando en la superficie | Materia orgánica presente | Retirar todo ese horizonte antes de excavar la zapata |
@@ -222,7 +232,7 @@ Una vez que el agua está en reposo y las capas bien formadas, medir con un pali
 
 ### Tabla de decisión: qué hacer según el tipo de suelo
 
-Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones de la fundación:
+Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones de los fundamentos:
 
 | Tipo de suelo | Cómo se reconoce | Profundidad mínima | Ancho mínimo orientativo | Observaciones |
 |---|---|---|---|---|
@@ -249,7 +259,7 @@ Para retirar toda la vegetación, raíces y tierra orgánica que hay sobre el so
 1. **Cortar la vegetación** con machete: maleza, arbustos pequeños y todo lo que crezca dentro del perímetro de la futura casa y en una franja de al menos 1 metro alrededor.
 2. **Arrancar raíces superficiales** con la azada. No basta con cortar lo que se ve por encima del suelo.
 3. **Agrupar y retirar los restos** con la carretilla, llevándolos fuera del área de trabajo.
-4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener una fundación.
+4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener un fundamento.
 
 <img src="docs/imagenes/pasos_previos.2.png" width="500" alt="Limpieza del terreno" style="display: block; margin: auto;">
 
@@ -388,9 +398,10 @@ Una vez decidida la ubicación, se clavan dos estacas en el suelo que marquen co
 
 **7. Posición de las guías de excavación**
 
-Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la excavación. Al excavar la zanja de fundación, el operario se guía por esa cuerda sabiendo que deberá excavar tanto hacia el interior como hacia el exterior del muro según las dimensiones de la zapata.
+Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la excavación. Al excavar la zanja del fundamento, el operario se guía por esa cuerda sabiendo que deberá excavar tanto hacia el interior como hacia el exterior del muro según las dimensiones de la zapata.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
@@ -398,7 +409,7 @@ Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la
 
 **1. La arcilla expansiva: el principal riesgo de la región**
 
-Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la fundación con el tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca construir sobre la capa superficial orgánica negra.
+Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar los fundamentos con el tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca construir sobre la capa superficial orgánica negra.
 
 **2. Nivel freático alto en la estación lluviosa**
 
@@ -420,7 +431,7 @@ La manguera transparente es el instrumento clave para la nivelación. Si no est�
 
 ## Resumen: comprobaciones antes de avanzar
 
-Antes de pasar a la fundación, verificar que se han completado correctamente estos puntos:
+Antes de pasar a los fundamentos, verificar que se han completado correctamente estos puntos:
 
 - [ ] Se han realizado la prueba de la bola y la prueba del tarro en varias zonas del solar.
 - [ ] El tipo de suelo está identificado y se ha determinado la profundidad de zapata correspondiente.
@@ -441,13 +452,11 @@ Antes de pasar a la fundación, verificar que se han completado correctamente es
 
 <div style="page-break-before: always;"></div>
 
-# **Fundaciones**
+# **Fundamentos**
 
----
+Los fundamentos es la parte de la vivienda que transmite todo el peso al suelo. Si falla los fundamentos, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas muy difíciles de corregir después.
 
-La fundación es la parte de la vivienda que transmite todo el peso al suelo. Si falla la fundación, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas muy difíciles de corregir después.
-
-> 🔑 **Regla de oro:** Una fundación bien ejecutada es invisible una vez terminada la casa. Una fundación mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.
+> 🔑 **Regla de oro:** Unos fundamentos bien ejecutada es invisible una vez terminada la casa. Unos fundamentos mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.
 
 ---
 
@@ -520,6 +529,7 @@ La profundidad y el ancho de la zanja dependen del tipo de suelo identificado en
 Como referencia rápida para suelo firme o laterítico: profundidad mínima 60 cm, ancho mínimo 40 cm. En arcilla blanda: 80–100 cm de profundidad y 50–60 cm de ancho. En todos los casos, el equipo técnico debe realizar al menos una cata manual en cada parcela antes de confirmar las dimensiones definitivas.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 2 · Excavación de la zanja**
 
@@ -548,6 +558,7 @@ La referencia de replanteo —el cordel— marca la **cara exterior del muro**. 
 > ✅ **A tener en cuenta:** La zanja se excava el mismo día que se va a hormigonar, o se cubre con lámina de plástico si hay que esperar. En Guinea Ecuatorial, una lluvia nocturna puede inundar o desmoronar las paredes de una zanja abierta. Si la obra se para durante días o semanas, se rellena la zanja parcialmente con la tierra extraída para proteger el fondo, y se vuelve a excavar cuando se retome el trabajo.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Capa de protección del fondo**
 
@@ -584,6 +595,7 @@ Se extiende una lámina de plástico grueso en el fondo de la excavación, solap
 La zapata puede ejecutarse sin capa de protección, pero en ese caso se aumenta el recubrimiento mínimo de la armadura: las barras de acero deben quedar a al menos 7–8 cm del fondo de la zanja en lugar de los 5 cm estándar. Los calzos que soportan la armadura deben ser de hormigón o bloque, nunca de madera.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Armadura de la zapata**
 
@@ -642,6 +654,7 @@ En este caso:
 > ⚠️ El armado mínimo debe ser validado por el equipo técnico antes de aplicarse. No es adecuado en suelos blandos o arcillosos, ni en viviendas con más de una planta.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · Esperas verticales**
 
@@ -664,6 +677,7 @@ La posición de cada espera debe planificarse durante el replanteo, porque deben
 > ✅ **Prueba de comprobación:** Antes de verter el hormigón, se presenta un bloque sobre la zanja sin apoyarlo. Las esperas deben pasar por el hueco interior del bloque con holgura, sin rozar las paredes. Si rozan, se ajusta la posición antes de continuar.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 6 · Preparación y dosificación del hormigón**
 
@@ -713,6 +727,7 @@ Condiciones para que funcione correctamente:
 > ⚠️ Solo se amasa la cantidad que pueda verterse en 30–45 minutos. El calor ecuatorial acelera el fraguado: una mezcla que empieza a endurecer no debe reutilizarse añadiéndole más agua.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 7 · Vertido y curado del hormigón**
 
@@ -775,6 +790,7 @@ Los bloques estándar de hormigón tienen dos o tres huecos interiores por los q
 <img src="docs/imagenes/cimentacion.8.png" width="500" alt="Preparación del bloque para la espera" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 9 · Colocación de las hiladas de bloques**
 
@@ -799,8 +815,7 @@ Las hiladas de bloques forman el muro del zócalo. La clave de su resistencia no
 > ✅ La junta de mortero entre bloques debe ser de aproximadamente 1 cm. Más de esa medida debilita el conjunto; menos impide la adhesión correcta.
 
 ---
-
----
+<div style="page-break-after: always;"></div>
 
 ## **Paso 10 · Relleno de los huecos con hormigón fluido**
 
@@ -845,6 +860,7 @@ Antes de ejecutar el suelo, el terreno interior debe estar limpio, nivelado y co
 <img src="docs/imagenes/cimentacion.suelo.1.png" width="500" alt="Nivelación del terreno interior" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 12 · Suelo interior**
 
@@ -910,14 +926,15 @@ El suelo de tierra requiere revisión periódica: al inicio de cada estación se
 El encuentro entre el suelo interior y la base del zócalo es el punto más vulnerable a la entrada de agua. La cara exterior del zócalo al nivel del suelo exterior debe quedar siempre **por encima** de la cara superior del suelo interior, para que el agua de lluvia no entre rebosando hacia el interior.
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 ---
 
 **1. La arcilla expansiva: el principal riesgo del suelo**
 
-Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la fundación a lo largo del tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca se construye sobre la capa superficial orgánica de color negro.
+Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar los fundamentos a lo largo del tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca se construye sobre la capa superficial orgánica de color negro.
 
 **2. Nivel freático alto en la estación lluviosa**
 
@@ -986,8 +1003,6 @@ Antes de pasar al cerramiento de madera, verificar que se han completado correct
 <div style="page-break-before: always;"></div>
 
 # **Cerramiento**
-
----
 
 El cerramiento es el conjunto de elementos que forman las paredes de la vivienda. En este sistema constructivo, las paredes no son de bloque macizo: están formadas por una estructura de montantes verticales de madera que soporta el peso de la cubierta, y por tablas horizontales que cierran el espacio entre ellos.
 
@@ -1106,6 +1121,7 @@ Trabajar siempre a **eje** —no a cara de montante— garantiza que las tablas 
 2. En las posiciones donde haya puerta o ventana no se coloca montante. Se marcan los límites del hueco sobre el durmiente y se indica en cada extremo la posición del **montante de jamba**: un montante doble o reforzado que recibirá la carpintería.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Colocación de los montantes**
 
@@ -1169,6 +1185,7 @@ La primera tabla tiene una función distinta al resto: no evacúa agua de lluvia
 Las tablas no deben tocar el suelo en ningún punto. Si el zócalo no es suficientemente alto y las tablas quedan muy próximas al nivel del suelo, se añade una hilada extra de bloques antes de colocar el durmiente.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · Tablas solapadas del cerramiento**
 
@@ -1191,6 +1208,7 @@ A partir de la tabla de arranque, todas las tablas siguientes se colocan con **s
 5. Se sube hilada a hilada hasta llegar a la altura prevista de la viga de cubierta.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 6 · Esquinas y encuentros**
 
@@ -1207,6 +1225,7 @@ En las esquinas exteriores, las tablas de las dos caras no pueden terminar simul
 <img src="docs/imagenes/cerramiento.6.1.png" width="500" alt="Encuentro de esquina" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 7 · Huecos de puertas y ventanas**
 
@@ -1225,6 +1244,7 @@ En los puntos donde hay puerta o ventana, las tablas se cortan al llegar al lím
 <img src="docs/imagenes/cerramiento.7.1.png" width="500" alt="Hueco de ventana en el cerramiento" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 8 · La viga de cubierta**
 
@@ -1258,10 +1278,9 @@ Sin esta pieza, cada montante trabaja de forma aislada. Con ella, todo el perím
 > ⚠️ **Las cerchas de la cubierta apoyan sobre la viga de cubierta, que corona la cabeza de los montantes.** El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Las cerchas no deben apoyar directamente sobre las tablas del cerramiento ni sobre el zuncho de hormigón.
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
-
----
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 **1. La zona más vulnerable: la parte baja del cerramiento**
 
@@ -1316,8 +1335,6 @@ Antes de pasar a la cubierta, verificar que se han completado correctamente esto
 <div style="page-break-before: always;"></div>
 
 # **Cubierta**
-
----
 
 La cubierta es la principal barrera entre el interior de la vivienda y el clima exterior. En Guinea Ecuatorial, las lluvias intensas, el calor extremo y la humedad constante hacen de esta fase uno de los momentos más críticos de la construcción. Una cubierta mal resuelta deteriora con rapidez toda la estructura de madera que hay debajo.
 
@@ -1433,6 +1450,7 @@ Esto significa que **la separación entre cerchas debe ser igual al módulo del 
 > ✅ **Verificación previa:** Se comprueba que el ángulo del cordón superior es el mismo en los dos lados de la cercha. Una sola cercha mal ejecutada en la pendiente rompe la regularidad del tejado e impide que la chapa asiente correctamente.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 2 · El cordón inferior: pieza de tracción**
 
@@ -1453,6 +1471,7 @@ Esta solución permite realizar todas las uniones sin escuadras metálicas, usan
 <img src="docs/imagenes/cubierta.2.png" width="500" alt="Detalle del cordón inferior sándwich" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Corte y preparación de montantes y diagonales**
 
@@ -1475,6 +1494,7 @@ Todas las piezas interiores deben estar **en el mismo plano** que los cordones. 
 > ⚠️ Un corte de ángulo con holgura o con superficie irregular transmite mal los esfuerzos. La unión mecánica —clavo o tornillo— no puede compensar un mal contacto entre maderas.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Cercha de prueba: validación de geometría en el suelo**
 
@@ -1516,6 +1536,7 @@ Detectar un corte incorrecto en el suelo, antes del montaje, es mucho más fáci
 > Si todo es correcto, **numerar cada pieza** con lápiz o marca de sierra antes de desmontar. Las piezas de esta primera cercha sirven como plantilla de longitud y ángulo para cortar las siguientes.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · Montaje de las cerchas sobre la estructura**
 
@@ -1551,6 +1572,7 @@ Para cada cercha se necesitan al menos **cuatro puntales**: dos en los extremos 
 >
 > El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Este recorrido solo funciona si la posición de cada cercha coincide con la posición de un montante. Si la separación entre cerchas no coincide con el módulo del cerramiento, hay un error de diseño que debe corregirse antes del montaje.
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 6 · Arriostramiento entre cerchas**
 
@@ -1598,6 +1620,7 @@ El vuelo frontal de la cubierta —en los extremos donde no hay cercha— se con
 <img src="docs/imagenes/cubierta.7b.png" width="500" alt="Detalle del alero frontal en el hastial" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 8 · Colocación de la chapa de zinc**
 
@@ -1658,6 +1681,7 @@ La estructura del falso techo son los rastreles horizontales que se apoyan sobre
 <img src="docs/imagenes/cubierta.9.png" width="500" alt="Sección del falso techo y la cámara de aire" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 10 · Ventilación de la cámara de aire**
 
@@ -1676,10 +1700,9 @@ La cámara de aire entre la chapa y el falso techo funciona por convección natu
 > ✅ **El principio es sencillo:** el aire caliente sube y sale por la parte alta; el aire más fresco entra por los aleros. Cuanto mayor sea la diferencia de altura entre la entrada y la salida, más activo es el tiraje y más eficaz la ventilación.
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
-
----
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 **1. La posición de la cercha: siempre sobre un montante, nunca en medio del vano**
 
@@ -1740,8 +1763,6 @@ Antes de pasar a la carpintería, verificar que se han completado correctamente 
 <div style="page-break-before: always;"></div>
 
 # **Carpintería y particiones interiores**
-
----
 
 Las particiones interiores y la carpintería son los últimos elementos que se colocan antes de dar la vivienda por terminada. A diferencia de los pasos anteriores, ninguno de estos elementos es estructural: no soportan el peso de la cubierta ni rigidizan el conjunto. Su función es organizar el espacio interior, regular la ventilación y la privacidad, y proteger los huecos de la lluvia y los insectos.
 
@@ -1812,6 +1833,7 @@ Esto significa que:
 <img src="docs/imagenes/particiones.1.png" width="500" alt="Esquema estructural: montantes vs partición" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 2 · Replanteo de particiones**
 
@@ -1834,6 +1856,7 @@ El replanteo consiste en marcar sobre el suelo la posición exacta de cada tabiq
 > ✅ **Relación con el módulo:** Aunque las particiones no tienen que coincidir con el módulo del cerramiento exterior, es conveniente que el ancho de los huecos de paso sea un múltiplo o submúltiplo del módulo estructural. Esto simplifica la fabricación del premarco y facilita que las puertas queden bien integradas.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Estructura de la partición**
 
@@ -1864,6 +1887,7 @@ La estructura de la partición es el esqueleto de madera sobre el que se fijan l
 La partición no debe quedar separada del cerramiento exterior. Una junta abierta entre el tabique y la pared es una vía de entrada para insectos. Si hay una pequeña diferencia por irregularidad de la madera, se rellena con un listón fino clavado a tope.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Cerramiento de la partición**
 
@@ -1886,6 +1910,7 @@ Las tablas de cerramiento son las que dan cuerpo al tabique y lo convierten en u
 > ⚠️ **Sobre el acabado:** Las tablas de partición quedan vistas por ambas caras. Un cepillado previo de la cara visible mejora considerablemente el acabado sin necesidad de ningún material adicional. Si hay carpintero con cepillo disponible, vale la pena hacerlo antes de colocar las tablas.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · El hueco de paso**
 
@@ -1947,6 +1972,7 @@ Sin premarco, las bisagras irían directamente sobre los montantes de jamba, que
 > ✅ **Comprobación:** Antes de colgar la puerta, se pasa una hoja de sierra o una regla por el interior del premarco. Si la regla roza en algún punto, hay una deformación que debe corregirse antes de continuar.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 2 · La puerta**
 
@@ -1987,6 +2013,7 @@ La hoja de puerta se fabrica en el taller antes de llevarla a obra. Las dimensio
 > ⚠️ **Sobre la madera húmeda:** En Guinea Ecuatorial, la madera recién aserrada puede tener alta humedad interna. Una hoja fabricada con madera no estabilizada puede deformarse en las primeras semanas. Si es posible, se deja la madera secando en lugar cubierto durante al menos 2–4 semanas antes de fabricar la hoja.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · La ventana**
 
@@ -2021,6 +2048,7 @@ Se fabrica un bastidor de madera liviana del tamaño del hueco interior del prem
 > ✅ **En el contexto de Guinea Ecuatorial**, las opciones A y B son las más habituales y replicables por carpinteros locales sin necesidad de materiales importados. La opción C depende de la disponibilidad de mosquitera en el mercado local y añade mantenimiento: la malla se degrada con el tiempo y necesita ser sustituida.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Protección frente a la lluvia**
 
@@ -2055,10 +2083,9 @@ La junta perimetral entre el premarco y las tablas de cerramiento es una vía de
 > ⚠️ **No se usan sellantes de silicona ni espumas expansivas** en estos encuentros. Estos materiales no son adecuados en clima ecuatorial: la expansión y contracción de la madera con la humedad rompe el sellante en pocas semanas, y la junta queda peor que si no se hubiera sellado. El tapajuntas de madera trabaja con la misma dilatación que el cerramiento y no genera ese problema.
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
-
----
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 **1. La humedad como factor principal de diseño de carpintería**
 
@@ -2117,8 +2144,6 @@ Antes de dar la vivienda por terminada, verificar que se han completado correcta
 <div style="page-break-before: always;"></div>
 
 # **Mantenimiento**
-
----
 
 Una vivienda bien construida necesita revisiones periódicas para mantener su integridad a lo largo del tiempo. En Guinea Ecuatorial, el clima ecuatorial acelera todos los procesos de degradación: la humedad constante pudre la madera, las lluvias intensas desgastan los materiales y las termitas actúan sin pausa durante todo el año. Lo que en un clima templado tarda décadas en deteriorarse, en este entorno puede manifestarse en una o dos temporadas.
 
@@ -2215,6 +2240,7 @@ Si se detecta una galería, se rompe y se elimina. Si en la siguiente revisión 
 <img src="docs/imagenes/mantenimiento.2.png" width="500" alt="Inspección del zócalo" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Inspección del cerramiento**
 
@@ -2247,6 +2273,7 @@ Con los ciclos de humedad y secado, las tablas pueden contraerse y abrir las jun
 <img src="docs/imagenes/mantenimiento.3.png" width="500" alt="Inspección del cerramiento" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Inspección de la cubierta**
 
@@ -2275,6 +2302,7 @@ La cumbrera se inspecciona verificando que la pieza de remate no presenta separa
 <img src="docs/imagenes/mantenimiento.4.png" width="500" alt="Inspección de la cubierta" style="display: block; margin: auto;">
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · Inspección de la carpintería**
 
@@ -2340,6 +2368,7 @@ Un ataque activo se distingue de daños antiguos por tres señales:
 > ⚠️ **La madera podrida no se recupera con tratamiento.** El tratamiento preventivo protege la madera sana. La madera ya atacada con pérdida de sección debe sustituirse.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 7 · Reparación de una tabla de cerramiento**
 
@@ -2374,6 +2403,7 @@ Las tablas de cerramiento son piezas individuales que pueden reemplazarse sin de
 > ✅ **Comprobación final:** Se vierte agua sobre la zona reparada desde la tabla superior y se comprueba desde el interior que no hay filtración. Si el agua entra, el solape o la inclinación no son correctos y deben ajustarse antes de dar la reparación por terminada.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 8 · Reparación de una chapa de cubierta**
 
@@ -2410,10 +2440,9 @@ Una chapa suelta o perforada puede sustituirse individualmente sin necesidad de 
 6. Se comprueba la estanqueidad vertiendo agua sobre la zona reparada y observando desde el interior que no hay filtración.
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
-
----
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 **1. La estación lluviosa no da margen**
 

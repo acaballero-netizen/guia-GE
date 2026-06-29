@@ -1,10 +1,10 @@
-# **Índice General de Pasos · Guía Práctica de Autoconstrucción**
+# **Índice general de pasos · Guía práctica de autoconstrucción**
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
 ---
 
-## 00 · Criterios de diseño (en desarrollo)
+## 00 · Criterios de diseño **(en desarrollo)**
 * **00.1 · Tamaño de la vivienda** — Cómo estimar la superficie necesaria en función del número de personas y los usos.
 * **00.2 · Orientación** — Cómo orientar la vivienda para maximizar la ventilación cruzada y minimizar la entrada de lluvia y sol directo.
 * **00.3 · Distribución interior** — Criterios básicos de organización de espacios: habitaciones, zona de cocina, accesos.
@@ -23,7 +23,7 @@
 
 ---
 
-## 02 · Estructura de permanente · fundación
+## 02 · Estructura de permanente · Fundamentos
 
 ### 02.A · Zapata corrida
 * **02.A.1 · Reconocimiento del terreno** — Identificación manual del tipo de suelo (roca, arena, arcilla) para determinar la profundidad.
@@ -84,12 +84,22 @@
 
 ---
 
-## 06 · Mantenimiento
-* **06.1 · Calendario de revisiones** — Programación de inspecciones al inicio de la estación seca y de la estación lluviosa.
-* **06.2 · Inspección del zócalo** — Localización de grietas, humedades o caminos/galerías de tierra hechos por termitas.
-* **06.3 · Inspección del cerramiento** — Identificación de tablas podridas por humedad, movimientos de pilares o juntas abiertas.
-* **06.4 · Inspección de la cubierta** — Detección de chapas metálicas sueltas, puntos de óxido o filtraciones de agua.
-* **06.5 · Inspección de carpintería** — Revisión del estado de las bisagras, desajustes en el cierre de puertas y ventanas o pudrición.
-* **06.6 · Actuación ante termitas** — Aplicación de tratamientos de barrera o sustituciones urgentes antes de que afecte a los pilares.
-* **06.7 · Reparación de una tabla de cerramiento** — Proceso de extracción y sustitución de una pieza de fachada dañada sin alterar el resto.
-* **06.8 · Reparación de una chapa de cubierta** — Desmontaje de la chapa dañada o suelta y colocación de una nueva fijación impermeabilizada.
+## 06 · Instalaciones **(en desarrollo)**
+* **06.1 · Captación de agua de lluvia** — Diseño de la red de canalones y depósito de almacenamiento aprovechando la cubierta como superficie de recogida.
+* **06.2 · Depósito y distribución** — Elección, ubicación y conexión del depósito elevado para obtener presión por gravedad en los puntos de consumo.
+* **06.3 · Saneamiento y fosa séptica** — Trazado de la red de aguas residuales, distancias mínimas y construcción de una fosa de decantación sencilla.
+* **06.4 · Ventilación e higiene** — Estrategias de ventilación cruzada, protección frente a insectos y separación de zona húmeda y zona seca.
+* **06.5 · Instalación eléctrica básica** — Opciones de suministro (red, generador, solar) y trazado mínimo de circuitos para iluminación y enchufes.
+* **06.6 · Sistema fotovoltaico autónomo** — Dimensionado de paneles, batería, regulador e inversor para cubrir las necesidades esenciales del hogar.
+
+---
+
+## Mantenimiento
+1. **Calendario de revisiones** — Programación de inspecciones al inicio de la estación seca y de la estación lluviosa.
+2. **Inspección del zócalo** — Localización de grietas, humedades o caminos/galerías de tierra hechos por termitas.
+3. **Inspección del cerramiento** — Identificación de tablas podridas por humedad, movimientos de pilares o juntas abiertas.
+4. **Inspección de la cubierta** — Detección de chapas metálicas sueltas, puntos de óxido o filtraciones de agua.
+5. **Inspección de carpintería** — Revisión del estado de las bisagras, desajustes en el cierre de puertas y ventanas o pudrición.
+6. **Actuación ante termitas** — Aplicación de tratamientos de barrera o sustituciones urgentes antes de que afecte a los pilares.
+7. **Reparación de una tabla de cerramiento** — Proceso de extracción y sustitución de una pieza de fachada dañada sin alterar el resto.
+8. **Reparación de una chapa de cubierta** — Desmontaje de la chapa dañada o suelta y colocación de una nueva fijación impermeabilizada.

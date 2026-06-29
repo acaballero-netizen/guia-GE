@@ -3,8 +3,6 @@
 
 [← 02. Cerramiento](paso03_cerramiento.md) | [04. Carpintería →](paso05_carpinterias.md)
 
----
-
 La cubierta es la principal barrera entre el interior de la vivienda y el clima exterior. En Guinea Ecuatorial, las lluvias intensas, el calor extremo y la humedad constante hacen de esta fase uno de los momentos más críticos de la construcción. Una cubierta mal resuelta deteriora con rapidez toda la estructura de madera que hay debajo.
 
 La cubierta cumple dos funciones al mismo tiempo: evacuar el agua de lluvia hacia el exterior y proteger el interior del calor generado por la radiación solar sobre la chapa. Ambas funciones determinan las decisiones de diseño: pendiente suficiente para el agua, alero generoso para proteger los muros, y falso techo para limitar la temperatura interior.
@@ -139,6 +137,7 @@ SIMPLIFICAR: No hay piezas de madera aún. Solo las líneas sobre el suelo y las
 > ✅ **Verificación previa:** Se comprueba que el ángulo del cordón superior es el mismo en los dos lados de la cercha. Una sola cercha mal ejecutada en la pendiente rompe la regularidad del tejado e impide que la chapa asiente correctamente.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 2 · El cordón inferior: pieza de tracción**
 
@@ -165,6 +164,7 @@ SIMPLIFICAR: Solo la sección de la unión. No hay entorno ni longitud de cordó
 -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 3 · Corte y preparación de montantes y diagonales**
 
@@ -187,6 +187,7 @@ Todas las piezas interiores deben estar **en el mismo plano** que los cordones. 
 > ⚠️ Un corte de ángulo con holgura o con superficie irregular transmite mal los esfuerzos. La unión mecánica —clavo o tornillo— no puede compensar un mal contacto entre maderas.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 4 · Cercha de prueba: validación de geometría en el suelo**
 
@@ -236,6 +237,7 @@ SIMPLIFICAR: No se muestra el cerramiento de tablas ni el zócalo. Solo el monta
 > Si todo es correcto, **numerar cada pieza** con lápiz o marca de sierra antes de desmontar. Las piezas de esta primera cercha sirven como plantilla de longitud y ángulo para cortar las siguientes.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 5 · Montaje de las cerchas sobre la estructura**
 
@@ -283,6 +285,7 @@ SIMPLIFICAR: No se muestra el interior de la vivienda. Solo la estructura exteri
 >
 > El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Este recorrido solo funciona si la posición de cada cercha coincide con la posición de un montante. Si la separación entre cerchas no coincide con el módulo del cerramiento, hay un error de diseño que debe corregirse antes del montaje.
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 6 · Arriostramiento entre cerchas**
 
@@ -350,6 +353,7 @@ SIMPLIFICAR: No hay chapa. Solo las cerchas, los rastreles y la pieza de borde d
 -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 8 · Colocación de la chapa de zinc**
 
@@ -428,6 +432,7 @@ SIMPLIFICAR: Solo la sección. No hay personas ni entorno.
 -->
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## **Paso 10 · Ventilación de la cámara de aire**
 
@@ -448,10 +453,9 @@ La cámara de aire entre la chapa y el falso techo funciona por convección natu
 <!-- TODO: Confirmar con el equipo técnico el detalle constructivo de la ventilación de cumbrera en el prototipo: si se deja una holgura en la pieza de remate o si se usa un perfil ventilado específico. -->
 
 ---
+<div style="page-break-after: always;"></div>
 
-# 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
-
----
+## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
 **1. La posición de la cercha: siempre sobre un montante, nunca en medio del vano**
 

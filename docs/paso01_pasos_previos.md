@@ -3,7 +3,7 @@
 
 Antes de levantar cualquier muro o clavar cualquier poste, el terreno debe estar preparado. Estos cuatro pasos —analizar el terreno, limpiarlo, nivelarlo y replantearlo— son los más importantes de toda la obra. Si se hacen mal, todos los errores se acumulan y resultan muy difíciles de corregir.
 
-El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvias intensas erosionan terrenos mal preparados, la vegetación tropical crece con rapidez si no se elimina bien desde la raíz, y la humedad del suelo puede arruinar una fundación si no se trabaja correctamente desde el principio.
+El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvias intensas erosionan terrenos mal preparados, la vegetación tropical crece con rapidez si no se elimina bien desde la raíz, y la humedad del suelo puede arruinar un fundamento si no se trabaja correctamente desde el principio.
 
 > 🔑 **Regla de oro:** Un día bien invertido en preparar el terreno ahorra semanas de problemas después.
 
@@ -38,7 +38,7 @@ El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvi
 
 ### ¿Para qué sirve?
 
-El terreno determina la profundidad y las dimensiones necesarias de la fundación. Construir sin conocer el tipo de suelo puede resultar en una zapata insuficiente que se asienta, se agrieta o falla con las primeras lluvias intensas.
+El terreno determina la profundidad y las dimensiones necesarias de los fundamentos. Construir sin conocer el tipo de suelo puede resultar en una zapata insuficiente que se asienta, se agrieta o falla con las primeras lluvias intensas.
 
 En Guinea Ecuatorial es frecuente encontrar suelos arcillosos expansivos, especialmente en la zona fang interior, así como suelos con nivel freático alto en el litoral. Estos suelos exigen mayor cuidado que los suelos firmes o arenosos compactos. <!-- TODO: esto requiere algun tipo de comprobacion bibligrafica realmente, es un dato un poco soltado asi sin mas -->
 
@@ -46,7 +46,7 @@ Antes de excavar ninguna zanja, se realizan dos pruebas sencillas que no requier
 
 ---
 
-### Prueba 1 · La prueba de la bola (reconocimiento inmediato)
+**### Prueba 1 · La prueba de la bola (reconocimiento inmediato)**
 
 Esta prueba permite identificar el tipo de suelo en el momento, con las manos y en el mismo solar.
 
@@ -64,16 +64,16 @@ Esta prueba permite identificar el tipo de suelo en el momento, con las manos y 
 
 | Resultado al abrir la mano | Tipo de suelo probable | Qué indica |
 |---|---|---|
-| La tierra se disgrega y cae, no mantiene forma | Arena o grava | Suelo permeable, buen drenaje. fundación estándar |
+| La tierra se disgrega y cae, no mantiene forma | Arena o grava | Suelo permeable, buen drenaje. Fundamento estándar |
 | Mantiene la bola con forma. Se ven marcas de dedos. Al secar se endurece | Arcilla o tierra arcillosa | Suelo expansivo. Requiere mayor profundidad de zapata |
 | Mantiene la bola pero es esponjosa o fibrosa. Color oscuro, olor a tierra húmeda | Tierra orgánica o negra | **No apta para cimentar. Retirar completamente antes de excavar** |
-| Bola compacta, rugosa, con partículas visibles. No se ve barro en las manos | Tierra firme o laterítica | Buen soporte. fundación estándar |
+| Bola compacta, rugosa, con partículas visibles. No se ve barro en las manos | Tierra firme o laterítica | Buen soporte. Fundamento estándar |
 
 > ⚠️ Si el resultado es tierra orgánica o arcilla blanda, consultar la sección de *Tips específicos para Guinea Ecuatorial* al final de este capítulo antes de continuar.
 
 ---
 
-### Prueba 2 · La prueba del tarro (análisis de sedimentación)
+**### Prueba 2 · La prueba del tarro (análisis de sedimentación)**
 
 Esta prueba tarda entre 12 y 48 horas, pero da información más detallada sobre la composición del suelo. Es especialmente útil cuando la prueba de la bola genera dudas o cuando el suelo parece una mezcla de varios tipos.
 
@@ -96,7 +96,7 @@ Una vez que el agua está en reposo y las capas bien formadas, medir con un pali
 <!-- TODO: en esta tabla habra que añadir el tipo de suelo mejor no? -->
 | Composición aproximada | Interpretación | Decisión |
 |---|---|---|
-| Más del 50% de capa inferior (arena/grava) | Suelo granular, buen drenaje | fundación estándar. Profundidad mínima 60 cm |
+| Más del 50% de capa inferior (arena/grava) | Suelo granular, buen drenaje | Fundamentos estándar. Profundidad mínima 60 cm |
 | Capa superior (arcilla/limo) mayor que capa inferior | Suelo arcilloso dominante | Aumentar profundidad de zapata a 80–100 cm. Revisar drenaje perimetral |
 | Agua permanece turbia o marrón incluso tras 48 horas | Arcilla muy fina o suelo orgánico en suspensión | Valoración técnica necesaria antes de continuar |
 | Capa oscura flotando en la superficie | Materia orgánica presente | Retirar todo ese horizonte antes de excavar la zapata |
@@ -107,7 +107,7 @@ Una vez que el agua está en reposo y las capas bien formadas, medir con un pali
 
 ### Tabla de decisión: qué hacer según el tipo de suelo
 
-Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones de la fundación:
+Una vez realizadas las pruebas, usar esta tabla para determinar las condiciones de los fundamentos:
 
 | Tipo de suelo | Cómo se reconoce | Profundidad mínima | Ancho mínimo orientativo | Observaciones |
 |---|---|---|---|---|
@@ -136,7 +136,7 @@ Para retirar toda la vegetación, raíces y tierra orgánica que hay sobre el so
 1. **Cortar la vegetación** con machete: maleza, arbustos pequeños y todo lo que crezca dentro del perímetro de la futura casa y en una franja de al menos 1 metro alrededor.
 2. **Arrancar raíces superficiales** con la azada. No basta con cortar lo que se ve por encima del suelo.
 3. **Agrupar y retirar los restos** con la carretilla, llevándolos fuera del área de trabajo.
-4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener una fundación.
+4. **Retirar la capa de tierra negra u orgánica:** en terrenos con capa vegetal oscura, se deben quitar al menos los primeros 10–15 cm de tierra, ya que esa tierra no es apta para sostener un fundamento.
 
 <img src="imagenes/pasos_previos.2.png" width="500" alt="Limpieza del terreno" style="display: block; margin: auto;">
 <!-- PROMPT: Esta imagen tiene que representar la sección transversal de un terreno tropical mostrando las capas de suelo: capa vegetal oscura en la superficie (marcada en rojo indicando que se retira), y suelo firme competente por debajo. Se ve una pala de punta en acción retirando la capa superficial. Dibujo técnico a mano alzada, escala de grises. Vista en sección, entorno tropical. -->
@@ -284,9 +284,10 @@ Una vez decidida la ubicación, se clavan dos estacas en el suelo que marquen co
 
 **7. Posición de las guías de excavación**
 
-Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la excavación. Al excavar la zanja de fundación, el operario se guía por esa cuerda sabiendo que deberá excavar tanto hacia el interior como hacia el exterior del muro según las dimensiones de la zapata.
+Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la excavación. Al excavar la zanja del fundamento, el operario se guía por esa cuerda sabiendo que deberá excavar tanto hacia el interior como hacia el exterior del muro según las dimensiones de la zapata.
 
 ---
+<div style="page-break-after: always;"></div>
 
 ## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
@@ -294,7 +295,7 @@ Los cordeles del replanteo marcan la **cara exterior del muro**, no el eje de la
 
 **1. La arcilla expansiva: el principal riesgo de la región**
 
-Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar la fundación con el tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca construir sobre la capa superficial orgánica negra.
+Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar los fundamentos con el tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca construir sobre la capa superficial orgánica negra.
 
 **2. Nivel freático alto en la estación lluviosa**
 
@@ -323,7 +324,7 @@ La manguera transparente es el instrumento clave para la nivelación. Si no est�
 
 ## Resumen: comprobaciones antes de avanzar
 
-Antes de pasar a la fundación, verificar que se han completado correctamente estos puntos:
+Antes de pasar a los fundamentos, verificar que se han completado correctamente estos puntos:
 
 - [ ] Se han realizado la prueba de la bola y la prueba del tarro en varias zonas del solar.
 - [ ] El tipo de suelo está identificado y se ha determinado la profundidad de zapata correspondiente.
@@ -338,8 +339,8 @@ Antes de pasar a la fundación, verificar que se han completado correctamente es
 
 ---
 
-## ⏭️ Siguiente paso: fundación
+## ⏭️ Siguiente paso: Fundamentos 
 
 Una vez preparado y replanteado el terreno, se procede a la excavación de la zanja y a la construcción de la zapata corrida y el zócalo de bloques de hormigón.
 
-[02. fundación →](paso02_cimentacion.md)
+[02. Fundamentos →](paso02_cimentacion.md)
