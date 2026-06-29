@@ -283,8 +283,10 @@ body {
 
 #topbar {
     display: none;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 100;
     background: var(--white);
     border-bottom: 1px solid var(--ink-faint);
@@ -662,9 +664,13 @@ body {
 
 /* ─── RESPONSIVE ──────────────────────────────────────────── */
 
+body.menu-open {
+    overflow: hidden;
+}
+
 @media (max-width: 900px) {
     #topbar { display: flex; }
-    #wiki   { display: block; }
+    #wiki   { display: block; padding-top: var(--header-h); }
 
     #sidebar {
         position: fixed;

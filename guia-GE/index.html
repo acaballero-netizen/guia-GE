@@ -862,11 +862,13 @@
         function toggleMenu() {
             document.getElementById('sidebar').classList.toggle('open');
             document.getElementById('overlay').classList.toggle('open');
+            document.body.classList.toggle('menu-open');
         }
 
         function closeMenu() {
             document.getElementById('sidebar').classList.remove('open');
             document.getElementById('overlay').classList.remove('open');
+            document.body.classList.remove('menu-open');
         }
 
         // ─────────────────────────────────────────────
