@@ -65,21 +65,94 @@ SALTO_PAGINA_TITULO = "<div style=\"page-break-before: always;\"></div>\n\n"
 
 # Contraportada que aparecerá como página previa al índice (personalizable)
 CONTRAPORTADA = """
-#### Créditos
-Proyecto MADERAMEN · ADSIDEO Cooperación 2024
+<div style="display:flex; flex-direction:column; justify-content:flex-end; height:25cm;">
 
-Equipo: Cátedra MADERAMEN, UPV
+<table style="width:100%; border:none; margin-top:1.5cm;">
+<tr>
+<td style="width:40%; vertical-align:top; padding-right:0.6cm; font-size:10.5px; line-height:1.5; white-space:nowrap;">
 
-Diseño y edición: Equipo MADERAMEN
+<p><strong>Dirección y edición</strong><br>
+Begoña Serrano Lanzarote (UPV)<br>
+Carla Sentieri Omarrementeria (UPV)<br>
+Alberto Rubio Garrido (UPV)<br>
+Luis de Mazarredo Aznar (UPV)<br>
+Pablo Ntutumu Bacale (UNGE)<br>
+Consolación Natividad Bindang (UNGE)<br>
+Álvaro Caballero Navarrete (UPV)</p>
+
+<p><strong>Diseño gráfico y maquetación</strong><br>
+Álvaro Caballero Navarrete (UPV)</p>
+
+<p><strong>Colaboradores</strong><br>
+Mirabel Ayíngono Mpanga Bikie (UNGE)<br>
+Pedro Meye Ntugu Mifumu (UNGE)<br>
+Ana Zaragozá Tortajada (UPV)</p>
+
+</td>
+<td style="width:60%; vertical-align:top; font-size:11px; line-height:1.5;">
+
+<p><strong>Edición</strong><br>
+Cátedra MADERAMEN · Universitat Politècnica de València (UPV)<br>
+https://calab.es/catedra-maderamen/<br>
+Versión web: https://maderamen.calab.es/guia-GE/<br>
+1ª edición, Julio 2026</p>
+
+<p><em>Cómo citar:</em> Cátedra MADERAMEN, Universitat Politècnica de València (2026), <em>Guía práctica de autoconstrucción — Guinea Ecuatorial</em>.</p>
+
+<p><em>Copyright © 2026 Cátedra MADERAMEN, Universitat Politècnica de València.<br>
+Todos los derechos reservados sobre la presente edición.<br>
+© de las imágenes, sus autores.<br>
+© de los dibujos, sus autores.</em></p>
+
+<p><em>Esta obra está licenciada bajo una licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). Para más detalles, visita https://creativecommons.org/licenses/by-nc-nd/4.0/. Para solicitudes de permisos adicionales, contacta con la Cátedra MADERAMEN: https://calab.es/catedra-maderamen/.</em></p>
+
+<p><em>El presente documento ha sido promovido y elaborado a través de la Cátedra MADERAMEN, creada bajo convenio entre la Generalitat Valenciana y la Universitat Politècnica de València (UPV), en el marco del proyecto "Autoconstrucción sostenible y participativa de viviendas en Guinea Ecuatorial", financiado mediante una beca de investigación ADSIDEO Cooperación 2024 del Centro de Cooperación al Desarrollo (CCD) de la UPV, beca que ha permitido la colaboración entre la UPV y el profesorado y el alumnado de la Facultad de Arquitectura e Ingenierías (FAI) de la Universidad Nacional de Guinea Ecuatorial (UNGE).</em></p>
+
+</td>
+</tr>
+</table>
+
+</div>
 
 """
 
 # Segunda página de contraportada (p. ej. agradecimientos, licencias)
 CONTRAPORTADA_2 = """
-#### Agradecimientos
-Entidades colaboradoras...
+<div style="display:flex; flex-direction:column; justify-content:flex-end; height:25cm;">
 
-Licencia: CC BY-SA 4.0
+#### Colaboradores y agradecimientos
+
+<table style="width:100%; border:none; margin-top:1.5cm;">
+<tr>
+<td style="width:40%; vertical-align:top; padding-right:1cm; font-size:11px; line-height:1.6;">
+
+<p><strong>Entidades colaboradoras</strong><br>
+REMAR Guinea Ecuatorial<br>
+Arquitectura Sin Fronteras (ASFE)</p>
+
+</td>
+<td style="width:60%; vertical-align:top; font-size:11px; line-height:1.6;">
+
+<p><strong>Agradecimientos</strong><br>
+Centro de Cooperación al Desarrollo (CCD), Universitat Politècnica de València (UPV)<br>
+Facultad de Arquitectura e Ingenierías (FAI), Universidad Nacional de Guinea Ecuatorial (UNGE)<br>
+Comunidades fang de Bata y Malabo</p>
+
+</td>
+</tr>
+</table>
+
+<p style="text-align:center; margin-top:2cm;">
+<a href="https://www.upv.es/entidades/ccd/"><img src="guia-GE/Imagenes/LOGO_UPV+CCD.jpg" alt="UPV + CCD" height="55"></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://calab.es/catedra-maderamen/"><img src="guia-GE/Imagenes/LOGO_MADERAMEN.png" alt="Cátedra MADERAMEN" height="55"></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://ungecampus.com/"><img src="guia-GE/Imagenes/LOGO_Universidad Nacional de Guinea Ecuatorial.png" alt="UNGE" height="55"></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://remar.org/guinea-ecuatorial/"><img src="guia-GE/Imagenes/LOGO_Remar.png" alt="REMAR" height="55"></a>
+</p>
+
+</div>
 
 """
 

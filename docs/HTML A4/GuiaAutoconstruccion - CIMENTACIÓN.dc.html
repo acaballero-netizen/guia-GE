@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<script src="./ds-base.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400;1,500&amp;family=Space+Grotesk:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  a { color: #DC2F39; text-decoration: none; }
+  a:hover { color: #B02128; }
+  @page { size: A4; margin: 0; }
+  @media screen {
+    .ga-root { background: #e8e2d8; padding: 40px 16px; }
+  }
+  @media print {
+    .ga-root { background: #fff !important; padding: 0 !important; gap: 0 !important; }
+    .ga-page { box-shadow: none !important; }
+  }
+  /* Numeración automática de página: cambia el "0" para fijar el número de la primera página; el resto se calcula solo. */
+  .ga-root { counter-reset: ga-page 13; }
+  .ga-page { counter-increment: ga-page; }
+  .ga-pagenum::before { content: counter(ga-page); }
+</style>
+</helmet>
+
+<div class="ga-root" style="display: flex; flex-direction: column; align-items: center; gap: 40px; font-family: 'Space Grotesk',system-ui,sans-serif; color: #1F2123; width: 100%">
+
+  <!-- ═══════════ PÁGINA 1 · PORTADA DE CAPÍTULO ═══════════ -->
+  <section class="ga-page" data-screen-label="Portada · Fundamentos" style="position: relative; width: 210mm; height: 297mm; background: #fff; box-shadow: 0 8px 40px rgba(0,0,0,0.18); overflow: hidden">
+    <div aria-hidden="true" style="position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.80),rgba(255,255,255,0.80)),url('./fondo.png'); background-size: cover,cover; background-position: center,center; background-repeat: no-repeat,no-repeat; z-index: 0"></div>
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.42) 50%, rgba(255,255,255,0.55) 100%); z-index: 0"></div>
+
+    <div style="position: absolute; z-index: 1; top: 22mm; left: 24mm; right: 22mm; bottom: 24mm; display: flex; flex-direction: column">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:#9b958c; margin-bottom:2px;">Capítulo</div>
+      <div style="display:flex; align-items:flex-end; gap:22px;">
+        <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:112px; line-height:0.8; color:#DC2F39;">02</div>
+      </div>
+      <h1 style="font-family: 'IBM Plex Serif',Georgia,serif; font-weight: 400; font-size: 56px; line-height: 1.04; letter-spacing: -0.01em; color: #DC2F39; margin: 18px 0 0">Fundamentos</h1>
+
+      <p style="font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 15px; line-height: 1.75; color: #3A3D40; margin: 20px 0 0; text-align: justify">Los fundamentos es la parte de la vivienda que transmite todo el peso al suelo. Si falla los fundamentos, falla toda la casa. En Guinea Ecuatorial, el suelo arcilloso, la humedad constante y las lluvias intensas hacen que esta fase sea especialmente crítica. Hacerla bien desde el principio evita problemas difíciles de corregir después.</p>
+
+      <div style="display: flex; gap: 16px; align-items: flex-start; background: #F6EFE4; padding: 18px 22px; margin-top: 22px; border-radius: 14px; max-width: 150mm; padding-top: 20px; padding-bottom: 20px; position: relative; top: 0px; left: 25px">
+        <div style="flex-shrink:0; width:28px; height:28px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:15px; color:#6B4D38; line-height:1;">★</span></div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin-bottom:6px;">Regla de oro</div>
+          <p style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:16px; font-weight:400; line-height:1.55; color:#1F2123; text-align:justify;">Unos fundamentos bien ejecutada es invisible una vez terminada la casa. Unos fundamentos mal ejecutada se hace visible en forma de grietas, hundimientos o pudrición de la madera.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:auto;">
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.16em; text-transform:uppercase; color:#DC2F39; margin-bottom:14px;">En este capítulo</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; column-gap:34px; row-gap:0; max-width:158mm;">
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Reconocimiento del terreno</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Excavación de la zanja</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Capa de protección del fondo</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Armadura de la zapata</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Esperas verticales</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">6</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Preparación y dosificación del hormigón</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">7</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Vertido y curado del hormigón</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">8</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Preparación de los bloques</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">9</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Colocación de las hiladas de bloques</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">10</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Relleno de los huecos con hormigón fluido</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">11</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Preparación del terreno interior</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:8px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">12</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:400; color:#1F2123;">Suelo interior</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="position: absolute; z-index: 1; bottom: 12mm; left: 24mm; right: 22mm; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(28,28,28,0.12); padding-top: 9px">
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span>
+      <div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 2 · ESTRUCTURA GENERAL ═══════════ -->
+  <section class="ga-page" data-screen-label="Estructura general" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Introducción</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm; display:flex; flex-direction:column;">
+      <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:32px; line-height:1.05; letter-spacing:-0.01em; color:#1F2123;">Estructura general</h2>
+      <p style="margin:18px 0 0; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14.5px; line-height:1.7; color:#3A3D40; text-align:justify;">Esta sección cubre tres elementos que trabajan juntos:</p>
+
+      <div style="display:flex; flex-direction:column; gap:20px; margin-top:28px;">
+        <div style="display:flex; gap:22px; align-items:flex-start; background:#FAF7F1; border-radius:16px; padding:26px 30px;">
+          <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:40px; line-height:0.9; color:#DC2F39; flex-shrink:0;">1</span>
+          <div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39; margin-bottom:8px;">Zapata corrida</div>
+            <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14.5px; line-height: 1.7; color: #3A3D40; text-align: justify">La base enterrada de hormigón armado que reparte el peso de la vivienda sobre el terreno.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:22px; align-items:flex-start; background:#FAF7F1; border-radius:16px; padding:26px 30px;">
+          <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:40px; line-height:0.9; color:#DC2F39; flex-shrink:0;">2</span>
+          <div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39; margin-bottom:8px;">Zócalo</div>
+            <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14.5px; line-height: 1.7; color: #3A3D40; text-align: justify">El muro de bloques de hormigón construido sobre la zapata, que eleva la estructura de madera por encima del nivel del suelo y la protege de la humedad y las termitas.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:22px; align-items:flex-start; background:#FAF7F1; border-radius:16px; padding:26px 30px;">
+          <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:40px; line-height:0.9; color:#DC2F39; flex-shrink:0;">3</span>
+          <div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39; margin-bottom:8px;">Suelo interior</div>
+            <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14.5px; line-height: 1.7; color: #3A3D40; text-align: justify">La superficie sobre la que se pisa dentro de la vivienda. Frena la humedad ascendente, dificulta el acceso de las termitas y sirve de base para las particiones. Se ejecuta después de que la cubierta esté terminada.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 3 · HERRAMIENTAS I ═══════════ -->
+  <section class="ga-page" data-screen-label="Herramientas y materiales (I)" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Materiales</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm; display:flex; flex-direction:column;">
+      <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:32px; line-height:1.05; letter-spacing:-0.01em; color:#1F2123;">Herramientas y materiales necesarios</h2>
+
+      <div style="margin-top:26px; background:#F6EFE4; padding:24px 28px; border-radius:16px;">
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:16px;">Para la excavación</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px 26px;">
+          <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Pico y pala de punta</span></div>
+          <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Carretilla</span></div>
+          <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Cinta métrica</span></div>
+        </div>
+      </div>
+
+      <div style="margin-top:16px; display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div style="background:#F6EFE4; padding:22px 26px; border-radius:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:16px;">Para las armaduras</div>
+          <div style="display:flex; flex-direction:column; gap:11px;">
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Barras de acero corrugado de diámetro 8 mm <span style="color:#6B7075; font-style:italic;">(mínimo viable)</span> o 10–12 mm <span style="color:#6B7075; font-style:italic;">(recomendado si está disponible)</span></span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Alambre de amarrar fino, de 1 a 1,5 mm de diámetro</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Cizalla o sierra para metales</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Tubo metálico hueco de unos 50 cm de longitud, para doblar las varillas en forma de "L" haciendo palanca</span></div>
+          </div>
+        </div>
+        <div style="background:#F6EFE4; padding:22px 26px; border-radius:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:16px;">Para el hormigón</div>
+          <div style="display:flex; flex-direction:column; gap:11px;">
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Cemento Portland</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Arena limpia, sin barro ni sales (nunca arena de playa sin lavar)</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Grava o piedra machacada <span style="color:#6B7075; font-style:italic;">(puede reutilizarse la extraída de la propia excavación si está limpia y libre de barro)</span></span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Agua dulce y limpia (nunca agua salada ni de río con barro visible)</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Recipiente de medida de volumen constante: un cubo, una lata o un capazo <span style="color:#6B7075; font-style:italic;">(el mismo recipiente se usa para medir todas las partes de la dosificación)</span></span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Superficie plana para mezclar: losa de hormigón, tablero de madera o el propio suelo limpio</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 4 · HERRAMIENTAS II ═══════════ -->
+  <section class="ga-page" data-screen-label="Herramientas y materiales (II)" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Materiales</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm; display:flex; flex-direction:column;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#DC2F39; margin-bottom:14px;">Herramientas y materiales, continuación</div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div style="background:#F6EFE4; padding:22px 26px; border-radius:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:16px;">Para el zócalo</div>
+          <div style="display:flex; flex-direction:column; gap:11px;">
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Bloques de hormigón en cantidad suficiente para 3 hiladas perimetrales <span style="color:#6B7075; font-style:italic;">(orientativo: 3 hiladas de bloque estándar de 20 cm de altura equivale a unos 60 cm de zócalo)</span></span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Mortero de cemento y arena en proporción 1:3 o 1:4</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Paleta de albañil</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Nivel de burbuja</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Plomada</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Martillo y cincel para ajustar bloques</span></div>
+          </div>
+        </div>
+        <div style="background:#F6EFE4; padding:22px 26px; border-radius:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:16px;">Para el suelo interior</div>
+          <div style="display:flex; flex-direction:column; gap:11px;">
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Pisón manual</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Tierra laterítica rojiza (del propio solar o de un préstamo cercano), para la opción de tierra compactada</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Arena gruesa o grava fina, para la capa de acabado de la opción de tierra <span style="color:#6B7075; font-style:italic;">(opcional)</span></span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Lámina de plástico grueso, para la barrera de humedad de la opción hormigón</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Cemento, arena y grava (misma dosificación que la zapata), para la opción de hormigón</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Regla o listón recto de madera de al menos 2 m, para enrasar la solera</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:16px; background:#F6EFE4; padding:24px 28px; border-radius:16px;">
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:16px;">Para protección y curado</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px 26px;">
+          <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Sacos de tela, hojas de plátano, cartones o lámina de plástico, para cubrir el hormigón durante el curado</span></div>
+          <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#1F2123; text-align:justify;">Cubo de agua para el riego de curado</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 5 · PARTE 1 · PASO 1 ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 1 · Reconocimiento del terreno" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 1</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="background:#DC2F39; border-radius:16px; padding:20px 28px; display:flex; align-items:baseline; gap:18px; margin-bottom:26px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.82);">Parte 1</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:30px; color:#fff; line-height:1;">Zapata corrida</span>
+      </div>
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 1</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">1</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:34px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Reconocimiento del terreno</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:22px 0 12px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 12px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">El tipo de suelo determina la profundidad de la zapata. Una zapata demasiado superficial en suelo blando puede asentarse o agrietarse con las primeras lluvias intensas. Este paso debe haberse iniciado ya en la fase de pasos previos, donde se describen la prueba de la bola y la prueba del tarro para identificar el suelo. Si aún no se han realizado esas pruebas, hacerlas antes de continuar.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:24px 0 12px;">Profundidades y anchos de excavación</div>
+      <p style="margin: 0 0 12px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">La profundidad y el ancho de la zanja dependen del tipo de suelo identificado en el Paso 1 · Análisis del terreno del capítulo de <strong style="font-weight:600; color:#1F2123;">Pasos previos</strong>. Si aún no se ha realizado ese análisis, hacerlo antes de continuar.</p>
+      <p style="margin: 0 0 12px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">Como referencia rápida para suelo firme o laterítico: profundidad mínima 60 cm, ancho mínimo 40 cm. En arcilla blanda: 80–100 cm de profundidad y 50–60 cm de ancho. En todos los casos, el equipo técnico debe realizar al menos una cata manual en cada parcela antes de confirmar las dimensiones definitivas.</p>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 6 · PASO 2 · EXCAVACIÓN DE LA ZANJA ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 2 · Excavación de la zanja" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 2</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 2</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">2</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:34px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Excavación de la zanja</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:20px 0 10px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 10px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.6; color: #3A3D40; text-align: justify">La zanja es el molde natural donde se construirá la zapata. Sus dimensiones determinan la superficie de apoyo sobre el terreno y el espacio disponible para colocar la armadura con el recubrimiento mínimo necesario, distancia entre la barra de acero y la cara exterior del hormigón que protege el hierro de la humedad.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:16px 0 10px;">Dimensiones de la zanja</div>
+      <p style="margin: 0 0 10px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.6; color: #3A3D40; text-align: justify">La zanja debe tener el <strong style="font-weight:600; color:#1F2123;">ancho mínimo</strong> indicado en la tabla del Paso 1 según el tipo de suelo. El ancho se mide en el interior de la zanja, de pared a pared.</p>
+      <p style="margin: 0 0 10px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.6; color: #3A3D40; text-align: justify">La referencia de replanteo (el cordel) marca la <strong style="font-weight: 600; color: rgb(31, 33, 35);">cara exterior del muro</strong>. La zanja se desarrolla simétricamente a ambos lados de esa referencia: la mitad del ancho hacia el exterior y la otra mitad hacia el interior de la vivienda.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:16px 0 10px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 300; line-height: 1.45; color: #3A3D40">La excavación parte de los cordeles del replanteo, que marcan la <strong style="font-weight:600; color:#1F2123;">cara exterior del muro</strong>. La zanja se desarrolla hacia el interior de la huella de la vivienda a partir de esa referencia, dejando espacio suficiente a cada lado del futuro muro para alojar la armadura.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.45; color:#3A3D40;">Se usa el pico para romper el terreno y la pala de punta para extraer la tierra.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.45; color:#3A3D40;">Las paredes de la zanja se mantienen verticales. El fondo debe ser lo más plano posible.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.45; color:#3A3D40;">La tierra extraída se retira alejándola del borde para que no caiga de nuevo a la zanja.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:12px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.45; color:#3A3D40;">La grava o piedra limpia que aparezca durante la excavación se guarda aparte: puede reutilizarse en el hormigón.</span></div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#F6EFE4; padding:14px 18px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:14px; color:#6B4D38; line-height:1;">✓</span></div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin-bottom:6px;">A tener en cuenta</div>
+          <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.45; color: #1F2123; text-align: justify; font-style: italic">La zanja se excava el mismo día que se va a hormigonar, o se cubre con lámina de plástico si hay que esperar. En Guinea Ecuatorial, una lluvia nocturna puede inundar o desmoronar las paredes de una zanja abierta. Si la obra se para durante días o semanas, se rellena la zanja parcialmente con la tierra extraída para proteger el fondo, y se vuelve a excavar cuando se retome el trabajo.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 7 · PASO 3 · CAPA DE PROTECCIÓN DEL FONDO ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 3 · Capa de protección del fondo" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 3</span></div>
+
+    <div style="position:absolute; z-index:1; top:22mm; left:24mm; right:22mm; bottom:15mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:6px;">Paso 3</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:6px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">3</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:34px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Capa de protección del fondo</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:12px 0 8px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 10px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.45; color: #3A3D40; text-align: justify">El fondo de la zanja necesita una capa de protección antes de colocar las armaduras. Esta capa aísla el acero de la humedad directa del suelo, evitando la corrosión, y proporciona una superficie limpia y plana sobre la que trabajar.</p>
+
+      <p style="margin:0 0 8px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:600; font-size:14px; line-height:1.4; color:#1F2123; text-align:justify;">Preparación previa en cualquier caso:</p>
+      <div style="display:flex; flex-direction:column; gap:6px;">
+        <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:7px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.4; color:#3A3D40; text-align:justify;">Se elimina toda el agua estancada en el fondo sacándola con un cubo.</span></div>
+        <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:7px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.4; color:#3A3D40; text-align:justify;">Se retira el barro suelto del fondo con la pala.</span></div>
+        <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:7px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.4; color:#3A3D40; text-align:justify;">Si se usan piedras locales en el hormigón, se lavan antes: el barro impide que el cemento se adhiera a la piedra y debilita el conjunto.</span></div>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:12px; margin:12px 0 8px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:#DC2F39; padding:5px 11px; border-radius:20px;">Opción A</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#1F2123;">Hormigón de limpieza <span style="color:#6B7075; font-weight:400; font-size:15px; font-style:italic;">(recomendada)</span></span>
+      </div>
+      <p style="margin: 0 0 10px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.45; color: #3A3D40; text-align: justify">Se vierte una capa de unos 5–10 cm de hormigón pobre (dosificación 1 parte de cemento, 3 de arena y 6 de grava) con agua suficiente para que quede trabajable. Se deja endurecer al menos 12 horas antes de colocar la armadura encima.</p>
+
+      <div style="display:flex; align-items:center; gap:12px; margin:10px 0 8px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:#6B4D38; padding:5px 11px; border-radius:20px;">Opción B</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#1F2123;">Lámina de plástico</span>
+      </div>
+      <p style="margin:0 0 6px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:13px; font-style:italic; line-height:1.4; color:#6B7075; text-align:justify;">Alternativa si no hay cemento disponible para la limpieza.</p>
+      <p style="margin: 0 0 10px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.45; color: #3A3D40; text-align: justify">Se extiende una lámina de plástico grueso en el fondo de la excavación, solapando los bordes un mínimo de 20 cm y subiéndola también por las paredes laterales unos 10 cm. Si no hay lámina, se usan bolsas de plástico solapadas formando una capa continua. Es menos eficaz que el hormigón de limpieza, pero mucho mejor que dejar las armaduras en contacto directo con el suelo.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:17px; color:#DC2F39; margin:10px 0 8px;">Si no se dispone de ninguna de las dos opciones</div>
+      <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.45; color: #3A3D40; text-align: justify">La zapata puede ejecutarse sin capa de protección, pero en ese caso se aumenta el recubrimiento mínimo de la armadura: las barras de acero deben quedar a al menos 7–8 cm del fondo de la zanja en lugar de los 5 cm estándar. Los calzos que soportan la armadura deben ser de hormigón o bloque, nunca de madera.</p>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 8 · PASO 4 · ARMADURA (I) ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 4 · Armadura de la zapata" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 4</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 4</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">4</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:34px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Armadura de la zapata</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:22px 0 12px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 14px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">El hormigón resiste bien la compresión (cuando se le aplasta), pero es frágil a la tracción (cuando se le estira o dobla). La armadura de acero es la que aporta esa resistencia a tracción. Sin armadura, la zapata puede agrietarse y partirse, especialmente en suelos que se mueven con la humedad.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:22px 0 12px;">Sobre el acero disponible localmente</div>
+      <p style="margin: 0 0 16px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">En el mercado local es frecuente encontrar principalmente redondos corrugados de Ø 6 mm y Ø 8 mm, aunque en algunos puntos puede haber Ø 10 mm y Ø 12 mm a mayor coste. La guía contempla dos niveles de armado según lo que esté disponible:</p>
+
+      <div style="border-radius:14px; overflow:hidden; box-shadow:0 1px 0 rgba(28,28,28,0.06);">
+        <table style="width:100%; border-collapse:collapse; font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px;">
+          <thead><tr>
+            <th style="text-align:left; padding:11px 14px; color:#fff; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; background-color:#DC2F39;">Diámetro disponible</th>
+            <th style="text-align:left; padding:11px 14px; color:#fff; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; background-color:#DC2F39;">Uso recomendado</th>
+            <th style="text-align:left; padding:11px 14px; color:#fff; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; background-color:#DC2F39;">Observación</th>
+          </tr></thead>
+          <tbody>
+            <tr><td style="padding:12px 14px; line-height:1.45; color:#1F2123; font-weight:400; vertical-align:top;">Ø 8 mm</td><td style="padding:12px 14px; line-height:1.45; color:#3A3D40; font-weight:300; vertical-align:top;">Armadura principal de la zapata</td><td style="padding:12px 14px; line-height:1.45; color:#3A3D40; font-weight:300; vertical-align:top;">Mínimo recomendado para zapata corrida</td></tr>
+            <tr><td style="padding:12px 14px; line-height:1.45; color:#1F2123; font-weight:400; vertical-align:top; background:#FAF7F1;">Ø 6 mm</td><td style="padding:12px 14px; line-height:1.45; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Solo si no hay Ø 8 mm disponible</td><td style="padding:12px 14px; line-height:1.45; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Aumentar el número de barras a 3 longitudinales en lugar de 2</td></tr>
+            <tr><td style="padding:12px 14px; line-height:1.45; color:#1F2123; font-weight:400; vertical-align:top;">Ø 10–12 mm</td><td style="padding:12px 14px; line-height:1.45; color:#3A3D40; font-weight:300; vertical-align:top;">Armadura principal si está disponible y el presupuesto lo permite</td><td style="padding:12px 14px; line-height:1.45; color:#3A3D40; font-weight:300; vertical-align:top;">Mayor resistencia; especialmente recomendado en suelos blandos</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#FBEEEF; padding:16px 20px; margin-top:18px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; position:relative;"><div style="width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; color:#fff; line-height:22px;">!</span></div>
+        <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:400; line-height:1.6; color:#1F2123; text-align:justify;">Estos diámetros y configuraciones deben ser validados por el equipo técnico en función de las cargas reales del prototipo.</p>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 9 · PASO 4 · ARMADURA (II) · OPCIÓN A ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 4 · Opción A · Armado completo" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 4</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="display:flex; align-items:center; gap:12px; margin:0 0 12px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:#DC2F39; padding:5px 11px; border-radius:20px;">Opción A</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#1F2123;">Armado completo <span style="color:#6B7075; font-weight:400; font-size:15px; font-style:italic;">(mayor resistencia)</span></span>
+      </div>
+      <p style="margin: 0 0 18px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">El armado completo incluye barras longitudinales a lo largo de toda la zapata más cercos o estribos transversales que atan el conjunto. Es el sistema más resistente y el recomendado si hay material y mano de obra con experiencia.</p>
+
+      <p style="margin:0 0 12px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:600; font-size:14.5px; line-height:1.6; color:#1F2123; text-align:justify;">Barras longitudinales</p>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Las barras se cortan a la longitud de cada tramo de pared, dejando unos 5 cm de retranqueo en cada extremo para que no asomen por fuera del hormigón.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:18px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">En las esquinas, la barra no se corta al llegar al encuentro: se dobla el extremo en forma de "L" con al menos 40 cm de longitud de doblado, para que abrace la barra perpendicular de la pared contigua.</span></div>
+
+      <p style="margin:0 0 10px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:600; font-size:14.5px; line-height:1.6; color:#1F2123; text-align:justify;">Cómo doblar las barras en L</p>
+      <p style="margin: 0 0 16px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">Se introduce el extremo de la barra dentro del tubo metálico hueco y se usa el tubo como palanca para doblar la barra de forma controlada hasta conseguir un ángulo lo más cercano a 90° posible.</p>
+
+      
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 10 · PASO 4 · ARMADURA (III) · COLOCACIÓN + OPCIÓN B ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 4 · Colocación y armado mínimo" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 4</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <p style="margin:0 0 12px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:600; font-size:14.5px; line-height:1.6; color:#1F2123; text-align:justify;">Colocación de las barras</p>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Las barras se colocan sobre pequeños calzos de bloque roto o mortero endurecido que las eleven un mínimo de 5 cm sobre la capa de protección del fondo. La madera no es apta como calzo: se pudre, deja huecos y permite la entrada de humedad.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se colocan 2 barras paralelas a lo largo de toda la zanja, separadas entre sí entre 15 y 20 cm.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:16px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Las barras se atan en los cruces con alambre fino.</span></div>
+
+      
+
+      <div style="display:flex; align-items:center; gap:12px; margin:0 0 12px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:#6B4D38; padding:5px 11px; border-radius:20px;">Opción B</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#1F2123;">Armado mínimo <span style="color:#6B7075; font-weight:400; font-size:15px; font-style:italic;">(cuando los recursos son muy limitados)</span></span>
+      </div>
+      <p style="margin: 0 0 12px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">Cuando no hay material suficiente para el armado completo con estribos, se colocan únicamente las barras longitudinales sin cercos transversales. Esto reduce la resistencia del conjunto, especialmente frente a movimientos del terreno, pero sigue siendo significativamente mejor que una zapata sin armadura.</p>
+      <p style="margin:0 0 8px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:600; font-size:13.5px; line-height:1.5; color:#1F2123; text-align:justify;">En este caso:</p>
+      <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:16px;">
+        <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">Se usan al menos 2 barras longitudinales de Ø 8 mm, o 3 barras de Ø 6 mm.</span></div>
+        <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">Las esquinas se doblan en "L" igualmente.</span></div>
+        <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">Se prescinde de los estribos o cercos transversales.</span></div>
+      </div>
+
+      <div style="display: flex; gap: 16px; align-items: flex-start; padding: 16px 20px; border-radius: 14px; background-color: #FBEEEF">
+        <div style="flex-shrink:0; width:26px; height:26px; position:relative;"><div style="width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; color:#fff; line-height:22px;">!</span></div>
+        <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.6; color: #1F2123; font-style: italic; text-align: justify">El armado mínimo debe ser validado por el equipo técnico antes de aplicarse. No es adecuado en suelos blandos o arcillosos, ni en viviendas con más de una planta.</p>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 11 · PASO 5 · ESPERAS VERTICALES ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 5 · Esperas verticales" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 5</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 5</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">5</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:34px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Esperas verticales</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:22px 0 12px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 14px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">Las esperas son varillas de acero que sobresalen verticalmente de la zapata hacia arriba. Su función es conectar la zapata con el zócalo de bloques, creando una cadena estructural continua desde el suelo hasta la estructura de madera. Sin esperas, el zócalo y la zapata trabajan como piezas separadas que pueden desplazarse entre sí.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:22px 0 12px;">Planificación previa</div>
+      <p style="margin: 0 0 16px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">La posición de cada espera debe planificarse durante el replanteo, porque deben quedar centradas dentro del hueco interior de los bloques del futuro zócalo. Los cordeles del replanteo sirven de referencia. Una espera mal posicionada impide colocar los bloques encima sin forzarlos.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 14px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">La base de cada espera vertical se ata a la armadura horizontal con alambre, en la posición correcta.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">La espera se mantiene vertical mediante una guía sencilla: dos trozos de bambú o listón de madera atados en forma de "V" invertida que la sujetan hasta que el hormigón endurece.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:16px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Antes de hormigonar, se verifica que todas las esperas están verticales y alineadas.</span></div>
+
+      
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#F6EFE4; padding:18px 22px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:14px; color:#6B4D38; line-height:1;">✓</span></div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin-bottom:6px;">Prueba de comprobación</div>
+          <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.6; color: #1F2123; font-style: italic; text-align: justify">Antes de verter el hormigón, se presenta un bloque sobre la zanja sin apoyarlo. Las esperas deben pasar por el hueco interior del bloque con holgura, sin rozar las paredes. Si rozan, se ajusta la posición antes de continuar.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 12 · PASO 6 · DOSIFICACIÓN (I) ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 6 · Preparación y dosificación del hormigón" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 6</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 6</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">6</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:30px; line-height:1.06; letter-spacing:-0.01em; color:#1F2123;">Preparación y dosificación del hormigón</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:20px 0 12px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 16px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">La dosificación (la proporción entre cemento, arena y grava) determina la resistencia del hormigón. Una mezcla con poco cemento o demasiada agua queda débil aunque parezca correcta al verterla. En Guinea Ecuatorial, el calor y la humedad aceleran el fraguado y hacen más crítico trabajar con la dosificación adecuada.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 14px;">Dosificación recomendada para la zapata</div>
+      <div style="margin: 0 0 14px; padding: 18px 26px; border-radius: 12px; font-family: 'IBM Plex Serif',Georgia,serif; font-size: 21px; color: #1F2123; text-align: center; background-color: #FBEEEF"><b><i><span style="font-weight: normal;">1 parte de cemento : 2 partes de arena : 3 partes de grava</span></i></b></div>
+      <p style="margin: 0 0 16px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">Se mide siempre con el <strong style="font-weight:600; color:#1F2123;">mismo recipiente</strong> (un cubo, una lata, un capazo). No importa el tamaño del recipiente, sino que la proporción se respete en cada amasada. Por ejemplo, con un cubo de 10 litros: 1 cubo de cemento, 2 cubos de arena, 3 cubos de grava.</p>
+
+      <div style="border-radius:14px; overflow:hidden; box-shadow:0 1px 0 rgba(28,28,28,0.06);">
+        <table style="width:100%; border-collapse:collapse; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px;">
+          <thead><tr>
+            <th style="text-align:left; padding:11px 16px; color:#fff; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; background-color:#DC2F39;">Ingrediente</th>
+            <th style="text-align:left; padding:11px 16px; color:#fff; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; background-color:#DC2F39;">Partes</th>
+            <th style="text-align:left; padding:11px 16px; color:#fff; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; background-color:#DC2F39;">Ejemplo con cubo de 10 l</th>
+          </tr></thead>
+          <tbody>
+            <tr><td style="padding:11px 16px; line-height:1.45; color:#1F2123; font-weight:400;">Cemento</td><td style="padding:11px 16px; line-height:1.45; color:#3A3D40; font-weight:300;">1</td><td style="padding:11px 16px; line-height:1.45; color:#3A3D40; font-weight:300;">1 cubo</td></tr>
+            <tr><td style="padding:11px 16px; line-height:1.45; color:#1F2123; font-weight:400; background:#FAF7F1;">Arena limpia</td><td style="padding:11px 16px; line-height:1.45; color:#3A3D40; font-weight:300; background:#FAF7F1;">2</td><td style="padding:11px 16px; line-height:1.45; color:#3A3D40; font-weight:300; background:#FAF7F1;">2 cubos</td></tr>
+            <tr><td style="padding:11px 16px; line-height:1.45; color:#1F2123; font-weight:400;">Grava o piedra machacada</td><td style="padding:11px 16px; line-height:1.45; color:#3A3D40; font-weight:300;">3</td><td style="padding:11px 16px; line-height:1.45; color:#3A3D40; font-weight:300;">3 cubos</td></tr>
+            <tr><td style="padding:11px 16px; line-height:1.45; color:#1F2123; font-weight:400; background:#FAF7F1;">Agua</td><td style="padding:11px 16px; line-height:1.45; color:#3A3D40; font-weight:300; background:#FAF7F1;">La mínima necesaria</td><td style="padding:11px 16px; line-height:1.45; color:#3A3D40; font-weight:300; background:#FAF7F1;">Ver prueba de consistencia</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="margin: 16px 0 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify"><strong style="font-weight: 600; color: rgb(31, 33, 35);">Prueba de consistencia:</strong> Al coger un puñado de la mezcla y apretarlo, debe mantener la forma. Si chorrea, la mezcla tiene demasiada agua y el hormigón será débil.</p>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 13 · PASO 6 · DOSIFICACIÓN (II) ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 6 · Ciclópeo y mezcla manual" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 6</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 12px;">Alternativa de menor coste: hormigón ciclópeo</div>
+      <p style="margin: 0 0 12px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">Cuando la disponibilidad de áridos (grava y arena) es limitada o el coste es un factor crítico, puede emplearse hormigón ciclópeo. Consiste en introducir piedras limpias de tamaño puño directamente en la masa de hormigón fresco según se vierte, ocupando hasta un tercio del volumen total.</p>
+      <p style="margin:0 0 8px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:600; font-size:13.5px; line-height:1.5; color:#1F2123; text-align:justify;">Condiciones para que funcione correctamente:</p>
+      <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:14px;">
+        <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">Las piedras deben estar limpias de barro, lavarlas antes de usarlas.</span></div>
+        <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">Cada piedra debe quedar completamente rodeada de hormigón, sin que dos piedras se toquen entre sí.</span></div>
+        <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">No usar piedras cerca de las armaduras: el recubrimiento mínimo de la barra debe respetarse.</span></div>
+      </div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#FBEEEF; padding:15px 20px; border-radius:14px; margin-bottom:24px;">
+        <div style="flex-shrink:0; width:26px; height:26px; position:relative;"><div style="width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; color:#fff; line-height:22px;">!</span></div>
+        <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 13.5px; font-weight: 400; line-height: 1.6; color: #1F2123; text-align: justify; font-style: italic">El hormigón ciclópeo reduce la cantidad de cemento y áridos necesarios sin comprometer significativamente la resistencia si se ejecuta correctamente. Debe ser validado por el equipo técnico antes de aplicarse en el prototipo.</p>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 14px;">Cómo mezclar sin hormigonera</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:11px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Se extienden la arena y la grava sobre la superficie de mezcla y se añade el cemento encima.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:11px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Se mezcla en seco con la pala hasta obtener un color uniforme sin vetas grises.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:11px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Se abre un hueco en el centro de la pila y se añade el agua poco a poco, mezclando desde los bordes hacia el centro.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:16px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Se continúa mezclando hasta que la mezcla sea homogénea y pase la prueba de consistencia.</span></div>
+
+      
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#FBEEEF; padding:15px 20px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; position:relative;"><div style="width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; color:#fff; line-height:22px;">!</span></div>
+        <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 13.5px; font-weight: 400; line-height: 1.6; color: #1F2123; text-align: justify; font-style: italic">Solo se amasa la cantidad que pueda verterse en 30–45 minutos. El calor ecuatorial acelera el fraguado: una mezcla que empieza a endurecer no debe reutilizarse añadiéndole más agua.</p>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 14 · PASO 7 · VERTIDO Y CURADO (I) ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 7 · Vertido y curado del hormigón" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 7</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 7</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">7</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:32px; line-height:1.05; letter-spacing:-0.01em; color:#1F2123;">Vertido y curado del hormigón</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:20px 0 12px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 16px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">El vertido es la operación de introducir el hormigón en la zanja y compactarlo alrededor de las armaduras. El curado es el proceso de mantener el hormigón húmedo durante los primeros días para que desarrolle su resistencia. En Guinea Ecuatorial, el curado húmedo es especialmente importante porque el calor seca el hormigón antes de que haya fraguado correctamente.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 14px;">Vertido</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:12px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 300; line-height: 1.65; color: #3A3D40; text-align: justify">Lo ideal es hormigonar toda la zapata en el mismo día y de forma continua, sin interrupciones. Las juntas de hormigonado, cuando se para y se retoma al día siguiente, son puntos débiles que pueden fallar. Si la longitud de la zapata obliga a parar, la junta se hace siempre en el punto de menor esfuerzo: en el centro de un tramo recto, nunca en una esquina.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:12px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Se comienza por una esquina y se avanza de forma continua.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:12px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">El hormigón no se deja caer desde más de 1 metro de altura: el impacto puede mover las armaduras o segregar los áridos, separar la grava de la pasta de cemento.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:12px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;"><strong style="font-weight:600; color:#1F2123;">Compactación sin vibrador mecánico:</strong> se introduce un palo robusto o una barra de hierro repetidamente en el hormigón fresco con fuerza, según se vierte. El objetivo es eliminar las burbujas de aire atrapadas y que el hormigón rodee completamente todas las varillas.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:16px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Al terminar, se usa un tablón de madera recto para igualar la superficie. La superficie se deja ligeramente rugosa (no lisa) para que el mortero de la primera hilada de bloques adhiera mejor.</span></div>
+
+      
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 15 · PASO 7 · CURADO (II) ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 7 · Curado del hormigón" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 7</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 12px;">Curado</div>
+      <p style="margin: 0 0 18px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">La zapata se cubre inmediatamente después del vertido con sacos de tela, hojas de plátano, cartones o lámina de plástico, y se moja con agua una o dos veces al día durante al menos <strong style="font-weight:600; color:#1F2123;">7 días</strong>. El hormigón no desarrolla su resistencia si se seca con el calor: el curado húmedo es tan importante como la dosificación.</p>
+
+      <div style="border-radius:14px; overflow:hidden; box-shadow:0 1px 0 rgba(28,28,28,0.06);">
+        <table style="width:100%; border-collapse:collapse; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px;">
+          <thead><tr>
+            <th style="text-align:left; padding:12px 16px; color:#fff; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; background-color:#DC2F39;">Tiempo transcurrido</th>
+            <th style="text-align:left; padding:12px 16px; color:#fff; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; background-color:#DC2F39;">Resistencia aproximada alcanzada</th>
+            <th style="text-align:left; padding:12px 16px; color:#fff; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:9.5px; letter-spacing:0.05em; text-transform:uppercase; background-color:#DC2F39;">Qué se puede hacer</th>
+          </tr></thead>
+          <tbody>
+            <tr><td style="padding:13px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top;">24 horas</td><td style="padding:13px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top;">~15–25 %</td><td style="padding:13px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top;">Nada. No cargar, no pisar</td></tr>
+            <tr><td style="padding:13px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top; background:#FAF7F1;">3 días</td><td style="padding:13px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">~40–50 %</td><td style="padding:13px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Se puede comenzar el zócalo <strong style="font-weight:600; color:#1F2123;">con mucha precaución</strong>, siguiendo mojando</td></tr>
+            <tr><td style="padding:13px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top;">7 días</td><td style="padding:13px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top;">~60–65 %</td><td style="padding:13px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top;">Trabajo normal sobre el zócalo</td></tr>
+            <tr><td style="padding:13px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top; background:#FAF7F1;">28 días</td><td style="padding:13px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">100 %</td><td style="padding:13px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Resistencia de diseño completa</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#FBEEEF; padding:16px 20px; margin-top:18px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; position:relative;"><div style="width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; color:#fff; line-height:22px;">!</span></div>
+        <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.6; color: #1F2123; text-align: justify; font-style: italic">Estos valores son orientativos para hormigón amasado a mano en clima cálido. Con curado deficiente o agua de mezcla excesiva, la resistencia real puede ser menor. <strong style="font-weight:600;">La regla práctica es: cuanto más días de curado húmedo, mejor.</strong></p>
+      </div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#FBEEEF; padding:16px 20px; margin-top:14px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; position:relative;"><div style="width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; color:#fff; line-height:22px;">!</span></div>
+        <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.6; color: #1F2123; text-align: justify; font-style: italic">No se hormigona bajo lluvia intensa: el agua de lluvia puede lavar el cemento de la mezcla fresca antes de que fragüe.</p>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 16 · PARTE 2 · ZÓCALO (INTRO) ═══════════ -->
+  <section class="ga-page" data-screen-label="Parte 2 · Zócalo" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 2</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="background:#DC2F39; border-radius:16px; padding:20px 28px; display:flex; align-items:baseline; gap:18px; margin-bottom:28px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.82);">Parte 2</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:30px; color:#fff; line-height:1;">Zócalo</span>
+      </div>
+
+      <p style="margin: 0 0 14px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 15px; line-height: 1.75; color: #3A3D40; text-align: justify; font-style: normal">El zócalo es el muro de bloques de hormigón que se construye sobre la zapata. Su función es elevar la estructura de madera por encima del nivel del suelo, protegiéndola de tres riesgos principales: la humedad ascendente, las inundaciones por lluvia y el ataque de termitas, que en Guinea Ecuatorial puede representar una amenaza grave para cualquier pieza de madera en contacto con el suelo.</p>
+      <p style="margin: 0 0 20px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 15px; line-height: 1.75; color: #3A3D40; text-align: justify">La altura mínima del zócalo es de <strong style="font-weight:600; color:#1F2123;">3 hiladas de bloque</strong> sobre el nivel del suelo terminado, lo que equivale aproximadamente a 60 cm con bloque estándar de 20 cm de altura. En terrenos muy húmedos o con riesgo de inundación, se recomienda añadir una cuarta hilada.</p>
+
+      
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#F6EFE4; padding:18px 22px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:14px; color:#6B4D38; line-height:1;">◆</span></div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin-bottom:6px;">Por qué es crítico elevar la madera en Guinea Ecuatorial</div>
+          <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.6; color: #1F2123; font-style: italic; text-align: justify">Las termitas construyen galerías de tierra desde el suelo hasta la madera que atacan. Cuanto mayor sea la distancia entre el suelo y la madera, más difícil y visible es esa galería. Un zócalo de 60 cm obliga a las termitas a construir una galería larga y expuesta, fácilmente detectable en una inspección visual.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 17 · PASO 8 · PREPARACIÓN DE LOS BLOQUES ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 8 · Preparación de los bloques" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 2 · Paso 8</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 8</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">8</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:34px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Preparación de los bloques</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:22px 0 12px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 18px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">Los bloques estándar de hormigón tienen dos o tres huecos interiores por los que deben pasar las esperas verticales que vienen de la zapata. Para que la espera pase, es necesario abrir un hueco en la base del bloque en los puntos donde haya una espera.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 14px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se identifican qué bloques de la primera hilada coincidirán con una espera vertical.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">En esos bloques, se practica la apertura en la base con un martillo y un cincel, o con la punta del pico, rompiendo solo la parte necesaria para que la varilla pase con holgura.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:20px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se comprueba que la espera pasa por el hueco abierto antes de extender el mortero.</span></div>
+
+      
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 18 · PASO 9 · COLOCACIÓN DE LAS HILADAS DE BLOQUES ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 9 · Colocación de las hiladas" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 2 · Paso 9</span></div>
+
+    <div style="position:absolute; z-index:1; top:22mm; left:24mm; right:22mm; bottom:15mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:6px;">Paso 9</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:6px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">9</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:33px; line-height:1.05; letter-spacing:-0.01em; color:#1F2123;">Colocación de las hiladas de bloques</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:14px 0 8px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 10px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.45; color: #3A3D40; text-align: justify">Las hiladas de bloques forman el muro del zócalo. La clave de su resistencia no está solo en el mortero sino en el <strong style="font-weight:600; color:#1F2123;">trabado</strong>: la disposición alternada de las juntas entre hiladas, que evita que haya líneas de debilidad continuas de arriba abajo del muro.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 8px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:7px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.4; color:#3A3D40; text-align:justify;">Se prepara el mortero: 1 parte de cemento por 3–4 de arena, con agua suficiente para que sea manejable pero no líquido.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:7px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.4; color:#3A3D40; text-align:justify;">Se humedece la superficie de la zapata antes de extender el mortero: el mortero adhiere mejor sobre una superficie ligeramente húmeda, no seca ni encharcada.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:7px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.4; color:#3A3D40; text-align:justify;">Se extiende una capa de mortero de 1 a 1,5 cm sobre la zapata.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:7px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.4; color:#3A3D40; text-align:justify;">Se coloca el primer bloque en una esquina y se nivela en todas direcciones con el nivel de burbuja.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:12px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.4; color:#3A3D40; text-align:justify;">Se avanza a lo largo del muro, bloque a bloque, comprobando nivel y aplomo (verticalidad) con la plomada en cada hilada.</span></div>
+
+      <div style="display: flex; gap: 16px; align-items: flex-start; background: #F6EFE4; padding: 14px 20px; border-radius: 14px; margin-bottom: 10px; position: static">
+        <div style="flex-shrink:0; width:26px; height:26px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:14px; color:#6B4D38; line-height:1;">◆</span></div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin-bottom:6px;">Regla del trabado</div>
+          <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.4; color: #1F2123; font-style: italic; text-align: justify">Las juntas verticales entre bloques de una hilada no deben coincidir con las juntas de la hilada inferior. El bloque superior queda centrado sobre la junta de los dos bloques de abajo. En las esquinas, se alterna la dirección del bloque de esquina entre hiladas para crear el trabado en las dos direcciones.</p>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#F6EFE4; padding:14px 20px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:14px; color:#6B4D38; line-height:1;">✓</span></div>
+        <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.4; color: #1F2123; font-style: italic; text-align: justify">La junta de mortero entre bloques debe ser de aproximadamente 1 cm. Más de esa medida debilita el conjunto; menos impide la adhesión correcta.</p>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 19 · PASO 10 · RELLENO DE HUECOS ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 10 · Relleno de los huecos con hormigón fluido" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 2 · Paso 10</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 10</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">10</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:31px; line-height:1.06; letter-spacing:-0.01em; color:#1F2123;">Relleno de los huecos con hormigón fluido</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:22px 0 12px;">¿Para qué sirve?</div>
+      <p style="margin: 0 0 20px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 14px; line-height: 1.7; color: #3A3D40; text-align: justify">Los huecos interiores de los bloques donde hay esperas verticales deben rellenarse con hormigón fluido. Este relleno solidariza la espera con el bloque, crea una columna interna de hormigón armado continua desde la zapata hasta la parte superior del zócalo, y aumenta significativamente la resistencia del muro frente a las cargas de la cubierta.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 14px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Una vez colocadas todas las hiladas de bloques, se prepara hormigón fluido con la misma dosificación que la zapata pero con más agua, para que pueda verterse y fluir dentro de los huecos estrechos del bloque.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se vierte el hormigón fluido por el interior de los bloques que alojan esperas, hasta llenar completamente el hueco.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se introduce un palo fino para compactar y eliminar burbujas.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:20px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se repite en todos los puntos de espera a lo largo del perímetro.</span></div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#FBEEEF; padding:18px 22px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; position:relative;"><div style="width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; color:#fff; line-height:22px;">!</span></div>
+        <p style="margin: 0; font-family: 'Space Grotesk',system-ui,sans-serif; font-size: 14px; font-weight: 400; line-height: 1.6; color: #1F2123; text-align: justify; font-style: italic">Si el hormigón fluido es demasiado líquido, puede salir por las juntas de mortero entre bloques. Se ajusta la consistencia añadiendo menos agua y se tapan temporalmente las juntas inferiores con un trozo de mortero si es necesario.</p>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 20 · PARTE 3 · SUELO INTERIOR + PASO 11 · PREPARACIÓN DEL TERRENO INTERIOR ═══════════ -->
+  <section class="ga-page" data-screen-label="Parte 3 · Suelo interior + Paso 11" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 3 · Paso 11</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="background:#DC2F39; border-radius:16px; padding:20px 28px; display:flex; align-items:baseline; gap:18px; margin-bottom:26px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.82);">Parte 3</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:30px; color:#fff; line-height:1;">Suelo interior</span>
+      </div>
+
+      <p style="margin: 0 0 6px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 15px; line-height: 1.4; color: #3A3D40; text-align: justify">El suelo interior es la superficie sobre la que se pisa dentro de la vivienda. Además del uso cotidiano, cumple dos funciones que afectan a la durabilidad del conjunto: frena la humedad que asciende desde el terreno hacia la estructura de madera, y dificulta el acceso de las termitas al interior.</p>
+      <p style="margin: 0 0 12px; font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 15px; line-height: 1.4; color: #3A3D40; text-align: justify">El suelo interior <strong style="font-weight: 600; color: rgb(31, 33, 35);">se ejecuta después de que la cubierta esté terminada</strong>, para que pueda curarse o compactarse protegido de la lluvia. El terreno interior puede prepararse ahora (antes de levantar las paredes) para facilitar el trabajo, pero el acabado final se aplica al final de la obra.</p>
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:6px;">Paso 11</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:6px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">11</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:33px; line-height:1.05; letter-spacing:-0.01em; color:#1F2123;">Preparación del terreno interior</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:10px 0 6px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 8px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.4; color:#3A3D40; text-align:justify;">Antes de ejecutar el suelo, el terreno interior debe estar limpio, nivelado y compactado. Un suelo asentado sobre tierra suelta o con restos orgánicos puede hundirse y agrietarse con el tiempo.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 6px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:6px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.35; color:#3A3D40;">Se retiran todos los restos orgánicos, raíces y tierra vegetal que queden dentro del perímetro del zócalo.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:6px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.35; color:#3A3D40;">Se nivela el terreno interior hasta alcanzar una cota aproximadamente <strong style="font-weight:600; color:#1F2123;">15 cm por debajo</strong> de la cara superior del zócalo. Esta diferencia garantiza que el suelo terminado no quede al mismo nivel que el durmiente de madera, evitando el contacto entre la madera y la humedad del suelo.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:6px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.35; color:#3A3D40;">Se compacta el terreno por capas de 10–15 cm con el pisón, igual que en los rellenos exteriores.</span></div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 21 · PASO 12 · SUELO INTERIOR: OPCIÓN A + OPCIÓN B ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 12 · Suelo interior (Opción A y B)" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 3 · Paso 12</span></div>
+
+    <div style="position:absolute; z-index:1; top:22mm; left:24mm; right:22mm; bottom:14mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:5px;">Paso 12</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">12</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:34px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Suelo interior</h2>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:12px; margin:0 0 6px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:#DC2F39; padding:5px 11px; border-radius:20px;">Opción A</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#1F2123;">Solera de hormigón</span>
+      </div>
+      <p style="margin:0 0 6px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.3; color:#3A3D40; text-align:justify;">La solera de hormigón es la opción más duradera e higiénica: una vez fraguada, proporciona una superficie dura, fácil de limpiar y resistente a la humedad ascendente.</p>
+
+      <div style="position:relative; padding-left:40px; margin-bottom:5px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.3; color:#3A3D40;">Se extiende la <strong style="font-weight:600; color:#1F2123;">lámina de plástico</strong> sobre el terreno compactado, cubriendo toda la superficie, con solapes de al menos 20 cm y subiendo unos 5 cm por las caras interiores del zócalo para cortar la humedad en el encuentro.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:5px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.3; color:#3A3D40;">Se vierte el hormigón sobre la lámina, con un espesor mínimo de <strong style="font-weight:600; color:#1F2123;">8 cm</strong>.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:5px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.3; color:#3A3D40;">Se extiende y enrasa con la regla, apoyando sus extremos sobre la cara interior del zócalo para mantener la cota uniforme.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:5px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.3; color:#3A3D40;">Una vez enrasado, se alisa la superficie con el fratacho o una tabla lisa húmeda.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.3; color:#3A3D40;">Se cura durante al menos <strong style="font-weight:600; color:#1F2123;">7 días</strong>, cubierta con sacos húmedos, hojas de plátano o lámina de plástico, regándola cada mañana.</span></div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#FBEEEF; padding:12px 18px; border-radius:14px; margin-bottom:10px;">
+        <div style="flex-shrink:0; width:26px; height:26px; position:relative;"><div style="width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; color:#fff; line-height:22px;">!</span></div>
+        <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:400; line-height:1.35; color:#1F2123; text-align:justify;">La solera no debe tocar el durmiente de madera: debe quedar siempre una pequeña separación entre ambos para que la madera no absorba humedad desde el hormigón.</p>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:12px; margin:0 0 6px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:#6B4D38; padding:5px 11px; border-radius:20px;">Opción B</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#1F2123;">Suelo de tierra compactada</span>
+      </div>
+      <p style="margin:0 0 6px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.3; color:#3A3D40; text-align:justify;">El suelo de tierra compactada es la solución de coste cero y la más habitual en la construcción local: correctamente ejecutado y mantenido, es una superficie estable, fresca y culturalmente integrada.</p>
+
+      <div style="position:relative; padding-left:40px; margin-bottom:5px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.3; color:#3A3D40;">Sobre el terreno compactado del Paso 11, se añade una capa de <strong style="font-weight:600; color:#1F2123;">tierra laterítica</strong> (el suelo rojizo habitual en la región) de 5–8 cm, que compacta bien y resiste el tránsito cuando se trabaja húmeda.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:5px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.3; color:#3A3D40;">Se humedece ligeramente la capa y se compacta con el pisón hasta que la superficie esté dura y no ceda al pisar.</span></div>
+      <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.3; color:#3A3D40;">Opcionalmente, se extiende una capa fina de <strong style="font-weight:600; color:#1F2123;">arena gruesa o grava fina</strong> (1–2 cm) como acabado, que reduce el polvo y mejora el drenaje de pequeños derrames.</span></div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 22 · TIPS GUINEA ECUATORIAL (I) ═══════════ -->
+  <section class="ga-page" data-screen-label="Contexto · Guinea Ecuatorial (I)" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Contexto local</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Contexto local</div>
+      <h2 style="margin:0 0 22px; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:30px; line-height:1.08; letter-spacing:-0.01em; color:#1F2123;">Consejos específicos para Guinea Ecuatorial</h2>
+
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">1</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">La arcilla expansiva: el principal riesgo del suelo</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Los suelos arcillosos típicos de la zona fang y del litoral se contraen cuando se secan y se expanden cuando se mojan. Este movimiento repetido puede agrietar los fundamentos a lo largo del tiempo. La profundidad de la zapata es la principal defensa: cuanto más profunda, más estable es el comportamiento del suelo. Nunca se construye sobre la capa superficial orgánica de color negro.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">2</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Nivel freático alto en la estación lluviosa</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Si al realizar las pruebas de terreno aparece agua a menos de 80 cm de profundidad, el nivel freático (la capa de agua subterránea) es alto. En ese caso: aumentar el espesor de la capa de protección del fondo, elevar el zócalo a 4 hiladas en lugar de 3, y consultar con el equipo técnico antes de continuar.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">3</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Almacenamiento del cemento</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">En Guinea Ecuatorial, el cemento absorbe humedad del ambiente y puede endurecerse dentro del saco antes de usarse. Se almacena siempre en lugar cubierto y ventilado, sobre tarimas de madera (nunca directamente sobre el suelo) y no más de 3–4 semanas sin usar. Si al abrir un saco el cemento tiene grumos duros que no se deshacen al presionarlos, ya no sirve.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">4</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Reutilización de la grava de la excavación</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">La grava extraída de la excavación puede reutilizarse en el hormigón si está limpia y libre de barro. Se lava vertiendo agua sobre la pila y removiendo, repitiendo hasta que el agua salga clara. Esto reduce el coste de los áridos.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">5</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">El agua para el hormigón</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Se usa siempre agua dulce y limpia. El agua de lluvia recogida en depósito limpio es perfectamente válida. Nunca agua de mar, ni de ríos con barro visible, ni de pozo salino. El agua salada corroe las armaduras de acero desde dentro, de forma que el daño no es visible hasta que ya es grave.</p></div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 23 · TIPS GUINEA ECUATORIAL (II) ═══════════ -->
+  <section class="ga-page" data-screen-label="Contexto · Guinea Ecuatorial (II)" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Contexto local</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#DC2F39; margin-bottom:22px;">Tips específicos, continuación</div>
+
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">6</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Nunca hormigonar bajo lluvia intensa</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Una lluvia fuerte mientras el hormigón está fresco puede lavar el cemento de la mezcla antes de que fragüe. Si empieza a llover durante el vertido, se cubre urgentemente con lámina de plástico o cartones.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">7</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Horario de trabajo para el hormigonado</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">El horario recomendado para las faenas de hormigonado es de primera hora de la mañana (6–10 h), para evitar el calor máximo del mediodía. Esto da más tiempo de trabajo con el hormigón fresco y reduce el riesgo de secado prematuro.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">8</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Trabajo en equipo para el vertido</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">El hormigonado de la zapata requiere continuidad sin interrupciones. Para una vivienda estándar se necesitan al menos 3–4 personas trabajando simultáneamente: una mezclando, una acarreando, una vertiendo y compactando. El equipo se organiza antes de comenzar.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">9</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Jornadas comunitarias</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">En la cultura fang, el trabajo colectivo es una práctica habitual. El hormigonado de la zapata es una tarea que se beneficia especialmente de organizarse como jornada comunitaria, dado el volumen de trabajo manual que debe completarse en un solo día sin interrupciones.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">10</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Inspección periódica del zócalo</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Una vez terminada la vivienda, la familia debe conocer cómo inspeccionar el zócalo periódicamente: buscar galerías de tierra (caminos de termitas que ascienden por el exterior del muro), grietas o eflorescencias (manchas blancas de sal en la superficie del hormigón). La detección temprana permite actuar antes de que haya daño en la madera.</p></div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 24 · RESUMEN / COMPROBACIONES ═══════════ -->
+  <section class="ga-page" data-screen-label="Comprobaciones antes de avanzar" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">02 · Fundamentos</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Comprobaciones</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#DC2F39; margin-bottom:10px;">Resumen</div>
+      <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:30px; line-height:1.05; letter-spacing:-0.01em; color:#1F2123;">Comprobaciones antes de avanzar</h2>
+      <p style="margin:12px 0 0; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.65; color:#3A3D40; text-align:justify;">Antes de pasar al cerramiento de madera, verificar que se han completado correctamente estos puntos:</p>
+
+      <div style="display:flex; flex-direction:column; gap:9px; margin-top:18px;">
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">El tipo de suelo está identificado y la profundidad de la zapata es la adecuada.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">La zanja tiene paredes verticales y fondo plano.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">Se ha colocado capa de protección en el fondo: hormigón de limpieza o lámina de plástico.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">Las barras de armadura están sobre calzos de bloque o mortero, con al menos 5 cm de separación del fondo.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">Las esperas verticales están en la posición correcta: centradas sobre los huecos interiores de los bloques.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">Se ha verificado la posición de las esperas presentando un bloque sin apoyarlo antes de hormigonar.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">La zapata se ha hormigonado de forma continua, sin juntas en las esquinas.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">La zapata se ha curado durante al menos 3 días antes de comenzar el zócalo.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">Las hiladas de bloques están trabadas: las juntas verticales no coinciden entre hiladas.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">El zócalo tiene al menos 3 hiladas de bloque sobre el nivel del suelo terminado.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">Los huecos con esperas se han rellenado con hormigón fluido.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">La cara superior del zócalo está limpia y libre de mortero suelto, lista para recibir el cerramiento.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">El terreno interior está limpio de restos orgánicos, nivelado y compactado.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">El suelo interior está ejecutado (solera de hormigón o tierra compactada) o el terreno interior está preparado y el suelo se ejecutará tras terminar la cubierta.</span></div>
+        <div style="display:flex; gap:14px; align-items:flex-start;"><span style="flex-shrink:0; width:18px; height:18px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123;">La cara superior del suelo interior queda al menos 5 cm por debajo de la cara inferior del durmiente de madera.</span></div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;" class="ga-pagenum"></div></div>
+  </section>
+
+  <!-- SENTINEL -->
+</div>
+</x-dc>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+<script src="./ds-base.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400;1,500&amp;family=Space+Grotesk:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  a { color: #DC2F39; text-decoration: none; }
+  a:hover { color: #B02128; }
+  @page { size: A4; margin: 0; }
+  @media screen {
+    .ga-root { background: #e8e2d8; padding: 40px 16px; }
+  }
+  @media print {
+    .ga-root { background: #fff !important; padding: 0 !important; gap: 0 !important; }
+    .ga-page { box-shadow: none !important; }
+  }
+</style>
+</helmet>
+
+<div class="ga-root" style="display: flex; flex-direction: column; align-items: center; gap: 40px; font-family: 'Space Grotesk',system-ui,sans-serif; color: #1F2123; width: 100%">
+
+  <!-- ═══════════ PÁGINA 1 · PORTADA DEL ÍNDICE ═══════════ -->
+  <section class="ga-page" data-screen-label="Portada · Índice general" style="position: relative; width: 210mm; height: 297mm; background: #fff; box-shadow: 0 8px 40px rgba(0,0,0,0.18); overflow: hidden">
+    <div aria-hidden="true" style="position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.80),rgba(255,255,255,0.80)),url('./fondo.png'); background-size: cover,cover; background-position: center,center; background-repeat: no-repeat,no-repeat; z-index: 0"></div>
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.42) 50%, rgba(255,255,255,0.55) 100%); z-index: 0"></div>
+
+    <div style="position: absolute; z-index: 1; top: 24mm; left: 24mm; right: 22mm; bottom: 26mm; display: flex; flex-direction: column">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:#9b958c; margin-bottom:2px;">Documento</div>
+      <h1 style="font-family: 'IBM Plex Serif',Georgia,serif; font-weight: 400; font-size: 46px; line-height: 1.08; letter-spacing: -0.01em; color: #DC2F39; margin: 10px 0 0; max-width:150mm;">Índice general de pasos</h1>
+      <div style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:16px; color:#3A3D40; margin-top:14px;">Guía práctica de autoconstrucción — Proyecto ADSIDEO 2024</div>
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#6B7075; margin-top:6px;">UPV · Cátedra MADERAMEN · UNGE</div>
+
+      <p style="font-family: 'Space Grotesk',system-ui,sans-serif; font-weight: 300; font-size: 15px; line-height: 1.75; color: #3A3D40; max-width: 150mm; margin: 24px 0 0; text-align: justify">Este índice recoge los pasos de cada capítulo de la guía, en el orden en el que se ejecutan en obra. Sirve como mapa general antes de empezar y como referencia rápida durante la construcción.</p>
+
+      <div style="margin-top:auto;">
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.16em; text-transform:uppercase; color:#DC2F39; margin-bottom:14px;">Capítulos</div>
+        <div style="display:flex; flex-direction:column; gap:2px; max-width:152mm;">
+          <div style="display:flex; gap:18px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:9px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:17px; font-style:italic; color:#DC2F39; min-width:28px;">01</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:15px; font-weight:400; color:#1F2123; flex:1;">Pasos previos</span></div>
+          <div style="display:flex; gap:18px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:9px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:17px; font-style:italic; color:#DC2F39; min-width:28px;">02</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:15px; font-weight:400; color:#1F2123; flex:1;">Estructura permanente · Fundamentos</span></div>
+          <div style="display:flex; gap:18px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:9px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:17px; font-style:italic; color:#DC2F39; min-width:28px;">03</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:15px; font-weight:400; color:#1F2123; flex:1;">Estructura de madera · Cerramiento</span></div>
+          <div style="display:flex; gap:18px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:9px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:17px; font-style:italic; color:#DC2F39; min-width:28px;">04</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:15px; font-weight:400; color:#1F2123; flex:1;">Estructura de madera · Cubierta</span></div>
+          <div style="display:flex; gap:18px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:9px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:17px; font-style:italic; color:#DC2F39; min-width:28px;">05</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:15px; font-weight:400; color:#1F2123; flex:1;">Carpintería y particiones interiores</span></div>
+          <div style="display:flex; gap:18px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:9px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:17px; font-style:italic; color:#DC2F39; min-width:28px;"><b style="font-style: normal;">++</b><br></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:15px; font-weight:400; color:#1F2123; flex:1;">Mantenimiento</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="position: absolute; z-index: 1; bottom: 12mm; left: 24mm; right: 22mm; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(28,28,28,0.12); padding-top: 9px">
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span>
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 2 · CAPÍTULOS 01–03 ═══════════ -->
+  <section class="ga-page" data-screen-label="Capítulos 01–03" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">Índice general</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Capítulos 01–03</span></div>
+
+    <div style="position:absolute; z-index:1; top:24mm; left:24mm; right:22mm; bottom:20mm; display:flex; flex-direction:column;">
+
+      <!-- 01 -->
+      <div style="margin-bottom:22px;">
+        <div style="display:flex; align-items:baseline; gap:14px; border-bottom:1.5px solid #DC2F39; padding-bottom:6px; margin-bottom:9px;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:28px; color:#DC2F39;">01</span><span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:21px; color:#1F2123;">Pasos previos</span></div>
+        <div style="display:flex; align-items:baseline; gap:12px; padding:3.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:14px; color:#DC2F39; min-width:46px; flex-shrink:0;">01.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:15px; color:#1F2123;">Análisis del terreno</span></div>
+        <div style="display:flex; align-items:baseline; gap:12px; padding:3.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:14px; color:#DC2F39; min-width:46px; flex-shrink:0;">01.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:15px; color:#1F2123;">Limpieza del terreno</span></div>
+        <div style="display:flex; align-items:baseline; gap:12px; padding:3.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:14px; color:#DC2F39; min-width:46px; flex-shrink:0;">01.3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:15px; color:#1F2123;">Nivelación del terreno</span></div>
+        <div style="display:flex; align-items:baseline; gap:12px; padding:3.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:14px; color:#DC2F39; min-width:46px; flex-shrink:0;">01.4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:15px; color:#1F2123;">Replanteo</span></div>
+      </div>
+
+      <!-- 02 -->
+      <div style="margin-bottom:22px;">
+        <div style="display:flex; align-items:baseline; gap:14px; border-bottom:1.5px solid #DC2F39; padding-bottom:6px; margin-bottom:9px;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:28px; color:#DC2F39;">02</span><span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:20px; color:#1F2123;">Estructura permanente · Fundamentos</span></div>
+        <div style="display:flex; flex-wrap:wrap; column-gap:32px;">
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">02.A · Zapata corrida</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.A.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Reconocimiento del terreno</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.A.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Excavación de la zanja</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.A.3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Capa de protección del fondo</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.A.4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Armadura de la zapata</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.A.5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Esperas verticales</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.A.6</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Preparación y dosificación del hormigón</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.A.7</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Vertido y curado del hormigón</span></div>
+          </div>
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">02.B · Zócalo</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.B.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Preparación de los bloques</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.B.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Colocación de las hiladas de bloques</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.B.3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Relleno de los huecos con hormigón fluido</span></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:9px 0 3px;">02.C · Suelo interior</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.C.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Preparación del terreno interior</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">02.C.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Suelo interior</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 03 -->
+      <div style="margin-bottom:22px;">
+        <div style="display:flex; align-items:baseline; gap:14px; border-bottom:1.5px solid #DC2F39; padding-bottom:6px; margin-bottom:9px;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:28px; color:#DC2F39;">03</span><span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:20px; color:#1F2123;">Estructura de madera · Cerramiento</span></div>
+        <div style="display:flex; flex-wrap:wrap; column-gap:32px;">
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">03.A · Durmiente</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">03.A.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Preparación del durmiente</span></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:9px 0 3px;">03.B · Montantes</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">03.B.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Replanteo de los montantes</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">03.B.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Colocación de los montantes</span></div>
+          </div>
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">03.C · Tablas de cerramiento</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">03.C.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Primera tabla: la tabla de arranque</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">03.C.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Tablas solapadas del cerramiento</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">03.C.3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Esquinas y encuentros</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">03.C.4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Huecos de puertas y ventanas</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">03.C.5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">La viga de cubierta</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 3 · CAPÍTULOS 04, 05 Y MANTENIMIENTO ═══════════ -->
+  <section class="ga-page" data-screen-label="Capítulos 04–05 y Mantenimiento" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">Índice general</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Capítulos 04–05 · Mantenimiento</span></div>
+
+    <div style="position:absolute; z-index:1; top:24mm; left:24mm; right:22mm; bottom:20mm; display:flex; flex-direction:column;">
+
+      <!-- 04 -->
+      <div style="margin-bottom:22px;">
+        <div style="display:flex; align-items:baseline; gap:14px; border-bottom:1.5px solid #DC2F39; padding-bottom:6px; margin-bottom:9px;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:28px; color:#DC2F39;">04</span><span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:20px; color:#1F2123;">Estructura de madera · Cubierta</span></div>
+        <div style="display:flex; flex-wrap:wrap; column-gap:32px;">
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">04.A · Cercha</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.A.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Diseño y replanteo de la cercha</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.A.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">El cordón inferior: pieza de tracción</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.A.3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Corte de montantes y diagonales</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.A.4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Cercha de prueba: validación en suelo</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.A.5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Montaje de las cerchas sobre la estructura</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.A.6</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Arriostramiento entre cerchas</span></div>
+          </div>
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">04.B · Rastreles y chapa de zinc</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.B.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Colocación de los rastreles</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.B.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Colocación de la chapa de zinc</span></div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:9px 0 3px;">04.C · Falso techo</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.C.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Estructura del falso techo</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">04.C.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Ventilación de la cámara de aire</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 05 -->
+      <div style="margin-bottom:22px;">
+        <div style="display:flex; align-items:baseline; gap:14px; border-bottom:1.5px solid #DC2F39; padding-bottom:6px; margin-bottom:9px;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:28px; color:#DC2F39;">05</span><span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:20px; color:#1F2123;">Carpintería y particiones interiores</span></div>
+        <div style="display:flex; flex-wrap:wrap; column-gap:32px;">
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">05.A · Particiones interiores</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">05.A.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Qué es una partición interior</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">05.A.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Replanteo de particiones</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">05.A.3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Estructura de la partición</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">05.A.4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Cerramiento de la partición</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">05.A.5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">El hueco de paso</span></div>
+          </div>
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">05.B · Carpintería</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">05.B.1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">El premarco</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">05.B.2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">La puerta</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">05.B.3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">La ventana</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:52px; flex-shrink:0;">05.B.4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Protección frente a la lluvia</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mantenimiento -->
+      <div style="margin-bottom:22px;">
+        <div style="display:flex; align-items:baseline; gap:14px; border-bottom:1.5px solid #DC2F39; padding-bottom:6px; margin-bottom:9px;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:28px; color:#DC2F39;">++</span><span style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:20px; color:#1F2123;">Mantenimiento</span></div>
+        <div style="display:flex; flex-wrap:wrap; column-gap:32px;">
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">Inspecciones por elemento</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:20px; flex-shrink:0;">–</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Cuándo y qué revisar</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:20px; flex-shrink:0;">–</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Zócalo · Cerramiento</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:20px; flex-shrink:0;">–</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Cubierta · Carpintería</span></div>
+          </div>
+          <div style="flex:1; min-width:210px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin:2px 0 3px;">Actuaciones frecuentes</div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:20px; flex-shrink:0;">–</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Actuación ante termitas</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:20px; flex-shrink:0;">–</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Reparación de una tabla de cerramiento</span></div>
+            <div style="display:flex; align-items:baseline; gap:12px; padding:2.5px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:13px; color:#DC2F39; min-width:20px; flex-shrink:0;">–</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:400; font-size:14px; color:#1F2123;">Reparación de una chapa de cubierta</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+</div>
+
+</x-dc>
+</body>
+</html>

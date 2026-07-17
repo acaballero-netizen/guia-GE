@@ -2,6 +2,8 @@
 #### Guía práctica de autoconstrucción — Proyecto MADERAMEN / ADSIDEO 2024
 *UPV · Cátedra MADERAMEN*
 
+<!-- Este índice refleja únicamente los encabezados ## "Paso N" de cada documento paso0X_*.md. No se listan las secciones que se repiten en todos los documentos (Herramientas y materiales necesarios, Estructura general, Tips específicos para el contexto de Guinea Ecuatorial, Resumen: comprobaciones antes de avanzar, Siguiente paso), porque no son pasos propios de ese capítulo. -->
+
 ---
 
 ## 00 · Criterios de diseño **(en desarrollo)**
@@ -10,77 +12,100 @@
 * **00.3 · Distribución interior** — Criterios básicos de organización de espacios: habitaciones, zona de cocina, accesos.
 * **00.4 · El módulo** — Qué es el módulo estructural, por qué organiza toda la vivienda y cómo condiciona las decisiones posteriores.
 
+<!-- paso00_criterios_de_diseño.md está sin redactar todavía ("en proceso de redacción"), sin encabezados propios. Los puntos anteriores son la previsión de contenidos, pendientes de escribirse. -->
+
 ---
 
 ## 01 · Pasos previos
-* **01.1 · Limpieza del terreno** — Retirada de vegetación, raíces superficiales, tocones y extracción de la capa de tierra orgánica.
-* **01.2 · Nivelación** — Uso de la manguera de agua para establecer el punto maestro, repartir el nivel y tirar el cordel de referencia.
-* **01.3 · Compactación de rellenos** — Adición y humectación de tierra por capas de 15 cm y golpeo con el pisón manual.
-* **01.4 · Replanteo** — Traslado de las medidas exactas de la vivienda del plano al terreno real mediante cordeles y estacas.
-* **01.5 · Comprobación de escuadra** — Aplicación del método 3-4-5 en cada esquina para verificar ángulos de 90° exactos.
-* **01.6 · Comprobación de diagonales** — Prueba definitiva midiendo las distancias cruzadas entre esquinas opuestas para asegurar el rectángulo.
-* **01.7 · Replanteo de huecos de puerta** — Marcado y colocación de estacas con las medidas del hueco sumando el premarco de madera.
+* **01.1 · Análisis del terreno** — Prueba de la bola y prueba del tarro (sedimentación) para identificar el tipo de suelo y la profundidad de zapata necesaria.
+* **01.2 · Limpieza del terreno** — Retirada de vegetación, raíces superficiales, tocones y extracción de la capa de tierra orgánica.
+* **01.3 · Nivelación del terreno** — Uso de la manguera de agua para establecer el punto maestro y el cordel de referencia, y compactación por capas de 15 cm de las zonas bajas rellenadas.
+* **01.4 · Replanteo** — Traslado de las medidas de la vivienda al terreno con cordeles y estacas, comprobación de escuadra (método 3-4-5), diagonales y marcado de los huecos de puerta.
+
+<!-- El índice anterior desglosaba este capítulo en 7 entradas (Limpieza, Nivelación, Compactación de rellenos, Replanteo, Comprobación de escuadra, Comprobación de diagonales, Replanteo de huecos de puerta) que no correspondían a los 4 "## Paso" reales del documento y omitían por completo el Paso 1 · Análisis del terreno. Compactación, escuadra, diagonales y huecos de puerta son subapartados dentro de los pasos 3 y 4, no pasos independientes. -->
 
 ---
 
-## 02 · Estructura de permanente · Fundamentos
+## 02 · Estructura permanente · Fundamentos
 
 ### 02.A · Zapata corrida
-* **02.A.1 · Reconocimiento del terreno** — Identificación manual del tipo de suelo (roca, arena, arcilla) para determinar la profundidad.
-* **02.A.2 · Excavación de la zanja** — Proceso de excavación con pico y pala manteniendo paredes verticales y fondo plano.
-* **02.A.3 · Hormigón de limpieza** — Vertido de una capa base de hormigón pobre o colocación de lámina plástica de protección.
-* **02.B.4 · Anclaje del durmiente de madera** — Perforación e introducción del durmiente en las esperas y fijación con hormigón fluido.
-* **02.A.5 · Dosificación y mezcla del hormigón** — Proporciones y mezclado manual en seco y en húmedo de cemento, arena y grava.
-* **02.A.6 · Vertido y compactación** — Llenado continuo de la zanja, picado manual con barra de hierro para eliminar burbujas y alisado.
-* **02.A.7 · Curado** — Protección con plásticos o hojas y humectación diaria de la zapata durante un mínimo de 7 días.
+* **02.A.1 · Reconocimiento del terreno** — Identificación del tipo de suelo (a partir del análisis de pasos previos) para fijar la profundidad y el ancho mínimo de excavación.
+* **02.A.2 · Excavación de la zanja** — Excavación con pico y pala a partir de los cordeles de replanteo, manteniendo paredes verticales y fondo plano.
+* **02.A.3 · Capa de protección del fondo** — Hormigón de limpieza o lámina de plástico para aislar la armadura de la humedad directa del suelo.
+* **02.A.4 · Armadura de la zapata** — Corte, doblado en L en las esquinas y colocación sobre calzos de las barras longitudinales (armado completo o mínimo según disponibilidad).
+* **02.A.5 · Esperas verticales** — Colocación y arriostrado provisional de las varillas que conectarán la zapata con el zócalo.
+* **02.A.6 · Preparación y dosificación del hormigón** — Proporciones cemento-arena-grava, hormigón ciclópeo como alternativa de menor coste y mezcla manual sin hormigonera.
+* **02.A.7 · Vertido y curado del hormigón** — Vertido continuo, compactación manual sin vibrador y humectación diaria durante al menos 7 días.
 
 ### 02.B · Zócalo
-* **02.B.1 · Preparación de bloques** — Modificación e incisión con martillo y cincel en los bloques para permitir el paso de las esperas.
-* **02.B.2 · Primera hilada** — Extensión del mortero, colocación del primer bloque de esquina y avance nivelado del muro perimetral.
-* **02.B.3 · Trabado de hiladas** — Alternancia de las juntas verticales entre hiladas de bloques en forma de "T" para dar resistencia.
-* **02.B.4 · Zuncho perimetral** — Montaje del encofrado de madera, colocación de armaduras horizontales y vertido de la viga superior de atado.
-* **02.B.5 · Anclaje del durmiente de madera** — Perforación e introducción del durmiente en las esperas y fijación con hormigón fluido.
+* **02.B.1 · Preparación de los bloques** — Apertura de un hueco en la base del bloque con martillo y cincel para que pase la espera vertical.
+* **02.B.2 · Colocación de las hiladas de bloques** — Extendido de mortero, nivelación de la primera hilada y trabado alternado de las juntas entre hiladas.
+* **02.B.3 · Relleno de los huecos con hormigón fluido** — Hormigonado del interior de los bloques con espera para crear una columna continua desde la zapata hasta el zócalo.
 
 ### 02.C · Suelo interior
-* **02.C.1 · Preparación del terreno interior** — Retirada de restos orgánicos, nivelación y compactación dentro del perímetro del zócalo.
-* **02.C.2 · Suelo interior** — Solera de hormigón o tierra laterítica compactada: dos opciones según disponibilidad de recursos.
+* **02.C.1 · Preparación del terreno interior** — Retirada de restos orgánicos, nivelación 15 cm por debajo del zócalo y compactación por capas.
+* **02.C.2 · Suelo interior** — Solera de hormigón o suelo de tierra compactada, según disponibilidad de recursos.
+
+<!-- "Zuncho perimetral" (viga de atado de hormigón sobre el zócalo) figuraba en una versión anterior del índice pero no existe como paso independiente en el documento actual: si se retoma el zunchado perimetral, añadirlo aquí. El anclaje del durmiente de madera, que también figuraba en este capítulo, corresponde ahora a 03.A.1 · Preparación del durmiente. -->
 
 ---
 
 ## 03 · Estructura de madera · Cerramiento
-* **03.1 · Durmiente** — Presentación, perforación para las esperas, colocación a ras exterior del zócalo y aplicación de tratamiento protector.
-* **03.2 · Replanteo de pilares sobre el durmiente** — Marcado con lápiz del eje central exacto de cada pilar respetando la cota de módulo.
-* **03.3 · Colocación del primer pilar de esquina** — Aplomado vertical del pilar de referencia y fijación con clavos en diagonal al durmiente.
-* **03.4 · Alineación y colocación del resto de pilares** — Uso del cordel guía tenso a una altura fija para alinear e instalar los pilares intermedios.
-* **03.5 · Comprobación de escuadra de la estructura** — Verificación cruzada de las diagonales superiores de la estructura antes de entablar.
-* **03.6 · Primera hilada de tablas** — Presentación y clavado horizontal de la tabla base de arranque directamente sobre el durmiente y los pilares.
-* **03.7 · Solape e inclinación de tablas** — Colocación de las tablas consecutivas con solape de 3-4 cm e inclinadas al exterior para repeler el agua.
-* **03.8 · Encuentro de esquina** — Alternancia del solape vertical de las tablas en los ángulos de la vivienda para evitar juntas abiertas.
-* **03.9 · La viga de cubierta** — Colocación y fijación de la pieza horizontal que corona los montantes, los ata entre sí y recibe las cerchas de la cubierta.
-* **03.10 · Remate superior del cerramiento** — Ajuste y fijación de la última hilada de tablas en su encuentro con la viga de cubierta.
+
+### 03.A · Durmiente
+* **03.A.1 · Preparación del durmiente** — Perforación para las esperas, colocación a ras del zócalo y anclaje de la pieza que recibe los montantes.
+
+### 03.B · Montantes
+* **03.B.1 · Replanteo de los montantes** — Marcado sobre el durmiente del eje de cada montante a partir del módulo constante.
+* **03.B.2 · Colocación de los montantes** — Aplomado y clavado de los montantes de esquina, cordel guía para alinear los intermedios y comprobación de diagonales.
+
+### 03.C · Tablas de cerramiento
+* **03.C.1 · Primera tabla: la tabla de arranque** — Colocación de la tabla base que evita las salpicaduras de lluvia hacia el durmiente y los montantes.
+* **03.C.2 · Tablas solapadas del cerramiento** — Colocación con solape e inclinación hacia el exterior ("a teja") para evacuar el agua de lluvia.
+* **03.C.3 · Esquinas y encuentros** — Alternancia del solape entre las dos caras de cada esquina para evitar una junta vertical continua.
+* **03.C.4 · Huecos de puertas y ventanas** — Corte de las tablas al límite del hueco y colocación de dintel y umbral entre los montantes de jamba.
+* **03.C.5 · La viga de cubierta** — Pieza horizontal que cierra la cabeza de todos los montantes y recibe las cerchas de la cubierta.
+
+<!-- "Remate superior del cerramiento" figuraba en una versión anterior del índice pero no existe como contenido en el documento actual: si se desarrolla un remate específico entre la última hilada de tablas y la viga de cubierta, añadirlo aquí. -->
 
 ---
 
 ## 04 · Estructura de madera · Cubierta
-* **04.1 · Qué es una cercha** — Comprensión del funcionamiento y la estabilidad de la estructura triangulada de cubierta.
-* **04.2 · Piezas de la cercha** — Identificación y preparación del tirante, par, montante y tornapunta.
-* **04.3 · Fabricación de piezas en el suelo** — Uso de la plantilla para cortar y numerar las piezas, y validación de la geometría mediante una cercha de prueba.
-* **04.4 · Uniones de la cercha** — Ejecución de los nudos estructurales mediante clavado, pletinas metálicas o ensambles tradicionales.
-* **04.5 · Montaje de la cercha pieza a pieza** — Colocación progresiva de cada pieza directamente sobre la estructura desde andamios provisionales.
-* **04.6 · Correas** — Instalación de las piezas longitudinales de madera que atan las cerchas y sirven de soporte a la chapa.
-* **04.7 · Colocación de la chapa metálica** — Montaje con solape perimetral de las chapas de zinc y fijación con tornillos o clavos de gancho.
-* **04.8 · Alero** — Ejecución del remate perimetral sobresaliente de la cubierta para desviar la lluvia de las paredes de madera.
-* **04.9 · Cumbrera** — Fijación del remate metálico o pieza de cierre en la línea más alta de la cubierta para evitar filtraciones.
+
+### 04.A · Cercha
+* **04.A.1 · Diseño y replanteo de la cercha** — Trazado a escala real de la geometría de la cercha sobre una superficie plana, como plantilla de corte y ensamble.
+* **04.A.2 · El cordón inferior: pieza de tracción** — Construcción del cordón sándwich que resiste que la cercha se abra bajo el peso de la cubierta.
+* **04.A.3 · Corte y preparación de montantes y diagonales** — Mecanizado de las piezas interiores que forman los triángulos de la cercha.
+* **04.A.4 · Cercha de prueba: validación de geometría en el suelo** — Ensamblaje de una cercha completa en el suelo para comprobar cortes, encajes y tipos de unión antes de replicarla.
+* **04.A.5 · Montaje de las cerchas sobre la estructura** — Izado y colocación pieza a pieza desde andamios provisionales, sin maquinaria de elevación.
+* **04.A.6 · Arriostramiento entre cerchas** — Conexión entre cerchas para convertir el conjunto en una estructura tridimensional rígida frente al viento.
+
+### 04.B · Rastreles y chapa de zinc
+* **04.B.1 · Colocación de los rastreles** — Listones transversales sobre los cordones superiores, incluido el vuelo de alero frontal en los hastiales, que reciben la fijación de la chapa.
+* **04.B.2 · Colocación de la chapa de zinc** — Dirección de colocación, solapes mínimos y remate de cumbrera para una cubierta estanca.
+
+### 04.C · Falso techo
+* **04.C.1 · Estructura del falso techo** — Rastreles horizontales sobre el cordón inferior de las cerchas que forman el plano de cierre interior.
+* **04.C.2 · Ventilación de la cámara de aire** — Aberturas de entrada en los aleros y de salida en la cumbrera para la convección natural bajo la chapa.
 
 ---
 
-## 05 · Carpintería
-* **05.1 · El hueco de puerta** — Configuración y refuerzo del espacio estructural entre pilares para recibir el marco.
-* **05.2 · El premarco** — Fabricación de la subestructura de madera e instalación fija en el hueco del cerramiento.
-* **05.3 · La puerta** — Construcción de la hoja de la puerta uniendo tablones de madera mediante travesaños reforzados.
-* **05.4 · Colgado de la puerta** — Atornillado de bisagras, presentación en el premarco y ajuste final del batiente.
-* **05.5 · El hueco de ventana** — Apertura y delimitación del espacio para ventilación entre las tablas del cerramiento.
-* **05.6 · La ventana** — Construcción e instalación de soluciones locales: hojas abatibles, lamas fijas o bastidores con mosquitera.
+## 05 · Carpintería y particiones interiores
+
+### 05.A · Particiones interiores
+* **05.A.1 · Qué es una partición interior** — Definición de qué es y qué no es un tabique interior, para no comprometer la estructura portante.
+* **05.A.2 · Replanteo de particiones** — Marcado sobre el suelo de la posición exacta de cada tabique según la distribución de diseño.
+* **05.A.3 · Estructura de la partición** — Solera de arranque, montantes verticales y pieza de coronación que forman el esqueleto del tabique.
+* **05.A.4 · Cerramiento de la partición** — Colocación de tablas verticales u horizontales, sin necesidad de solape ni inclinación.
+* **05.A.5 · El hueco de paso** — Abertura entre estancias, libre o preparada para recibir premarco y hoja de puerta interior.
+
+### 05.B · Carpintería
+* **05.B.1 · El premarco** — Fabricación e instalación del marco fijo que protege el canto del hueco y recibe bisagras y cierre.
+* **05.B.2 · La puerta** — Fabricación de la hoja con tablones y travesaños, y colgado con bisagras y ajuste del batiente.
+* **05.B.3 · La ventana** — Soluciones de ventilación según disponibilidad: hoja abatible, lamas fijas o hueco con mosquitera.
+* **05.B.4 · Protección frente a la lluvia** — Alféizar con goterón, protección del dintel y encuentro entre carpintería y cerramiento frente a la lluvia lateral.
+
+<!-- "El hueco de puerta" y "El hueco de ventana" figuraban antes en este capítulo: ese contenido corresponde ahora a 03.C.4 · Huecos de puertas y ventanas, dentro del cerramiento exterior. Este capítulo (paso05) cubre la fabricación e instalación de la carpintería propiamente dicha, y además las particiones interiores, que antes no figuraban en el índice. -->
 
 ---
 
@@ -92,14 +117,22 @@
 * **06.5 · Instalación eléctrica básica** — Opciones de suministro (red, generador, solar) y trazado mínimo de circuitos para iluminación y enchufes.
 * **06.6 · Sistema fotovoltaico autónomo** — Dimensionado de paneles, batería, regulador e inversor para cubrir las necesidades esenciales del hogar.
 
+<!-- paso06_instalaciones.md está sin redactar todavía ("en proceso de redacción"), sin encabezados propios. Los puntos anteriores son la previsión de contenidos, pendientes de escribirse. -->
+
 ---
 
-## Mantenimiento
-1. **Calendario de revisiones** — Programación de inspecciones al inicio de la estación seca y de la estación lluviosa.
-2. **Inspección del zócalo** — Localización de grietas, humedades o caminos/galerías de tierra hechos por termitas.
-3. **Inspección del cerramiento** — Identificación de tablas podridas por humedad, movimientos de pilares o juntas abiertas.
-4. **Inspección de la cubierta** — Detección de chapas metálicas sueltas, puntos de óxido o filtraciones de agua.
-5. **Inspección de carpintería** — Revisión del estado de las bisagras, desajustes en el cierre de puertas y ventanas o pudrición.
-6. **Actuación ante termitas** — Aplicación de tratamientos de barrera o sustituciones urgentes antes de que afecte a los pilares.
-7. **Reparación de una tabla de cerramiento** — Proceso de extracción y sustitución de una pieza de fachada dañada sin alterar el resto.
-8. **Reparación de una chapa de cubierta** — Desmontaje de la chapa dañada o suelta y colocación de una nueva fijación impermeabilizada.
+## 07 · Mantenimiento
+
+### 07.A · Calendario de revisiones
+* **07.A.1 · Cuándo y qué revisar** — Dos momentos clave de inspección, con lógicas distintas: inicio de la estación seca e inicio de la estación lluviosa.
+
+### 07.B · Inspecciones por elemento
+* **07.B.1 · Inspección del zócalo** — Detección de grietas estructurales, eflorescencias y galerías de termitas en el zócalo de hormigón.
+* **07.B.2 · Inspección del cerramiento** — Detección de pudrición de tablas bajas, juntas abiertas entre tablas y deformación de montantes.
+* **07.B.3 · Inspección de la cubierta** — Detección de oxidación de chapas, fallo de tornillos de fijación y apertura de solapes.
+* **07.B.4 · Inspección de la carpintería** — Revisión de desajuste del batiente, oxidación de bisagras y pudrición del premarco.
+
+### 07.C · Actuaciones frecuentes
+* **07.C.1 · Actuación ante termitas** — Identificación de un ataque activo y actuación inmediata antes de que dañe montantes o durmientes.
+* **07.C.2 · Reparación de una tabla de cerramiento** — Sustitución de una tabla dañada sin desmontar el resto de la fachada.
+* **07.C.3 · Reparación de una chapa de cubierta** — Sustitución de una chapa suelta o perforada sin desmontar toda la cubierta.

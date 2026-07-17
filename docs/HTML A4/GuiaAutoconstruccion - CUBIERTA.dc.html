@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+<script src="./ds-base.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400;1,500&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  a { color: #DC2F39; text-decoration: none; }
+  a:hover { color: #B02128; }
+  @page { size: A4; margin: 0; }
+  @media screen {
+    .ga-root { background: #e8e2d8; padding: 40px 16px; }
+  }
+  @media print {
+    .ga-root { background: #fff !important; padding: 0 !important; gap: 0 !important; }
+    .ga-page { box-shadow: none !important; }
+  }
+  /* Numeración automática de página: cambia el "0" para fijar el número de la primera página; el resto se calcula solo. */
+  .ga-root { counter-reset: ga-page 51; }
+  .ga-page { counter-increment: ga-page; }
+  .ga-pagenum::before { content: counter(ga-page); }
+
+</style>
+</helmet>
+
+<div class="ga-root" style="display: flex; flex-direction: column; align-items: center; gap: 40px; font-family: 'Space Grotesk',system-ui,sans-serif; color: #1F2123; width: 100%">
+
+  <!-- ═══════════ PÁGINA 1 · PORTADA DE CAPÍTULO ═══════════ -->
+  <section class="ga-page" data-screen-label="Portada · Cubierta" style="position: relative; width: 210mm; height: 297mm; background: #fff; box-shadow: 0 8px 40px rgba(0,0,0,0.18); overflow: hidden">
+    <div aria-hidden="true" style="position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.80),rgba(255,255,255,0.80)),url('./fondo.png'); background-size: cover,cover; background-position: center,center; background-repeat: no-repeat,no-repeat; z-index: 0"></div>
+    <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.42) 50%, rgba(255,255,255,0.55) 100%); z-index: 0"></div>
+
+    <div style="position: absolute; z-index: 1; top: 20mm; left: 24mm; right: 22mm; bottom: 24mm; display: flex; flex-direction: column">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:#9b958c; margin-bottom:2px;">Capítulo</div>
+      <div style="display:flex; align-items:flex-end; gap:22px;">
+        <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:112px; line-height:0.8; color:#DC2F39;">04</div>
+      </div>
+      <h1 style="font-family: 'IBM Plex Serif',Georgia,serif; font-weight: 400; font-size: 56px; line-height: 1.04; letter-spacing: -0.01em; color: #DC2F39; margin: 18px 0 0">Cubierta</h1>
+
+      <p style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14.5px; line-height:1.7; color:#3A3D40; margin:18px 0 0; text-align:justify;">La cubierta es la principal barrera entre el interior de la vivienda y el clima exterior. En Guinea Ecuatorial, las lluvias intensas, el calor extremo y la humedad constante hacen de esta fase uno de los momentos más críticos de la construcción. Una cubierta mal resuelta deteriora con rapidez toda la estructura de madera que hay debajo.</p>
+      <p style="font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14.5px; line-height:1.7; color:#3A3D40; margin:12px 0 0; text-align:justify;">La cubierta cumple dos funciones al mismo tiempo: evacuar el agua de lluvia hacia el exterior y proteger el interior del calor generado por la radiación solar sobre la chapa. Ambas funciones determinan las decisiones de diseño: pendiente suficiente para el agua, alero generoso para proteger los muros, y falso techo para limitar la temperatura interior.</p>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#F6EFE4; padding:16px 20px; margin-top:18px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:14px; color:#6B4D38; line-height:1;">★</span></div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin-bottom:6px;">Regla de oro</div>
+          <p style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; font-weight:400; line-height:1.55; color:#1F2123; text-align:justify;">El alero protege el cerramiento. Sin alero suficiente, el agua de lluvia golpea directamente la madera de las paredes y la base del muro. El coste de ampliar el alero es mínimo; el coste de reparar la madera dañada por la lluvia es muy alto.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:auto;">
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.16em; text-transform:uppercase; color:#DC2F39; margin-bottom:12px;">En este capítulo</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; column-gap:34px; row-gap:0; max-width:158mm;">
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">Diseño y replanteo de la cercha</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">El cordón inferior: pieza de tracción</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">Corte y preparación de montantes y diagonales</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">Cercha de prueba: validación de geometría en el suelo</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">Montaje de las cerchas sobre la estructura</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">6</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">Arriostramiento entre cerchas</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">7</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">Colocación de los rastreles</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">8</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">Colocación de la chapa de zinc</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">9</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">Estructura del falso techo</span></div>
+          <div style="display:flex; gap:16px; align-items:baseline; border-bottom:1px dotted #cdc6ba; padding:7px 0;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:16px; font-style:italic; color:#DC2F39; min-width:22px;">10</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; color:#1F2123;">Ventilación de la cámara de aire</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="position: absolute; z-index: 1; bottom: 12mm; left: 24mm; right: 22mm; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(28,28,28,0.12); padding-top: 9px">
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span>
+      <div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 2 · ESTRUCTURA GENERAL ═══════════ -->
+  <section class="ga-page" data-screen-label="Estructura general" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Introducción</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm; display:flex; flex-direction:column;">
+      <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:32px; line-height:1.05; letter-spacing:-0.01em; color:#1F2123;">Estructura general</h2>
+      <p style="margin:18px 0 0; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14.5px; line-height:1.7; color:#3A3D40; text-align:justify;">Esta sección cubre cuatro elementos que trabajan de forma solidaria:</p>
+
+      <div style="display:flex; flex-direction:column; gap:18px; margin-top:26px;">
+        <div style="display:flex; gap:22px; align-items:flex-start; background:#FAF7F1; border-radius:16px; padding:24px 28px;">
+          <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:38px; line-height:0.9; color:#DC2F39; flex-shrink:0;">1</span>
+          <div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39; margin-bottom:8px;">Cercha</div>
+            <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.65; color:#3A3D40; text-align:justify;">La estructura triangulada de madera que salva la luz entre pilares y da la pendiente a la cubierta.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:22px; align-items:flex-start; background:#FAF7F1; border-radius:16px; padding:24px 28px;">
+          <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:38px; line-height:0.9; color:#DC2F39; flex-shrink:0;">2</span>
+          <div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39; margin-bottom:8px;">Rastreles</div>
+            <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.65; color:#3A3D40; text-align:justify;">Los listones secundarios que apoyan sobre las cerchas y reciben directamente la chapa metálica.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:22px; align-items:flex-start; background:#FAF7F1; border-radius:16px; padding:24px 28px;">
+          <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:38px; line-height:0.9; color:#DC2F39; flex-shrink:0;">3</span>
+          <div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39; margin-bottom:8px;">Chapa de zinc</div>
+            <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.65; color:#3A3D40; text-align:justify;">El material de cobertura. Cierra la cubierta frente al agua y la lluvia.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:22px; align-items:flex-start; background:#FAF7F1; border-radius:16px; padding:24px 28px;">
+          <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:38px; line-height:0.9; color:#DC2F39; flex-shrink:0;">4</span>
+          <div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39; margin-bottom:8px;">Falso techo</div>
+            <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.65; color:#3A3D40; text-align:justify;">La capa interior que reduce la irradiación de calor de la chapa hacia el espacio habitable.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 3 · HERRAMIENTAS Y MATERIALES ═══════════ -->
+  <section class="ga-page" data-screen-label="Herramientas y materiales" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Materiales</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm; display:flex; flex-direction:column;">
+      <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:32px; line-height:1.05; letter-spacing:-0.01em; color:#1F2123;">Herramientas y materiales necesarios</h2>
+
+      <div style="margin-top:20px; display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+        <div style="background:#F6EFE4; padding:19px 23px; border-radius:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:13px;">Para la estructura de cerchas</div>
+          <div style="display:flex; flex-direction:column; gap:9px;">
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Palo rojo u otra madera densa local, en sección de <strong style="font-weight:600;">8×8 cm</strong> para los cordones superior e inferior, y <strong style="font-weight:600;">5×8 cm</strong> para los montantes y diagonales interiores</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Cinta métrica</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Escuadra de carpintero</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Sierra manual o de arco</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Formón y martillo de carpintero <span style="color:#6B7075; font-style:italic;">(para los ensambles)</span></span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Cordel y tiza (para trazar la plantilla en el suelo)</span></div>
+          </div>
+        </div>
+        <div style="background:#F6EFE4; padding:19px 23px; border-radius:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:13px;">Para las uniones de la cercha</div>
+          <div style="display:flex; flex-direction:column; gap:9px;">
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Clavos de madera de al menos 120 mm</span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Pletinas o escuadras de acero galvanizado de 3 mm de espesor, para los nudos principales <span style="color:#6B7075; font-style:italic;">(ver alternativa en Paso 4)</span></span></div>
+            <div style="display:flex; gap:12px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Tornillos para madera de 80–100 mm</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:16px; display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+        <div style="background:#F6EFE4; padding:17px 21px; border-radius:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:11px;">Para el montaje en altura</div>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Puntales y caballetes provisionales de madera (se fabrican en obra antes de comenzar el montaje)</span></div>
+            <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Cuerdas y cabos de amarre</span></div>
+            <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Nivel de burbuja y plomada</span></div>
+          </div>
+        </div>
+        <div style="background:#F6EFE4; padding:17px 21px; border-radius:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:11px;">Para los rastreles y la chapa</div>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Rastreles de madera de sección <strong style="font-weight:600;">5×5 cm</strong> o <strong style="font-weight:600;">5×8 cm</strong></span></div>
+            <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Chapa de zinc corrugada, calibre mínimo 0,4 mm <span style="color:#6B7075; font-style:italic;">(a mayor calibre, mayor durabilidad y menor ruido bajo la lluvia)</span></span></div>
+            <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Tornillos autorroscantes para chapa con arandela de neopreno, longitud 35–50 mm</span></div>
+            <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Tijeras de chapa o disco de corte para metales (para ajustar longitudes)</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:14px; background:#F6EFE4; padding:17px 23px; border-radius:16px; max-width:100%;">
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:#6B4D38; margin-bottom:11px;">Para el falso techo</div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Rastreles de madera ligera o listones de bambú (para la estructura de soporte)</span></div>
+          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Tablas finas de madera, hojas de nipa tejida o fibra vegetal (para el panel de cierre)</span></div>
+          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:6px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.45; color:#1F2123; text-align:justify;">Clavos o alambre de amarre</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 5 · PARTE 1 · INTRO + CRITERIO PENDIENTE ═══════════ -->
+  <section class="ga-page" data-screen-label="Parte 1 · Cercha, criterio de pendiente" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="background:#DC2F39; border-radius:16px; padding:20px 28px; display:flex; align-items:baseline; gap:18px; margin-bottom:20px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.82);">Parte 1</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:28px; color:#fff; line-height:1;">Cercha</span>
+      </div>
+
+      <p style="margin:0 0 10px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.65; color:#3A3D40; text-align:justify;">La cercha es una estructura triangulada de madera que permite cubrir la luz entre pilares sin apoyos intermedios. Su forma triangular (a diferencia de una viga recta) distribuye las cargas de manera que cada pieza trabaja en compresión o en tracción simple, sin flexión. Esto permite usar piezas de menor sección para cubrir distancias que de otra manera requerirían madera de gran escuadría.</p>
+      <p style="margin:0 0 20px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.65; color:#3A3D40; text-align:justify;">En el contexto de este proyecto, la cercha no necesita cubrir necesariamente toda la anchura de la vivienda de un extremo al otro. Si la vivienda tiene pilares intermedios, estos actúan como puntos de apoyo adicionales y reducen la luz que cada cercha debe salvar. Cuanto menor es la luz, más sencilla y ligera puede ser la cercha. Esta posibilidad debe tenerse en cuenta desde la fase de diseño de la planta.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 6px;">Criterio de diseño: pendiente y alero</div>
+      <p style="margin:0 0 16px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.65; color:#3A3D40; text-align:justify;">Dos decisiones de diseño condicionan todo lo demás y deben fijarse antes de empezar a cortar madera.</p>
+
+      <p style="margin:0 0 10px; font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; line-height:1.65; color:#1F2123; text-align:justify;"><strong style="font-weight:600;">Pendiente del cordón superior:</strong></p>
+      <p style="margin:0 0 18px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.65; color:#3A3D40; text-align:justify;">La pendiente determina la inclinación de la cubierta y, con ella, la velocidad a la que el agua de lluvia se evacúa. En clima ecuatorial, con lluvias torrenciales, se recomienda una pendiente mínima del <strong style="font-weight:600; color:#1F2123;">30%</strong> (aproximadamente 17°). Pendientes de hasta el 45% mejoran la evacuación del agua y reducen el riesgo de filtración en los solapes de chapa.</p>
+
+      <div style="border-radius:14px; overflow:hidden; box-shadow:0 1px 0 rgba(28,28,28,0.06);">
+      <table style="width:100%; border-collapse:collapse; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px;">
+        <thead>
+          <tr>
+            <th style="text-align: left; padding: 11px 16px; color: #fff; font-family: 'IBM Plex Mono',monospace; font-weight: 500; font-size: 9.5px; letter-spacing: 0.06em; text-transform: uppercase; background-color: #DC2F39">Pendiente</th>
+            <th style="text-align: left; padding: 11px 16px; color: #fff; font-family: 'IBM Plex Mono',monospace; font-weight: 500; font-size: 9.5px; letter-spacing: 0.06em; text-transform: uppercase; background-color: #DC2F39">Ángulo aproximado</th>
+            <th style="text-align: left; padding: 11px 16px; color: #fff; font-family: 'IBM Plex Mono',monospace; font-weight: 500; font-size: 9.5px; letter-spacing: 0.06em; text-transform: uppercase; background-color: #DC2F39">Adecuación en clima ecuatorial</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding:12px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top;">Menos del 20%</td>
+            <td style="padding:12px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top;">Menos de 11°</td>
+            <td style="padding:12px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top;">No recomendada. Riesgo de filtración</td>
+          </tr>
+          <tr>
+            <td style="padding:12px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top; background:#FAF7F1;">30%</td>
+            <td style="padding:12px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">17°</td>
+            <td style="padding:12px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Mínimo recomendado</td>
+          </tr>
+          <tr>
+            <td style="padding:12px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top;">40–45%</td>
+            <td style="padding:12px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top;">22–24°</td>
+            <td style="padding:12px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top;">Recomendada. Buena evacuación</td>
+          </tr>
+          <tr>
+            <td style="padding:12px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top; background:#FAF7F1;">Más del 50%</td>
+            <td style="padding:12px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Más de 27°</td>
+            <td style="padding:12px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Válida, pero aumenta el peso y la complejidad de la cercha</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 6 · PASO 1 · ALERO, DISEÑO Y REPLANTEO ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 1 · Diseño y replanteo de la cercha" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 1</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <p style="margin:0 0 5px; font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; line-height:1.5; color:#1F2123; text-align:justify;"><strong style="font-weight:600;">Vuelo de alero:</strong></p>
+      <p style="margin:0 0 9px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.5; color:#3A3D40; text-align:justify;">El alero es la parte de la cubierta que sobresale del muro exterior. Su función es proteger el cerramiento de la lluvia lateral y dar sombra a las aberturas. Las dimensiones mínimas recomendadas son:</p>
+      <div style="display:flex; flex-direction:column; gap:6px; margin-bottom:10px;">
+        <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:7px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.45; color:#3A3D40; text-align:justify;">Alero lateral (a los lados de la cubierta): mínimo <strong style="font-weight:600; color:#1F2123;">60 cm</strong></span></div>
+        <div style="display:flex; gap:11px; align-items:flex-start;"><span style="width:7px; height:7px; background:#DC2F39; margin-top:7px; flex-shrink:0;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.45; color:#3A3D40; text-align:justify;">Alero frontal en los hastiales (en los extremos de la cubierta): mínimo <strong style="font-weight:600; color:#1F2123;">40 cm</strong></span></div>
+      </div>
+      <p style="margin:0 0 16px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.5; color:#3A3D40; text-align:justify;">El vuelo lateral se obtiene dejando que el cordón superior de la cercha sobresalga del plano exterior del muro. El vuelo frontal se consigue con rastreles volados que avanzan más allá de la última cercha <em style="font-style:italic;">(ver Parte 2, Paso 1)</em>.</p>
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:6px;">Paso 1</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:7px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:30px; color:#DC2F39;">1</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:30px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Diseño y replanteo de la cercha</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:17px; color:#DC2F39; margin:13px 0 6px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 14px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.5; color:#3A3D40; text-align:justify;">Antes de cortar ninguna pieza, se traza la geometría completa de la cercha sobre una superficie plana: el suelo de tierra compactada o una losa de hormigón sirven perfectamente. Este dibujo a escala real es la plantilla que guía todo el corte y ensamble y garantiza que todas las cerchas sean idénticas entre sí.</p>
+
+      <p style="margin:0 0 6px; font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; line-height:1.5; color:#1F2123; text-align:justify;"><strong style="font-weight:600;">Coordinación con el módulo del cerramiento:</strong></p>
+      <p style="margin:0 0 9px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.5; color:#3A3D40; text-align:justify;">La posición de cada cercha no puede elegirse de forma independiente. Cada cercha debe caer exactamente encima de un montante del cerramiento: es la única forma de que la carga baje en línea recta desde la cubierta hasta la fundación. Si una cercha cae en el punto medio entre dos montantes, la viga de cubierta tiene que soportar esa carga en voladizo.</p>
+      <p style="margin:0 0 14px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.5; color:#3A3D40; text-align:justify;">Esto significa que <strong style="font-weight:600; color:#1F2123;">la separación entre cerchas debe ser igual al módulo del cerramiento</strong> (la distancia de eje a eje entre montantes) o un múltiplo de él. Si el módulo del cerramiento es de 80 cm, las cerchas van a 80 cm o a 160 cm entre ejes.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:17px; color:#DC2F39; margin:0 0 8px;">Proceso</div>
+      <div style="position:relative; padding-left:38px; margin-bottom:7px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#3A3D40;">Se traza sobre el suelo la línea del <strong style="font-weight:600; color:#1F2123;">cordón inferior</strong>: una línea recta horizontal de la longitud total de la cercha, incluyendo los vuelos de alero si los lleva incorporados.</span></div>
+      <div style="position:relative; padding-left:38px; margin-bottom:7px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#3A3D40;">Desde los dos extremos de esa línea, se trazan las líneas del <strong style="font-weight:600; color:#1F2123;">cordón superior</strong> con la pendiente elegida. El punto donde se encuentran en la parte alta es la <strong style="font-weight:600; color:#1F2123;">cumbrera</strong>.</span></div>
+      <div style="position:relative; padding-left:38px; margin-bottom:14px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:300; line-height:1.5; color:#3A3D40;">Se marcan los puntos de los <strong style="font-weight:600; color:#1F2123;">nudos interiores</strong>: la posición de cada montante y diagonal. Estos puntos deben quedar perfectamente marcados en el suelo antes de cortar.</span></div>
+
+      <div style="display:flex; gap:14px; align-items:flex-start; background:#F6EFE4; padding:14px 18px; border-radius:14px;">
+        <div style="flex-shrink:0; width:24px; height:24px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:13px; color:#6B4D38; line-height:1;">✓</span></div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin-bottom:5px;">Verificación previa</div>
+          <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:400; line-height:1.48; color:#1F2123; text-align:justify;">Se comprueba que el ángulo del cordón superior es el mismo en los dos lados de la cercha. Una sola cercha mal ejecutada en la pendiente rompe la regularidad del tejado e impide que la chapa asiente correctamente.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 7 · PASO 2 · CORDÓN INFERIOR ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 2 · El cordón inferior: pieza de tracción" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 2</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 2</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">2</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:34px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">El cordón inferior: pieza de tracción</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:22px 0 12px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 12px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.7; color:#3A3D40; text-align:justify;">El cordón inferior es la pieza que trabaja en tracción: resiste que la cercha se abra hacia los lados bajo el peso del tejado. Es también la pieza donde se realizan las uniones con los montantes y diagonales. Por eso se recomienda construirlo como <strong style="font-weight:600; color:#1F2123;">cordón sándwich</strong>: dos piezas paralelas con un hueco entre ellas en el que se introduce el extremo de cada pieza interior.</p>
+      <p style="margin:0 0 22px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.7; color:#3A3D40; text-align:justify;">Esta solución permite realizar todas las uniones sin escuadras metálicas, usando solo clavos que atraviesan las piezas exteriores hacia el elemento interior encajado entre ellas.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 14px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se cortan las dos piezas del cordón a la longitud total de la cercha, más el vuelo de alero si está incorporado en este elemento.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se marcan sobre las dos piezas los puntos donde irán los nudos, alineados con el replanteo del suelo.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se ensamblan provisionalmente las dos piezas con cuerda o abrazaderas, dejando el hueco interior libre para recibir los montantes y diagonales.</span></div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 8 · PASO 3 · MONTANTES Y DIAGONALES ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 3 · Corte y preparación de montantes y diagonales" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 3</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 3</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:32px; color:#DC2F39;">3</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:32px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Corte y preparación de montantes y diagonales</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:20px 0 10px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 18px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.7; color:#3A3D40; text-align:justify;">Los montantes son las piezas verticales interiores de la cercha. Las diagonales son las piezas inclinadas. Juntos forman los triángulos que dan rigidez al conjunto y transmiten las cargas desde el cordón superior hasta los puntos de apoyo.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:0 0 10px;">Regla fundamental</div>
+      <p style="margin:0 0 20px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.7; color:#3A3D40; text-align:justify;">Todas las piezas interiores deben estar <strong style="font-weight:600; color:#1F2123;">en el mismo plano</strong> que los cordones. Si una pieza interior queda desplazada hacia delante o hacia atrás respecto al plano de la cercha, introduce esfuerzos de torsión que pueden partir la unión. En la práctica constructiva local es frecuente encontrar piezas que no están en el mismo plano; esta es una de las causas de fallo estructural más comunes.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:0 0 12px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:11px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Usando el replanteo del suelo como plantilla, se mide la longitud exacta de cada montante y diagonal, teniendo en cuenta los ángulos de corte en cada extremo.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:11px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se cortan los ángulos con sierra. El corte debe ser limpio y plano para que el contacto entre piezas sea total, sin holguras.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:20px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se presenta cada pieza sobre el replanteo antes de ensamblar para verificar que encaja correctamente.</span></div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#FBEEEF; padding:18px 22px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; position:relative;"><div style="width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; color:#fff; line-height:22px;">!</span></div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#DC2F39; margin-bottom:6px;">Atención</div>
+          <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:400; line-height:1.6; color:#1F2123; text-align:justify;">Un corte de ángulo con holgura o con superficie irregular transmite mal los esfuerzos. La unión mecánica (clavo o tornillo) no puede compensar un mal contacto entre maderas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 9 · PASO 4 · CERCHA DE PRUEBA ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 4 · Cercha de prueba: validación de geometría" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 4</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:4px;">Paso 4</div>
+      <div style="display:flex; align-items:baseline; gap:14px; margin-bottom:5px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">4</span>
+        <span style="width:7px; height:7px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:24px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Cercha de prueba: validación de geometría en el suelo</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:14.5px; color:#DC2F39; margin:9px 0 4px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 6px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:12px; line-height:1.38; color:#3A3D40; text-align:justify;">Antes de subir ninguna pieza, se ensambla <strong style="font-weight:600; color:#1F2123;">una única cercha completa en el suelo</strong> sobre el replanteo. Esta cercha no se iza: su función es exclusivamente verificar que todos los cortes son correctos, que las piezas encajan sin holguras y que la geometría del conjunto es la prevista.</p>
+      <p style="margin:0 0 6px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:12px; line-height:1.38; color:#3A3D40; text-align:justify;">Una vez validada, las piezas se <strong style="font-weight:600; color:#1F2123;">numeran con lápiz o marca de sierra</strong> y se desmonta la cercha. A partir de ese momento, todas las cerchas (incluida esta primera) se montan <strong style="font-weight:600; color:#1F2123;">pieza a pieza en altura</strong> (ver Paso 5).</p>
+      <p style="margin:0 0 9px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:12px; line-height:1.38; color:#3A3D40; text-align:justify;">Detectar un corte incorrecto en el suelo, antes del montaje, es mucho más fácil que corregirlo desde un andamio.</p>
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#DC2F39; margin-bottom:6px;">Tipos de unión</div>
+      <div style="border-radius:12px; overflow:hidden; box-shadow:0 1px 0 rgba(28,28,28,0.06); margin-bottom:10px;">
+      <table style="width:100%; border-collapse:collapse; font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px;">
+        <thead>
+          <tr>
+            <th style="text-align: left; padding: 6px 12px; color: #fff; font-family: 'IBM Plex Mono',monospace; font-weight: 500; font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; background-color: #DC2F39">Tipo</th>
+            <th style="text-align: left; padding: 6px 12px; color: #fff; font-family: 'IBM Plex Mono',monospace; font-weight: 500; font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; background-color: #DC2F39">Descripción</th>
+            <th style="text-align: left; padding: 6px 12px; color: #fff; font-family: 'IBM Plex Mono',monospace; font-weight: 500; font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; background-color: #DC2F39">Cuándo usar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding:6px 12px; line-height:1.25; color:#1F2123; font-weight:400; vertical-align:top;">Claveteado en diagonal</td>
+            <td style="padding:6px 12px; line-height:1.25; color:#3A3D40; font-weight:300; vertical-align:top;">Clavos cruzados atravesando las piezas en ángulo</td>
+            <td style="padding:6px 12px; line-height:1.25; color:#3A3D40; font-weight:300; vertical-align:top;">Uniones secundarias, montantes intermedios</td>
+          </tr>
+          <tr>
+            <td style="padding:6px 12px; line-height:1.25; color:#1F2123; font-weight:400; vertical-align:top; background:#FAF7F1;">Pletina metálica</td>
+            <td style="padding:6px 12px; line-height:1.25; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Placa de acero galvanizado fijada con tornillos</td>
+            <td style="padding:6px 12px; line-height:1.25; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Nudos principales: cumbrera y punto de apoyo sobre pilar</td>
+          </tr>
+          <tr>
+            <td style="padding:6px 12px; line-height:1.25; color:#1F2123; font-weight:400; vertical-align:top;">Ensamble a media madera</td>
+            <td style="padding:6px 12px; line-height:1.25; color:#3A3D40; font-weight:300; vertical-align:top;">Rebaje en ambas piezas que encajan entre sí antes de clavar</td>
+            <td style="padding:6px 12px; line-height:1.25; color:#3A3D40; font-weight:300; vertical-align:top;">Cuando hay carpintero disponible; mayor resistencia</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:14.5px; color:#DC2F39; margin:0 0 6px;">Proceso</div>
+      <div style="position:relative; padding-left:32px; margin-bottom:4px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-2px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:18px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:300; line-height:1.3; color:#3A3D40;">Se colocan las dos piezas del cordón inferior sobre el replanteo.</span></div>
+      <div style="position:relative; padding-left:32px; margin-bottom:4px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-2px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:18px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:300; line-height:1.3; color:#3A3D40;">Se introduce el extremo de cada montante y diagonal en el hueco del sándwich y se fija provisionalmente con cuerda.</span></div>
+      <div style="position:relative; padding-left:32px; margin-bottom:4px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-2px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:18px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:300; line-height:1.3; color:#3A3D40;">Se verifica la geometría midiendo las diagonales del triángulo principal: si las dos diagonales son iguales, la cercha está bien cuadrada.</span></div>
+      <div style="position:relative; padding-left:32px; margin-bottom:4px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-2px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:18px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:300; line-height:1.3; color:#3A3D40;">Se clavan o atornillan las uniones de forma definitiva, empezando por los nudos extremos y avanzando hacia el centro.</span></div>
+      <div style="position:relative; padding-left:32px; margin-bottom:9px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-2px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:18px; color:#DC2F39;">5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:300; line-height:1.3; color:#3A3D40;">Se colocan las pletinas metálicas en los nudos de cumbrera y de apoyo sobre pilar, y se aprietan los tornillos.</span></div>
+
+      <div style="display:flex; gap:11px; align-items:flex-start; background:#F6EFE4; padding:9px 14px; border-radius:12px;">
+        <div style="flex-shrink:0; width:19px; height:19px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:10.5px; color:#6B4D38; line-height:1;">✓</span></div>
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:9px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#6B4D38; margin-bottom:4px;">Comprobación final antes de desmontar</div>
+          <p style="margin:0 0 4px; font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:400; line-height:1.3; color:#1F2123; text-align:justify;">Con la cercha aún en el suelo, verificar tres puntos:</p>
+          <div style="display:flex; flex-direction:column; gap:3px; margin-bottom:5px;">
+            <div style="display:flex; gap:8px; align-items:flex-start;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:11.5px; color:#6B4D38; flex-shrink:0;">1.</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:400; line-height:1.28; color:#1F2123; text-align:justify;">Todas las piezas están <strong style="font-weight:600;">en el mismo plano</strong> (ningún montante o diagonal sobresale hacia delante o hacia atrás respecto a los cordones).</span></div>
+            <div style="display:flex; gap:8px; align-items:flex-start;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:11.5px; color:#6B4D38; flex-shrink:0;">2.</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:400; line-height:1.28; color:#1F2123; text-align:justify;">Las <strong style="font-weight:600;">diagonales del triángulo principal son iguales</strong> (confirma que la geometría no está torcida).</span></div>
+            <div style="display:flex; gap:8px; align-items:flex-start;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:11.5px; color:#6B4D38; flex-shrink:0;">3.</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:400; line-height:1.28; color:#1F2123; text-align:justify;">Todos los nudos tienen <strong style="font-weight:600;">contacto completo</strong> entre piezas, sin holguras visibles.</span></div>
+          </div>
+          <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:11.5px; font-weight:400; line-height:1.3; color:#1F2123; text-align:justify;">Si todo es correcto, <strong style="font-weight:600;">numerar cada pieza</strong> con lápiz o marca de sierra antes de desmontar. Las piezas de esta primera cercha sirven como plantilla de longitud y ángulo para cortar las siguientes.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 10 · PASO 5 · MONTAJE DE LAS CERCHAS ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 5 · Montaje de las cerchas sobre la estructura" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 5</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:6px;">Paso 5</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:7px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:30px; color:#DC2F39;">5</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:30px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Montaje de las cerchas sobre la estructura</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#DC2F39; margin:11px 0 6px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 10px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13px; line-height:1.5; color:#3A3D40; text-align:justify;">En el contexto de Guinea Ecuatorial no existe maquinaria de elevación disponible. Una cercha de 6–8 metros de luz pesa entre 60 y 120 kg dependiendo de las secciones: no puede izarse de una pieza sin organización previa y sin estructuras auxiliares. El montaje se realiza <strong style="font-weight:600; color:#1F2123;">por piezas, directamente sobre la estructura</strong>, desde andamios provisionales de madera.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#DC2F39; margin:0 0 6px;">Preparación previa: andamios y puntales provisionales</div>
+      <p style="margin:0 0 7px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13px; line-height:1.5; color:#3A3D40; text-align:justify;">Antes de subir ninguna pieza, se construyen los andamios y puntales necesarios. Los andamios son plataformas de madera que permiten trabajar a la altura de los pilares. Los puntales son piezas largas con horquilla en el extremo superior que sujetan provisionalmente el cordón inferior mientras se fija la cercha.</p>
+      <p style="margin:0 0 13px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13px; line-height:1.5; color:#3A3D40; text-align:justify;">Para cada cercha se necesitan al menos <strong style="font-weight:600; color:#1F2123;">cuatro puntales</strong>: dos en los extremos de apoyo sobre pilares y dos intermedios si la luz es grande.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#DC2F39; margin:0 0 8px;">Proceso de montaje pieza a pieza</div>
+      <div style="position:relative; padding-left:36px; margin-bottom:6px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.42; color:#3A3D40;">Se sube y coloca el <strong style="font-weight:600; color:#1F2123;">cordón inferior</strong> sobre la viga de cubierta, en la posición exacta del montante. Se sujeta provisionalmente con puntales y cuerda antes de fijarlo de forma definitiva.</span></div>
+      <div style="position:relative; padding-left:36px; margin-bottom:6px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.42; color:#3A3D40;">Desde ambos extremos y trabajando hacia la cumbrera, se suben y encajan los <strong style="font-weight:600; color:#1F2123;">cordones superiores</strong>, pieza a pieza. Cada pieza se apoya en el nudo del cordón inferior y se sujeta provisionalmente con cuerda al punto anterior.</span></div>
+      <div style="position:relative; padding-left:36px; margin-bottom:6px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.42; color:#3A3D40;">Se coloca el <strong style="font-weight:600; color:#1F2123;">montante de cumbrera</strong>, que une los dos cordones superiores en el punto más alto. Una vez colocado, la cercha ya es autoportante.</span></div>
+      <div style="position:relative; padding-left:36px; margin-bottom:6px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.42; color:#3A3D40;">Se colocan los <strong style="font-weight:600; color:#1F2123;">montantes y diagonales interiores</strong> uno a uno, encajándolos en el sándwich del cordón inferior y clavándolos.</span></div>
+      <div style="position:relative; padding-left:36px; margin-bottom:6px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">5</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.42; color:#3A3D40;">Se fijan definitivamente las uniones de los nudos extremos con pletinas metálicas o claveteado en diagonal.</span></div>
+      <div style="position:relative; padding-left:36px; margin-bottom:12px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">6</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.42; color:#3A3D40;">Se comprueba la verticalidad de la cercha con la plomada antes de continuar.</span></div>
+
+      <div style="display:flex; gap:13px; align-items:flex-start; background:#FBEEEF; padding:13px 18px; border-radius:14px;">
+        <div style="flex-shrink:0; width:22px; height:22px; position:relative;"><div style="width:0; height:0; border-left:11px solid transparent; border-right:11px solid transparent; border-bottom:19px solid #DC2F39;"></div><span style="position:absolute; left:0; right:0; bottom:0; text-align:center; font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:500; color:#fff; line-height:19px;">!</span></div>
+        <div>
+          <p style="margin:0 0 7px; font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; line-height:1.42; color:#1F2123; text-align:justify;"><strong style="font-weight:600;">Cada cercha debe caer directamente sobre un montante.</strong> La viga de cubierta no está dimensionada para recibir la carga de una cercha en el punto medio entre dos montantes: si eso ocurre, la viga trabaja en flexión y puede doblarse o partirse.</p>
+          <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:400; line-height:1.42; color:#1F2123; text-align:justify;">El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Este recorrido solo funciona si la posición de cada cercha coincide con la posición de un montante. Si la separación entre cerchas no coincide con el módulo del cerramiento, hay un error de diseño que debe corregirse antes del montaje.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 11 · PASO 6 · ARRIOSTRAMIENTO ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 6 · Arriostramiento entre cerchas" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 1 · Paso 6</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 6</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:34px; color:#DC2F39;">6</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:34px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Arriostramiento entre cerchas</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:22px 0 12px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 22px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.7; color:#3A3D40; text-align:justify;">Una cercha aislada es estable en su propio plano pero puede volcar lateralmente. El arriostramiento entre cerchas convierte el conjunto en una estructura rígida tridimensional. Sin arriostramiento, el viento puede desplazar o volcar las cerchas antes de que se coloque la chapa.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:19px; color:#DC2F39; margin:0 0 14px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Una vez fijadas las dos primeras cerchas, se colocan los primeros rastreles transversales que las unen. A partir de ese momento, el conjunto ya es estable.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se colocan <strong style="font-weight:600; color:#1F2123;">cruces de San Andrés</strong> (pares de piezas diagonales cruzadas en el plano vertical entre dos cerchas contiguas) al menos en los dos paños extremos de la cubierta.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:13px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.7; color:#3A3D40;">Se continúa añadiendo cerchas y rastreles avanzando hacia el otro extremo, comprobando la verticalidad de cada cercha con la plomada antes de fijar la siguiente.</span></div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 12 · PARTE 2 · PASO 7 ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 7 · Colocación de los rastreles" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 2 · Paso 7</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="background:#DC2F39; border-radius:16px; padding:18px 26px; display:flex; align-items:baseline; gap:18px; margin-bottom:20px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.82);">Parte 2</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:28px; color:#fff; line-height:1;">Rastreles y chapa de zinc</span>
+      </div>
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:6px;">Paso 7</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:32px; color:#DC2F39;">7</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:32px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Colocación de los rastreles</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:16px 0 8px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 14px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.6; color:#3A3D40; text-align:justify;">Los rastreles son los listones de madera que apoyan transversalmente sobre los cordones superiores de las cerchas y sobre los que se fija la chapa. La separación entre rastreles determina la resistencia de la cubierta frente a cargas de viento y el comportamiento de la chapa frente a deformaciones.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:0 0 10px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:9px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.6; color:#3A3D40;">Se comienza desde el <strong style="font-weight:600; color:#1F2123;">alero</strong> (el borde inferior de la cubierta) y se avanza hacia la cumbrera.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:9px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.6; color:#3A3D40;">El primer rastrel se coloca en el borde del alero, dejando que la chapa pueda sobresalir al menos <strong style="font-weight:600; color:#1F2123;">30 cm</strong> del plano exterior del muro. Se clava sobre el cordón superior de cada cercha con al menos un clavo en cada punto de cruce.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:9px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.6; color:#3A3D40;">Los rastreles siguientes se colocan en paralelo, avanzando hacia la cumbrera. La separación máxima recomendada entre rastreles es de <strong style="font-weight:600; color:#1F2123;">60 cm</strong> entre ejes. En zonas con viento fuerte o en cubiertas de pendiente suave, se reduce a 40–50 cm.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:16px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.6; color:#3A3D40;">Se comprueba la alineación de cada rastrel con un cordel tenso antes de clavarlo.</span></div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:0 0 8px;">Alero frontal en los hastiales</div>
+      <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:14px; line-height:1.6; color:#3A3D40; text-align:justify;">El vuelo frontal de la cubierta (en los extremos donde no hay cercha) se consigue con <strong style="font-weight:600; color:#1F2123;">rastreles volados</strong>: los rastreles del plano inclinado sobresalen más allá de la última cercha la distancia de alero necesaria (mínimo 40 cm). Para sostener ese vuelo sin que los rastreles se curven, se coloca una pieza longitudinal de borde (paralela a la cercha) que los une en su extremo volado.</p>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 13 · PASO 8 · CHAPA DE ZINC ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 8 · Colocación de la chapa de zinc" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 2 · Paso 8</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:6px;">Paso 8</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:30px; color:#DC2F39;">8</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:30px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Colocación de la chapa de zinc</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:12px 0 8px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 14px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.6; color:#3A3D40; text-align:justify;">La chapa de zinc corrugada es el material de cobertura más extendido en Guinea Ecuatorial por su disponibilidad, precio y durabilidad. Su correcta colocación (dirección, solapes y fijación) determina que la cubierta sea estanca frente a las lluvias intensas.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:0 0 8px;">Solapes mínimos</div>
+      <p style="margin:0 0 12px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.6; color:#3A3D40; text-align:justify;">La chapa se coloca de abajo hacia arriba (del alero a la cumbrera) y de un lateral hacia el otro. En ambas direcciones se deben respetar solapes mínimos:</p>
+
+      <div style="border-radius:14px; overflow:hidden; box-shadow:0 1px 0 rgba(28,28,28,0.06); margin-bottom:18px;">
+      <table style="width:100%; border-collapse:collapse; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px;">
+        <thead>
+          <tr>
+            <th style="text-align: left; padding: 10px 16px; color: #fff; font-family: 'IBM Plex Mono',monospace; font-weight: 500; font-size: 9.5px; letter-spacing: 0.06em; text-transform: uppercase; background-color: #DC2F39">Dirección</th>
+            <th style="text-align: left; padding: 10px 16px; color: #fff; font-family: 'IBM Plex Mono',monospace; font-weight: 500; font-size: 9.5px; letter-spacing: 0.06em; text-transform: uppercase; background-color: #DC2F39">Solape mínimo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding:11px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top;">Longitudinal (de abajo a arriba, entre chapas del mismo faldón)</td>
+            <td style="padding:11px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top;">20 cm</td>
+          </tr>
+          <tr>
+            <td style="padding:11px 16px; line-height:1.5; color:#1F2123; font-weight:400; vertical-align:top; background:#FAF7F1;">Transversal (lateral, entre chapas contiguas)</td>
+            <td style="padding:11px 16px; line-height:1.5; color:#3A3D40; font-weight:300; vertical-align:top; background:#FAF7F1;">Una corruga completa</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:0 0 10px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.5; color:#3A3D40;">Se empieza por la esquina inferior de <strong style="font-weight:600; color:#1F2123;">sotavento</strong> (el lado opuesto al viento dominante). Así los solapes laterales quedan a favor del viento y no captan aire.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.5; color:#3A3D40;">La primera chapa se coloca con el vuelo de alero acordado: al menos <strong style="font-weight:600; color:#1F2123;">30 cm</strong> más allá del muro exterior.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.5; color:#3A3D40;">Cada chapa se fija con tornillos autorroscantes en cada corruga que coincide con un rastrel, colocando el tornillo siempre en la <strong style="font-weight:600; color:#1F2123;">cresta de la corruga</strong>, nunca en el valle. En el valle se acumula el agua: un agujero allí es una vía de entrada directa.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:14px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:26px; color:#DC2F39;">4</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:300; line-height:1.5; color:#3A3D40;">Al llegar a la cumbrera, se instala una pieza de remate (chapa doblada en ángulo o perfil de cumbrera) que cubre el encuentro entre los dos faldones e impide la entrada de agua por arriba.</span></div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#F6EFE4; padding:16px 20px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:14px; color:#6B4D38; line-height:1;">✓</span></div>
+        <div>
+          <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:14px; font-weight:400; line-height:1.5; color:#1F2123; text-align:justify;"><strong style="font-weight:600;">Los tornillos se colocan siempre en la cresta de la corruga, nunca en el valle.</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 14 · PARTE 3 · INTRO + PASO 9 (COMPLETO) ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 9 · Estructura del falso techo (completo)" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 3 · Paso 9</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="background:#DC2F39; border-radius:16px; padding:18px 26px; display:flex; align-items:baseline; gap:18px; margin-bottom:20px;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.82);">Parte 3</span>
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:28px; color:#fff; line-height:1;">Falso techo</span>
+      </div>
+
+      <p style="margin:0 0 10px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13px; line-height:1.6; color:#3A3D40; text-align:justify;">La chapa de zinc alcanza temperaturas de superficie de 60–80 °C bajo el sol directo y emite esa energía como calor radiante hacia abajo. Sin barrera, esa radiación calienta el interior de la vivienda hasta hacerlo inhabitable en las horas centrales del día. El falso techo, junto con una correcta ventilación de la cámara de aire, puede reducir la temperatura interior entre 8 y 12 °C.</p>
+      <p style="margin:0 0 20px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13px; line-height:1.6; color:#3A3D40; text-align:justify;">El falso techo es una capa horizontal situada por debajo de las cerchas que crea una cámara de aire entre la chapa y el espacio habitable. Su eficacia depende de que esa cámara esté ventilada: si el aire caliente no puede salir, el falso techo pasa de ser una barrera a ser un segundo radiador.</p>
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 9</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:30px; color:#DC2F39;">9</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:30px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Estructura del falso techo</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:18px 0 10px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 20px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13.5px; line-height:1.65; color:#3A3D40; text-align:justify;">La estructura del falso techo son los rastreles horizontales que se apoyan sobre el cordón inferior de las cerchas y sobre los que se tiende el panel de cierre. Quedan en un plano horizontal, independientemente de la pendiente de la cubierta.</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:0 0 12px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:9px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.55; color:#3A3D40;">Se marca en el cordón inferior de cada cercha el nivel al que quedará el falso techo. Este nivel debe garantizar una altura libre interior de al menos <strong style="font-weight:600; color:#1F2123;">2,4 m</strong> desde el suelo terminado hasta la cara inferior del falso techo.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:9px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.55; color:#3A3D40;">Se clavan o atan rastreles transversales entre las cerchas, siguiendo ese nivel marcado. Los rastreles pueden clavarse directamente sobre el cordón inferior o atarse con alambre si la unión clavada no es posible.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:0; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.55; color:#3A3D40;">Sobre esos rastreles se tiende el material de cierre: tablas finas de madera, hojas de nipa tejida o fibra vegetal. El material no necesita ser hermético (la ventilación de la cámara requiere que haya algo de paso de aire por las juntas).</span></div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 15 · PASO 10 (COMPLETO) ═══════════ -->
+  <section class="ga-page" data-screen-label="Paso 10 · Ventilación de la cámara de aire" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Parte 3 · Paso 10</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Paso 10</div>
+      <div style="display:flex; align-items:baseline; gap:16px; margin-bottom:8px;">
+        <span style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:30px; color:#DC2F39;">10</span>
+        <span style="width:8px; height:8px; border-radius:50%; background:#DC2F39; align-self:center;"></span>
+        <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:30px; line-height:1.04; letter-spacing:-0.01em; color:#1F2123;">Ventilación de la cámara de aire</h2>
+      </div>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:16px 0 10px;">¿Para qué sirve?</div>
+      <p style="margin:0 0 18px; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:12.5px; line-height:1.55; color:#3A3D40; text-align:justify;">La cámara de aire entre la chapa y el falso techo funciona por convección natural: el aire se calienta al contacto con la chapa, sube hacia la cumbrera y sale al exterior. Para que este proceso funcione es necesario que haya entrada de aire en la parte baja (en el alero) y salida en la parte alta (en la cumbrera o en los hastiales).</p>
+
+      <div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:18px; color:#DC2F39; margin:0 0 10px;">Proceso</div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">1</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#3A3D40;">Se dejan <strong style="font-weight:600; color:#1F2123;">aberturas de entrada</strong> en los dos aleros laterales de la cubierta, entre el borde del falso techo y la chapa. No es necesario practicar agujeros: la propia separación entre el panel del falso techo y el muro suele ser suficiente si no se sella.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:8px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">2</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#3A3D40;">Se dejan <strong style="font-weight:600; color:#1F2123;">aberturas de salida</strong> en los hastiales (los extremos de la cubierta), de al menos <strong style="font-weight:600; color:#1F2123;">20 × 20 cm</strong> de sección libre. Se cubre la abertura con malla fina para evitar la entrada de insectos y aves.</span></div>
+      <div style="position:relative; padding-left:40px; margin-bottom:14px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-4px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">3</span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#3A3D40;">La pieza de cumbrera no debe ser completamente hermética en su cara interior: debe quedar un pequeño espacio libre que permita la salida del aire caliente que asciende desde los aleros.</span></div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; background:#F6EFE4; padding:16px 20px; border-radius:14px;">
+        <div style="flex-shrink:0; width:26px; height:26px; border:2px solid #6B4D38; border-radius:50%; display:flex; align-items:center; justify-content:center;"><span style="font-family:'IBM Plex Serif',Georgia,serif; font-size:14px; color:#6B4D38; line-height:1;">✓</span></div>
+        <div>
+          <p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13px; font-weight:400; line-height:1.5; color:#1F2123; text-align:justify;"><strong style="font-weight:600;">El principio es sencillo:</strong> el aire caliente sube y sale por la parte alta; el aire más fresco entra por los aleros. Cuanto mayor sea la diferencia de altura entre la entrada y la salida, más activo es el tiraje y más eficaz la ventilación.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 16 · TIPS (I) ═══════════ -->
+  <section class="ga-page" data-screen-label="Contexto · Guinea Ecuatorial (I)" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Contexto local</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#9b958c; margin-bottom:8px;">Contexto local</div>
+      <h2 style="margin:0 0 20px; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:28px; line-height:1.08; letter-spacing:-0.01em; color:#1F2123;">Consejos específicos para Guinea Ecuatorial</h2>
+
+      <div style="display:flex; flex-direction:column; gap:14px;">
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">1</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:14.5px; color:#1F2123; margin-bottom:4px;">La posición de la cercha: siempre sobre un montante, nunca en medio del vano</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">Uno de los errores más frecuentes en la construcción local es colocar las cerchas en posiciones que no coinciden con los montantes del cerramiento. Cuando la cercha cae en el punto medio entre dos montantes, la viga de cubierta tiene que aguantar esa carga en el centro del vano (para lo que no está dimensionada). El resultado es visible: la viga se dobla, el muro se deforma y la cubierta pierde estabilidad.</p><p style="margin:6px 0 0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">La solución debe tomarse antes de empezar la obra: la separación entre cerchas debe ser igual al módulo del cerramiento (la distancia entre montantes) o un múltiplo de él. Cercha y montante deben quedar en la misma línea vertical. Si eso no se cumple en el diseño, no puede corregirse en la obra.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">2</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:14.5px; color:#1F2123; margin-bottom:4px;">El ruido de la lluvia</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">La chapa de zinc amplifica el ruido de la lluvia de forma considerable. En tormentas intensas, el ruido puede resultar perturbador. La propia cámara de aire y el panel del falso techo actúan como atenuadores acústicos. Para mayor reducción, puede colocarse una capa de nipa o fibra vegetal entre la chapa y los rastreles. Esta solución aumenta el mantenimiento al ser un material orgánico, pero es técnicamente viable como mejora acústica en equipamientos comunitarios.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">3</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:14.5px; color:#1F2123; margin-bottom:4px;">Mantenimiento de la chapa</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">La chapa de zinc dura más de 20 años si se mantiene correctamente. Los principales puntos de deterioro son: las perforaciones de los tornillos (si la arandela de neopreno envejece y deja de sellar, entra agua), los bordes cortados de la chapa (propensos a oxidar antes que la superficie) y las zonas de solape donde la alineación no es correcta. Se recomienda una revisión tras cada temporada de lluvias intensas.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:22px; color:#DC2F39;">4</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:14.5px; color:#1F2123; margin-bottom:4px;">Almacenamiento de la chapa antes de su colocación</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.55; color:#3A3D40; text-align:justify;">La chapa debe almacenarse en horizontal, sobre superficie plana y cubierta, sin apoyar directamente sobre el suelo. Si se almacena inclinada o apoyada en un extremo, puede deformarse antes de colocarse y crear holguras en los solapes.</p></div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 17 · TIPS (II) ═══════════ -->
+  <section class="ga-page" data-screen-label="Contexto · Guinea Ecuatorial (II)" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Contexto local</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#DC2F39; margin-bottom:20px;">Tips específicos, continuación</div>
+
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">5</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Organización del trabajo</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">La fase de cubierta es la más exigente logísticamente: requiere trabajo en altura, manejo de piezas largas y pesadas, y coordinación de varios operarios simultáneos. Para una vivienda estándar, el montaje de cerchas requiere al menos 4–6 personas durante una jornada completa. Se recomienda organizarla como jornada comunitaria, de la misma manera que el hormigonado de la zapata.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">6</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Horario de trabajo para la colocación de chapa</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">La chapa se calienta mucho al sol directo y puede producir quemaduras al manipularla. Se recomienda trabajar en la colocación de chapa en las primeras horas de la mañana, antes de las 10 h.</p></div>
+        <div style="position:relative; padding-left:40px; width:600px; box-sizing:border-box; text-align:justify;"><span style="position:absolute; left:0; top:-3px; font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:24px; color:#DC2F39;">7</span><div style="font-family:'IBM Plex Serif',Georgia,serif; font-weight:500; font-size:16px; color:#1F2123; margin-bottom:5px;">Pilares intermedios y reducción de luz</div><p style="margin:0; font-family:'Space Grotesk',system-ui,sans-serif; font-size:13.5px; font-weight:300; line-height:1.65; color:#3A3D40; text-align:justify;">Si la vivienda tiene pilares intermedios (para configurar particiones interiores o por decisión de diseño), estos pueden actuar como puntos de apoyo adicionales para las cerchas y reducir la luz a cubrir. Cuanto menor es la luz, más sencilla, ligera y barata es la cercha. Esta posibilidad debe valorarse desde la fase de diseño y coordinarse con la distribución interior de la vivienda.</p></div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- ═══════════ PÁGINA 18 · COMPROBACIONES ═══════════ -->
+  <section class="ga-page" data-screen-label="Comprobaciones antes de avanzar" style="position:relative; width:210mm; height:297mm; background:#fff; box-shadow:0 8px 40px rgba(0,0,0,0.18); overflow:hidden;">
+    <div aria-hidden="true" style="position:absolute; left:0; right:0; bottom:0; height:40mm; background:url('./fondo.png') no-repeat center bottom; background-size:cover; opacity:0.06; -webkit-mask-image:linear-gradient(to top,#000 0%,transparent 100%); mask-image:linear-gradient(to top,#000 0%,transparent 100%); z-index:0;"></div>
+    <div style="position:absolute; z-index:1; top:14mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid rgba(28,28,28,0.12); padding-bottom:7px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7075;">04 · Cubierta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:0.1em; text-transform:uppercase; color:#DC2F39;">Comprobaciones</span></div>
+
+    <div style="position:absolute; z-index:1; top:25mm; left:24mm; right:22mm; bottom:22mm;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:#DC2F39; margin-bottom:10px;">Resumen</div>
+      <h2 style="margin:0; font-family:'IBM Plex Serif',Georgia,serif; font-weight:400; font-size:28px; line-height:1.05; letter-spacing:-0.01em; color:#1F2123;">Comprobaciones antes de avanzar</h2>
+      <p style="margin:12px 0 0; font-family:'Space Grotesk',system-ui,sans-serif; font-weight:300; font-size:13px; line-height:1.6; color:#3A3D40; text-align:justify;">Antes de pasar a la carpintería, verificar que se han completado correctamente estos puntos:</p>
+
+      <div style="display:flex; flex-direction:column; gap:8px; margin-top:16px;">
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">La pendiente de todas las cerchas es la misma y supera el 30%.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Todas las cerchas apoyan sobre la cabeza de los pilares, no sobre el zuncho.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Todas las cerchas están aplomadas (verticales) en el plano transversal.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Las cruces de San Andrés están colocadas en los paños extremos de la cubierta.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">El vuelo de alero lateral es de al menos 60 cm en todo el perímetro.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">El vuelo de alero frontal en los hastiales es de al menos 40 cm.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Los rastreles están separados un máximo de 60 cm entre ejes.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">La chapa está colocada de sotavento a barlovento.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Los tornillos de fijación de la chapa están en la cresta de la corruga, no en el valle.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">Los solapes longitudinales son de al menos 20 cm y los transversales cubren una corruga completa.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">La pieza de cumbrera cubre el encuentro entre los dos faldones.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">El falso techo queda a una altura que garantiza al menos 2,4 m de altura libre interior.</span></div>
+        <div style="display:flex; gap:13px; align-items:flex-start;"><span style="flex-shrink:0; width:17px; height:17px; border:1.5px solid #1F2123; border-radius:4px; margin-top:1px;"></span><span style="font-family:'Space Grotesk',system-ui,sans-serif; font-size:12.5px; font-weight:300; line-height:1.5; color:#1F2123; text-align:justify;">La cámara de aire entre la chapa y el falso techo tiene aberturas de entrada en los aleros y de salida en los hastiales o la cumbrera.</span></div>
+      </div>
+    </div>
+
+    <div style="position:absolute; z-index:1; bottom:12mm; left:24mm; right:22mm; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(28,28,28,0.12); padding-top:9px;"><span style="font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#6B7075;">UPV · Cátedra Maderamen · UNGE</span><div class="ga-pagenum" style="font-family:'IBM Plex Serif',Georgia,serif; font-style:italic; font-size:15px; color:#DC2F39;"></div></div>
+  </section>
+
+  <!-- FIN DEL DOCUMENTO CUBIERTA -->
+</div>
+
+</x-dc>
+</body>
+</html>
