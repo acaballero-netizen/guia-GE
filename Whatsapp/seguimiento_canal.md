@@ -127,13 +127,144 @@ La _Facultad de Arquitectura e Ingenierias (FAI)_ de la _Universidad Nacional de
 
 | Tipo | Fecha | Seguidores |
 |---|---|---|
-| Guía descargable | 13/07/2026 | — |
+| Guía descargable | 13/07/2026 | 108 |
 
 <!-- TODO: adjuntar aquí el documento de la Guía en PDF -->
 
-📄 **¡Ya puedes descargar la Guía completa en este canal!**
+📄 *¡Ya puedes descargar la Guía completa en este canal!*
 En el siguiente mensaje te dejamos el documento en PDF con todos los consejos de autoconstrucción explicados con más detalle, para que lo guardes en tu teléfono y lo consultes cuando quieras, incluso sin conexión.
 
-> 🌐 También puedes verla online en **maderamen.calab.es/guia-GE**
+> 🌐 También puedes verla online en *maderamen.calab.es/guia-GE*
 
-👇 Descárgala, guárdala y compártela con quien esté construyendo su casa. #Autoconstrucción #GuineaEcuatorial
+👇 Descárgala, guárdala y compártela con quien esté construyendo su casa. 
+
+
+# IMAGEN 6  
+
+| Tipo | Fecha | Seguidores |
+|---|---|---|
+| Consejo | 17/07/2026 | 112 |
+
+<img src="/Whatsapp/consejo_6.png" width="200">
+
+📐*El truco del 3-4-5 para una esquina en ángulo recto*
+
+Levantar una casa empieza por algo tan simple como marcar bien una esquina. Y para conseguir un ángulo recto perfecto no hace falta ninguna escuadra: basta con un cordel y tres medidas.
+
+> Se mide 3 por un lado, 4 por el otro, y si la diagonal entre ambos puntos mide exactamente 5… la esquina es recta. ✅ Y sirve con cualquier medida mientras se guarde esa proporción: vale 3-4-5 metros, o también 30-40-50 cm, lo que mejor se ajuste a cada esquina.
+
+🏠 Un buen replanteo al principio se traduce en paredes rectas y una casa sólida al final.
+
+👉 ¿Quieres saber más? Encuentra el paso a paso completo en la web: *maderamen.calab.es/guia-GE*
+
+
+# IMAGEN 7  
+
+| Tipo | Fecha | Seguidores |
+|---|---|---|
+| Consejo | 17/07/2026 | xxx |
+
+<img src="/Whatsapp/consejo_7.png" width="200">
+
+💧*Nivelar sin nivel: una manguera con agua*
+
+¿Cómo se comprueba que dos puntos separados varios metros están a la misma altura sin instrumentos caros? Con una manguera transparente llena de agua.
+
+> El agua siempre busca su nivel: si sube en un extremo, sube igual en el otro. Marcando dónde se detiene en cada estaca se obtienen dos puntos perfectamente nivelados, por muy lejos que estén. 📏
+
+🙌 Herramientas sencillas, resultados precisos. Así trabaja la autoconstrucción.
+
+👉 ¿Quieres saber más? Encuentra el paso a paso completo en la web: *maderamen.calab.es/guia-GE*
+
+
+# IMAGEN 8  
+
+| Tipo | Fecha | Seguidores |
+|---|---|---|
+| Consejo | 17/07/2026 | xxx |
+
+<img src="/Whatsapp/consejo_8.png" width="200">
+
+💦 *El hormigón necesita agua para ganar fuerza*
+
+Puede sonar al revés, pero el hormigón recién vertido no se seca: se cura. Y para curar bien necesita mantenerse húmedo los primeros días.
+
+> Cubrirlo con sacos y plástico y regarlo con regularidad evita que el sol ☀️ le robe el agua demasiado rápido. Un hormigón que se seca de golpe se agrieta y pierde resistencia.
+
+💪 Unos días de cuidado al principio son años de solidez después.
+
+👉 ¿Quieres saber más? Encuentra el paso a paso completo en la web: *maderamen.calab.es/guia-GE*
+
+
+# IMAGEN 9  
+
+| Tipo | Fecha | Seguidores |
+|---|---|---|
+| Consejo | 17/07/2026 | xxx |
+
+<img src="/Whatsapp/consejo_9.png" width="200">
+
+🪵 *Tablas solapadas para que el agua resbale*
+
+En una pared de tablas de madera, el orden en que se montan lo cambia todo. Cada tabla se coloca por fuera montando sobre la de abajo, ligeramente inclinada hacia el exterior.
+
+> Así el agua de lluvia 🌧️ resbala hacia fuera y nunca encuentra un hueco por donde colarse hacia dentro.
+
+Un detalle pequeño que protege toda la vivienda del clima tropical.
+
+👉 ¿Quieres saber más? Encuentra el paso a paso completo en la web: *maderamen.calab.es/guia-GE*
+
+
+# IMAGEN 10  
+
+| Tipo | Fecha | Seguidores |
+|---|---|---|
+| Consejo | 17/07/2026 | xxx |
+
+<img src="/Whatsapp/consejo_10.png" width="200">
+
+🔩 *El tornillo va en la cresta, nunca en el valle*
+
+> En una cubierta de chapa corrugada hay un gesto que marca la diferencia entre un techo seco y una gotera: dónde se pone el tornillo.
+
+Siempre en la cresta de la onda, en la parte alta ⬆️. En el valle es por donde corre el agua, y ahí cada tornillo sería una entrada directa de lluvia hacia dentro.
+
+☂️ Los pequeños detalles son los que mantienen la casa seca.
+
+👉 ¿Quieres saber más? Encuentra el paso a paso completo en la web: *maderamen.calab.es/guia-GE*
+
+
+# IMAGEN 11  
+
+| Tipo | Fecha | Seguidores |
+|---|---|---|
+| Consejo | 17/07/2026 | xxx |
+
+<img src="/Whatsapp/consejo_11.png" width="200">
+
+🔦 *Revisar el zócalo: la señal de las termitas*
+
+> En clima ecuatorial las termitas son el enemigo silencioso de la madera. Pero avisan antes de atacar: construyen finos caminos de tierra que trepan por el zócalo desde el suelo hacia la estructura.
+
+Una revisión periódica con una linterna basta para detectar esas galerías a tiempo y actuar antes de que lleguen a la madera. 🐜
+
+👀 Mantener la casa también es mirarla con atención.
+
+👉 ¿Quieres saber más? Encuentra el paso a paso completo en la web: *maderamen.calab.es/guia-GE*
+
+
+# POST 3
+
+| Tipo | Fecha | Seguidores |
+|---|---|---|
+| Guía descargable | 13/07/2026 | xxx |
+
+<!-- TODO: adjuntar aquí el documento de la Guía en PDF -->
+
+*Invitación a la web*
+
+🏗️ Todos estos consejos y muchos más forman parte de la guía de autoconstrucción del proyecto MADERAMEN: cómo construir una vivienda segura y digna con materiales y técnicas locales, paso a paso y con imágenes.
+
+📲 Entra en la web y consúltala cuando quieras, gratis y desde el móvil: [enlace a la web]
+
+🌍 UPV · Cátedra MADERAMEN · ADSIDEO Cooperación 2024
