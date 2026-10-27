@@ -76,13 +76,13 @@ Comunidades fang de Bata y Malabo</p>
 </table>
 
 <p style="text-align:center; margin-top:2cm;">
-<a href="https://www.upv.es/entidades/ccd/"><img src="guia-GE/Imagenes/LOGO_UPV+CCD.jpg" alt="UPV + CCD" height="55"></a>
+<a href="https://www.upv.es/entidades/ccd/"><img src="../Imagenes/LOGO_UPV+CCD.jpg" alt="UPV + CCD" height="55"></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://calab.es/catedra-maderamen/"><img src="guia-GE/Imagenes/LOGO_MADERAMEN.png" alt="Cátedra MADERAMEN" height="55"></a>
+<a href="https://calab.es/catedra-maderamen/"><img src="../Imagenes/LOGO_MADERAMEN.png" alt="Cátedra MADERAMEN" height="55"></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://ungecampus.com/"><img src="guia-GE/Imagenes/LOGO_Universidad Nacional de Guinea Ecuatorial.png" alt="UNGE" height="55"></a>
+<a href="https://ungecampus.com/"><img src="../Imagenes/LOGO_Universidad Nacional de Guinea Ecuatorial.png" alt="UNGE" height="55"></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://remar.org/guinea-ecuatorial/"><img src="guia-GE/Imagenes/LOGO_Remar.png" alt="REMAR" height="55"></a>
+<a href="https://remar.org/guinea-ecuatorial/"><img src="../Imagenes/LOGO_Remar.png" alt="REMAR" height="55"></a>
 </p>
 
 </div>
@@ -146,26 +146,26 @@ Comunidades fang de Bata y Malabo</p>
 * **03.C.2 · Tablas solapadas del cerramiento** — Colocación con solape e inclinación hacia el exterior ("a teja") para evacuar el agua de lluvia.
 * **03.C.3 · Esquinas y encuentros** — Alternancia del solape entre las dos caras de cada esquina para evitar una junta vertical continua.
 * **03.C.4 · Huecos de puertas y ventanas** — Corte de las tablas al límite del hueco y colocación de dintel y umbral entre los montantes de jamba.
-* **03.C.5 · La viga de cubierta** — Pieza horizontal que cierra la cabeza de todos los montantes y recibe las cerchas de la cubierta.
+* **03.C.5 · La viga de cubierta** — Pieza horizontal que cierra la cabeza de todos los montantes y recibe los caballos de la cubierta.
 
 ---
 
 ## 04 · Estructura de madera · Cubierta
 
-### 04.A · Cercha
-* **04.A.1 · Diseño y replanteo de la cercha** — Trazado a escala real de la geometría de la cercha sobre una superficie plana, como plantilla de corte y ensamble.
-* **04.A.2 · El cordón inferior: pieza de tracción** — Construcción del cordón sándwich que resiste que la cercha se abra bajo el peso de la cubierta.
-* **04.A.3 · Corte y preparación de montantes y diagonales** — Mecanizado de las piezas interiores que forman los triángulos de la cercha.
-* **04.A.4 · Cercha de prueba: validación de geometría en el suelo** — Ensamblaje de una cercha completa en el suelo para comprobar cortes, encajes y tipos de unión antes de replicarla.
-* **04.A.5 · Montaje de las cerchas sobre la estructura** — Izado y colocación pieza a pieza desde andamios provisionales, sin maquinaria de elevación.
-* **04.A.6 · Arriostramiento entre cerchas** — Conexión entre cerchas para convertir el conjunto en una estructura tridimensional rígida frente al viento.
+### 04.A · Caballo
+* **04.A.1 · Diseño y replanteo del caballo** — Trazado a escala real de la geometría del caballo sobre una superficie plana, como plantilla de corte y ensamble.
+* **04.A.2 · El cordón inferior: pieza de tracción** — Construcción del cordón sándwich que resiste que el caballo se abra bajo el peso de la cubierta.
+* **04.A.3 · Corte y preparación de montantes y diagonales** — Mecanizado de las piezas interiores que forman los triángulos del caballo.
+* **04.A.4 · Caballo de prueba: validación de geometría en el suelo** — Ensamblaje de un caballo completo en el suelo para comprobar cortes, encajes y tipos de unión antes de replicarlo.
+* **04.A.5 · Montaje de los caballos sobre la estructura** — Izado y colocación pieza a pieza desde andamios provisionales, sin maquinaria de elevación.
+* **04.A.6 · Arriostramiento entre caballos** — Conexión entre caballos para convertir el conjunto en una estructura tridimensional rígida frente al viento.
 
 ### 04.B · Rastreles y chapa de zinc
 * **04.B.1 · Colocación de los rastreles** — Listones transversales sobre los cordones superiores, incluido el vuelo de alero frontal en los hastiales, que reciben la fijación de la chapa.
 * **04.B.2 · Colocación de la chapa de zinc** — Dirección de colocación, solapes mínimos y remate de cumbrera para una cubierta estanca.
 
 ### 04.C · Falso techo
-* **04.C.1 · Estructura del falso techo** — Rastreles horizontales sobre el cordón inferior de las cerchas que forman el plano de cierre interior.
+* **04.C.1 · Estructura del falso techo** — Rastreles horizontales sobre el cordón inferior de los caballos que forman el plano de cierre interior.
 * **04.C.2 · Ventilación de la cámara de aire** — Aberturas de entrada en los aleros y de salida en la cumbrera para la convección natural bajo la chapa.
 
 ---
@@ -220,7 +220,7 @@ Comunidades fang de Bata y Malabo</p>
 
 # **Pasos previos**
 
-Antes de levantar cualquier muro o clavar cualquier poste, el terreno debe estar preparado. Estos cuatro pasos —analizar el terreno, limpiarlo, nivelarlo y replantearlo— son los más importantes de toda la obra. Si se hacen mal, todos los errores se acumulan y resultan muy difíciles de corregir.
+Antes de levantar cualquier muro o clavar cualquier poste, el terreno debe estar preparado. Estos cuatro pasos —analizar el terreno, limpiarlo, nivelarlo y replantearlo— son los más importantes de toda la obra. Si se hacen mal, todos los errores se acumulan y resultan muy difíciles de corregirrrrrr.
 
 El clima ecuatorial hace que estos pasos sean especialmente críticos: las lluvias intensas erosionan terrenos mal preparados, la vegetación tropical crece con rapidez si no se elimina bien desde la raíz, y la humedad del suelo puede arruinar un fundamento si no se trabaja correctamente desde el principio.
 
@@ -1345,7 +1345,7 @@ En los puntos donde hay puerta o ventana, las tablas se cortan al llegar al lím
 Una vez colocadas las tablas del cerramiento, los montantes tienen la cabeza libre: no hay ninguna pieza que los una entre sí por arriba. La viga de cubierta es la pieza horizontal de madera que cierra la parte alta de todos los montantes. Cumple dos funciones:
 
 - **Ata los montantes entre sí** para que no se abran ni se inclinen bajo el peso y el empuje de la cubierta.
-- **Recibe las cerchas de la cubierta**: es el punto de apoyo sobre el que descansarán.
+- **Recibe los caballos de la cubierta**: es el punto de apoyo sobre el que descansarán.
 
 Sin esta pieza, cada montante trabaja de forma aislada. Con ella, todo el perímetro superior de la pared queda solidarizado y preparado para recibir la cubierta de forma repartida.
 
@@ -1367,7 +1367,7 @@ Sin esta pieza, cada montante trabaja de forma aislada. Con ella, todo el perím
 
 ### A tener en cuenta
 
-> ⚠️ **Las cerchas de la cubierta apoyan sobre la viga de cubierta, que corona la cabeza de los montantes.** El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Las cerchas no deben apoyar directamente sobre las tablas del cerramiento ni sobre el zuncho de hormigón.
+> ⚠️ **Los caballos de la cubierta apoyan sobre la viga de cubierta, que corona la cabeza de los montantes.** El recorrido de cargas correcto es: caballo → viga de cubierta → montante → durmiente → zócalo. Los caballos no deben apoyar directamente sobre las tablas del cerramiento ni sobre el zuncho de hormigón.
 
 ---
 <div style="page-break-after: always;"></div>
@@ -1397,6 +1397,10 @@ Las tablas de madera en clima húmedo pueden deformarse o agrietarse con el tiem
 **6. Organización del trabajo**
 
 El cerramiento puede ser montado por una o dos personas si se sigue el proceso de dos montantes de esquina más primera tabla antes de añadir los intermedios. Este orden garantiza que la estructura no requiera ser sujetada por varios operarios simultáneamente.
+
+**7. Un caballo de cubierta antes de cerrar todo el perímetro**
+
+En el prototipo construido se ha observado que conviene levantar los pilares clave —esquinas y puntos que van a recibir un caballo— y montar sobre ellos **un primer caballo completo** de la cubierta antes de terminar todas las tablas de cerramiento del perímetro. Ese primer caballo fija en obra la longitud y la geometría reales de la cubierta, y sirve de referencia rígida para aplomar el resto de pilares. Solo entonces se completan las tablas de cerramiento en todo el perímetro: al clavarse en todos los pilares a la vez, arriostran el conjunto como una unidad rígida y evitan que los pilares pandeen lateralmente mientras la obra sigue en marcha —algo que el amarre solo por arriba (viga de cubierta) y por abajo (durmiente) no garantiza por sí solo. *(Ver [paso04_cubierta.md](paso04_cubierta.md), Paso 6.)*
 
 ---
 
@@ -1440,8 +1444,8 @@ La cubierta cumple dos funciones al mismo tiempo: evacuar el agua de lluvia haci
 
 Esta sección cubre cuatro elementos que trabajan de forma solidaria:
 
-1. **CERCHA** — La estructura triangulada de madera que salva la luz entre pilares y da la pendiente a la cubierta.
-2. **RASTRELES** — Los listones secundarios que apoyan sobre las cerchas y reciben directamente la chapa metálica.
+1. **CABALLO** — La estructura triangulada de madera que salva la luz entre pilares y da la pendiente a la cubierta. *(En Guinea Ecuatorial este es el término de obra para el conjunto triangulado completo; "cercha" designa allí cada pieza suelta que lo compone. Este documento usa "caballo" para el conjunto y nombra cada pieza por su función —cordón superior, cordón inferior, montante, diagonal— para evitar la ambigüedad.)*
+2. **RASTRELES** — Los listones secundarios que apoyan sobre los caballos y reciben directamente la chapa metálica.
 3. **CHAPA DE ZINC** — El material de cobertura. Cierra la cubierta frente al agua y la lluvia.
 4. **FALSO TECHO** — La capa interior que reduce la irradiación de calor de la chapa hacia el espacio habitable.
 
@@ -1449,7 +1453,7 @@ Esta sección cubre cuatro elementos que trabajan de forma solidaria:
 
 ## **Herramientas y materiales necesarios**
 
-### Para la estructura de cerchas
+### Para la estructura del caballo
 - Palo rojo u otra madera densa local, en sección de **8×8 cm** para los cordones superior e inferior, y **5×8 cm** para los montantes y diagonales interiores
 - Cinta métrica
 - Escuadra de carpintero
@@ -1457,7 +1461,7 @@ Esta sección cubre cuatro elementos que trabajan de forma solidaria:
 - Formón y martillo de carpintero *(para los ensambles)*
 - Cordel y tiza — para trazar la plantilla en el suelo
 
-### Para las uniones de la cercha
+### Para las uniones del caballo
 - Clavos de madera de al menos 120 mm
 - Pletinas o escuadras de acero galvanizado de 3 mm de espesor — para los nudos principales *(ver alternativa en Paso 4)*
 - Tornillos para madera de 80–100 mm
@@ -1481,13 +1485,13 @@ Esta sección cubre cuatro elementos que trabajan de forma solidaria:
 ---
 <div style="page-break-after: always;"></div>
 
-# **Parte 1: Cercha**
+# **Parte 1: Caballo**
 
-La cercha es una estructura triangulada de madera que permite cubrir la luz entre pilares sin apoyos intermedios. Su forma triangular —a diferencia de una viga recta— distribuye las cargas de manera que cada pieza trabaja en compresión o en tracción simple, sin flexión. Esto permite usar piezas de menor sección para cubrir distancias que de otra manera requerirían madera de gran escuadría.
+El caballo es una estructura triangulada de madera que permite cubrir la luz entre pilares sin apoyos intermedios. Su forma triangular —a diferencia de una viga recta— distribuye las cargas de manera que cada pieza trabaja en compresión o en tracción simple, sin flexión. Esto permite usar piezas de menor sección para cubrir distancias que de otra manera requerirían madera de gran escuadría.
 
-En el contexto de este proyecto, la cercha no necesita cubrir necesariamente toda la anchura de la vivienda de un extremo al otro. Si la vivienda tiene pilares intermedios, estos actúan como puntos de apoyo adicionales y reducen la luz que cada cercha debe salvar. Cuanto menor es la luz, más sencilla y ligera puede ser la cercha. Esta posibilidad debe tenerse en cuenta desde la fase de diseño de la planta.
+En el contexto de este proyecto, el caballo no necesita cubrir necesariamente toda la anchura de la vivienda de un extremo al otro. Si la vivienda tiene pilares intermedios, estos actúan como puntos de apoyo adicionales y reducen la luz que cada caballo debe salvar. Cuanto menor es la luz, más sencillo y ligero puede ser el caballo. Esta posibilidad debe tenerse en cuenta desde la fase de diseño de la planta.
 
-<img src="docs/imagenes/cubierta.cercha.esquema.png" width="500" alt="Esquema de la cercha" style="display: block; margin: auto;">
+<img src="docs/imagenes/cubierta.cercha.esquema.png" width="500" alt="Esquema del caballo" style="display: block; margin: auto;">
 
 ---
 
@@ -1504,7 +1508,7 @@ La pendiente determina la inclinación de la cubierta y, con ella, la velocidad 
 | Menos del 20% | Menos de 11° | No recomendada. Riesgo de filtración |
 | 30% | 17° | Mínimo recomendado |
 | 40–45% | 22–24° | Recomendada. Buena evacuación |
-| Más del 50% | Más de 27° | Válida, pero aumenta el peso y la complejidad de la cercha |
+| Más del 50% | Más de 27° | Válida, pero aumenta el peso y la complejidad del caballo |
 
 **Vuelo de alero:**
 
@@ -1513,33 +1517,35 @@ El alero es la parte de la cubierta que sobresale del muro exterior. Su función
 - Alero lateral (a los lados de la cubierta): mínimo **60 cm**
 - Alero frontal en los hastiales (en los extremos de la cubierta): mínimo **40 cm**
 
-El vuelo lateral se obtiene dejando que el cordón superior de la cercha sobresalga del plano exterior del muro. El vuelo frontal se consigue con rastreles volados que avanzan más allá de la última cercha *(ver Parte 2, Paso 1)*.
+El vuelo lateral se obtiene dejando que **el cordón superior** del caballo sobresalga del plano exterior del muro. El vuelo frontal se consigue con rastreles volados que avanzan más allá del último caballo *(ver Parte 2, Paso 1)*.
+
+> ⚠️ **El cordón inferior no debe volar más allá del pilar.** Su extremo debe quedar exactamente encima del pilar de apoyo —en la misma vertical del montante que lo recibe. Si el cordón inferior se prolonga más allá de esa vertical para generar el alero, el punto de apoyo real deja de coincidir con el extremo de la pieza: aparece una excentricidad que mete al cordón inferior en flexión justo en el tramo que debería trabajar solo a tracción, y el peso del caballo deja de bajar en línea recta hacia el pilar. Por eso el vuelo de alero es siempre tarea del cordón superior, nunca del inferior.
 
 ---
 
-## **Paso 1 · Diseño y replanteo de la cercha**
+## **Paso 1 · Diseño y replanteo del caballo**
 
 ### ¿Para qué sirve?
 
-Antes de cortar ninguna pieza, se traza la geometría completa de la cercha sobre una superficie plana: el suelo de tierra compactada o una losa de hormigón sirven perfectamente. Este dibujo a escala real es la plantilla que guía todo el corte y ensamble y garantiza que todas las cerchas sean idénticas entre sí.
+Antes de cortar ninguna pieza, se traza la geometría completa del caballo sobre una superficie plana: el suelo de tierra compactada o una losa de hormigón sirven perfectamente. Este dibujo a escala real es la plantilla que guía todo el corte y ensamble y garantiza que todos los caballos sean idénticos entre sí.
 
 **Coordinación con el módulo del cerramiento:**
 
-La posición de cada cercha no puede elegirse de forma independiente. Cada cercha debe caer exactamente encima de un montante del cerramiento: es la única forma de que la carga baje en línea recta desde la cubierta hasta la fundación. Si una cercha cae en el punto medio entre dos montantes, la viga de cubierta tiene que soportar esa carga en voladizo —esfuerzo para el que no está dimensionada.
+La posición de cada caballo no puede elegirse de forma independiente. Cada caballo debe caer exactamente encima de un montante del cerramiento: es la única forma de que la carga baje en línea recta desde la cubierta hasta la fundación. Si un caballo cae en el punto medio entre dos montantes, la viga de cubierta tiene que soportar esa carga en voladizo —esfuerzo para el que no está dimensionada.
 
-Esto significa que **la separación entre cerchas debe ser igual al módulo del cerramiento** —la distancia de eje a eje entre montantes— o un múltiplo de él. Si el módulo del cerramiento es de 80 cm, las cerchas van a 80 cm o a 160 cm entre ejes. Esta coordinación debe quedar resuelta en el plano antes de empezar la obra.
+Esto significa que **la separación entre caballos debe ser igual al módulo del cerramiento** —la distancia de eje a eje entre montantes— o un múltiplo de él. Si el módulo del cerramiento es de 80 cm, los caballos van a 80 cm o a 160 cm entre ejes. Esta coordinación debe quedar resuelta en el plano antes de empezar la obra.
 
 ### Proceso
 
-1. Se traza sobre el suelo la línea del **cordón inferior**: una línea recta horizontal de la longitud total de la cercha, incluyendo los vuelos de alero si los lleva incorporados.
+1. Se traza sobre el suelo la línea del **cordón inferior**: una línea recta horizontal cuya longitud coincide exactamente con la separación entre las caras de apoyo sobre los pilares —**sin incluir el vuelo de alero**, que no corresponde a esta pieza.
 
-2. Desde los dos extremos de esa línea, se trazan las líneas del **cordón superior** con la pendiente elegida. El punto donde se encuentran en la parte alta es la **cumbrera**.
+2. Desde los dos extremos de esa línea, se trazan las líneas del **cordón superior** con la pendiente elegida, prolongándolas más allá de los extremos del cordón inferior la distancia del vuelo de alero decidido. El punto donde se encuentran en la parte alta es la **cumbrera**.
 
 3. Se marcan los puntos de los **nudos interiores**: la posición de cada montante y diagonal. Estos puntos deben quedar perfectamente marcados en el suelo antes de cortar.
 
-<img src="docs/imagenes/cubierta.1.png" width="500" alt="Replanteo de la cercha en el suelo" style="display: block; margin: auto;">
+<img src="docs/imagenes/cubierta.1.png" width="500" alt="Replanteo del caballo en el suelo" style="display: block; margin: auto;">
 
-> ✅ **Verificación previa:** Se comprueba que el ángulo del cordón superior es el mismo en los dos lados de la cercha. Una sola cercha mal ejecutada en la pendiente rompe la regularidad del tejado e impide que la chapa asiente correctamente.
+> ✅ **Verificación previa:** Se comprueba que el ángulo del cordón superior es el mismo en los dos lados del caballo. Un solo caballo mal ejecutado en la pendiente rompe la regularidad del tejado e impide que la chapa asiente correctamente.
 
 ---
 <div style="page-break-after: always;"></div>
@@ -1548,13 +1554,13 @@ Esto significa que **la separación entre cerchas debe ser igual al módulo del 
 
 ### ¿Para qué sirve?
 
-El cordón inferior es la pieza que trabaja en tracción: resiste que la cercha se abra hacia los lados bajo el peso del tejado. Es también la pieza donde se realizan las uniones con los montantes y diagonales. Por eso se recomienda construirlo como **cordón sándwich**: dos piezas paralelas con un hueco entre ellas en el que se introduce el extremo de cada pieza interior.
+El cordón inferior es la pieza que trabaja en tracción: resiste que el caballo se abra hacia los lados bajo el peso del tejado. Es también la pieza donde se realizan las uniones con los montantes y diagonales. Por eso se recomienda construirlo como **cordón sándwich**: dos piezas paralelas con un hueco entre ellas en el que se introduce el extremo de cada pieza interior.
 
 Esta solución permite realizar todas las uniones sin escuadras metálicas, usando solo clavos que atraviesan las piezas exteriores hacia el elemento interior encajado entre ellas.
 
 ### Proceso
 
-1. Se cortan las dos piezas del cordón a la longitud total de la cercha, más el vuelo de alero si está incorporado en este elemento.
+1. Se cortan las dos piezas del cordón a la longitud exacta entre pilares —**sin vuelo de alero**: el cordón inferior no debe sobresalir del plano de apoyo sobre el pilar (ver "Criterio de diseño" más arriba).
 
 2. Se marcan sobre las dos piezas los puntos donde irán los nudos, alineados con el replanteo del suelo.
 
@@ -1569,11 +1575,11 @@ Esta solución permite realizar todas las uniones sin escuadras metálicas, usan
 
 ### ¿Para qué sirve?
 
-Los montantes son las piezas verticales interiores de la cercha. Las diagonales son las piezas inclinadas. Juntos forman los triángulos que dan rigidez al conjunto y transmiten las cargas desde el cordón superior hasta los puntos de apoyo.
+Los montantes son las piezas verticales interiores del caballo. Las diagonales son las piezas inclinadas. Juntos forman los triángulos que dan rigidez al conjunto y transmiten las cargas desde el cordón superior hasta los puntos de apoyo.
 
 ### Regla fundamental
 
-Todas las piezas interiores deben estar **en el mismo plano** que los cordones. Si una pieza interior queda desplazada hacia delante o hacia atrás respecto al plano de la cercha, introduce esfuerzos de torsión que pueden partir la unión. En la práctica constructiva local es frecuente encontrar piezas que no están en el mismo plano; esta es una de las causas de fallo estructural más comunes.
+Todas las piezas interiores deben estar **en el mismo plano** que los cordones. Si una pieza interior queda desplazada hacia delante o hacia atrás respecto al plano del caballo, introduce esfuerzos de torsión que pueden partir la unión. En la práctica constructiva local es frecuente encontrar piezas que no están en el mismo plano; esta es una de las causas de fallo estructural más comunes.
 
 ### Proceso
 
@@ -1588,13 +1594,13 @@ Todas las piezas interiores deben estar **en el mismo plano** que los cordones. 
 ---
 <div style="page-break-after: always;"></div>
 
-## **Paso 4 · Cercha de prueba: validación de geometría en el suelo**
+## **Paso 4 · Caballo de prueba: validación de geometría en el suelo**
 
 ### ¿Para qué sirve?
 
-Antes de subir ninguna pieza, se ensambla **una única cercha completa en el suelo** sobre el replanteo. Esta cercha no se iza: su función es exclusivamente verificar que todos los cortes son correctos, que las piezas encajan sin holguras y que la geometría del conjunto es la prevista.
+Antes de subir ninguna pieza, se ensambla **un único caballo completo en el suelo** sobre el replanteo. Este caballo no se iza: su función es exclusivamente verificar que todos los cortes son correctos, que las piezas encajan sin holguras y que la geometría del conjunto es la prevista.
 
-Una vez validada, las piezas se **numeran con lápiz o marca de sierra** y se desmonta la cercha. A partir de ese momento, todas las cerchas —incluida esta primera— se montan **pieza a pieza en altura** (ver Paso 5).
+Una vez validado, las piezas se **numeran con lápiz o marca de sierra** y se desmonta el caballo. A partir de ese momento, todos los caballos —incluido este primero— se montan **pieza a pieza en altura** (ver Paso 5).
 
 Detectar un corte incorrecto en el suelo, antes del montaje, es mucho más fácil que corregirlo desde un andamio.
 
@@ -1612,7 +1618,7 @@ Detectar un corte incorrecto en el suelo, antes del montaje, es mucho más fáci
 
 2. Se introduce el extremo de cada montante y diagonal en el hueco del sándwich y se fija provisionalmente con cuerda.
 
-3. Se verifica la geometría midiendo las diagonales del triángulo principal: si las dos diagonales son iguales, la cercha está bien cuadrada.
+3. Se verifica la geometría midiendo las diagonales del triángulo principal: si las dos diagonales son iguales, el caballo está bien cuadrado.
 
 4. Se clavan o atornillan las uniones de forma definitiva, empezando por los nudos extremos y avanzando hacia el centro.
 
@@ -1620,67 +1626,79 @@ Detectar un corte incorrecto en el suelo, antes del montaje, es mucho más fáci
 
 <img src="docs/imagenes/cubierta.4.png" width="500" alt="Detalle del nudo de apoyo sobre pilar" style="display: block; margin: auto;">
 
-> ✅ **Comprobación final antes de desmontar:** Con la cercha aún en el suelo, verificar tres puntos:
+> ✅ **Comprobación final antes de desmontar:** Con el caballo aún en el suelo, verificar tres puntos:
 > 1. Todas las piezas están **en el mismo plano** — ningún montante o diagonal sobresale hacia delante o hacia atrás respecto a los cordones.
 > 2. Las **diagonales del triángulo principal son iguales** — confirma que la geometría no está torcida.
 > 3. Todos los nudos tienen **contacto completo** entre piezas, sin holguras visibles.
+> 4. **El cordón inferior termina exactamente en la vertical del pilar de apoyo, sin vuelo propio** — es el cordón superior el que continúa más allá para formar el alero.
 >
-> Si todo es correcto, **numerar cada pieza** con lápiz o marca de sierra antes de desmontar. Las piezas de esta primera cercha sirven como plantilla de longitud y ángulo para cortar las siguientes.
+> Si todo es correcto, **numerar cada pieza** con lápiz o marca de sierra antes de desmontar. Las piezas de este primer caballo sirven como plantilla de longitud y ángulo para cortar los siguientes.
 
 ---
 <div style="page-break-after: always;"></div>
 
-## **Paso 5 · Montaje de las cerchas sobre la estructura**
+## **Paso 5 · Montaje de los caballos sobre la estructura**
 
 ### ¿Para qué sirve?
 
-En el contexto de Guinea Ecuatorial no existe maquinaria de elevación disponible. Una cercha de 6–8 metros de luz pesa entre 60 y 120 kg dependiendo de las secciones: no puede izarse de una pieza sin organización previa y sin estructuras auxiliares. El montaje se realiza **por piezas, directamente sobre la estructura**, desde andamios provisionales de madera.
+En el contexto de Guinea Ecuatorial no existe maquinaria de elevación disponible. Un caballo de 6–8 metros de luz pesa entre 60 y 120 kg dependiendo de las secciones: no puede izarse de una pieza sin organización previa y sin estructuras auxiliares. El montaje se realiza **por piezas, directamente sobre la estructura**, desde andamios provisionales de madera.
 
 ### Preparación previa: andamios y puntales provisionales
 
-Antes de subir ninguna pieza, se construyen los andamios y puntales necesarios. Los andamios son plataformas de madera que permiten trabajar a la altura de los pilares. Los puntales son piezas largas con horquilla en el extremo superior que sujetan provisionalmente el cordón inferior mientras se fija la cercha.
+Antes de subir ninguna pieza, se construyen los andamios y puntales necesarios. Los andamios son plataformas de madera que permiten trabajar a la altura de los pilares. Los puntales son piezas largas con horquilla en el extremo superior que sujetan provisionalmente el cordón inferior mientras se fija el caballo.
 
-Para cada cercha se necesitan al menos **cuatro puntales**: dos en los extremos de apoyo sobre pilares y dos intermedios si la luz es grande.
+Para cada caballo se necesitan al menos **cuatro puntales**: dos en los extremos de apoyo sobre pilares y dos intermedios si la luz es grande.
 
 <img src="docs/imagenes/cubierta.5.1.png" width="500" alt="Puntales provisionales para el montaje" style="display: block; margin: auto;">
 
 ### Proceso de montaje pieza a pieza
 
-1. Se sube y coloca el **cordón inferior** sobre la viga de cubierta, en la posición exacta del montante. Se sujeta provisionalmente con puntales y cuerda antes de fijarlo de forma definitiva.
+1. Se sube y coloca el **cordón inferior** sobre la viga de cubierta, en la posición exacta del montante, sin dejar que sobresalga hacia el exterior. Se sujeta provisionalmente con puntales y cuerda antes de fijarlo de forma definitiva.
 
-2. Desde ambos extremos y trabajando hacia la cumbrera, se suben y encajan los **cordones superiores**, pieza a pieza. Cada pieza se apoya en el nudo del cordón inferior y se sujeta provisionalmente con cuerda al punto anterior.
+2. Desde ambos extremos y trabajando hacia la cumbrera, se suben y encajan los **cordones superiores**, pieza a pieza, dejando que vuelen más allá del cordón inferior la distancia de alero prevista. Cada pieza se apoya en el nudo del cordón inferior y se sujeta provisionalmente con cuerda al punto anterior.
 
-3. Se coloca el **montante de cumbrera**, que une los dos cordones superiores en el punto más alto. Una vez colocado, la cercha ya es autoportante.
+3. Se coloca el **montante de cumbrera**, que une los dos cordones superiores en el punto más alto. Una vez colocado, el caballo ya es autoportante.
 
 4. Se colocan los **montantes y diagonales interiores** uno a uno, encajándolos en el sándwich del cordón inferior y clavándolos.
 
 5. Se fijan definitivamente las uniones de los nudos extremos con pletinas metálicas o claveteado en diagonal.
 
-6. Se comprueba la verticalidad de la cercha con la plomada antes de continuar con la siguiente.
+6. Se comprueba la verticalidad del caballo con la plomada antes de continuar con el siguiente.
 
-<img src="docs/imagenes/cubierta.5.2.png" width="500" alt="Montaje pieza a pieza de la cercha" style="display: block; margin: auto;">
+<img src="docs/imagenes/cubierta.5.2.png" width="500" alt="Montaje pieza a pieza del caballo" style="display: block; margin: auto;">
 
-> ⚠️ **Cada cercha debe caer directamente sobre un montante.** La viga de cubierta no está dimensionada para recibir la carga de una cercha en el punto medio entre dos montantes: si eso ocurre, la viga trabaja en flexión y puede doblarse o partirse.
+> ⚠️ **Cada caballo debe caer directamente sobre un montante.** La viga de cubierta no está dimensionada para recibir la carga de un caballo en el punto medio entre dos montantes: si eso ocurre, la viga trabaja en flexión y puede doblarse o partirse.
 >
-> El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Este recorrido solo funciona si la posición de cada cercha coincide con la posición de un montante. Si la separación entre cerchas no coincide con el módulo del cerramiento, hay un error de diseño que debe corregirse antes del montaje.
+> El recorrido de cargas correcto es: caballo → viga de cubierta → montante → durmiente → zócalo. Este recorrido solo funciona si la posición de cada caballo coincide con la posición de un montante, y si el cordón inferior no vuela más allá de esa posición. Si la separación entre caballos no coincide con el módulo del cerramiento, hay un error de diseño que debe corregirse antes del montaje.
+
 ---
 <div style="page-break-after: always;"></div>
 
-## **Paso 6 · Arriostramiento entre cerchas**
+## **Paso 6 · Arriostramiento entre caballos**
 
 ### ¿Para qué sirve?
 
-Una cercha aislada es estable en su propio plano pero puede volcar lateralmente. El arriostramiento entre cerchas convierte el conjunto en una estructura rígida tridimensional. Sin arriostramiento, el viento puede desplazar o volcar las cerchas antes de que se coloque la chapa.
+Un caballo aislado es estable en su propio plano pero puede volcar lateralmente. El arriostramiento entre caballos convierte el conjunto en una estructura rígida tridimensional. Sin arriostramiento, el viento puede desplazar o volcar los caballos antes de que se coloque la chapa.
 
 ### Proceso
 
-1. Una vez fijadas las dos primeras cerchas, se colocan los primeros rastreles transversales que las unen. A partir de ese momento, el conjunto ya es estable.
+1. Una vez fijados los dos primeros caballos, se colocan los primeros rastreles transversales que los unen. A partir de ese momento, el conjunto ya es estable.
 
-2. Se colocan **cruces de San Andrés** —pares de piezas diagonales cruzadas en el plano vertical entre dos cerchas contiguas— al menos en los dos paños extremos de la cubierta.
+2. Se colocan **cruces de San Andrés** —pares de piezas diagonales cruzadas en el plano vertical entre dos caballos contiguos— al menos en los dos paños extremos de la cubierta.
 
-3. Se continúa añadiendo cerchas y rastreles avanzando hacia el otro extremo, comprobando la verticalidad de cada cercha con la plomada antes de fijar la siguiente.
+3. Se continúa añadiendo caballos y rastreles avanzando hacia el otro extremo, comprobando la verticalidad de cada caballo con la plomada antes de fijar el siguiente.
 
-<img src="docs/imagenes/cubierta.6.png" width="500" alt="Arriostramiento entre cerchas" style="display: block; margin: auto;">
+<img src="docs/imagenes/cubierta.6.png" width="500" alt="Arriostramiento entre caballos" style="display: block; margin: auto;">
+
+### El primer caballo como referencia, antes de cerrar todo el cerramiento
+
+En obra —así se ha observado en el prototipo construido— conviene no esperar a tener todas las tablas de cerramiento colocadas en todo el perímetro antes de subir el primer caballo. El orden que mejor funciona es:
+
+1. Se levantan los pilares de las esquinas y los pilares clave (los que van a recibir un caballo), aplomados y arriostrados con las primeras tablas, tal y como se describe en el cerramiento *(ver [paso03_cerramiento.md](paso03_cerramiento.md), Paso 3)*.
+2. Se monta y fija **un primer caballo completo**, siguiendo el Paso 5. Esto fija en obra la longitud real y la geometría exacta de la cubierta —una comprobación más fiable que fiarse solo del replanteo en el suelo— y actúa además como una referencia rígida frente a la que aplomar el resto de pilares.
+3. Solo entonces se completan **todas las tablas de cerramiento** del perímetro, apoyándose en esa referencia. Las tablas, al clavarse en todos los pilares a la vez, convierten el conjunto de pilares en una única unidad rígida: dejan de depender solo del amarre por arriba (viga de cubierta) y por abajo (durmiente), que por sí solos no impiden que un pilar aislado pandee lateralmente durante el montaje.
+
+Este orden —un caballo primero, luego el cerramiento completo— reduce el riesgo de que la estructura de pilares se desplome o pandee mientras la obra sigue en marcha, antes de que el conjunto quede arriostrado en las dos direcciones.
 
 ---
 <div style="page-break-after: always;"></div>
@@ -1691,23 +1709,23 @@ Una cercha aislada es estable en su propio plano pero puede volcar lateralmente.
 
 ### ¿Para qué sirve?
 
-Los rastreles son los listones de madera que apoyan transversalmente sobre los cordones superiores de las cerchas y sobre los que se fija la chapa. La separación entre rastreles determina la resistencia de la cubierta frente a cargas de viento y el comportamiento de la chapa frente a deformaciones.
+Los rastreles son los listones de madera que apoyan transversalmente sobre los cordones superiores de los caballos y sobre los que se fija la chapa. La separación entre rastreles determina la resistencia de la cubierta frente a cargas de viento y el comportamiento de la chapa frente a deformaciones.
 
 ### Proceso
 
 1. Se comienza desde el **alero** —el borde inferior de la cubierta— y se avanza hacia la cumbrera.
 
-2. El primer rastrel se coloca en el borde del alero, dejando que la chapa pueda sobresalir al menos **30 cm** del plano exterior del muro. Se clava sobre el cordón superior de cada cercha con al menos un clavo en cada punto de cruce.
+2. El primer rastrel se coloca en el borde del alero, dejando que la chapa pueda sobresalir al menos **30 cm** del plano exterior del muro. Se clava sobre el cordón superior de cada caballo con al menos un clavo en cada punto de cruce.
 
 3. Los rastreles siguientes se colocan en paralelo, avanzando hacia la cumbrera. La separación máxima recomendada entre rastreles es de **60 cm** entre ejes. En zonas con viento fuerte o en cubiertas de pendiente suave, se reduce a 40–50 cm.
 
 4. Se comprueba la alineación de cada rastrel con un cordel tenso antes de clavarlo.
 
-<img src="docs/imagenes/cubierta.7.png" width="500" alt="Rastreles sobre las cerchas" style="display: block; margin: auto;">
+<img src="docs/imagenes/cubierta.7.png" width="500" alt="Rastreles sobre los caballos" style="display: block; margin: auto;">
 
 ### Alero frontal en los hastiales
 
-El vuelo frontal de la cubierta —en los extremos donde no hay cercha— se consigue con **rastreles volados**: los rastreles del plano inclinado sobresalen más allá de la última cercha la distancia de alero necesaria (mínimo 40 cm). Para sostener ese vuelo sin que los rastreles se curven, se coloca una pieza longitudinal de borde —paralela a la cercha— que los une en su extremo volado.
+El vuelo frontal de la cubierta —en los extremos donde no hay caballo— se consigue con **rastreles volados**: los rastreles del plano inclinado sobresalen más allá del último caballo la distancia de alero necesaria (mínimo 40 cm). Para sostener ese vuelo sin que los rastreles se curven, se coloca una pieza longitudinal de borde —paralela al caballo— que los une en su extremo volado.
 
 <img src="docs/imagenes/cubierta.7b.png" width="500" alt="Detalle del alero frontal en el hastial" style="display: block; margin: auto;">
 
@@ -1752,7 +1770,7 @@ La chapa se coloca de abajo hacia arriba (del alero a la cumbrera) y de un later
 
 La chapa de zinc alcanza temperaturas de superficie de 60–80 °C bajo el sol directo y emite esa energía como calor radiante hacia abajo. Sin barrera, esa radiación calienta el interior de la vivienda hasta hacerlo inhabitable en las horas centrales del día. El falso techo, junto con una correcta ventilación de la cámara de aire, puede reducir la temperatura interior entre 8 y 12 °C.
 
-El falso techo es una capa horizontal situada por debajo de las cerchas que crea una cámara de aire entre la chapa y el espacio habitable. Su eficacia depende de que esa cámara esté ventilada: si el aire caliente no puede salir, el falso techo pasa de ser una barrera a ser un segundo radiador.
+El falso techo es una capa horizontal situada por debajo de los caballos que crea una cámara de aire entre la chapa y el espacio habitable. Su eficacia depende de que esa cámara esté ventilada: si el aire caliente no puede salir, el falso techo pasa de ser una barrera a ser un segundo radiador.
 
 ---
 
@@ -1760,13 +1778,13 @@ El falso techo es una capa horizontal situada por debajo de las cerchas que crea
 
 ### ¿Para qué sirve?
 
-La estructura del falso techo son los rastreles horizontales que se apoyan sobre el cordón inferior de las cerchas y sobre los que se tiende el panel de cierre. Quedan en un plano horizontal, independientemente de la pendiente de la cubierta.
+La estructura del falso techo son los rastreles horizontales que se apoyan sobre el cordón inferior de los caballos y sobre los que se tiende el panel de cierre. Quedan en un plano horizontal, independientemente de la pendiente de la cubierta.
 
 ### Proceso
 
-1. Se marca en el cordón inferior de cada cercha el nivel al que quedará el falso techo. Este nivel debe garantizar una altura libre interior de al menos **2,4 m** desde el suelo terminado hasta la cara inferior del falso techo.
+1. Se marca en el cordón inferior de cada caballo el nivel al que quedará el falso techo. Este nivel debe garantizar una altura libre interior de al menos **2,4 m** desde el suelo terminado hasta la cara inferior del falso techo.
 
-2. Se clavan o atan rastreles transversales entre las cerchas, siguiendo ese nivel marcado. Los rastreles pueden clavarse directamente sobre el cordón inferior o atarse con alambre si la unión clávada no es posible.
+2. Se clavan o atan rastreles transversales entre los caballos, siguiendo ese nivel marcado. Los rastreles pueden clavarse directamente sobre el cordón inferior o atarse con alambre si la unión clávada no es posible.
 
 3. Sobre esos rastreles se tiende el material de cierre: tablas finas de madera, hojas de nipa tejida o fibra vegetal. El material no necesita ser hermético —la ventilación de la cámara requiere que haya algo de paso de aire por las juntas.
 
@@ -1796,11 +1814,11 @@ La cámara de aire entre la chapa y el falso techo funciona por convección natu
 
 ## 🌿 **Tips específicos para el contexto de Guinea Ecuatorial**
 
-**1. La posición de la cercha: siempre sobre un montante, nunca en medio del vano**
+**1. La posición del caballo: siempre sobre un montante, nunca en medio del vano**
 
-Uno de los errores más frecuentes en la construcción local es colocar las cerchas en posiciones que no coinciden con los montantes del cerramiento. Cuando la cercha cae en el punto medio entre dos montantes, la viga de cubierta tiene que aguantar esa carga en el centro del vano —para lo que no está dimensionada. El resultado es visible: la viga se dobla, el muro se deforma y la cubierta pierde estabilidad.
+Uno de los errores más frecuentes en la construcción local es colocar los caballos en posiciones que no coinciden con los montantes del cerramiento. Cuando el caballo cae en el punto medio entre dos montantes, la viga de cubierta tiene que aguantar esa carga en el centro del vano —para lo que no está dimensionada. El resultado es visible: la viga se dobla, el muro se deforma y la cubierta pierde estabilidad.
 
-La solución debe tomarse antes de empezar la obra: la separación entre cerchas debe ser igual al módulo del cerramiento —la distancia entre montantes— o un múltiplo de él. Cercha y montante deben quedar en la misma línea vertical. Si eso no se cumple en el diseño, no puede corregirse en la obra.
+La solución debe tomarse antes de empezar la obra: la separación entre caballos debe ser igual al módulo del cerramiento —la distancia entre montantes— o un múltiplo de él. Caballo y montante deben quedar en la misma línea vertical, y solo el cordón superior —nunca el inferior— puede volar más allá de esa línea para formar el alero. Si eso no se cumple en el diseño, no puede corregirse en la obra.
 
 **2. El ruido de la lluvia**
 
@@ -1816,7 +1834,7 @@ La chapa debe almacenarse en horizontal, sobre superficie plana y cubierta, sin 
 
 **5. Organización del trabajo**
 
-La fase de cubierta es la más exigente logísticamente: requiere trabajo en altura, manejo de piezas largas y pesadas, y coordinación de varios operarios simultáneos. Para una vivienda estándar, el montaje de cerchas requiere al menos **4–6 personas** durante una jornada completa. Se recomienda organizarla como jornada comunitaria, de la misma manera que el hormigonado de la zapata.
+La fase de cubierta es la más exigente logísticamente: requiere trabajo en altura, manejo de piezas largas y pesadas, y coordinación de varios operarios simultáneos. Para una vivienda estándar, el montaje de caballos requiere al menos **4–6 personas** durante una jornada completa. Se recomienda organizarla como jornada comunitaria, de la misma manera que el hormigonado de la zapata.
 
 **6. Horario de trabajo para la colocación de chapa**
 
@@ -1824,7 +1842,11 @@ La chapa se calienta mucho al sol directo y puede producir quemaduras al manipul
 
 **7. Pilares intermedios y reducción de luz**
 
-Si la vivienda tiene pilares intermedios —para configurar particiones interiores o por decisión de diseño—, estos pueden actuar como puntos de apoyo adicionales para las cerchas y reducir la luz a cubrir. Cuanto menor es la luz, más sencilla, ligera y barata es la cercha. Esta posibilidad debe valorarse desde la fase de diseño y coordinarse con la distribución interior de la vivienda.
+Si la vivienda tiene pilares intermedios —para configurar particiones interiores o por decisión de diseño—, estos pueden actuar como puntos de apoyo adicionales para los caballos y reducir la luz a cubrir. Cuanto menor es la luz, más sencillo, ligero y barato es el caballo. Esta posibilidad debe valorarse desde la fase de diseño y coordinarse con la distribución interior de la vivienda.
+
+**8. Un caballo antes de cerrar todo el cerramiento**
+
+En el prototipo construido se ha visto que conviene montar un primer caballo completo tan pronto como los pilares clave están en pie, y solo después cerrar todas las tablas de cerramiento del perímetro *(ver Paso 6)*. El caballo fija en obra la longitud y la geometría reales de la cubierta, y las tablas —al clavarse en todos los pilares a la vez— arriostran el conjunto como una unidad rígida, evitando que los pilares pandeen lateralmente mientras la obra sigue en marcha.
 
 ---
 
@@ -1832,9 +1854,10 @@ Si la vivienda tiene pilares intermedios —para configurar particiones interior
 
 Antes de pasar a la carpintería, verificar que se han completado correctamente estos puntos:
 
-- [ ] La pendiente de todas las cerchas es la misma y supera el 30%.
-- [ ] Todas las cerchas apoyan sobre la cabeza de los pilares, no sobre el zuncho.
-- [ ] Todas las cerchas están aplomadas —verticales— en el plano transversal.
+- [ ] La pendiente de todos los caballos es la misma y supera el 30%.
+- [ ] Todos los caballos apoyan sobre la cabeza de los pilares, no sobre el zuncho.
+- [ ] El cordón inferior de cada caballo termina exactamente en la vertical del pilar, sin volar más allá; solo el cordón superior vuela para formar el alero.
+- [ ] Todos los caballos están aplomados —verticales— en el plano transversal.
 - [ ] Las cruces de San Andrés están colocadas en los paños extremos de la cubierta.
 - [ ] El vuelo de alero lateral es de al menos 60 cm en todo el perímetro.
 - [ ] El vuelo de alero frontal en los hastiales es de al menos 40 cm.
@@ -2453,7 +2476,7 @@ Un ataque activo se distingue de daños antiguos por tres señales:
 
 3. Se aplica tratamiento de barrera en toda la superficie de la madera expuesta: aceite de motor usado aplicado a brocha, o cualquier producto insecticida de contacto disponible localmente. Se aplica también en el interior de la galería antes de sellarla.
 
-4. Se revisa toda la estructura de madera accesible —durmiente, montantes, cordón inferior de las cerchas— golpeando con el martillo para localizar otras zonas afectadas no visibles desde el exterior.
+4. Se revisa toda la estructura de madera accesible —durmiente, montantes, cordón inferior de los caballos— golpeando con el martillo para localizar otras zonas afectadas no visibles desde el exterior.
 
 5. Si el ataque ha alcanzado el interior de un montante y la madera ha perdido sección resistente, el montante debe sustituirse. Esta decisión requiere valoración técnica.
 
@@ -2511,7 +2534,7 @@ Una chapa suelta o perforada puede sustituirse individualmente sin necesidad de 
 - Tijeras de chapa o disco de corte para ajustar longitudes si es necesario
 - Cuerdas de seguridad y andamio o caballete provisional
 
-> ⚠️ **Nunca se trabaja sobre la chapa sin asegurarse de que los rastreles y las cerchas están en buen estado.** Antes de subir, se comprueba desde el interior que la estructura de madera bajo la zona a reparar no presenta deformación ni pérdida de sección.
+> ⚠️ **Nunca se trabaja sobre la chapa sin asegurarse de que los rastreles y los caballos están en buen estado.** Antes de subir, se comprueba desde el interior que la estructura de madera bajo la zona a reparar no presenta deformación ni pérdida de sección.
 
 ### Proceso
 

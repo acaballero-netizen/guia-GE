@@ -1,0 +1,40 @@
+{
+  "estado": "publicado",
+  "titulo": "Rehabilitación del Convento de las Salesas",
+  "autores": [
+    "Matos Castillo Arquitectos",
+    "Estudio Álvarez-Sala",
+    "Rueda Pizarro Arquitectos"
+  ],
+  "anio": 2023,
+  "municipio": "Pamplona",
+  "comunidad": "Navarra",
+  "lat": 42.8166,
+  "lng": -1.648,
+  "uso": "Rehabilitación",
+  "sistema": "CLT",
+  "elementos_madera": [
+    "Estructura",
+    "Forjados"
+  ],
+  "porcentaje_madera": 30,
+  "resumen": "Conversión de un convento de 1905 del casco antiguo en oficinas de la Mancomunidad de la Comarca de Pamplona. Se conservan los muros de carga y toda la estructura nueva se resuelve con vigas de CLT de sección estandarizada, junto con climatización geotérmica.",
+  "memoria": "",
+  "fuente_memoria": "Metalocus – https://www.metalocus.es/es/noticias/intervencion-de-minimos-rehabilitacion-del-convento-de-las-salesas-por-alvarez-sala-matos-castillo-rueda-pizarro",
+  "promotor": "Mancomunidad de la Comarca de Pamplona / SCPSA",
+  "constructora": "Construcciones ACR",
+  "ingenieria": "3D3 Ingeniería (estructura)",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "Estructura fabricada por Egoin",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado (Metalocus): 2018-2023, SCPSA, ACR, 3D3, Egoin, vigas CLT 44×12 cm, seleccionado FAD 2024. Fecha exacta de inauguración sin confirmar. Porcentaje 30 % estimado. Ciudad de los estudios inferida. Coordenadas: confianza alta.",
+  "verificado": false
+}

@@ -1,0 +1,37 @@
+{
+  "estado": "publicado",
+  "titulo": "Edificio Ombú",
+  "autores": [
+    "Foster + Partners"
+  ],
+  "anio": 2022,
+  "municipio": "Madrid",
+  "comunidad": "Comunidad de Madrid",
+  "lat": 40.3985,
+  "lng": -3.69,
+  "uso": "Oficinas",
+  "sistema": "Laminada encolada (GL)",
+  "elementos_madera": [
+    "Estructura",
+    "Forjados"
+  ],
+  "porcentaje_madera": 30,
+  "resumen": "Rehabilitación de una antigua central eléctrica con una nueva estructura interior de madera independiente de la envolvente de ladrillo.",
+  "memoria": "",
+  "fuente_memoria": "",
+  "promotor": "",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "verificado": false
+}

@@ -319,7 +319,7 @@ SIMPLIFICAR: No hay carpintería instalada aún. Solo el hueco formado por los m
 Una vez colocadas las tablas del cerramiento, los montantes tienen la cabeza libre: no hay ninguna pieza que los una entre sí por arriba. La viga de cubierta es la pieza horizontal de madera que cierra la parte alta de todos los montantes. Cumple dos funciones:
 
 - **Ata los montantes entre sí** para que no se abran ni se inclinen bajo el peso y el empuje de la cubierta.
-- **Recibe las cerchas de la cubierta**: es el punto de apoyo sobre el que descansarán.
+- **Recibe los caballos de la cubierta**: es el punto de apoyo sobre el que descansarán.
 
 Sin esta pieza, cada montante trabaja de forma aislada. Con ella, todo el perímetro superior de la pared queda solidarizado y preparado para recibir la cubierta de forma repartida.
 
@@ -332,7 +332,7 @@ Sin esta pieza, cada montante trabaja de forma aislada. Con ella, todo el perím
 <img src="imagenes/cerramiento.8.1.png" width="500" alt="Viga de cubierta apoyada sobre los montantes" style="display: block; margin: auto;">
 <!-- PROMPT:
 ENCUADRE: Vista en perspectiva de un tramo de cerramiento visto desde fuera y ligeramente desde arriba. El cuadro muestra unos 2 metros de pared: los montantes verticales llegan hasta arriba y la viga horizontal de cubierta acaba de apoyarse sobre ellos.
-ESTADO: La viga está apoyada pero aún no clavada. Se ve claramente cómo queda enrasada con la cara exterior de los montantes. La cara superior de la viga está libre —aún no hay cercha encima.
+ESTADO: La viga está apoyada pero aún no clavada. Se ve claramente cómo queda enrasada con la cara exterior de los montantes. La cara superior de la viga está libre —aún no hay caballo encima.
 ROJO: La viga de cubierta, de extremo a extremo del tramo.
 SIMPLIFICAR: No se muestra el interior ni la cubierta. Solo los montantes, las tablas del cerramiento y la viga recién apoyada.
 -->
@@ -353,7 +353,7 @@ SIMPLIFICAR: Solo el montante de esquina y los dos tramos de viga. No hay tablas
 
 ### A tener en cuenta
 
-> ⚠️ **Las cerchas de la cubierta apoyan sobre la viga de cubierta, que corona la cabeza de los montantes.** El recorrido de cargas correcto es: cercha → viga de cubierta → montante → durmiente → zócalo. Las cerchas no deben apoyar directamente sobre las tablas del cerramiento ni sobre el zuncho de hormigón.
+> ⚠️ **Los caballos de la cubierta apoyan sobre la viga de cubierta, que corona la cabeza de los montantes.** El recorrido de cargas correcto es: caballo → viga de cubierta → montante → durmiente → zócalo. Los caballos no deben apoyar directamente sobre las tablas del cerramiento ni sobre el zuncho de hormigón.
 
 <!-- TODO: Validar con el equipo técnico la sección mínima de la viga de cubierta en función de la separación entre montantes y las cargas previstas de la cubierta del prototipo. La sección de 8×8 cm se propone como valor de referencia. -->
 
@@ -387,6 +387,10 @@ Las tablas de madera en clima húmedo pueden deformarse o agrietarse con el tiem
 **6. Organización del trabajo**
 
 El cerramiento puede ser montado por una o dos personas si se sigue el proceso de dos montantes de esquina más primera tabla antes de añadir los intermedios. Este orden garantiza que la estructura no requiera ser sujetada por varios operarios simultáneamente.
+
+**7. Un caballo de cubierta antes de cerrar todo el perímetro**
+
+En el prototipo construido se ha observado que conviene levantar los pilares clave —esquinas y puntos que van a recibir un caballo— y montar sobre ellos **un primer caballo completo** de la cubierta antes de terminar todas las tablas de cerramiento del perímetro. Ese primer caballo fija en obra la longitud y la geometría reales de la cubierta, y sirve de referencia rígida para aplomar el resto de pilares. Solo entonces se completan las tablas de cerramiento en todo el perímetro: al clavarse en todos los pilares a la vez, arriostran el conjunto como una unidad rígida y evitan que los pilares pandeen lateralmente mientras la obra sigue en marcha —algo que el amarre solo por arriba (viga de cubierta) y por abajo (durmiente) no garantiza por sí solo. *(Ver [paso04_cubierta.md](paso04_cubierta.md), Paso 6.)*
 
 <!-- TODO: Consultar con carpinteros locales en la próxima misión de campo si existen técnicas tradicionales fang de solape o protección de junta que pudieran integrarse en este sistema. La documentación de esas prácticas puede enriquecer la guía y mejorar su aceptación cultural. -->
 

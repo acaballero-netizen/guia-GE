@@ -1,0 +1,15 @@
+{
+  "estado": "publicado",
+  "titulo": "Sobre el comportamiento al fuego",
+  "tema": "Fuego",
+  "tipo": "Ensayo",
+  "autoria": "Cátedra Maderamen",
+  "anio": 2025,
+  "entradilla": "Por qué una sección de madera maciza conserva capacidad portante durante un incendio: carbonización, capa protectora y cálculo por sección reducida.",
+  "pildora_url": "",
+  "referencias": [
+    "UNE-EN 1995-1-2. Eurocódigo 5: Proyecto de estructuras de madera. Parte 1-2: Reglas generales. Proyecto de estructuras sometidas al fuego.",
+    "Código Técnico de la Edificación. Documento Básico SI, Seguridad en caso de incendio. Anejo E: Resistencia al fuego de las estructuras de madera."
+  ],
+  "body": "## Combustible, pero predecible\n\nLa madera arde. Es la primera objeción que aparece cuando se propone una estructura de madera, y es cierta. Pero en un incendio lo que interesa no es tanto si un material es combustible, sino **cuánto tiempo mantiene su capacidad portante** y si lo hace de forma previsible.\n\nA diferencia del acero, que pierde resistencia de forma rápida al calentarse, una pieza de madera maciza de sección suficiente se consume desde fuera hacia dentro a un ritmo relativamente constante, mientras su núcleo permanece frío y conserva sus propiedades.\n\n## La capa carbonizada\n\nAl quemarse, la superficie de la madera se transforma en carbón. Esa capa carbonizada tiene una conductividad térmica muy baja y actúa como aislante del resto de la sección, frenando el avance del fuego hacia el interior.\n\nLa velocidad de carbonización depende de la especie, la densidad y el tipo de producto, y la normativa establece valores de cálculo para cada caso. Con ese dato se puede estimar qué parte de la sección se habrá consumido tras un tiempo de exposición determinado.\n\n> La pregunta no es si la madera arde, sino cuánta sección queda cuando el incendio termina.\n\n## Cálculo por sección reducida\n\nEl método más habitual para comprobar una estructura de madera en situación de incendio consiste en restar a la sección original la profundidad carbonizada prevista, más una pequeña capa adicional que se considera sin resistencia. La sección resultante se comprueba con las cargas de la situación de incendio.\n\n- Se define el tiempo de resistencia exigido (R30, R60, R90…).\n- Se calcula la profundidad carbonizada para ese tiempo.\n- Se comprueba la sección residual frente a las acciones.\n\n## Reacción y resistencia: dos conceptos distintos\n\nConviene no confundir la **reacción al fuego**, que describe cómo contribuye un material a iniciar y propagar un incendio, con la **resistencia al fuego**, que mide el tiempo durante el que un elemento mantiene su función. La madera puede tener una reacción al fuego desfavorable sin tratar y, aun así, ofrecer una resistencia al fuego muy alta.\n\n## Uniones y protección\n\nLos puntos más sensibles suelen ser las uniones metálicas, que conducen el calor hacia el interior de la pieza. Embeber los herrajes, protegerlos o sobredimensionar la madera que los rodea son estrategias habituales, igual que el encapsulado con placas cuando se busca limitar la madera expuesta.\n"
+}

@@ -1,0 +1,36 @@
+{
+  "estado": "publicado",
+  "titulo": "Bodegas Protos",
+  "autores": [
+    "Rogers Stirk Harbour + Alonso Balaguer"
+  ],
+  "anio": 2008,
+  "municipio": "Peñafiel",
+  "comunidad": "Castilla y León",
+  "lat": 41.596,
+  "lng": -4.122,
+  "uso": "Industrial",
+  "sistema": "Laminada encolada (GL)",
+  "elementos_madera": [
+    "Cubierta"
+  ],
+  "porcentaje_madera": 40,
+  "resumen": "Cubierta de arcos parabólicos de madera laminada sobre una nave de crianza de hormigón semienterrada.",
+  "memoria": "",
+  "fuente_memoria": "",
+  "promotor": "",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "verificado": false
+}

@@ -1,0 +1,38 @@
+{
+  "estado": "publicado",
+  "titulo": "14 viviendas sociales Life Reusing Posidonia",
+  "autores": [
+    "IBAVI"
+  ],
+  "anio": 2017,
+  "municipio": "Sant Ferran de ses Roques (Formentera)",
+  "comunidad": "Illes Balears",
+  "lat": 38.7064,
+  "lng": 1.458,
+  "uso": "Vivienda",
+  "sistema": "Otro",
+  "elementos_madera": [
+    "Forjados",
+    "Cubierta"
+  ],
+  "porcentaje_madera": 20,
+  "resumen": "Edificio piloto de vivienda pública con muros de carga y cimentación de cal, en el que los forjados son de madera laminada y la cubierta se aísla con posidonia seca compactada dentro de palés reutilizados. Ganó el Premio FAD de Arquitectura 2018.",
+  "memoria": "",
+  "fuente_memoria": "Arquitectura Viva – https://arquitecturaviva.com/obras/14-viviendas-en-formentera",
+  "promotor": "IBAVI (Institut Balear de l'Habitatge), programa LIFE+",
+  "constructora": "",
+  "ingenieria": "Miguel Nevado (estructura); Societat Orgànica + 10 (consultoría ambiental)",
+  "superficie_m2": 1089,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Equipo IBAVI: Carles Oliver, Antonio Martín, Joaquín Moyá, Alfonso Reina (y Maria Antònia Garcías según prensa). Verificado (Arquitectura Viva, LIFE12-ENV-ES-000079): año, superficie, forjados de madera laminada, palés con posidonia. Porcentaje 20 % estimado. Web del IBAVI no comprobada. Coordenadas: confianza media-alta.",
+  "verificado": false
+}

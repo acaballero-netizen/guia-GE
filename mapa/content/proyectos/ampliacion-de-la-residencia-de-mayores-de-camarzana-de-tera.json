@@ -1,0 +1,38 @@
+{
+  "estado": "publicado",
+  "titulo": "Ampliación de la residencia de mayores de Camarzana de Tera",
+  "autores": [
+    "CSO Arquitectura"
+  ],
+  "anio": 2019,
+  "municipio": "Camarzana de Tera",
+  "comunidad": "Castilla y León",
+  "lat": 42.0029,
+  "lng": -5.6785,
+  "uso": "Equipamiento",
+  "sistema": "Entramado ligero",
+  "elementos_madera": [
+    "Estructura",
+    "Muros"
+  ],
+  "porcentaje_madera": 70,
+  "resumen": "Ampliación en una sola planta de una residencia de mayores en Zamora, resuelta con entramado de madera prefabricado y montado en pocos días. Se presenta como el primer edificio geriátrico con certificado Passivhaus de España.",
+  "memoria": "",
+  "fuente_memoria": "Arquitectura Viva – https://arquitecturaviva.com/works/47627",
+  "promotor": "",
+  "constructora": "Construcciones P. Sánchez Rodríguez S.L.",
+  "ingenieria": "Fernando San Hipólito (estructura y Passivhaus)",
+  "superficie_m2": 821,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado (Arquitectura Viva): año, 821 m², prefabricación de Arquima, finalista FAD 2020. Cubierta de madera sin confirmar. Porcentaje 70 % estimado. Coordenadas: confianza media-alta.",
+  "verificado": false
+}

@@ -1,0 +1,39 @@
+{
+  "estado": "publicado",
+  "titulo": "85 viviendas sociales en Cornellà",
+  "autores": [
+    "Peris+Toral Arquitectes"
+  ],
+  "anio": 2021,
+  "municipio": "Cornellà de Llobregat",
+  "comunidad": "Cataluña",
+  "lat": 41.3555,
+  "lng": 2.07,
+  "uso": "Vivienda",
+  "sistema": "CLT",
+  "elementos_madera": [
+    "Muros",
+    "Forjados",
+    "Cubierta",
+    "Acabados interiores"
+  ],
+  "porcentaje_madera": 82,
+  "resumen": "Bloque de vivienda pública con estructura de paneles de madera contralaminada y crujías de dimensión homogénea.",
+  "memoria": "",
+  "fuente_memoria": "",
+  "promotor": "",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "verificado": false
+}

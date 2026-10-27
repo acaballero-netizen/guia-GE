@@ -1,0 +1,153 @@
+# Sveltia CMS — panel de edición del Mapa de la madera
+# Documentación: https://sveltiacms.app/en/docs
+# Todas las rutas son relativas a la raíz del repositorio (la web vive en la carpeta /mapa).
+backend:
+  name: github
+  repo: acaballero-netizen/guia-GE
+  branch: main
+  # base_url: https://sveltia-cms-auth.TU-CUENTA.workers.dev   # ← descomentar al activar el botón «Iniciar sesión con GitHub»
+  commit_messages:
+    create: "Mapa: crea {{collection}} «{{slug}}»"
+    update: "Mapa: actualiza {{collection}} «{{slug}}»"
+    delete: "Mapa: borra {{collection}} «{{slug}}»"
+    uploadMedia: "Mapa: sube «{{path}}»"
+    deleteMedia: "Mapa: borra «{{path}}»"
+
+site_url: https://maderamen.calab.es/mapa/
+display_url: https://maderamen.calab.es/mapa/
+logo:
+  src: /assets/img/logo-rojo-crop.png
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+media_folder: mapa/media
+public_folder: /mapa/media
+
+media_libraries:
+  default:
+    config:
+      max_file_size: 15000000
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 2400
+          height: 2400
+
+collections:
+  - name: proyectos
+    label: Proyectos
+    label_singular: Proyecto
+    description: "Cada proyecto es un punto del mapa. Déjalo en «borrador» mientras lo completas; solo los «publicados» se ven en la web."
+    folder: mapa/content/proyectos
+    format: json
+    create: true
+    slug: "{{titulo}}"
+    identifier_field: titulo
+    summary: "{{titulo}} · {{municipio}} · {{anio}} · {{estado}}"
+    sortable_fields: [titulo, anio, porcentaje_madera]
+    view_filters:
+      - {label: Borradores, field: estado, pattern: borrador}
+      - {label: Publicados, field: estado, pattern: publicado}
+    media_folder: /mapa/media/proyectos
+    public_folder: /mapa/media/proyectos
+    fields:
+      - {name: estado, label: Estado, widget: select, options: [borrador, publicado], default: borrador, hint: "Solo los proyectos «publicado» aparecen en la web."}
+      - {name: titulo, label: "Nombre del proyecto", widget: string}
+      - {name: autores, label: Autoría, widget: relation, collection: autores, value_field: nombre, search_fields: [nombre], display_fields: [nombre], multiple: true, hint: "Si el estudio no aparece, créalo antes en «Autores»."}
+      - {name: anio, label: "Año de finalización", widget: number, value_type: int}
+      - {name: municipio, label: Municipio, widget: string}
+      - {name: comunidad, label: "Comunidad autónoma", widget: select, options: ["Andalucía","Aragón","Asturias","Illes Balears","Canarias","Cantabria","Castilla-La Mancha","Castilla y León","Cataluña","Comunitat Valenciana","Extremadura","Galicia","Comunidad de Madrid","Región de Murcia","Navarra","País Vasco","La Rioja","Ceuta","Melilla"]}
+      - {name: lat, label: Latitud, widget: number, value_type: float, hint: "En Google Maps: clic derecho sobre el edificio → pulsa las coordenadas para copiarlas. El primer número es la latitud (p. ej. 41.3718)."}
+      - {name: lng, label: Longitud, widget: number, value_type: float, hint: "El segundo número (p. ej. 2.1366 o -3.7090)."}
+      - {name: uso, label: Uso, widget: select, options: ["Vivienda","Equipamiento","Oficinas","Industrial","Espacio público","Rehabilitación","Otro"]}
+      - {name: sistema, label: "Sistema constructivo", widget: select, options: ["CLT","Laminada encolada (GL)","Microlaminada (LVL)","Entramado ligero","Madera maciza","Mixto madera-hormigón","Otro"]}
+      - {name: elementos_madera, label: "Dónde está la madera", widget: select, multiple: true, options: ["Estructura","Muros","Forjados","Cubierta","Fachada","Acabados interiores"]}
+      - {name: porcentaje_madera, label: "Porcentaje de madera (%)", widget: number, value_type: int, min: 0, max: 100, hint: "La categoría (puntual, híbrida, mayoritaria, integral) se calcula sola a partir de este número."}
+      - {name: resumen, label: "Resumen (1–2 frases, aparece en el mapa)", widget: text}
+      - {name: memoria, label: Memoria, widget: markdown, required: false, hint: "Puedes pegar el texto desde un documento. Deja una línea en blanco entre párrafos."}
+      - {name: fuente_memoria, label: "Fuente de la memoria", widget: string, required: false}
+      - {name: promotor, label: Promotor, widget: string, required: false}
+      - {name: constructora, label: Constructora, widget: string, required: false}
+      - {name: ingenieria, label: "Ingeniería de estructura", widget: string, required: false}
+      - {name: superficie_m2, label: "Superficie construida (m²)", widget: number, required: false}
+      - {name: volumen_madera_m3, label: "Volumen de madera (m³)", widget: number, value_type: float, required: false}
+      - {name: co2_almacenado_t, label: "CO₂ almacenado (t)", widget: number, value_type: float, required: false}
+      - {name: especie_origen, label: "Especie y origen", widget: string, required: false}
+      - {name: certificacion, label: "Certificación forestal", widget: select, options: ["PEFC","FSC","Ambas","Ninguna / desconocida"], required: false}
+      - {name: fotografia_autoria, label: "Autoría de las fotografías", widget: string, required: false}
+      - name: portada
+        label: "Portada (carrusel, 1–5 fotos horizontales)"
+        widget: list
+        required: false
+        max: 5
+        fields: [{name: imagen, label: Imagen, widget: image}, {name: pie, label: Pie, widget: string, required: false}]
+      - name: imagenes
+        label: "Imágenes (mosaico)"
+        widget: list
+        required: false
+        fields: [{name: imagen, label: Imagen, widget: image}, {name: pie, label: Pie, widget: string, required: false}]
+      - name: planos
+        label: Planos
+        widget: list
+        required: false
+        fields: [{name: imagen, label: "Imagen del plano (JPG o PNG)", widget: image}, {name: titulo, label: Título, widget: string}, {name: escala, label: Escala, widget: string, required: false}, {name: pdf_url, label: "Enlace al PDF en alta (Drive)", widget: string, required: false}]
+      - name: detalles
+        label: "Detalles constructivos"
+        widget: list
+        required: false
+        fields: [{name: imagen, label: Imagen, widget: image}, {name: codigo, label: "Código (D01…)", widget: string}, {name: elemento, label: Elemento, widget: select, options: ["Estructura","Muros","Forjados","Cubierta","Fachada","Acabados interiores"]}, {name: titulo, label: Título, widget: string}, {name: descripcion, label: Descripción, widget: text, required: false}]
+      - {name: originales_drive, label: "Carpeta de originales en Drive", widget: string, required: false, hint: "Enlace a la carpeta con fotos en alta y planos DWG/PDF. No se muestra en la web."}
+      - {name: notas_internas, label: "Notas de verificación (internas)", widget: text, required: false, hint: "Qué está comprobado, qué falta y fuentes. No se muestra en la web."}
+      - {name: verificado, label: "Datos verificados por la Cátedra", widget: boolean, default: false, hint: "Mientras esté desmarcado, la ficha muestra «pendiente de verificación»."}
+
+  - name: autores
+    label: Autores
+    label_singular: Autor
+    description: "Estudios, arquitectos e instituciones. Créalos aquí antes de asignarlos a un proyecto."
+    folder: mapa/content/autores
+    format: json
+    create: true
+    slug: "{{nombre}}"
+    identifier_field: nombre
+    summary: "{{nombre}} · {{tipo}} · {{ciudad}}"
+    media_folder: /mapa/media/autores
+    public_folder: /mapa/media/autores
+    fields:
+      - {name: nombre, label: Nombre, widget: string, hint: "Si cambias el nombre, revisa los proyectos que lo usan."}
+      - {name: tipo, label: Tipo, widget: select, options: [Estudio, Arquitecto, Institución, Ingeniería, Fabricante]}
+      - {name: ciudad, label: Ciudad, widget: string, required: false}
+      - {name: web, label: Web, widget: string, required: false}
+      - {name: logo, label: "Logo o retrato", widget: image, required: false}
+      - {name: verificado, label: Verificado, widget: boolean, default: false}
+
+  - name: apuntes
+    label: "Sobre la madera"
+    label_singular: Apunte
+    description: "Ensayos, notas y referencias. Usa títulos de nivel 2 (##) para los apartados: con ellos se crea el índice lateral."
+    folder: mapa/content/apuntes
+    format: json
+    create: true
+    slug: "{{titulo}}"
+    identifier_field: titulo
+    summary: "{{titulo}} · {{tema}} · {{estado}}"
+    media_folder: /mapa/media/apuntes
+    public_folder: /mapa/media/apuntes
+    fields:
+      - {name: estado, label: Estado, widget: select, options: [borrador, publicado], default: borrador}
+      - {name: titulo, label: Título, widget: string}
+      - {name: tema, label: Tema, widget: select, options: [Fuego, Carbono, Normativa, Cálculo, Durabilidad, Bosque, Acústica, Construcción]}
+      - {name: tipo, label: Tipo, widget: select, options: [Ensayo, Nota, Apunte, Referencia]}
+      - {name: autoria, label: Autoría, widget: string, default: "Cátedra Maderamen"}
+      - {name: anio, label: Año, widget: number, value_type: int}
+      - {name: entradilla, label: Entradilla, widget: text}
+      - {name: pildora_url, label: "Enlace a la píldora (vídeo de YouTube u otro)", widget: string, required: false}
+      - name: referencias
+        label: Referencias
+        widget: list
+        required: false
+        field: {name: ref, label: Referencia, widget: string}
+      - {name: body, label: "Texto (usa ## para los apartados)", widget: markdown}

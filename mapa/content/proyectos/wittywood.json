@@ -1,0 +1,39 @@
+{
+  "estado": "publicado",
+  "titulo": "Wittywood",
+  "autores": [
+    "Ballarín & Grinyó"
+  ],
+  "anio": 2022,
+  "municipio": "Barcelona",
+  "comunidad": "Cataluña",
+  "lat": 41.4003,
+  "lng": 2.2002,
+  "uso": "Oficinas",
+  "sistema": "CLT",
+  "elementos_madera": [
+    "Estructura",
+    "Muros",
+    "Forjados"
+  ],
+  "porcentaje_madera": 75,
+  "resumen": "Edificio de oficinas de planta baja más cuatro en el 22@, con pilares de madera laminada, núcleos de CLT y forjados de paneles CLT nervados. Se presenta como el primer edificio de oficinas íntegramente en madera de España.",
+  "memoria": "",
+  "fuente_memoria": "Dlubal (referencia de proyecto) – https://www.dlubal.com/es/descargas-e-informacion/referencias/proyectos-de-clientes/001216",
+  "promotor": "Wittywood (Colonial y Narcís Barceló)",
+  "constructora": "Elecnor; estructura de madera: Madergia",
+  "ingenieria": "Estudi M103 (estructura)",
+  "superficie_m2": 4100,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "CLT y GL de Stora Enso",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado: Llacuna 42, arquitectos, Estudi M103, Stora Enso, Elecnor y Madergia, PB+4 (Dlubal); 4.100 m² (Brainsre); julio 2022 (Heinze). Porcentaje 75 % estimado. Coordenadas: confianza alta.",
+  "verificado": false
+}

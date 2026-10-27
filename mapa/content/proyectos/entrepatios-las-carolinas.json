@@ -1,0 +1,39 @@
+{
+  "estado": "publicado",
+  "titulo": "Entrepatios Las Carolinas",
+  "autores": [
+    "sAtt Arquitectura"
+  ],
+  "anio": 2019,
+  "municipio": "Madrid",
+  "comunidad": "Comunidad de Madrid",
+  "lat": 40.3847,
+  "lng": -3.709,
+  "uso": "Vivienda",
+  "sistema": "Entramado ligero",
+  "elementos_madera": [
+    "Muros",
+    "Forjados",
+    "Cubierta",
+    "Fachada"
+  ],
+  "porcentaje_madera": 68,
+  "resumen": "Cohousing en derecho de uso con estructura de madera y criterios de bajo consumo energético.",
+  "memoria": "",
+  "fuente_memoria": "",
+  "promotor": "",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "verificado": false
+}

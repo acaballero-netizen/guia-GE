@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><!-- QUITAR al lanzar la web -->
+<title>Cooperativa La Borda — Mapa de la madera</title>
+<link rel="stylesheet" href="../assets/css/colors_and_type.css">
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+<style>
+:root{--bg:#fff}
+body{background:var(--bg);color:var(--color-ink-900);transition:background .3s,color .3s}
+body[data-theme=negro]{--bg:#161719;--color-surface:#202225;--color-ink-900:#F2F2F0;--color-ink-700:#D2D4D6;--color-ink-500:#9EA3A8;--color-line:rgba(255,255,255,.14);--color-line-soft:rgba(255,255,255,.07);--color-brand-red:#F0525B;--k:var(--color-brand-tan);--color-fg-1:var(--color-ink-900);--color-fg-2:var(--color-ink-700);--color-fg-3:var(--color-ink-500);--color-bg-1:var(--bg);--color-bg-2:var(--color-surface);--color-accent:var(--color-brand-red)}
+body[data-theme=marron]{--bg:#2A1D15;--color-surface:#36261C;--color-ink-900:#F6EFE4;--color-ink-700:#EADBC4;--color-ink-500:#BFA88E;--color-line:rgba(234,219,196,.16);--color-line-soft:rgba(234,219,196,.08);--color-brand-red:#F0525B;--k:var(--color-brand-tan);--color-fg-1:var(--color-ink-900);--color-fg-2:var(--color-ink-700);--color-fg-3:var(--color-ink-500);--color-bg-1:var(--bg);--color-bg-2:var(--color-surface);--color-accent:var(--color-brand-red)}
+body:not([data-theme=claro]) .chip.on{background:var(--color-brand-tan);border-color:var(--color-brand-tan);color:#2A1D15}
+body:not([data-theme=claro]) .barlab span{color:var(--color-brand-tan)}
+body:not([data-theme=claro]) .btn{background:var(--color-ink-900);color:var(--bg)}
+body:not([data-theme=claro]) .btn:hover{background:var(--color-brand-red);color:#fff}
+body:not([data-theme=claro]) .mos.dw .box,body:not([data-theme=claro]) .dbox{background:var(--color-surface)}
+:root{--hdr:64px;--tabs:52px;--side:360px;--k:var(--color-brand-brown)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--hdr) + var(--tabs))}
+a{color:var(--color-brand-red)}a:hover{color:var(--color-brand-red-deep)}
+.hdr{position:fixed;top:0;left:0;right:0;z-index:1000;height:var(--hdr);display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 32px;background:var(--bg);border-top:4px solid var(--color-brand-red);border-bottom:1px solid var(--color-line);box-sizing:border-box}
+.hdr img{height:28px;display:block}
+.nav{display:flex;gap:28px}
+.nav a{font-size:12px;font-weight:600;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-ink-700);border:0;padding:6px 0;border-bottom:2px solid transparent}
+.nav a:hover{color:var(--color-brand-red)}
+.nav a.on{color:var(--color-ink-900);border-bottom-color:var(--color-brand-red)}
+.hero{position:relative;height:100vh;padding-top:var(--hdr);box-sizing:border-box;display:flex;flex-direction:column}
+.stage{position:relative;flex:1;background:var(--color-surface);overflow:hidden}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease;background:var(--color-surface)}
+.slide.on{opacity:1;z-index:1}
+.band{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:32px;padding:28px 32px 28px;background:var(--bg);border-top:1px solid var(--color-line)}
+.band .ey{font-size:11px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-brand-red);margin-bottom:10px}
+.band h1{font-size:clamp(32px,4.4vw,60px);font-weight:800;text-transform:uppercase;line-height:.98;margin:0;letter-spacing:-.02em;text-wrap:balance}
+.band .au{font-size:16px;font-weight:600;margin-top:10px;color:var(--color-ink-900)}
+.band .au span{font-weight:300;color:var(--color-ink-500)}
+.bctrl{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.dots{display:flex;gap:6px}
+.dot{width:28px;height:3px;border:0;padding:0;background:var(--color-line);cursor:pointer}
+.dot.on{background:var(--color-brand-red)}
+.arrows{display:flex;gap:8px;align-items:center}
+.arrows span{font-size:12px;color:var(--color-ink-500);margin-right:8px;font-variant-numeric:tabular-nums}
+.arr{width:52px;height:52px;border-radius:50%;border:0;background:var(--bg);box-shadow:var(--shadow-2);font-size:28px;line-height:1;color:var(--color-ink-900);cursor:pointer;transition:transform .2s}
+.arr:hover{transform:scale(1.08);color:var(--color-brand-red)}
+.down{font-size:11px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-ink-900);border:0}
+.down:hover{color:var(--color-brand-red)}
+.body{display:grid;grid-template-columns:var(--side) minmax(0,1fr);border-top:1px solid var(--color-line)}
+.side{position:sticky;top:var(--hdr);height:calc(100vh - var(--hdr));overflow:auto;border-right:1px solid var(--color-line);box-sizing:border-box}
+.back{display:flex;align-items:center;gap:8px;padding:0 24px;height:var(--tabs);box-sizing:border-box;font-size:11px;font-weight:600;letter-spacing:var(--ls-wide);text-transform:uppercase;color:var(--color-ink-500);border-bottom:1px solid var(--color-line)}
+.back:hover{color:var(--color-brand-red)}
+.ptitle{padding:20px 24px;border-bottom:1px solid var(--color-line)}
+.ptitle h2{font-size:18px;font-weight:800;text-transform:uppercase;line-height:1.15;margin:8px 0 6px}
+.ptitle .au{font-size:13px;font-weight:600;color:var(--color-ink-900)}
+.ptitle .loc{font-size:12px;color:var(--color-ink-500);margin-top:2px}
+.blk{padding:18px 24px;border-bottom:1px solid var(--color-line)}
+.flabel{font-size:10px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-ink-500);margin-bottom:10px}
+.barlab{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
+.barlab b{font-size:22px;font-weight:800;line-height:1}
+.barlab span{font-size:12px;font-weight:600;color:var(--color-brand-brown)}
+.bar{height:6px;background:var(--color-line-soft);border-radius:1px;overflow:hidden}
+.bar i{display:block;height:100%;width:75%;background:var(--k)}
+.els{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.chip{font-size:12px;font-weight:500;padding:6px 10px;border:1px solid var(--color-line);border-radius:999px;background:var(--bg);color:var(--color-ink-700)}
+.chip.on{background:var(--color-brand-brown);border-color:var(--color-brand-brown);color:#fff}
+.dl{display:grid;grid-template-columns:88px minmax(0,1fr);gap:8px 12px;font-size:12px;margin:0}
+.dl dt{color:var(--color-ink-500)}.dl dd{margin:0;color:var(--color-ink-900);font-weight:500}
+.share{padding:16px 24px;display:flex;gap:16px;font-size:12px}
+.share a{color:var(--color-ink-700);font-weight:600}
+.tabs{position:sticky;top:var(--hdr);z-index:50;height:var(--tabs);display:flex;gap:32px;align-items:stretch;padding:0 48px;background:var(--bg);border-bottom:1px solid var(--color-line);overflow-x:auto}
+.tabs a{display:flex;align-items:center;font-size:12px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-ink-500);border:0;border-bottom:2px solid transparent;white-space:nowrap}
+.tabs a:hover{color:var(--color-ink-900)}
+.tabs a.on{color:var(--color-ink-900);border-bottom-color:var(--color-brand-red)}
+.sec{padding:48px 48px 64px;box-sizing:border-box}
+.sec+.sec{border-top:1px solid var(--color-line)}
+.sh{font-size:11px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-brand-red);margin:0 0 24px;display:flex;gap:12px;align-items:baseline}
+.sh span{font-weight:500;letter-spacing:0;text-transform:none;color:var(--color-ink-500)}
+.memo{display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:64px;align-items:start}
+.memo .txt{columns:2 320px;column-gap:56px}
+.memo .txt p{break-inside:avoid-column}
+.memo .txt p{font-size:15px;font-weight:300;line-height:1.7;margin:0 0 1.1em;text-wrap:pretty}
+.memo .txt p:first-child{font-size:17px;font-weight:400;line-height:1.55;color:var(--color-ink-900)}
+.src{break-inside:avoid;font-size:11px;color:var(--color-ink-500);border-top:1px solid var(--color-line);padding-top:10px;margin-top:20px}
+.aside{display:flex;flex-direction:column;gap:20px}
+.fig{display:flex;flex-direction:column;gap:4px}
+.fig b{font-size:26px;font-weight:800;line-height:1;color:var(--color-ink-900)}
+.fig b small{font-size:13px;font-weight:600;margin-left:3px}
+.fig span{font-size:11px;color:var(--color-ink-500)}
+.gal{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.gal figure,.dwg figure,.det figure{margin:0;display:flex;flex-direction:column;gap:8px}
+.gal figcaption,.dwg figcaption{font-size:11px;color:var(--color-ink-500)}
+.gal .w4{grid-column:span 4}.gal .w2{grid-column:span 2}.gal .w3{grid-column:span 3}
+.box{position:relative;width:100%}
+.r32{aspect-ratio:3/2}.r34{aspect-ratio:3/4}.r11{aspect-ratio:1/1}.r169{aspect-ratio:16/9}
+.dwg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 20px}
+.dwg .full{grid-column:1/-1}
+.dwg .box,.det .box{background:var(--bg);border:1px solid var(--color-line)}
+.dwg figcaption{display:flex;justify-content:space-between;gap:12px}
+.dwg figcaption b{font-weight:700;color:var(--color-ink-900);font-size:12px}
+.det{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 20px}
+.det .n{font-size:10px;font-weight:700;letter-spacing:var(--ls-wider);color:var(--color-brand-red)}
+.det h3{font-size:14px;font-weight:700;margin:0;line-height:1.3}
+.det p{font-size:12px;font-weight:300;margin:0;line-height:1.55;color:var(--color-ink-700)}
+.foot{padding:32px 48px 48px;border-top:1px solid var(--color-line);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.btn{display:inline-flex;gap:8px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:var(--ls-wide);padding:14px 20px;background:var(--color-ink-900);color:#fff;border-radius:2px;border:0}
+.btn:hover{background:var(--color-brand-red);color:#fff}
+.note{font-size:11px;color:var(--color-ink-500)}
+.tb{position:fixed;z-index:60;left:0;top:0;--p:0;pointer-events:none;padding:20px 24px;box-sizing:border-box;background:var(--bg)}
+.tb.pin{box-shadow:0 1px 0 var(--color-line)}
+.tb .ey{font-size:calc(11px - 1px*var(--p));font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-brand-red);margin-bottom:calc(10px - 2px*var(--p))}
+.tb h1{font-size:calc(var(--h0) + (20px - var(--h0))*var(--p));font-weight:800;text-transform:uppercase;line-height:1;margin:0;letter-spacing:calc(-.02em + .01em*var(--p));text-wrap:balance}
+.tb .au{font-size:calc(16px - 2px*var(--p));font-weight:600;margin-top:calc(10px - 4px*var(--p));color:var(--color-ink-900)}
+.mos{display:flex;flex-wrap:wrap;gap:10px}
+.mos::after{content:"";flex-grow:999}
+.mos figure{flex:var(--ar) 1 calc(var(--ar)*var(--rh,clamp(150px,13vw,280px)));position:relative;margin:0}
+.mos .box{aspect-ratio:var(--ar);background:var(--color-surface)}
+.mos figcaption{position:absolute;left:0;bottom:0;right:0;padding:6px 8px;font-size:11px;color:#fff;background:linear-gradient(transparent,rgba(31,33,35,.7));opacity:0;transition:opacity .2s;pointer-events:none}
+.mos figure:hover figcaption{opacity:1}
+.mos.dw{--rh:clamp(180px,16vw,340px)}
+.mos.dw .box{background:var(--bg);border:1px solid var(--color-line);box-sizing:border-box}
+.mos.dw figcaption{position:static;opacity:1;background:none;color:var(--color-ink-500);padding:6px 0 0}
+.mos.dw figcaption b{color:var(--color-ink-900)}
+.det{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+@media (max-width:1100px){.memo{grid-template-columns:minmax(0,1fr)}.aside{flex-direction:row;flex-wrap:wrap;gap:32px}.det{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:900px){
+.hdr{padding:0 16px}.nav a:nth-child(n+3){display:none}
+.hero{height:85vh}.tb{position:static;padding:20px 20px 0;--p:0!important;transform:none!important;width:auto!important}.tslot{display:none}.mos{--rh:120px}.band{grid-template-columns:minmax(0,1fr);padding:20px}.bctrl{align-items:flex-start}
+.body{grid-template-columns:minmax(0,1fr)}
+.side{position:static;height:auto;border-right:0;border-bottom:1px solid var(--color-line)}
+.tabs{padding:0 20px;gap:20px}
+.sec{padding:32px 20px 48px}.foot{padding:24px 20px}
+.gal,.dwg,.det{grid-template-columns:minmax(0,1fr)}.gal>*{grid-column:auto!important}
+}
+.tabs .tback{margin-left:auto;color:var(--color-ink-500)}.tabs .tback:hover{color:var(--color-brand-red)}
+.pn{display:flex;flex-direction:column;gap:4px;border:0;color:var(--color-ink-900);min-width:0;flex:1}.pn.r{text-align:right}
+.pn small{font-size:11px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-ink-500)}
+.pn b{font-size:16px;font-weight:700}.pn:hover b{color:var(--color-brand-red)}
+.foot2{padding:0 48px 40px}
+.slide img,.box img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.mos.dw .box img,.dbox img{object-fit:contain}
+.slide .vacio,.box .vacio{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--color-brand-brown-mid);background:repeating-linear-gradient(135deg,var(--color-brand-tan-tint) 0 10px,var(--color-brand-tan-soft) 10px 11px)}
+.memo .txt h2,.memo .txt h3{font-size:15px;font-weight:700;margin:0 0 .6em;break-after:avoid}
+.memo .txt ul{font-size:15px;font-weight:300;line-height:1.7;margin:0 0 1.1em;padding-left:20px}
+.dwg-pdf{color:var(--color-brand-red);font-weight:600;pointer-events:auto}
+</style>
+<style id="escala">
+:root{--t-display:clamp(40px,4vw,60px);--t-h:16px;--t-body:15px;--t-meta:13px;--t-label:11px;--t-chip:12px;--r:2px}
+.big,.slide-h h2,.ttl h1{font-size:var(--t-display);font-weight:800;line-height:.95;letter-spacing:-.02em;text-transform:uppercase;text-wrap:balance}
+.big span,.ttl h1 span{color:var(--color-brand-red);font-weight:800}
+.lead,.ttl p,.card p,.note-i p{font-size:var(--t-body);font-weight:300;line-height:1.6;color:var(--color-ink-700)}
+.ttl p{margin-top:12px}
+.pc h3,.item h3,.au h3,.note-i h3,.det h3{font-size:var(--t-h);font-weight:700;line-height:1.3;text-transform:none;letter-spacing:0}
+.card h2{font-size:22px}
+.pc .m,.item .m,.au .meta,.au li,.note-i .by,.card .loc,.slide-h span,.count,.dl,.empty,.legend,.hint{font-size:var(--t-meta)}
+.flabel,.ds-eyebrow,.nav a,.tabs a,.back,.ac .t,.note-i .tp,.sh,.note,.next,.down{font-size:var(--t-label);font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase}
+.note{font-weight:500;letter-spacing:0;text-transform:none}
+.chip,.tag,.au .web,.count button,.pct b{font-size:var(--t-chip)}
+.more,.btn{font:inherit;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:var(--ls-wide);padding:14px 22px;background:var(--color-ink-900);color:#fff;border:0;border-radius:var(--r);cursor:pointer;transition:background .2s}
+.more:hover,.btn:hover{background:var(--color-brand-red);color:#fff}
+.search,.pct,.card,.legend,.hint,.next,.close{border-radius:var(--r)}
+.slide-h{border-bottom:1px solid var(--color-line)}
+.pj{gap:24px}
+</style>
+</head>
+<body data-theme="claro">
+<header class="hdr">
+<a href="./" style="border:0"><img id="logo" src="../assets/img/logo-rojo-crop.png" alt="Cátedra Maderamen"></a>
+<nav class="nav"><a href="./#mapa">Mapa</a><a href="./#proyectos" class="on">Proyectos</a><a href="./#autores">Autores</a><a href="./#madera">Sobre la madera</a><a href="enviar.html">Enviar un proyecto</a></nav>
+</header>
+<div class="tb" id="tb"><div class="ey"></div><h1></h1><div class="au"></div></div>
+<section class="hero" id="portada" data-screen-label="01 Portada">
+<div class="stage" id="stage"></div>
+<div class="band">
+<div class="tslot" id="slotHero"></div>
+<div class="bctrl"><div class="dots" id="dots"></div><div class="arrows"><span id="cap"></span><button class="arr" id="prev" aria-label="Anterior">‹</button><button class="arr" id="next" aria-label="Siguiente">›</button></div><a class="down" href="#memoria">Ver proyecto ↓</a></div>
+</div>
+</section>
+<div class="body">
+<aside class="side">
+<div class="ptitle"><div class="tslot" id="slotSide"></div></div>
+<div class="blk">
+<div class="flabel">Madera en el sistema constructivo</div>
+<div class="barlab"><b></b><span></span></div>
+<div class="bar"><i></i></div>
+<div class="els"></div>
+</div>
+<div class="blk"><dl class="dl" id="dl"></dl></div>
+<div class="share"><a href="./#mapa" class="js-back">← Volver al mapa</a><a href="#" id="share">Compartir</a><a href="#" id="fix">Proponer una corrección</a></div>
+</aside>
+<main>
+<nav class="tabs" id="tabs"><a href="#memoria">Memoria</a><a href="#imagenes" data-s="imagenes">Imágenes</a><a href="#planos" data-s="planos">Planos</a><a href="#detalles" data-s="detalles">Detalles</a><a href="./#mapa" class="js-back tback">← Volver al mapa</a></nav>
+<section class="sec" id="memoria" data-screen-label="02 Memoria">
+<h2 class="sh">Memoria<span id="memo-sub"></span></h2>
+<div class="memo">
+<div class="txt" id="memo-txt"></div>
+<div class="aside" id="figs"></div>
+</div>
+</section>
+<section class="sec" id="imagenes" data-screen-label="03 Imágenes">
+<h2 class="sh">Imágenes<span id="foto-sub">Fotografía de obra terminada y proceso</span></h2>
+<div class="mos" id="gal"></div>
+</section>
+<section class="sec" id="planos" data-screen-label="04 Planos">
+<h2 class="sh">Planos<span>Plantas, secciones y alzados</span></h2>
+<div class="mos dw" id="dwg"></div>
+</section>
+<section class="sec" id="detalles" data-screen-label="05 Detalles">
+<h2 class="sh">Detalles<span>Soluciones constructivas en madera</span></h2>
+<div class="det" id="det"></div>
+</section>
+<div class="foot"><a class="pn" id="prevP" href="#"><small>← Proyecto anterior</small><b></b></a><a class="btn" href="./#todos">+ Proyectos</a><a class="pn r" id="nextP" href="#"><small>Proyecto siguiente →</small><b></b></a></div>
+<div class="foot2"><span class="note" id="nota-verif">Datos, textos e imágenes pendientes de verificación por la Cátedra.</span></div>
+</main>
+</div>
+<script src="datos.js"></script>
+<script src="js/comun.js"></script>
+<script>
+(()=>{const q=new URLSearchParams(location.search),from=q.get('from')||'mapa',p=P.find(x=>x.id===q.get('id'))||P[0],r=ROUTES[from]||ROUTES.mapa,$=i=>document.getElementById(i);
+if(!p){document.body.innerHTML='<p style="padding:120px 32px">Todavía no hay proyectos publicados. <a href="./">Volver al mapa</a></p>';return}
+const x=p.x,c=cat(p.p),num=v=>v===null||v===undefined||v===''?null:v;
+document.title=p.t+' — Mapa de la madera';
+document.querySelectorAll('.js-back').forEach(a=>{a.href=r[0];a.textContent='← '+r[1]});
+const tb=$('tb');tb.querySelector('.ey').textContent=[p.u,p.city,p.y].filter(Boolean).join(' · ');tb.querySelector('h1').textContent=p.t;tb.querySelector('.au').textContent=p.a;
+document.querySelector('.barlab').innerHTML='<b>'+p.p+' %</b><span>'+c.n+'</span>';document.querySelector('.bar i').style.width=p.p+'%';
+document.querySelector('.els').innerHTML=ELEMS.map(e=>'<span class="chip'+(p.e.includes(e)?' on':'')+'">'+e+'</span>').join('');
+const dl=[['Sistema',p.s],['Uso',p.u],['Año',p.y],['Ubicación',[p.city,p.prov].filter(Boolean).join(', ')],['Promotor',x.promotor],['Constructora',x.constructora],['Ingeniería',x.ingenieria],['Superficie',num(x.superficie_m2)!==null?x.superficie_m2.toLocaleString('es')+' m²':''],['Especie',x.especie_origen],['Certificación',x.certificacion],['Fotografía',x.fotografia_autoria]].filter(d=>d[1]!==''&&d[1]!==null&&d[1]!==undefined);
+$('dl').innerHTML=dl.map(d=>'<dt>'+d[0]+'</dt><dd>'+esc(d[1])+'</dd>').join('');
+// «Nombre – https://...» se muestra como enlace con el nombre
+const fuente=s=>{if(!s)return 'pendiente';const m=String(s).match(/^(.*?)\s*[–-]?\s*(https?:\/\/\S+)$/);return m?'<a href="'+esc(m[2])+'" target="_blank" rel="noopener">'+esc(m[1]||m[2])+' ↗</a>':esc(s)};
+const im=(src,alt)=>src?'<img src="'+esc(src)+'" alt="'+esc(alt||'')+'" loading="lazy">':'<div class="vacio">'+esc(alt||'imagen')+'</div>';
+const hero=(x.portada||[]).filter(i=>i.imagen);
+$('stage').innerHTML=(hero.length?hero:[{imagen:'',pie:'Fotografía de portada pendiente'}]).map((h,i)=>'<div class="slide'+(i?'':' on')+'">'+im(h.imagen,h.pie)+'</div>').join('');
+if(hero.length<2){document.querySelector('.bctrl .arrows').style.visibility='hidden';$('dots').style.visibility='hidden'}
+$('memo-txt').innerHTML=(x.memoria?md(x.memoria):'<p>'+esc(p.d)+'</p><p>La memoria completa del proyecto está pendiente de recibir del equipo autor. Si formas parte de él, puedes enviarla desde <a href="enviar.html">Enviar un proyecto</a>.</p>')+'<div class="src">Fuente: '+fuente(x.fuente_memoria)+' · Redacción: Cátedra Maderamen</div>';
+$('memo-sub').textContent=x.memoria?'':'Pendiente de redactar';
+const fg=(v,u,l)=>'<div class="fig"><b>'+(num(v)===null?'—':Number(v).toLocaleString('es'))+'<small>'+u+'</small></b><span>'+l+'</span></div>';
+$('figs').innerHTML=fg(p.p,'%','Madera sobre el sistema constructivo')+fg(x.volumen_madera_m3,'m³','Volumen de madera')+fg(x.co2_almacenado_t,'t CO₂','Carbono almacenado');
+const fig=(src,cap,capHtml)=>'<figure style="--ar:1.5"><div class="box">'+im(src,cap)+'</div><figcaption>'+(capHtml||esc(cap||''))+'</figcaption></figure>';
+const gal=(x.imagenes||[]).filter(i=>i.imagen),dwg=(x.planos||[]).filter(i=>i.imagen),det=(x.detalles||[]).filter(i=>i.imagen);
+$('gal').innerHTML=gal.map(i=>fig(i.imagen,i.pie)).join('');
+if(x.fotografia_autoria)$('foto-sub').textContent='Fotografía: '+x.fotografia_autoria;
+$('dwg').innerHTML=dwg.map(i=>fig(i.imagen,i.titulo,'<b>'+esc(i.titulo)+'</b>'+(i.escala?' · '+esc(i.escala):'')+(i.pdf_url?' · <a class="dwg-pdf" href="'+esc(i.pdf_url)+'" target="_blank" rel="noopener">PDF ↗</a>':''))).join('');
+$('det').innerHTML=det.map(i=>'<figure><div class="box r11 dbox">'+im(i.imagen,i.titulo)+'</div><span class="n">'+esc([i.codigo,i.elemento].filter(Boolean).join(' · '))+'</span><h3>'+esc(i.titulo)+'</h3>'+(i.descripcion?'<p>'+esc(i.descripcion)+'</p>':'')+'</figure>').join('');
+[['imagenes',gal],['planos',dwg],['detalles',det]].forEach(([id,l])=>{if(!l.length){$(id).remove();document.querySelector('#tabs [data-s='+id+']').remove()}});
+document.querySelectorAll('.mos img').forEach(i=>{const ap=()=>{if(i.naturalWidth)i.closest('figure').style.setProperty('--ar',(i.naturalWidth/i.naturalHeight).toFixed(3))};i.complete?ap():i.addEventListener('load',ap)});
+$('nota-verif').hidden=!!x.verificado;
+$('share').onclick=e=>{e.preventDefault();if(navigator.share)navigator.share({title:p.t,url:location.href});else navigator.clipboard&&navigator.clipboard.writeText(location.href).then(()=>{e.target.textContent='Enlace copiado'})};
+$('fix').href='mailto:repositorio@catedramaderamen.es?subject='+encodeURIComponent('Corrección: '+p.t)+'&body='+encodeURIComponent(location.href);
+const i=P.indexOf(p),pv=P[(i-1+P.length)%P.length],nx=P[(i+1)%P.length];
+const a1=$('prevP'),a2=$('nextP');a1.href=projUrl(pv.id,from);a1.querySelector('b').textContent=pv.t;a2.href=projUrl(nx.id,from);a2.querySelector('b').textContent=nx.t;})();
+</script>
+<script>
+const slides=[...document.querySelectorAll('.slide')],dots=document.getElementById('dots');let cur=0,timer;
+slides.forEach((_,i)=>{const b=document.createElement('button');b.className='dot'+(i?'':' on');b.setAttribute('aria-label','Imagen '+(i+1));b.onclick=()=>go(i);dots.appendChild(b)});
+function go(i){cur=(i+slides.length)%slides.length;slides.forEach((s,j)=>s.classList.toggle('on',j===cur));[...dots.children].forEach((d,j)=>d.classList.toggle('on',j===cur));document.getElementById('cap').textContent=(cur+1)+' / '+slides.length;clearInterval(timer);timer=setInterval(()=>go(cur+1),6000)}
+document.getElementById('prev').onclick=()=>go(cur-1);document.getElementById('next').onclick=()=>go(cur+1);
+document.querySelector('.stage').addEventListener('mouseenter',()=>clearInterval(timer));
+document.querySelector('.stage').addEventListener('mouseleave',()=>go(cur));
+go(0);
+const tb=document.getElementById('tb'),sH=document.getElementById('slotHero'),sS=document.getElementById('slotSide'),bodyEl=document.querySelector('.body'),mq=matchMedia('(max-width:900px)');
+let wH=0,wS=0;
+let span=200;
+function measure(){if(mq.matches){tb.removeAttribute('style');document.querySelector('.ptitle').prepend(tb);return}
+if(tb.parentNode!==document.body)document.body.prepend(tb);
+tb.style.setProperty('--h0',Math.min(60,Math.max(32,innerWidth*.044))+'px');
+wH=sH.parentNode.clientWidth-sH.parentNode.lastElementChild.offsetWidth-64-32+48;wS=document.querySelector('.side').clientWidth;
+tb.style.setProperty('--p',1);tb.style.width=wS+'px';sS.style.height=(tb.offsetHeight-40)+'px';
+tb.style.setProperty('--p',0);tb.style.width=wH+'px';sH.style.height=(tb.offsetHeight-40)+'px';
+const top0=sH.getBoundingClientRect().top+scrollY-20;span=Math.max(60,Math.min(260,(top0-64)*.6));place()}
+function place(){if(mq.matches)return;const a=sH.getBoundingClientRect(),b=sS.getBoundingClientRect();
+let p=Math.min(1,Math.max(0,scrollY/span));p=1-Math.pow(1-p,3);
+const y=Math.max(a.top-20,b.top-20<=64?b.top-20:64),x=(a.left-24)+((b.left-24)-(a.left-24))*p;
+tb.style.setProperty('--p',p);tb.style.width=(wH+(wS-wH)*p)+'px';tb.style.transform='translate('+x+'px,'+y+'px)';
+tb.classList.toggle('pin',a.top-20<64&&b.top-20>64.5)}
+addEventListener('scroll',place,{passive:true});addEventListener('resize',measure);document.querySelector('.side').addEventListener('scroll',place);
+document.fonts.ready.then(measure);measure();
+const toc=[...document.querySelectorAll('#tabs a')];
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)toc.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-40% 0px -55% 0px'});
+document.querySelectorAll('main>section').forEach(s=>io.observe(s));
+</script>
+</body>
+</html>

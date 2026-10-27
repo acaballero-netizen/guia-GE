@@ -161,14 +161,14 @@
                 id: 'criterios',
                 num: '00',
                 label: 'Criterios de diseño',
-                file: '../docs/paso00_criterios_de_diseño.md',
+                file: 'proyecto/docs/paso00_criterios_de_diseño.md',
                 hidden: true
             },
             {
                 id: 'paso0',
                 num: '01',
                 label: 'Pasos previos',
-                file: '../docs/paso01_pasos_previos.md',
+                file: 'proyecto/docs/paso01_pasos_previos.md',
                 subsections: [
                     'Análisis del terreno',
                     'Limpieza del terreno',
@@ -180,7 +180,7 @@
                 id: 'paso1',
                 num: '02',
                 label: 'Fundamentos',
-                file: '../docs/paso02_cimentacion.md',
+                file: 'proyecto/docs/paso02_cimentacion.md',
                 subsections: [
                     'Zapata corrida',
                     'Zócalo'
@@ -190,7 +190,7 @@
                 id: 'paso2',
                 num: '03',
                 label: 'Cerramiento',
-                file: '../docs/paso03_cerramiento.md',
+                file: 'proyecto/docs/paso03_cerramiento.md',
                 subsections: [
                     'Durmiente',
                     'Montantes',
@@ -201,7 +201,7 @@
                 id: 'paso3',
                 num: '04',
                 label: 'Cubierta',
-                file: '../docs/paso04_cubierta.md',
+                file: 'proyecto/docs/paso04_cubierta.md',
                 subsections: [
                     'Cercha',
                     'Chapa de zinc y rastreles',
@@ -212,7 +212,7 @@
                 id: 'paso4',
                 num: '05',
                 label: 'Carpintería',
-                file: '../docs/paso05_carpinterias.md',
+                file: 'proyecto/docs/paso05_carpinterias.md',
                 subsections: [
                     'Particiones interiores',
                     'Carpintería'
@@ -222,14 +222,14 @@
                 id: 'paso5',
                 num: '06',
                 label: 'Instalaciones',
-                file: '../docs/paso06_instalaciones.md',
+                file: 'proyecto/docs/paso06_instalaciones.md',
                 hidden: true
             },
             {
                 id: 'paso6',
                 num: '',
                 label: 'Mantenimiento',
-                file: '../docs/paso99_mantenimiento.md'
+                file: 'proyecto/docs/paso99_mantenimiento.md'
             },
             {
                 id: 'bibliografia',
@@ -478,7 +478,7 @@
             }
 
             // Corregir rutas de imágenes en etiquetas HTML <img> (ej. src="imagenes/...")
-            cleaned = cleaned.replace(/src=["']imagenes\//g, 'src="../docs/imagenes/');
+            cleaned = cleaned.replace(/src=["']imagenes\//g, 'src="proyecto/docs/imagenes/');
 
             // Renderer personalizado — API marked v4
             const renderer = new marked.Renderer();
@@ -494,7 +494,7 @@
             renderer.image = function (href, title, text) {
                 let src = href;
                 if (src && !src.startsWith('http') && !src.startsWith('/') && !src.startsWith('data:')) {
-                    src = '../docs/' + src;
+                    src = 'proyecto/docs/' + src;
                 }
 
                 // Si el título es "sidebar", interceptar la imagen

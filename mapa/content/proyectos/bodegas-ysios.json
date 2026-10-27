@@ -1,0 +1,37 @@
+{
+  "estado": "publicado",
+  "titulo": "Bodegas Ysios",
+  "autores": [
+    "Santiago Calatrava"
+  ],
+  "anio": 2001,
+  "municipio": "Laguardia",
+  "comunidad": "País Vasco",
+  "lat": 42.556,
+  "lng": -2.583,
+  "uso": "Industrial",
+  "sistema": "Laminada encolada (GL)",
+  "elementos_madera": [
+    "Cubierta",
+    "Fachada"
+  ],
+  "porcentaje_madera": 45,
+  "resumen": "Bodega con fachada y cubierta ondulada de madera sobre muros de hormigón.",
+  "memoria": "",
+  "fuente_memoria": "",
+  "promotor": "",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "verificado": false
+}

@@ -1,0 +1,41 @@
+{
+  "estado": "publicado",
+  "titulo": "Centro de Servicios A Ramallosa",
+  "autores": [
+    "MRM arquitectos",
+    "Antón Varela García (AVG)"
+  ],
+  "anio": 2020,
+  "municipio": "Teo",
+  "comunidad": "Galicia",
+  "lat": 42.7954,
+  "lng": -8.5482,
+  "uso": "Otro",
+  "sistema": "Entramado ligero",
+  "elementos_madera": [
+    "Estructura",
+    "Muros",
+    "Fachada",
+    "Acabados interiores"
+  ],
+  "porcentaje_madera": 50,
+  "resumen": "Edificio de servicios de una estación de carretera, de una planta, formado por cuatro volúmenes de entramado ligero de madera que sostienen una cubierta central metálica de 9,6 m de luz. Está pensado para poder ampliarse o reducirse sin grandes demoliciones.",
+  "memoria": "",
+  "fuente_memoria": "Metalocus – https://www.metalocus.es/es/noticias/espacio-generador-de-lugares-de-oportunidad-centro-de-servicios-a-ramallosa-por-mrm-arquitectos-avg",
+  "promotor": "GALURESA",
+  "constructora": "Martínez Montes e Hijos; carpintería: Carpintería Neira",
+  "ingenieria": "Josep Agustí de Ciurana (estructura); Instra Ingenieros (instalaciones)",
+  "superficie_m2": 337,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "Pino silvestre termotratado; tableros Superpan",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado (Metalocus): fin de obra 15/05/2020, Travesía da Ramallosa 7, 337,08 m², entramado ligero, cubierta metálica. Caso de la guía de madera estructural de la Xunta. Porcentaje 50 % estimado. Coordenadas: nivel aldea, confianza media-baja: corregir con la dirección.",
+  "verificado": false
+}

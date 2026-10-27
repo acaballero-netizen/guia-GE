@@ -1,0 +1,41 @@
+{
+  "estado": "publicado",
+  "titulo": "65 viviendas de protección oficial en Muliate",
+  "autores": [
+    "EKINN"
+  ],
+  "anio": 2018,
+  "municipio": "Hondarribia",
+  "comunidad": "País Vasco",
+  "lat": 43.3639,
+  "lng": -1.7997,
+  "uso": "Vivienda",
+  "sistema": "CLT",
+  "elementos_madera": [
+    "Estructura",
+    "Muros",
+    "Forjados",
+    "Cubierta",
+    "Fachada"
+  ],
+  "porcentaje_madera": 55,
+  "resumen": "Promoción pública de 65 VPO en dos bloques, en venta y en alquiler, cuyas cuatro plantas superiores se levantan con paneles de madera contralaminada de pino radiata del entorno, sobre garaje y bajo comercial de hormigón.",
+  "memoria": "",
+  "fuente_memoria": "Construible – https://www.construible.es/2017/04/03/hondarribia-tendra-edificio-mas-grande-suroeste-europa-construido-madera",
+  "promotor": "Visesa (Gobierno Vasco)",
+  "constructora": "Moyua",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": 2200,
+  "co2_almacenado_t": null,
+  "especie_origen": "Pino radiata del País Vasco; CLT fabricado por Egoin (Ea, Bizkaia)",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado: 65 VPO, 2.200 m³ de CLT, Egoin, Moyua, EKINN (Ecoticias). Año 2018 estimado (entrega prevista 1.er semestre 2018). Autoría discrepante: UIK cita a Carmelo Fernández Militino (TYM Asociados). Porcentaje 55 % estimado. Coordenadas: nivel plaza/barrio, confianza media.",
+  "verificado": false
+}

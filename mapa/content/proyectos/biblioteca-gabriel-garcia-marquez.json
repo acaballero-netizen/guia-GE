@@ -1,0 +1,39 @@
+{
+  "estado": "publicado",
+  "titulo": "Biblioteca Gabriel García Márquez",
+  "autores": [
+    "SUMA Arquitectura"
+  ],
+  "anio": 2022,
+  "municipio": "Barcelona",
+  "comunidad": "Cataluña",
+  "lat": 41.4173,
+  "lng": 2.2,
+  "uso": "Equipamiento",
+  "sistema": "Mixto madera-hormigón",
+  "elementos_madera": [
+    "Estructura",
+    "Muros",
+    "Forjados"
+  ],
+  "porcentaje_madera": 65,
+  "resumen": "Biblioteca de distrito en Sant Martí formada por plataformas plegadas que se apilan; la estructura sobre rasante combina núcleos y losas de CLT con pilares de madera laminada y tirantes de acero, lo que permite grandes luces sin pilares intermedios.",
+  "memoria": "",
+  "fuente_memoria": "Arquitectura Viva – https://arquitecturaviva.com/obras/biblioteca-gabriel-garcia-marquez-en-barcelona",
+  "promotor": "Ajuntament de Barcelona / BIMSA",
+  "constructora": "VIAS CRC",
+  "ingenieria": "M7 Ingenieros",
+  "superficie_m2": 4170,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "CLT de KLH Massivholz y madera laminada de Binder Holz (Austria)",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado (Arquitectura Viva): año, superficie, fabricantes, sistema híbrido CLT + GLT + diagonales de acero. Sistema real: madera-acero sobre hormigón (no existe esa opción en la lista). Porcentaje 65 % estimado. Coordenadas: confianza alta. Otras fuentes: metalocus.es, ribaj.com.",
+  "verificado": false
+}

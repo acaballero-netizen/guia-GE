@@ -143,13 +143,13 @@ Comunidades fang de Bata y Malabo</p>
 </table>
 
 <p style="text-align:center; margin-top:2cm;">
-<a href="https://www.upv.es/entidades/ccd/"><img src="guia-GE/Imagenes/LOGO_UPV+CCD.jpg" alt="UPV + CCD" height="55"></a>
+<a href="https://www.upv.es/entidades/ccd/"><img src="../Imagenes/LOGO_UPV+CCD.jpg" alt="UPV + CCD" height="55"></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://calab.es/catedra-maderamen/"><img src="guia-GE/Imagenes/LOGO_MADERAMEN.png" alt="Cátedra MADERAMEN" height="55"></a>
+<a href="https://calab.es/catedra-maderamen/"><img src="../Imagenes/LOGO_MADERAMEN.png" alt="Cátedra MADERAMEN" height="55"></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://ungecampus.com/"><img src="guia-GE/Imagenes/LOGO_Universidad Nacional de Guinea Ecuatorial.png" alt="UNGE" height="55"></a>
+<a href="https://ungecampus.com/"><img src="../Imagenes/LOGO_Universidad Nacional de Guinea Ecuatorial.png" alt="UNGE" height="55"></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://remar.org/guinea-ecuatorial/"><img src="guia-GE/Imagenes/LOGO_Remar.png" alt="REMAR" height="55"></a>
+<a href="https://remar.org/guinea-ecuatorial/"><img src="../Imagenes/LOGO_Remar.png" alt="REMAR" height="55"></a>
 </p>
 
 </div>

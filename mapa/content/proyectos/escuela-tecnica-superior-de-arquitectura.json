@@ -1,0 +1,36 @@
+{
+  "estado": "borrador",
+  "titulo": "Escuela Técnica Superior de Arquitectura",
+  "autores": [
+    "Proyecto de prueba"
+  ],
+  "anio": 2025,
+  "municipio": "València",
+  "comunidad": "Comunitat Valenciana",
+  "lat": 39.48,
+  "lng": -0.342,
+  "uso": "Equipamiento",
+  "sistema": "CLT",
+  "elementos_madera": [
+    "Acabados interiores"
+  ],
+  "porcentaje_madera": 12,
+  "resumen": "Registro de prueba para comprobar el flujo de alta de proyectos desde la Cátedra.",
+  "memoria": "",
+  "fuente_memoria": "",
+  "promotor": "",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "verificado": false
+}

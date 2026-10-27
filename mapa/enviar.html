@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><!-- QUITAR al lanzar la web -->
+<title>Enviar un proyecto — Mapa de la madera</title>
+<link rel="stylesheet" href="../assets/css/colors_and_type.css">
+<link rel="stylesheet" href="../assets/css/web.css">
+<style>
+.side .intro{padding:24px;border-bottom:1px solid var(--color-line);display:flex;flex-direction:column;gap:14px}
+.side .intro p{font-size:var(--t-meta);font-weight:300;line-height:1.6;margin:0;color:var(--color-ink-700)}
+.steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.steps li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;font-size:var(--t-meta);line-height:1.45;color:var(--color-ink-700)}
+.steps li b{display:block;color:var(--color-ink-900);font-weight:700}
+.steps li span.n{font-size:var(--t-label);font-weight:700;color:var(--color-brand-red);padding-top:2px}
+.mail{display:flex;flex-direction:column;gap:8px;font-size:var(--t-meta);color:var(--color-ink-700)}
+.mail a{font-weight:700;word-break:break-all}
+.form{padding:48px 64px 80px;max-width:1000px;box-sizing:border-box}
+.head{display:flex;flex-direction:column;gap:16px;padding-bottom:32px;border-bottom:1px solid var(--color-line)}
+.head .lead{max-width:680px}
+.fs{border:0;margin:0;padding:36px 0;border-bottom:1px solid var(--color-line);display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px 48px}
+.fs legend{float:left;padding:0}
+.fs .lg{display:flex;flex-direction:column;gap:6px}
+.fs .lg .n{font-size:var(--t-label);font-weight:700;letter-spacing:var(--ls-wider);color:var(--color-brand-red)}
+.fs .lg b{font-size:var(--t-h);font-weight:700}
+.fs .lg span{font-size:var(--t-meta);color:var(--color-ink-500);line-height:1.5}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 20px}
+.f{display:flex;flex-direction:column;gap:6px;min-width:0}
+.f.full{grid-column:1/-1}
+.f label,.f .fl{font-size:var(--t-label);font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-ink-500)}
+.f label i,.f .fl i{color:var(--color-brand-red);font-style:normal}
+.f input[type=text],.f input[type=email],.f input[type=number],.f input[type=url],.f select,.f textarea{font:inherit;font-size:14px;padding:11px 12px;border:1px solid var(--color-line);border-radius:var(--r);background:#fff;color:var(--color-ink-900);outline:none;width:100%;box-sizing:border-box}
+.f textarea{min-height:140px;resize:vertical;line-height:1.55}
+.f input:focus,.f select:focus,.f textarea:focus{border-color:var(--color-brand-red);box-shadow:var(--shadow-focus)}
+.f .hint{font-size:12px;color:var(--color-ink-500)}
+.chip{position:relative}
+.cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.cat{position:relative;display:flex;flex-direction:column;gap:6px;padding:12px 10px;border:1px solid var(--color-line);border-radius:var(--r);cursor:pointer}
+.cat input{position:absolute;opacity:0}
+.cat b{font-size:var(--t-chip);font-weight:700}
+.cat small{font-size:11px;color:var(--color-ink-500)}
+.cat:has(input:checked){border-color:var(--color-brand-brown);background:var(--color-brand-tan-tint)}
+.drop{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:28px 16px;border:1.5px dashed var(--color-line);border-radius:var(--r);text-align:center;cursor:pointer;transition:border-color .2s,background .2s}
+.drop:hover,.drop.over{border-color:var(--color-brand-tan);background:var(--color-brand-tan-tint)}
+.drop b{font-size:var(--t-meta);font-weight:700}
+.drop span{font-size:12px;color:var(--color-ink-500)}
+.drop input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.drop .files{font-size:12px;color:var(--color-brand-brown);font-weight:600}
+.check{display:grid;grid-template-columns:18px minmax(0,1fr);gap:10px;font-size:var(--t-meta);line-height:1.5;color:var(--color-ink-700);cursor:pointer}
+.check input{margin:2px 0 0;accent-color:var(--color-brand-brown)}
+.send{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:32px;flex-wrap:wrap}
+.ok{display:none;flex-direction:column;gap:16px;padding:48px 0;max-width:620px}
+.sent .ok{display:flex}.sent .fsw,.sent .send{display:none}
+@media (max-width:1100px){.fs{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:900px){.form{padding:32px 20px 56px}.fields,.cats{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<header class="hdr">
+<a href="./" style="border:0"><img src="../assets/img/logo-rojo-crop.png" alt="Cátedra Maderamen"></a>
+<nav class="nav"><a href="./#mapa">Mapa</a><a href="./#proyectos">Proyectos</a><a href="./#autores">Autores</a><a href="./#madera">Sobre la madera</a><a href="enviar.html" class="on">Enviar un proyecto</a></nav>
+</header>
+<div class="page">
+<aside class="side">
+<div class="intro"><a class="back" href="./#mapa">← Volver al mapa</a><p>El mapa de la madera es un repositorio abierto. Cualquier estudio, promotor, constructora o institución puede proponer un proyecto construido en España que incorpore madera, en cualquier proporción.</p></div>
+<div class="blk"><div class="label">Cómo funciona</div><ol class="steps">
+<li><span class="n">01</span><div><b>Envío</b>Rellenas el formulario con los datos y el material gráfico del proyecto.</div></li>
+<li><span class="n">02</span><div><b>Revisión</b>La Cátedra revisa la información y, si hace falta, se pone en contacto contigo.</div></li>
+<li><span class="n">03</span><div><b>Publicación</b>El proyecto aparece en el mapa con su ficha completa.</div></li>
+</ol></div>
+<div class="blk"><div class="label">¿Prefieres enviarlo por correo?</div><div class="mail">Envía la documentación o un enlace de descarga a:<a href="mailto:repositorio@catedramaderamen.es">repositorio@catedramaderamen.es</a><span class="meta">Dirección provisional, pendiente de confirmar.</span></div></div>
+</aside>
+<main class="form" id="form">
+<header class="head"><div class="eyebrow">Repositorio público</div><h1 class="display">Enviar un <span>proyecto</span></h1><p class="lead">Cuanta más información aportes, antes podremos publicarlo. Los campos marcados con <span style="color:var(--color-brand-red)">*</span> son imprescindibles; el resto se puede completar más adelante.</p></header>
+<form id="f" novalidate>
+<div class="fsw">
+<fieldset class="fs"><div class="lg"><span class="n">01</span><b>Contacto</b><span>Quién envía el proyecto y cómo podemos contactar contigo.</span></div>
+<div class="fields">
+<div class="f"><label for="c-n">Nombre <i>*</i></label><input type="text" id="c-n" required></div>
+<div class="f"><label for="c-e">Correo electrónico <i>*</i></label><input type="email" id="c-e" required></div>
+<div class="f"><label for="c-r">Relación con el proyecto <i>*</i></label><select id="c-r" required><option value="">Selecciona…</option><option>Autoría (arquitectura)</option><option>Promotor / propiedad</option><option>Constructora</option><option>Fabricante / proveedor de madera</option><option>Ingeniería / consultoría</option><option>Fotografía</option><option>Otro</option></select></div>
+<div class="f"><label for="c-o">Estudio u organización</label><input type="text" id="c-o"></div>
+</div></fieldset>
+<fieldset class="fs"><div class="lg"><span class="n">02</span><b>El proyecto</b><span>Datos básicos para situarlo en el mapa y en el listado.</span></div>
+<div class="fields">
+<div class="f full"><label for="p-t">Nombre del proyecto <i>*</i></label><input type="text" id="p-t" required></div>
+<div class="f"><label for="p-a">Autoría <i>*</i></label><input type="text" id="p-a" required placeholder="Estudio o arquitectos"></div>
+<div class="f"><label for="p-w">Web de la autoría</label><input type="url" id="p-w" placeholder="https://"></div>
+<div class="f"><label for="p-y">Año de finalización <i>*</i></label><input type="number" id="p-y" min="1800" max="2100" required></div>
+<div class="f"><label for="p-u">Uso <i>*</i></label><select id="p-u" required><option value="">Selecciona…</option><option>Vivienda</option><option>Equipamiento</option><option>Oficinas</option><option>Industrial</option><option>Espacio público</option><option>Rehabilitación</option><option>Otro</option></select></div>
+<div class="f full"><label for="p-d">Dirección o ubicación <i>*</i></label><input type="text" id="p-d" required placeholder="Calle, número, municipio"><span class="hint">Se usa para situar el proyecto en el mapa. Si es una vivienda privada, indica solo el municipio.</span></div>
+<div class="f"><label for="p-m">Municipio <i>*</i></label><input type="text" id="p-m" required></div>
+<div class="f"><label for="p-pr">Provincia <i>*</i></label><input type="text" id="p-pr" required></div>
+<div class="f"><label for="p-s">Superficie construida (m²)</label><input type="number" id="p-s" min="0"></div>
+<div class="f"><label for="p-pm">Promotor</label><input type="text" id="p-pm"></div>
+<div class="f"><label for="p-c">Constructora</label><input type="text" id="p-c"></div>
+<div class="f"><label for="p-ing">Ingeniería de estructura</label><input type="text" id="p-ing"></div>
+</div></fieldset>
+<fieldset class="fs"><div class="lg"><span class="n">03</span><b>La madera</b><span>Cómo y dónde se usa la madera. Es la información que define su lugar en el mapa.</span></div>
+<div class="fields">
+<div class="f full"><span class="fl">Proporción de madera <i>*</i></span><div class="cats">
+<label class="cat"><input type="radio" name="pc" value="puntual" required><i class="pie k1"></i><b>Puntual</b><small>&lt; 25 %</small></label>
+<label class="cat"><input type="radio" name="pc" value="hibrida"><i class="pie k2"></i><b>Híbrida</b><small>25–50 %</small></label>
+<label class="cat"><input type="radio" name="pc" value="mayoritaria"><i class="pie k3"></i><b>Mayoritaria</b><small>50–75 %</small></label>
+<label class="cat"><input type="radio" name="pc" value="integral"><i class="pie k4"></i><b>Integral</b><small>&gt; 75 %</small></label>
+</div><span class="hint">Estimación sobre el sistema constructivo. Si conoces el porcentaje exacto, indícalo abajo.</span></div>
+<div class="f"><label for="w-p">Porcentaje exacto (%)</label><input type="number" id="w-p" min="0" max="100"></div>
+<div class="f"><label for="w-s">Sistema constructivo <i>*</i></label><select id="w-s" required><option value="">Selecciona…</option><option>CLT (contralaminada)</option><option>Laminada encolada (GL)</option><option>Microlaminada (LVL)</option><option>Entramado ligero</option><option>Madera maciza</option><option>Mixto madera-hormigón</option><option>Otro</option></select></div>
+<div class="f full"><span class="fl">Dónde está la madera <i>*</i></span><div class="chips">
+<label class="chip"><input type="checkbox" name="el" value="Estructura">Estructura</label><label class="chip"><input type="checkbox" name="el" value="Muros">Muros</label><label class="chip"><input type="checkbox" name="el" value="Forjados">Forjados</label><label class="chip"><input type="checkbox" name="el" value="Cubierta">Cubierta</label><label class="chip"><input type="checkbox" name="el" value="Fachada">Fachada</label><label class="chip"><input type="checkbox" name="el" value="Acabados interiores">Acabados interiores</label>
+</div></div>
+<div class="f"><label for="w-v">Volumen de madera (m³)</label><input type="number" id="w-v" min="0"></div>
+<div class="f"><label for="w-co">Carbono almacenado (t CO₂)</label><input type="number" id="w-co" min="0"></div>
+<div class="f"><label for="w-es">Especie y origen de la madera</label><input type="text" id="w-es" placeholder="Ej. pino radiata, País Vasco"></div>
+<div class="f"><label for="w-f">Fabricante o proveedor</label><input type="text" id="w-f"></div>
+<div class="f full"><label for="w-cert">Certificación forestal</label><select id="w-cert"><option value="">Selecciona…</option><option>PEFC</option><option>FSC</option><option>Ambas</option><option>Ninguna / no lo sé</option></select></div>
+</div></fieldset>
+<fieldset class="fs"><div class="lg"><span class="n">04</span><b>Memoria y material gráfico</b><span>Textos, fotografías, planos y detalles constructivos para la ficha.</span></div>
+<div class="fields">
+<div class="f full"><label for="m-t">Memoria del proyecto <i>*</i></label><textarea id="m-t" required placeholder="Descripción del proyecto, decisiones constructivas y papel de la madera."></textarea></div>
+<div class="f"><span class="fl">Fotografías <i>*</i></span><label class="drop"><input type="file" multiple accept="image/*"><b>Arrastra o selecciona</b><span>JPG o PNG · mín. 2000 px</span><span class="files"></span></label></div>
+<div class="f"><span class="fl">Planos</span><label class="drop"><input type="file" multiple accept="image/*,.pdf"><b>Arrastra o selecciona</b><span>Plantas, secciones, alzados · PDF o imagen</span><span class="files"></span></label></div>
+<div class="f"><span class="fl">Detalles constructivos</span><label class="drop"><input type="file" multiple accept="image/*,.pdf"><b>Arrastra o selecciona</b><span>PDF o imagen</span><span class="files"></span></label></div>
+<div class="f"><label for="m-l">O un enlace de descarga</label><input type="url" id="m-l" placeholder="WeTransfer, Drive, Dropbox…"><span class="hint">Útil si el material pesa mucho.</span></div>
+<div class="f full"><label for="m-ph">Autoría de las fotografías <i>*</i></label><input type="text" id="m-ph" required placeholder="Nombre del fotógrafo o fotógrafa"></div>
+</div></fieldset>
+<fieldset class="fs"><div class="lg"><span class="n">05</span><b>Derechos y envío</b><span>Necesitamos tu permiso para publicar el material.</span></div>
+<div class="fields">
+<label class="check f full"><input type="checkbox" id="r1" required><span>Confirmo que tengo los derechos o la autorización para compartir este material y que la Cátedra Maderamen puede publicarlo en el repositorio, citando siempre su autoría. <i style="color:var(--color-brand-red);font-style:normal">*</i></span></label>
+<label class="check f full"><input type="checkbox" id="r2" required><span>He leído y acepto la política de privacidad. <i style="color:var(--color-brand-red);font-style:normal">*</i></span></label>
+<label class="check f full"><input type="checkbox" id="r3"><span>Me gustaría que contactarais conmigo para ampliar la documentación del proyecto.</span></label>
+</div></fieldset>
+</div>
+<div class="send"><span class="meta" id="err">Revisaremos tu envío antes de publicarlo.</span><button class="btn" type="submit">Enviar proyecto →</button></div>
+<div class="ok"><div class="eyebrow">Envío recibido</div><h2 class="display" style="font-size:40px">Gracias</h2><p class="lead">Hemos recibido la propuesta. La Cátedra revisará la información y te escribirá al correo indicado antes de publicarla en el mapa.</p><div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="./#mapa">Volver al mapa</a><a class="btn ghost" href="enviar.html">Enviar otro proyecto</a></div></div>
+</form>
+</main>
+</div>
+<script>
+document.querySelectorAll('.drop').forEach(d=>{const i=d.querySelector('input'),o=d.querySelector('.files');
+i.addEventListener('change',()=>{o.textContent=i.files.length?i.files.length+(i.files.length>1?' archivos seleccionados':' archivo seleccionado'):''});
+['dragenter','dragover'].forEach(e=>d.addEventListener(e,()=>d.classList.add('over')));['dragleave','drop'].forEach(e=>d.addEventListener(e,()=>d.classList.remove('over')))});
+document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();const f=e.target;
+const bad=[...f.querySelectorAll('[required]')].filter(x=>x.type==='radio'?!f.querySelector('input[name="'+x.name+'"]:checked'):x.type==='checkbox'?!x.checked:!x.value.trim());
+const noEl=!f.querySelector('input[name=el]:checked');
+f.querySelectorAll('.f').forEach(x=>x.style.outline='');
+if(bad.length||noEl){document.getElementById('err').textContent='Faltan '+(bad.length+(noEl?1:0))+' campos obligatorios.';document.getElementById('err').style.color='var(--color-brand-red)';const t=(bad[0]||f.querySelector('input[name=el]')).closest('.f');t.style.outline='2px solid var(--color-brand-red)';t.style.outlineOffset='6px';window.scrollTo({top:t.getBoundingClientRect().top+scrollY-120,behavior:'smooth'});return}
+document.getElementById('form').classList.add('sent');window.scrollTo({top:0,behavior:'smooth'})});
+</script>
+</body>
+</html>

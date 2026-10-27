@@ -64,7 +64,7 @@
 * **03.C.2 · Tablas solapadas del cerramiento** — Colocación con solape e inclinación hacia el exterior ("a teja") para evacuar el agua de lluvia.
 * **03.C.3 · Esquinas y encuentros** — Alternancia del solape entre las dos caras de cada esquina para evitar una junta vertical continua.
 * **03.C.4 · Huecos de puertas y ventanas** — Corte de las tablas al límite del hueco y colocación de dintel y umbral entre los montantes de jamba.
-* **03.C.5 · La viga de cubierta** — Pieza horizontal que cierra la cabeza de todos los montantes y recibe las cerchas de la cubierta.
+* **03.C.5 · La viga de cubierta** — Pieza horizontal que cierra la cabeza de todos los montantes y recibe los caballos de la cubierta.
 
 <!-- "Remate superior del cerramiento" figuraba en una versión anterior del índice pero no existe como contenido en el documento actual: si se desarrolla un remate específico entre la última hilada de tablas y la viga de cubierta, añadirlo aquí. -->
 
@@ -72,20 +72,20 @@
 
 ## 04 · Estructura de madera · Cubierta
 
-### 04.A · Cercha
-* **04.A.1 · Diseño y replanteo de la cercha** — Trazado a escala real de la geometría de la cercha sobre una superficie plana, como plantilla de corte y ensamble.
-* **04.A.2 · El cordón inferior: pieza de tracción** — Construcción del cordón sándwich que resiste que la cercha se abra bajo el peso de la cubierta.
-* **04.A.3 · Corte y preparación de montantes y diagonales** — Mecanizado de las piezas interiores que forman los triángulos de la cercha.
-* **04.A.4 · Cercha de prueba: validación de geometría en el suelo** — Ensamblaje de una cercha completa en el suelo para comprobar cortes, encajes y tipos de unión antes de replicarla.
-* **04.A.5 · Montaje de las cerchas sobre la estructura** — Izado y colocación pieza a pieza desde andamios provisionales, sin maquinaria de elevación.
-* **04.A.6 · Arriostramiento entre cerchas** — Conexión entre cerchas para convertir el conjunto en una estructura tridimensional rígida frente al viento.
+### 04.A · Caballo
+* **04.A.1 · Diseño y replanteo del caballo** — Trazado a escala real de la geometría del caballo sobre una superficie plana, como plantilla de corte y ensamble.
+* **04.A.2 · El cordón inferior: pieza de tracción** — Construcción del cordón sándwich que resiste que el caballo se abra bajo el peso de la cubierta.
+* **04.A.3 · Corte y preparación de montantes y diagonales** — Mecanizado de las piezas interiores que forman los triángulos del caballo.
+* **04.A.4 · Caballo de prueba: validación de geometría en el suelo** — Ensamblaje de un caballo completo en el suelo para comprobar cortes, encajes y tipos de unión antes de replicarlo.
+* **04.A.5 · Montaje de los caballos sobre la estructura** — Izado y colocación pieza a pieza desde andamios provisionales, sin maquinaria de elevación.
+* **04.A.6 · Arriostramiento entre caballos** — Conexión entre caballos para convertir el conjunto en una estructura tridimensional rígida frente al viento.
 
 ### 04.B · Rastreles y chapa de zinc
 * **04.B.1 · Colocación de los rastreles** — Listones transversales sobre los cordones superiores, incluido el vuelo de alero frontal en los hastiales, que reciben la fijación de la chapa.
 * **04.B.2 · Colocación de la chapa de zinc** — Dirección de colocación, solapes mínimos y remate de cumbrera para una cubierta estanca.
 
 ### 04.C · Falso techo
-* **04.C.1 · Estructura del falso techo** — Rastreles horizontales sobre el cordón inferior de las cerchas que forman el plano de cierre interior.
+* **04.C.1 · Estructura del falso techo** — Rastreles horizontales sobre el cordón inferior de los caballos que forman el plano de cierre interior.
 * **04.C.2 · Ventilación de la cámara de aire** — Aberturas de entrada en los aleros y de salida en la cumbrera para la convección natural bajo la chapa.
 
 ---

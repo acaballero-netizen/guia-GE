@@ -1,0 +1,40 @@
+{
+  "estado": "publicado",
+  "titulo": "39 viviendas de alquiler social en Entremutilvas",
+  "autores": [
+    "Taller Básico de Arquitectura",
+    "MRM arquitectos"
+  ],
+  "anio": 2024,
+  "municipio": "Valle de Aranguren (Mutilva)",
+  "comunidad": "Navarra",
+  "lat": 42.7936,
+  "lng": -1.6145,
+  "uso": "Vivienda",
+  "sistema": "Otro",
+  "elementos_madera": [
+    "Estructura",
+    "Fachada",
+    "Cubierta"
+  ],
+  "porcentaje_madera": 65,
+  "resumen": "Bloque de 39 viviendas públicas de alquiler, de planta baja más cuatro, con estructura, fachada y cubierta de madera sobre sótano de garaje. Se presenta como el mayor edificio con estructura de madera construido en Navarra.",
+  "memoria": "",
+  "fuente_memoria": "Arquitectura Viva – https://arquitecturaviva.com/works/39-viviendas-de-alquiler-social-y-un-jardin",
+  "promotor": "Nasuvinsa (Gobierno de Navarra)",
+  "constructora": "Erro y Eugi",
+  "ingenieria": "FS estructuras (estructura); Naven ingenieros (instalaciones)",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado: arquitectos, año, 39 VPO, madera en estructura, fachada y cubierta (Construible 20/01/2023; Interempresas 05/12/2024). Sin verificar: si es CLT o GL (por eso 'Otro'), especie (prensa apunta a pino radiata/Egoin). Porcentaje 65 % estimado. Coordenadas: confianza media-alta.",
+  "verificado": false
+}

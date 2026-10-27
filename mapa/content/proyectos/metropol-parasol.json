@@ -1,0 +1,37 @@
+{
+  "estado": "publicado",
+  "titulo": "Metropol Parasol",
+  "autores": [
+    "J. Mayer H. Architects"
+  ],
+  "anio": 2011,
+  "municipio": "Sevilla",
+  "comunidad": "Andalucía",
+  "lat": 37.3933,
+  "lng": -5.9917,
+  "uso": "Espacio público",
+  "sistema": "Microlaminada (LVL)",
+  "elementos_madera": [
+    "Estructura",
+    "Cubierta"
+  ],
+  "porcentaje_madera": 70,
+  "resumen": "Cubierta urbana de retícula de madera microlaminada sobre la Plaza de la Encarnación, con mercado y museo arqueológico bajo rasante.",
+  "memoria": "",
+  "fuente_memoria": "",
+  "promotor": "",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "verificado": false
+}

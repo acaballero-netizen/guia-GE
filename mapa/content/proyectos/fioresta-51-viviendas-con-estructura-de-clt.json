@@ -1,0 +1,39 @@
+{
+  "estado": "publicado",
+  "titulo": "Fioresta, 51 viviendas con estructura de CLT",
+  "autores": [
+    "Ibán Carpintero"
+  ],
+  "anio": 2024,
+  "municipio": "Sant Joan d'Alacant",
+  "comunidad": "Comunitat Valenciana",
+  "lat": 38.3906,
+  "lng": -0.4303,
+  "uso": "Vivienda",
+  "sistema": "CLT",
+  "elementos_madera": [
+    "Estructura",
+    "Muros",
+    "Forjados"
+  ],
+  "porcentaje_madera": 60,
+  "resumen": "Promoción privada de 51 viviendas en dos bloques de cuatro plantas en Nou Nazareth, levantada con paneles de madera contralaminada prefabricados. Se presenta como la primera promoción en altura con estructura de madera de la Comunitat Valenciana.",
+  "memoria": "",
+  "fuente_memoria": "Alicante Plaza – https://alicanteplaza.es/alicanteplaza/aedas-homes-fioresta",
+  "promotor": "AEDAS Homes",
+  "constructora": "011h",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado: 51 viviendas, dos bloques, CLT, 011h, AEDAS; entrega desde marzo 2024. Arquitecto citado solo en una noticia de inicio de obra. Porcentaje 60 % estimado. Coordenadas: nivel barrio, confianza BAJA: corregir.",
+  "verificado": false
+}

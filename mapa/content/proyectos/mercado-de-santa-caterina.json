@@ -1,0 +1,36 @@
+{
+  "estado": "publicado",
+  "titulo": "Mercado de Santa Caterina",
+  "autores": [
+    "EMBT"
+  ],
+  "anio": 2005,
+  "municipio": "Barcelona",
+  "comunidad": "Cataluña",
+  "lat": 41.3862,
+  "lng": 2.1786,
+  "uso": "Equipamiento",
+  "sistema": "Laminada encolada (GL)",
+  "elementos_madera": [
+    "Cubierta"
+  ],
+  "porcentaje_madera": 18,
+  "resumen": "Reforma del mercado con una cubierta ondulada sobre arcos y bóvedas de madera laminada.",
+  "memoria": "",
+  "fuente_memoria": "",
+  "promotor": "",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "verificado": false
+}

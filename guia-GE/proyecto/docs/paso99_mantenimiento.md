@@ -181,7 +181,7 @@ La cumbrera se inspecciona verificando que la pieza de remate no presenta separa
 ENCUADRE: Vista en perspectiva desde arriba y ligeramente de lado de un tramo de cubierta de chapa corrugada de unos 80 cm de ancho. El cuadro muestra tres chapas con sus solapes laterales y longitudinales.
 ESTADO: La inspección está en curso. Se distinguen dos anomalías: un tornillo sin arandela en la cresta de una corruga, con el agujero visible alrededor de la cabeza del tornillo, y una zona de oxidación marrón en el borde cortado de una de las chapas.
 ROJO: El tornillo sin arandela y el agujero desprotegido alrededor de su cabeza.
-SIMPLIFICAR: No se muestra la estructura de la cercha ni el interior. Solo las chapas con las dos anomalías.
+SIMPLIFICAR: No se muestra la estructura del caballo ni el interior. Solo las chapas con las dos anomalías.
 -->
 
 ---
@@ -258,7 +258,7 @@ SIMPLIFICAR: Solo el pie del montante, el durmiente y el tramo superior del zóc
 
 3. Se aplica tratamiento de barrera en toda la superficie de la madera expuesta: aceite de motor usado aplicado a brocha, o cualquier producto insecticida de contacto disponible localmente. Se aplica también en el interior de la galería antes de sellarla.
 
-4. Se revisa toda la estructura de madera accesible —durmiente, montantes, cordón inferior de las cerchas— golpeando con el martillo para localizar otras zonas afectadas no visibles desde el exterior.
+4. Se revisa toda la estructura de madera accesible —durmiente, montantes, cordón inferior de los caballos— golpeando con el martillo para localizar otras zonas afectadas no visibles desde el exterior.
 
 5. Si el ataque ha alcanzado el interior de un montante y la madera ha perdido sección resistente, el montante debe sustituirse. Esta decisión requiere valoración técnica.
 
@@ -330,7 +330,7 @@ Una chapa suelta o perforada puede sustituirse individualmente sin necesidad de 
 - Tijeras de chapa o disco de corte para ajustar longitudes si es necesario
 - Cuerdas de seguridad y andamio o caballete provisional
 
-> ⚠️ **Nunca se trabaja sobre la chapa sin asegurarse de que los rastreles y las cerchas están en buen estado.** Antes de subir, se comprueba desde el interior que la estructura de madera bajo la zona a reparar no presenta deformación ni pérdida de sección.
+> ⚠️ **Nunca se trabaja sobre la chapa sin asegurarse de que los rastreles y los caballos están en buen estado.** Antes de subir, se comprueba desde el interior que la estructura de madera bajo la zona a reparar no presenta deformación ni pérdida de sección.
 
 ### Proceso
 
@@ -345,7 +345,7 @@ Una chapa suelta o perforada puede sustituirse individualmente sin necesidad de 
 ENCUADRE: Vista en perspectiva desde arriba de un tramo de cubierta. El cuadro muestra tres chapas: la dañada en el centro y las dos adyacentes a los lados.
 ESTADO: La extracción está en curso. Los tornillos de la chapa central ya han sido retirados. Dos manos están deslizando la chapa dañada hacia arriba, separándola de la chapa inferior sobre la que solapa.
 ROJO: La chapa que se está extrayendo, distinguiéndola por la oxidación visible en su superficie.
-SIMPLIFICAR: Solo las tres chapas y las manos. No hay cerchas ni rastreles visibles.
+SIMPLIFICAR: Solo las tres chapas y las manos. No hay caballos ni rastreles visibles.
 -->
 
 4. Se presenta la chapa nueva en la posición correcta, respetando el solape mínimo de 20 cm con la chapa inferior y una corruga completa con las chapas laterales.

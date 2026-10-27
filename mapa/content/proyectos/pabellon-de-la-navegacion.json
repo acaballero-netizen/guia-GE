@@ -1,0 +1,38 @@
+{
+  "estado": "publicado",
+  "titulo": "Pabellón de la Navegación",
+  "autores": [
+    "Guillermo Vázquez Consuegra"
+  ],
+  "anio": 1992,
+  "municipio": "Sevilla",
+  "comunidad": "Andalucía",
+  "lat": 37.3943,
+  "lng": -6.0078,
+  "uso": "Equipamiento",
+  "sistema": "Laminada encolada (GL)",
+  "elementos_madera": [
+    "Estructura",
+    "Cubierta"
+  ],
+  "porcentaje_madera": 25,
+  "resumen": "Pabellón permanente de la Expo 92 junto al Guadalquivir, hoy museo de la navegación, cuya gran cubierta curva se apoya en vigas de madera laminada de unos 40 m de luz que evocan el casco de un barco, sobre pilares y pórticos de hormigón.",
+  "memoria": "",
+  "fuente_memoria": "AITIM / Infomadera – https://infomadera.net/uploads/articulos/archivo_1821_17427.pdf",
+  "promotor": "",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": 15000,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado (AITIM): vigas GL curvas de 40 m, correas y plementería de madera, soportes de hormigón; ~15.000 m² (Structurae: 16.266 m²). Porcentaje 25 % estimado. Coordenadas: confianza alta.",
+  "verificado": false
+}

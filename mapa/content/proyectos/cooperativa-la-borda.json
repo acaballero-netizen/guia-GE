@@ -1,0 +1,39 @@
+{
+  "estado": "publicado",
+  "titulo": "Cooperativa La Borda",
+  "autores": [
+    "Lacol"
+  ],
+  "anio": 2018,
+  "municipio": "Barcelona",
+  "comunidad": "Cataluña",
+  "lat": 41.3718,
+  "lng": 2.1366,
+  "uso": "Vivienda",
+  "sistema": "CLT",
+  "elementos_madera": [
+    "Muros",
+    "Forjados",
+    "Cubierta",
+    "Acabados interiores"
+  ],
+  "porcentaje_madera": 75,
+  "resumen": "Vivienda cooperativa en cesión de uso con estructura de madera contralaminada sobre planta baja de hormigón.",
+  "memoria": "El edificio nace de una cooperativa de vivienda en cesión de uso que busca una alternativa al acceso a la vivienda basada en la propiedad colectiva y la gestión compartida.\n\nLa propuesta organiza las viviendas alrededor de un gran patio central cubierto, que funciona como espacio de relación y como pieza clave del comportamiento climático del conjunto. Las circulaciones, los espacios comunitarios y las terrazas se vuelcan hacia este vacío.\n\nLa estructura se resuelve con paneles de madera contralaminada sobre una planta baja de hormigón. La elección del material responde a criterios de reducción de la huella de carbono, rapidez de montaje y menor peso sobre la cimentación, y permite dejar la madera vista en el interior de las viviendas.\n\nEl proyecto se desarrolló mediante un proceso participativo con los futuros habitantes, que definieron los espacios compartidos, el grado de flexibilidad de las viviendas y las prioridades de sostenibilidad.",
+  "fuente_memoria": "",
+  "promotor": "Cooperativa La Borda",
+  "constructora": "",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "verificado": false
+}

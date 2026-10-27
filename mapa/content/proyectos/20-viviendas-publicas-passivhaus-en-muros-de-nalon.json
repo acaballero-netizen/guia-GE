@@ -1,0 +1,38 @@
+{
+  "estado": "publicado",
+  "titulo": "20 viviendas públicas Passivhaus en Muros de Nalón",
+  "autores": [
+    "Cristina Fernández Somohano"
+  ],
+  "anio": 2020,
+  "municipio": "Muros de Nalón",
+  "comunidad": "Asturias",
+  "lat": 43.5511,
+  "lng": -6.1035,
+  "uso": "Vivienda",
+  "sistema": "CLT",
+  "elementos_madera": [
+    "Estructura",
+    "Muros"
+  ],
+  "porcentaje_madera": 70,
+  "resumen": "Bloque de 20 viviendas públicas de alquiler de unos 50 m² organizado en tres alturas alrededor de un patio ajardinado. Es el primer edificio público de viviendas con certificado Passivhaus de Asturias y su estructura es de paneles de madera contralaminada.",
+  "memoria": "",
+  "fuente_memoria": "Arquitectes.cat – https://arquitectes.cat/es/node/34879",
+  "promotor": "Principado de Asturias (Dirección General de Vivienda)",
+  "constructora": "UTE Iguastur-Ceteco",
+  "ingenieria": "",
+  "superficie_m2": null,
+  "volumen_madera_m3": null,
+  "co2_almacenado_t": null,
+  "especie_origen": "",
+  "certificacion": "",
+  "fotografia_autoria": "",
+  "portada": [],
+  "imagenes": [],
+  "planos": [],
+  "detalles": [],
+  "originales_drive": "",
+  "notas_internas": "Verificado: 20 VPO, CLT, Passivhaus, redactora y constructora (Construible 2018 y 16/11/2020). Forjados CLT probables, no confirmados. Porcentaje 70 % estimado. Coordenadas: centro del pueblo, confianza BAJA (el edificio está junto a la estación de FEVE): corregir.",
+  "verificado": false
+}

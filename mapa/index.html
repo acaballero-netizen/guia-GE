@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><!-- QUITAR al lanzar la web -->
+<title>Mapa de la madera — Cátedra Maderamen</title>
+<link rel="stylesheet" href="../assets/css/colors_and_type.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<style>
+:root{--hdr:64px;--c1:var(--color-brand-tan);--c2:color-mix(in oklch,var(--color-brand-tan),var(--color-brand-brown-mid));--c3:var(--color-brand-brown-mid);--c4:var(--color-brand-brown)}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth}
+a{color:var(--color-brand-red)}a:hover{color:var(--color-brand-red-deep)}
+.hdr{position:fixed;top:0;left:0;right:0;z-index:1000;height:var(--hdr);display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 32px;background:#fff;border-top:4px solid var(--color-brand-red);border-bottom:1px solid var(--color-line)}
+.hdr img{height:28px;display:block}
+.nav{display:flex;gap:28px}
+.nav a{font-size:12px;font-weight:600;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-ink-700);border:0;padding:6px 0;border-bottom:2px solid transparent}
+.nav a:hover{color:var(--color-brand-red);border-bottom-color:transparent}
+.nav a.on{color:var(--color-ink-900);border-bottom-color:var(--color-brand-red)}
+.sec{height:100vh;padding-top:var(--hdr);scroll-snap-align:start;box-sizing:border-box;position:relative}
+.mapsec{display:flex;flex-direction:column;height:100%}
+.mband{display:grid;grid-template-columns:auto minmax(0,1fr);gap:48px;align-items:end;padding:24px 32px 22px;border-bottom:1px solid var(--color-line)}
+.mband h1{margin:8px 0 0;white-space:nowrap}
+.mband p{margin:0;max-width:520px;justify-self:end;text-wrap:pretty}
+.app{display:grid;grid-template-columns:400px minmax(0,1fr);flex:1;min-height:0}
+.side{border-right:1px solid var(--color-line);overflow:auto;overscroll-behavior:contain}
+.ttl{padding:24px 24px 20px;border-bottom:1px solid var(--color-line)}
+.cat .ttl h1{font-size:30px;text-transform:uppercase;margin:8px 0 8px;font-weight:800;line-height:1}
+.ttl h1 span{font-weight:300;color:var(--color-brand-red)}
+.ttl p{font-size:13px;font-weight:300;margin:0;line-height:1.55;text-wrap:pretty}
+.filters{padding:20px 24px;display:flex;flex-direction:column;gap:18px;border-bottom:1px solid var(--color-line)}
+.flabel{font-size:11px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-ink-500);margin-bottom:8px}
+.search{width:100%;font:inherit;font-size:14px;padding:10px 12px;border:1px solid var(--color-line);border-radius:4px;outline:none}
+.search:focus{border-color:var(--color-brand-red);box-shadow:var(--shadow-focus)}
+.pcts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.pct{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:9px 8px;border:1px solid var(--color-line);border-radius:4px;background:#fff;cursor:pointer;font:inherit;text-align:left;transition:all .2s}
+.pct b{font-size:12px;font-weight:700;color:var(--color-ink-900)}
+.pct small{font-size:11px;color:var(--color-ink-500)}
+.pct.on{border-color:var(--color-brand-brown);background:var(--color-brand-tan-tint)}
+.pct:not(.on){opacity:.5}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:12px;font-weight:500;padding:6px 10px;border:1px solid var(--color-line);border-radius:999px;background:#fff;color:var(--color-ink-700);cursor:pointer}
+.chip:hover{border-color:var(--color-brand-tan)}
+.chip.on{background:var(--color-brand-brown);border-color:var(--color-brand-brown);color:#fff}
+.count{position:sticky;top:0;z-index:2;background:#fff;display:flex;justify-content:space-between;align-items:center;padding:12px 24px;font-size:12px;color:var(--color-ink-500);border-bottom:1px solid var(--color-line-soft)}
+.count b{color:var(--color-ink-900)}
+.count button{font:inherit;font-size:12px;border:0;background:none;color:var(--color-brand-red);cursor:pointer;padding:0}
+.item{display:grid;grid-template-columns:28px minmax(0,1fr);gap:12px;padding:14px 24px;border-bottom:1px solid var(--color-line-soft);cursor:pointer;transition:background .2s}
+.item:hover{background:var(--color-surface)}
+.item.on{background:var(--color-brand-tan-tint);box-shadow:inset 3px 0 0 var(--color-brand-red)}
+.item h3{font-size:14px;font-weight:700;margin:0 0 2px;line-height:1.3}
+.item .m{font-size:12px;color:var(--color-ink-500)}
+.empty{padding:32px 24px;font-size:14px;color:var(--color-ink-500)}
+.pie{--k:var(--c3);width:22px;height:22px;border-radius:50%;border:2px solid var(--k);background:conic-gradient(var(--k) calc(var(--q,100)*1%),#fff 0);box-sizing:border-box;display:block}
+.k1{--k:var(--c1);--q:25}.k2{--k:var(--c2);--q:50}.k3{--k:var(--c3);--q:75}.k4{--k:var(--c4);--q:100}
+.mapwrap{position:relative;min-height:0}
+#map{position:absolute;inset:0;background:#f3f3f1}
+.leaflet-tile-pane img.leaflet-tile{filter:grayscale(1) contrast(.85) brightness(1.06)}
+.leaflet-container{font-family:var(--font-sans)}
+.mk{background:none;border:0}
+.mk .pie{transition:transform .2s;box-shadow:0 1px 3px rgba(31,33,35,.3)}
+.mk:hover .pie{transform:scale(1.2)}
+.mk.on .pie{--k:var(--color-brand-red);transform:scale(1.35)}
+.legend{position:absolute;left:16px;bottom:24px;z-index:500;background:#fff;border:1px solid var(--color-line);border-radius:4px;padding:10px 14px;display:flex;gap:14px;align-items:center;font-size:11px;color:var(--color-ink-700);flex-wrap:wrap;max-width:calc(100% - 32px)}
+.legend .pie{width:16px;height:16px;border-width:1.5px}
+.legend span{display:flex;gap:6px;align-items:center}
+.legend .bosque{width:16px;height:12px;border-radius:2px;background:#add19e;display:block}
+.hint{position:absolute;left:56px;top:12px;z-index:500;font-size:11px;color:var(--color-ink-500);background:#fff;padding:6px 10px;border-radius:2px;border:1px solid var(--color-line)}
+.next{position:absolute;bottom:24px;right:16px;z-index:500;font-size:11px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-ink-900);background:#fff;border:1px solid var(--color-line);padding:8px 14px;border-radius:2px}
+.next:hover{border-color:var(--color-brand-red);color:var(--color-brand-red)}
+.card{position:absolute;top:16px;right:16px;bottom:16px;width:380px;max-width:calc(100% - 32px);z-index:600;background:#fff;box-shadow:var(--shadow-3);border-radius:4px;border-top:4px solid var(--color-brand-red);display:flex;flex-direction:column;overflow:hidden;transform:translateX(calc(100% + 32px));transition:transform .36s var(--ease-out)}
+.card.open{transform:none}
+.ph{background:repeating-linear-gradient(135deg,var(--color-brand-tan-tint) 0 10px,var(--color-brand-tan-soft) 10px 11px);display:flex;align-items:center;justify-content:center;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--color-brand-brown-mid)}
+.card .ph{aspect-ratio:16/10;flex:none}
+.card .body{padding:24px;overflow:auto;display:flex;flex-direction:column;gap:16px}
+.card h2{font-size:22px;font-weight:800;text-transform:uppercase;margin:8px 0 0;line-height:1.15}
+.card .loc{font-size:13px;color:var(--color-ink-500);margin-top:4px}
+.close{position:absolute;top:12px;right:12px;width:36px;height:36px;border:0;border-radius:2px;background:#fff;cursor:pointer;font-size:18px;color:var(--color-ink-900);box-shadow:var(--shadow-1)}
+.bar{height:8px;background:var(--color-line-soft);border-radius:1px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--k)}
+.barlab{display:flex;justify-content:space-between;font-size:12px;margin-bottom:6px}
+.barlab b{font-weight:800;font-size:14px}
+.dl{display:grid;grid-template-columns:96px minmax(0,1fr);gap:8px 12px;font-size:13px;margin:0}
+.dl dt{color:var(--color-ink-500)}.dl dd{margin:0;color:var(--color-ink-900);font-weight:500}
+.tags{display:flex;flex-wrap:wrap;gap:4px}
+.tag{font-size:11px;font-weight:600;padding:3px 8px;border-radius:999px;background:var(--color-brand-tan-soft);color:var(--color-brand-brown)}
+.card p{font-size:14px;font-weight:300;margin:0}
+.btn{display:inline-flex;align-self:flex-start;gap:8px;font-size:14px;font-weight:600;padding:12px 18px;background:var(--color-brand-red);color:#fff;border-radius:4px;border:0}
+.btn:hover{background:var(--color-brand-red-deep);color:#fff}
+.note{font-size:11px;color:var(--color-ink-500)}
+.slide{display:flex;flex-direction:column;height:100%;padding:48px 48px 0;box-sizing:border-box}
+.slide-h{display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding-bottom:20px;border-bottom:2px solid var(--color-brand-red);flex-wrap:wrap}
+.slide-h h2{font-size:clamp(40px,6vw,80px);font-weight:800;text-transform:uppercase;margin:0;line-height:1;letter-spacing:-.02em}
+.slide-h span{font-size:13px;color:var(--color-ink-500)}
+.scroll{flex:1;overflow:auto;overscroll-behavior:contain;padding:32px 0 48px;min-height:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:32px 24px}
+.pc{cursor:pointer;display:flex;flex-direction:column;gap:10px}
+.pc .ph{aspect-ratio:4/3;transition:opacity .2s}
+.pc:hover .ph{opacity:.85}
+.pc:hover h3{color:var(--color-brand-red)}
+.pc h3{font-size:15px;font-weight:700;margin:0;line-height:1.3;transition:color .2s}
+.pc .m{font-size:12px;color:var(--color-ink-500);display:flex;align-items:center;gap:8px}
+.pc .m .pie{width:14px;height:14px;border-width:1.5px}
+.authors{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:0 48px}
+.au{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;padding:18px 0;border-bottom:1px solid var(--color-line)}
+.au h3{font-size:18px;font-weight:800;text-transform:uppercase;margin:0;line-height:1.2}
+.au .n{font-size:12px;color:var(--color-ink-500);align-self:center}
+.au ul{grid-column:1/-1;list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.au li{font-size:13px;color:var(--color-ink-700);cursor:pointer;display:flex;gap:8px;align-items:center}
+.au li a{color:inherit;border:0}.au li a:hover{color:var(--color-brand-red)}
+.au li::before{content:"";width:4px;height:4px;background:var(--color-brand-red)}
+.pj{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;padding:24px 32px;box-sizing:border-box;text-align:center}
+.big{font-size:clamp(48px,8vw,112px);font-weight:800;text-transform:uppercase;margin:0;line-height:.95;letter-spacing:-.03em}
+.big span{color:var(--color-brand-red)}
+.lead{max-width:760px;margin:0;font-size:16px;font-weight:300;text-wrap:pretty}
+.car{position:relative;width:100%;margin-top:12px}
+.track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 60px)/4);gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;text-align:left}
+.track::-webkit-scrollbar{display:none}
+.track .pc{scroll-snap-align:start}
+.track .ph{aspect-ratio:1/1;max-height:44vh}
+.arr{position:absolute;top:calc(50% - 40px);z-index:2;width:52px;height:52px;border-radius:50%;border:0;background:#fff;box-shadow:var(--shadow-2);font-size:28px;line-height:1;color:var(--color-ink-900);cursor:pointer;transition:transform .2s}
+.arr:hover{transform:scale(1.08);color:var(--color-brand-red)}
+.arr.l{left:16px}.arr.r{right:16px}
+.more{font:inherit;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:var(--ls-wide);padding:16px 24px;background:var(--color-ink-900);color:#fff;border:0;border-radius:2px;cursor:pointer;transition:background .2s}
+.more:hover{background:var(--color-brand-red)}
+.cat{position:fixed;top:var(--hdr);left:0;right:0;bottom:0;z-index:900;background:#fff;display:grid;grid-template-columns:400px minmax(0,1fr);transform:translateY(100%);transition:transform .45s var(--ease-out);visibility:hidden}
+.cat.open{transform:none;visibility:visible}
+.cmain{overflow:auto;overscroll-behavior:contain;padding:32px}
+.back{font:inherit;font-size:12px;font-weight:600;letter-spacing:var(--ls-wide);text-transform:uppercase;border:0;background:none;color:var(--color-ink-500);cursor:pointer;padding:0;margin-bottom:12px}
+.back:hover{color:var(--color-brand-red)}
+body.lock{overflow:hidden}
+.ac .ph{aspect-ratio:1/1;max-height:30vh}
+.ac .t{font-size:11px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase;color:var(--color-brand-brown-mid)}
+.ac h3::after{content:" ↗";font-weight:400;color:var(--color-ink-500)}
+.au .web{font-size:12px;font-weight:600;color:var(--color-brand-red);border:0;align-self:center;white-space:nowrap}
+.au .web.off{color:var(--color-ink-500);font-weight:400}
+.au .meta{grid-column:1/-1;font-size:12px;color:var(--color-ink-500);margin-top:-2px}
+.authors .au:first-child{padding-top:0}
+.nfil{padding-top:20px}
+.notes{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0 40px}
+.note-i{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;padding:22px 0;border-bottom:1px solid var(--color-line);color:inherit;border-top:0;border-left:0;border-right:0}
+.note-i:hover h3{color:var(--color-brand-red)}
+.note-i .tp{display:flex;gap:10px;align-items:center;font-size:11px;font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase}
+.note-i .tp span:first-child{color:var(--color-brand-red)}
+.note-i .tp span+span{color:var(--color-ink-500);font-weight:500}
+.note-i h3{font-size:18px;font-weight:800;margin:0;line-height:1.25;text-wrap:balance;transition:color .2s}
+.note-i p{font-size:13px;font-weight:300;margin:0;color:var(--color-ink-700);text-wrap:pretty}
+.note-i .by{font-size:12px;color:var(--color-ink-500)}
+@media (max-width:900px){
+.track{grid-auto-columns:calc((100% - 20px)/2)}.arr{display:none}
+.cat{grid-template-columns:minmax(0,1fr);overflow:auto}.cat .side{overflow:visible}.cmain{overflow:visible;padding:20px}
+html{scroll-snap-type:none}
+.hdr{padding:0 16px}.nav{gap:14px}.nav a:nth-child(n+4){display:none}
+.sec{height:auto;min-height:100vh}
+.app{grid-template-columns:minmax(0,1fr);height:auto}.mapsec{height:auto}.mband{grid-template-columns:minmax(0,1fr);gap:12px;padding:20px}.mband h1{white-space:normal}.mband p{justify-self:start}
+.side{border-right:0;order:2;overflow:visible}
+.mapwrap{height:70vh;order:1}
+.slide{padding:32px 20px 0}.scroll{overflow:visible}
+.hint,.next{display:none}
+}
+</style>
+<style id="escala">
+:root{--t-display:clamp(40px,4vw,60px);--t-h:16px;--t-body:15px;--t-meta:13px;--t-label:11px;--t-chip:12px;--r:2px}
+.big,.slide-h h2,.ttl h1,.mband h1{font-size:var(--t-display);font-weight:800;line-height:.95;letter-spacing:-.02em;text-transform:uppercase;text-wrap:balance}
+.big span,.ttl h1 span,.mband h1 span{color:var(--color-brand-red);font-weight:800}
+.lead,.ttl p,.mband p,.card p,.note-i p{font-size:var(--t-body);font-weight:300;line-height:1.6;color:var(--color-ink-700)}
+.ttl p{margin-top:12px}
+.pc h3,.item h3,.au h3,.note-i h3,.det h3{font-size:var(--t-h);font-weight:700;line-height:1.3;text-transform:none;letter-spacing:0}
+.card h2{font-size:22px}
+.pc .m,.item .m,.au .meta,.au li,.note-i .by,.card .loc,.slide-h span,.count,.dl,.empty{font-size:var(--t-meta)}
+.legend,.hint{font-size:var(--t-label)}
+.legend{max-width:calc(100% - 180px)}
+.flabel,.ds-eyebrow,.nav a,.tabs a,.back,.ac .t,.note-i .tp,.sh,.note,.next,.down{font-size:var(--t-label);font-weight:700;letter-spacing:var(--ls-wider);text-transform:uppercase}
+.note{font-weight:500;letter-spacing:0;text-transform:none}
+.chip,.tag,.au .web,.count button,.pct b{font-size:var(--t-chip)}
+.more,.btn{font:inherit;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:var(--ls-wide);padding:14px 22px;background:var(--color-ink-900);color:#fff;border:0;border-radius:var(--r);cursor:pointer;transition:background .2s}
+.more:hover,.btn:hover{background:var(--color-brand-red);color:#fff}
+.search,.pct,.card,.legend,.hint,.next,.close{border-radius:var(--r)}
+.slide-h{border-bottom:1px solid var(--color-line)}
+.pj{gap:24px}
+</style>
+</head>
+<body>
+<header class="hdr">
+<a href="#mapa" style="border:0"><img src="../assets/img/logo-rojo-crop.png" alt="Cátedra Maderamen"></a>
+<nav class="nav" id="nav"><a href="#mapa" class="on">Mapa</a><a href="#proyectos">Proyectos</a><a href="#autores">Autores</a><a href="#madera">Sobre la madera</a><a href="enviar.html">Enviar un proyecto</a></nav>
+</header>
+<section class="sec" id="mapa" data-screen-label="01 Mapa">
+<div class="mapsec">
+<div class="mband"><div><div class="ds-eyebrow">Repositorio público</div><h1>Mapa de la <span>madera</span></h1></div></div>
+<div class="app">
+<aside class="side">
+<div class="filters">
+<input class="search" type="search" placeholder="Buscar por nombre, autor o municipio">
+<div><div class="flabel">Uso</div><div class="chips" data-f="u"></div></div>
+<div><div class="flabel">Sistema</div><div class="chips" data-f="s"></div></div>
+<div><div class="flabel">Dónde está la madera</div><div class="chips" data-f="e"></div></div>
+<div><div class="flabel">Proporción de madera</div><div class="pcts" data-f="p"></div></div>
+</div>
+<div class="count"><span><b class="nres">0</b> proyectos</span><button class="reset">Limpiar filtros</button></div>
+<div id="list"></div>
+</aside>
+<div class="mapwrap">
+<div id="map"></div>
+
+<div class="legend"><span><i class="pie k1" style="--p:15"></i>Puntual</span><span><i class="pie k2" style="--p:40"></i>Híbrida</span><span><i class="pie k3" style="--p:65"></i>Mayoritaria</span><span><i class="pie k4" style="--p:90"></i>Integral</span><span><i class="bosque"></i>Masa forestal</span></div>
+<a class="next" href="#proyectos">Proyectos ↓</a>
+<article class="card" id="card">
+<button class="close" id="close" aria-label="Cerrar">×</button>
+<div class="ph" id="c-ph">fotografía del proyecto</div>
+<div class="body">
+<div><div class="ds-eyebrow" id="c-uso"></div><h2 id="c-t"></h2><div class="loc" id="c-loc"></div></div>
+<div id="c-k"><div class="barlab"><span>Madera en el sistema constructivo</span><b id="c-p"></b></div><div class="bar"><i id="c-bar"></i></div></div>
+<dl class="dl" id="c-dl"></dl>
+<p id="c-d"></p>
+<a class="btn" id="c-link" href="proyecto.html">Ver ficha completa →</a>
+<div class="note" id="c-note">Datos pendientes de verificación.</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<section class="sec" id="proyectos" data-screen-label="02 Proyectos">
+<div class="pj">
+<h2 class="big"><span id="pn">0</span> proyectos</h2>
+<p class="lead">Explora la arquitectura construida con madera en todo el territorio. Combina filtros por uso, sistema constructivo, elemento o proporción de madera para encontrar los proyectos que te interesan.</p>
+<div class="car"><button class="arr l" id="prev" aria-label="Anterior">‹</button><div class="track" id="track"></div><button class="arr r" id="nxt" aria-label="Siguiente">›</button></div>
+<button class="more" id="more">+ Proyectos</button>
+</div>
+</section>
+<div class="cat" id="cat" data-screen-label="Todos los proyectos">
+<aside class="side">
+<div class="ttl"><button class="back" id="back">← Volver</button><h1>Todos los <span>proyectos</span></h1></div>
+<div class="filters">
+<input class="search" type="search" placeholder="Buscar por nombre, autor o municipio">
+<div><div class="flabel">Uso</div><div class="chips" data-f="u"></div></div>
+<div><div class="flabel">Sistema</div><div class="chips" data-f="s"></div></div>
+<div><div class="flabel">Dónde está la madera</div><div class="chips" data-f="e"></div></div>
+<div><div class="flabel">Proporción de madera</div><div class="pcts" data-f="p"></div></div>
+</div>
+<div class="count"><span><b class="nres">0</b> proyectos</span><button class="reset">Limpiar filtros</button></div>
+</aside>
+<div class="cmain"><div class="grid" id="cgrid"></div></div>
+</div>
+<section class="sec" id="autores" data-screen-label="03 Autores">
+<div class="pj">
+<h2 class="big"><span id="an">0</span> autores</h2>
+<p class="lead">Estudios, arquitectos e instituciones que han construido con madera. Pulsa en cualquiera para visitar su web, o abre el listado completo para ver sus proyectos en el mapa.</p>
+<div class="car"><button class="arr l" id="aprev" aria-label="Anterior">‹</button><div class="track" id="atrack"></div><button class="arr r" id="anxt" aria-label="Siguiente">›</button></div>
+<button class="more" id="amore">+ Autores</button>
+</div>
+</section>
+<div class="cat" id="catA" data-screen-label="Todos los autores">
+<aside class="side">
+<div class="ttl"><button class="back" id="backA">← Volver</button><h1>Todos los <span>autores</span></h1></div>
+<div class="filters">
+<input class="search" id="aq" type="search" placeholder="Buscar autor, estudio o ciudad">
+<div><div class="flabel">Tipo</div><div class="chips" id="atypes"></div></div>
+</div>
+<div class="count"><span><b id="anres">0</b> autores</span><button id="areset">Limpiar filtros</button></div>
+</aside>
+<div class="cmain"><div class="authors" id="authors"></div></div>
+</div>
+<section class="sec" id="madera" data-screen-label="04 Sobre la madera">
+<div class="slide"><div class="slide-h"><h2>Sobre la madera</h2><span>Apuntes, ensayos y referencias sobre el porqué y el cómo de construir con madera</span></div>
+<div class="nfil chips" id="ntopics"></div>
+<div class="scroll"><div class="notes" id="notes"></div></div></div>
+</section>
+<script src="datos.js"></script>
+<script src="js/comun.js"></script>
+<script>
+const USOS=[...new Set(P.map(p=>p.u))],SISTS=[...new Set(P.map(p=>p.s))];
+const st={q:'',cats:new Set(CATS.map(c=>c.k)),u:new Set(),s:new Set(),e:new Set(),sel:null};
+const $=id=>document.getElementById(id);
+const map=L.map('map',{zoomControl:false,scrollWheelZoom:true,wheelPxPerZoomLevel:90}).setView([40.2,-3.6],6);
+const fitSpain=()=>{map.invalidateSize();if($('map').clientWidth>50)map.fitBounds([[36,-9.5],[43.8,3.4]],{padding:[24,24],maxZoom:7})};
+window.addEventListener('load',fitSpain);window.addEventListener('resize',()=>map.invalidateSize());
+new ResizeObserver(()=>map.invalidateSize()).observe($('map'));
+L.control.zoom({position:'topleft'}).addTo(map);
+// OSM bloquea las teselas sin página de origen (p. ej. al abrir el archivo con doble clic); si falla, se usa Esri gris claro
+// Teselas de OSM pasadas a gris salvo las masas forestales (bosque y arbolado), que conservan su verde
+const BOSQUE=(r,g,b)=>g-r>=22&&g-b>=30&&r<195;
+const Bosques=L.GridLayer.extend({createTile(c,done){const cv=document.createElement('canvas'),s=this.getTileSize();cv.width=s.x;cv.height=s.y;const im=new Image();im.crossOrigin='anonymous';
+im.onload=()=>{const x=cv.getContext('2d',{willReadFrequently:true});x.drawImage(im,0,0,s.x,s.y);const d=x.getImageData(0,0,s.x,s.y),a=d.data;
+for(let k=0;k<a.length;k+=4){const r=a[k],g=a[k+1],b=a[k+2];if(BOSQUE(r,g,b))continue;const y=Math.min(255,((.299*r+.587*g+.114*b-128)*.85+128)*1.06);a[k]=a[k+1]=a[k+2]=y}
+x.putImageData(d,0,0);done(null,cv)};im.onerror=()=>done(new Error('tesela'),cv);im.src=`https://tile.openstreetmap.org/${c.z}/${c.x}/${c.y}.png`;return cv}});
+const osm=new Bosques({maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
+let tileErr=0;osm.on('tileerror',()=>{if(++tileErr!==3)return;map.removeLayer(osm);L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:16,attribution:'Tiles © Esri — Esri, HERE, Garmin, © OpenStreetMap contributors'}).addTo(map)});
+const markers={};
+P.forEach(p=>{
+const icon=L.divIcon({className:'mk',html:`<i class="pie ${cat(p.p).c}" style="--p:${p.p}"></i>`,iconSize:[22,22],iconAnchor:[11,11]});
+markers[p.id]=L.marker(p.ll,{icon,title:p.t}).on('click',()=>select(p.id));
+});
+const qsa=s=>document.querySelectorAll(s);
+const pcard=(p,from)=>{const d=document.createElement('a');d.className='pc';d.href=projUrl(p.id,from||'proyectos');d.style.border='0';d.style.color='inherit';d.innerHTML=`<div class="ph"${phStyle(p.img)}>${p.img?'':'fotografía'}</div><h3>${esc(p.t)}</h3><div class="m"><i class="pie ${cat(p.p).c}" style="--p:${p.p}"></i>${esc(p.city)} · ${p.y} · ${p.p} %</div>`;return d};
+function chipRow(el,arr,set){el.innerHTML='';arr.forEach(v=>{const b=document.createElement('button');b.className='chip'+(set.has(v)?' on':'');b.textContent=v;b.onclick=()=>{set.has(v)?set.delete(v):set.add(v);render()};el.appendChild(b)})}
+function render(){
+qsa('[data-f=p]').forEach(el=>{el.innerHTML='';CATS.forEach(c=>{const b=document.createElement('button');b.className='pct'+(st.cats.has(c.k)?' on':'');b.innerHTML=`<i class="pie ${c.c}" style="--p:${(c.min+Math.min(c.max,100))/2}"></i><b>${c.n}</b><small>${c.r}</small>`;b.onclick=()=>{st.cats.has(c.k)?st.cats.delete(c.k):st.cats.add(c.k);render()};el.appendChild(b)})});
+qsa('[data-f=u]').forEach(el=>chipRow(el,USOS,st.u));qsa('[data-f=s]').forEach(el=>chipRow(el,SISTS,st.s));qsa('[data-f=e]').forEach(el=>chipRow(el,ELEMS,st.e));
+const q=st.q.toLowerCase();
+const res=P.filter(p=>st.cats.has(cat(p.p).k)&&(!st.u.size||st.u.has(p.u))&&(!st.s.size||st.s.has(p.s))&&(!st.e.size||p.e.some(x=>st.e.has(x)))&&(!q||(p.t+' '+p.a+' '+p.city+' '+p.prov).toLowerCase().includes(q)));
+qsa('.nres').forEach(x=>x.textContent=res.length);
+$('cgrid').innerHTML=res.length?'':'<div class="empty">Ningún proyecto coincide con los filtros seleccionados.</div>';
+[...res].sort((a,b)=>a.t.localeCompare(b.t,'es')).forEach(p=>$('cgrid').appendChild(pcard(p,'todos')));
+$('list').innerHTML=res.length?'':'<div class="empty">Ningún proyecto coincide con los filtros seleccionados.</div>';
+res.forEach(p=>{const d=document.createElement('div');d.className='item'+(st.sel===p.id?' on':'');d.innerHTML=`<i class="pie ${cat(p.p).c}" style="--p:${p.p}"></i><div><h3>${esc(p.t)}</h3><div class="m">${esc(p.city)} · ${p.y} · ${p.p} % madera</div></div>`;d.onclick=()=>select(p.id,true);$('list').appendChild(d)});
+P.forEach(p=>{const m=markers[p.id],vis=res.includes(p);if(vis&&!map.hasLayer(m))m.addTo(map);if(!vis&&map.hasLayer(m))m.remove();const el=m.getElement();if(el)el.classList.toggle('on',st.sel===p.id)});
+}
+function select(id,fly){
+st.sel=id;const p=P.find(x=>x.id===id),c=cat(p.p);
+$('c-uso').textContent=p.u;$('c-t').textContent=p.t;$('c-loc').textContent=`${p.city}, ${p.prov}`;
+$('c-k').className=c.c;$('c-p').textContent=`${p.p} % · ${c.n}`;$('c-bar').style.width=p.p+'%';
+$('c-dl').innerHTML=`<dt>Autoría</dt><dd>${esc(p.a)}</dd><dt>Año</dt><dd>${p.y}</dd><dt>Sistema</dt><dd>${esc(p.s)}</dd><dt>Madera en</dt><dd><div class="tags">${p.e.map(x=>`<span class="tag">${x}</span>`).join('')}</div></dd>`;
+$('c-d').textContent=p.d;const ph=$('c-ph');ph.style.cssText=p.img?phStyle(p.img).slice(8,-1):'';ph.textContent=p.img?'':'fotografía del proyecto';$('c-note').hidden=!!p.x.verificado;$('c-link').href=projUrl(p.id,'mapa');$('card').classList.add('open');
+if(fly)map.flyTo(p.ll,Math.max(map.getZoom(),13),{duration:.8});
+render();
+}
+function goMap(id){closeCat();window.scrollTo({top:0});setTimeout(()=>select(id,true),400)}
+$('close').onclick=()=>{st.sel=null;$('card').classList.remove('open');render()};
+qsa('.search').forEach(i=>i.oninput=()=>{st.q=i.value;qsa('.search').forEach(o=>{if(o!==i)o.value=st.q});render()});
+qsa('.reset').forEach(b=>b.onclick=()=>{st.q='';qsa('.search').forEach(o=>o.value='');st.cats=new Set(CATS.map(c=>c.k));st.u.clear();st.s.clear();st.e.clear();render()});
+$('pn').textContent=P.length;
+[...P].sort(()=>Math.random()-.5).forEach(p=>$('track').appendChild(pcard(p)));
+const step=d=>{const t=$('track');if(!t.firstElementChild)return;const w=t.firstElementChild.offsetWidth+20;t.scrollBy({left:d*w,behavior:'smooth'})};
+$('prev').onclick=()=>step(-1);$('nxt').onclick=()=>step(1);
+function closeCat(){$('cat').classList.remove('open');$('catA')&&$('catA').classList.remove('open');document.body.classList.remove('lock')}
+$('more').onclick=()=>{$('cat').classList.add('open');document.body.classList.add('lock')};
+$('back').onclick=closeCat;
+const AU={};P.forEach(p=>p.as.forEach(n=>(AU[n]=AU[n]||[]).push(p)));
+const names=Object.keys(AU).sort((a,b)=>a.localeCompare(b,'es'));
+const inf=n=>AUI[n]||{t:'Estudio',c:'',w:''};
+$('an').textContent=names.length;
+[...names].sort(()=>Math.random()-.5).forEach(n=>{const f=inf(n),a=document.createElement('a');a.className='pc ac';a.style.border='0';a.style.color='inherit';a.href=f.w||'#';if(f.w){a.target='_blank';a.rel='noopener'}else a.onclick=e=>{e.preventDefault();openA()};a.innerHTML=`<div class="ph"${phStyle(f.logo)}>${f.logo?'':'logo o retrato'}</div><span class="t">${esc(f.t)}</span><h3>${esc(n)}</h3><div class="m">${f.c?f.c+' · ':''}${AU[n].length} ${AU[n].length!==1?'proyectos':'proyecto'}</div>`;$('atrack').appendChild(a)});
+const astep=d=>{const t=$('atrack');if(!t.firstElementChild)return;const w=t.firstElementChild.offsetWidth+20;t.scrollBy({left:d*w,behavior:'smooth'})};
+$('aprev').onclick=()=>astep(-1);$('anxt').onclick=()=>astep(1);
+const ast={q:'',t:new Set()},TYPES=[...new Set(names.map(n=>inf(n).t))];
+function renderA(){chipRow($('atypes'),TYPES,ast.t);const q=ast.q.toLowerCase();const r=names.filter(n=>(!ast.t.size||ast.t.has(inf(n).t))&&(!q||(n+' '+inf(n).c).toLowerCase().includes(q)));$('anres').textContent=r.length;$('authors').innerHTML=r.length?'':'<div class="empty">Ningún autor coincide.</div>';
+r.forEach(n=>{const f=inf(n),d=document.createElement('div');d.className='au';d.innerHTML=`<h3>${esc(n)}</h3>${f.w?`<a class="web" href="${f.w}" target="_blank" rel="noopener">Web ↗</a>`:'<span class="web off">Web pendiente</span>'}<div class="meta">${f.t}${f.c?' · '+f.c:''}</div><ul>${AU[n].map(p=>`<li><a href="${projUrl(p.id,'todos-autores')}">${esc(p.t)} · ${esc(p.city)}</a></li>`).join('')}</ul>`;$('authors').appendChild(d)})}
+const _chipRow=chipRow;chipRow=function(el,arr,set){_chipRow(el,arr,set);if(el.id==='atypes')el.querySelectorAll('.chip').forEach(b=>{const o=b.onclick;b.onclick=()=>{const v=b.textContent;set.has(v)?set.delete(v):set.add(v);renderA()}})};
+$('aq').oninput=e=>{ast.q=e.target.value;renderA()};$('areset').onclick=()=>{ast.q='';$('aq').value='';ast.t.clear();renderA()};
+function openA(){$('catA').classList.add('open');document.body.classList.add('lock')}
+$('amore').onclick=openA;$('backA').onclick=closeCat;
+renderA();
+const nst=new Set(),NT=[...new Set(NOTES.map(n=>n.tp))];
+function renderN(){const el=$('ntopics');el.innerHTML='';NT.forEach(v=>{const b=document.createElement('button');b.className='chip'+(nst.has(v)?' on':'');b.textContent=v;b.onclick=()=>{nst.has(v)?nst.delete(v):nst.add(v);renderN()};el.appendChild(b)});
+$('notes').innerHTML='';NOTES.filter(n=>!nst.size||nst.has(n.tp)).forEach(n=>{const a=document.createElement('a');a.className='note-i';a.href=noteUrl(n.id);a.innerHTML=`<div class="tp"><span>${esc(n.tp)}</span><span>${esc(n.k)}</span></div><h3>${esc(n.t)}</h3><p>${esc(n.d)}</p><div class="by">${esc(n.by)} · ${n.y} · Leer →</div>`;$('notes').appendChild(a)})}
+renderN();
+const links=[...document.querySelectorAll('#nav a[href^="#"]')].filter(a=>a.getAttribute('href').length>1);
+new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}),{threshold:.6}).observe($('mapa'));
+['proyectos','autores','madera'].forEach(id=>new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id))}),{threshold:.6}).observe($(id)));
+render();
+function openP(){$('cat').classList.add('open');document.body.classList.add('lock')}
+if(location.hash==='#todos'){openP()}else if(location.hash==='#todos-autores'){openA()}
+</script>
+</body>
+</html>
