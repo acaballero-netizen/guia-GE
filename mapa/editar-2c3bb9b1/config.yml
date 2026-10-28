@@ -5,7 +5,7 @@ backend:
   name: github
   repo: acaballero-netizen/guia-GE
   branch: main
-  # base_url: https://sveltia-cms-auth.TU-CUENTA.workers.dev   # ← descomentar al activar el botón «Iniciar sesión con GitHub»
+  base_url: https://maderamen-web.acaballero.workers.dev   # servicio de inicio de sesión (Cloudflare Worker)
   commit_messages:
     create: "Mapa: crea {{collection}} «{{slug}}»"
     update: "Mapa: actualiza {{collection}} «{{slug}}»"
